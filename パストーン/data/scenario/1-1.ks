@@ -32,7 +32,6 @@
 ;そのシーンにおいて最初にボイスを再生するときのみ宣言
 [macro name="voice1"]
 ;ただ再生するだけ
-    [delay speed=100]
     [playse storage="&mp.vf1" loop=false]
 [endmacro]
 
@@ -40,7 +39,6 @@
 ;そのシーンにおいて2回目以降にボイスを再生するときに宣言
 [macro name="voice2"]
 ;次のセリフに行くたびに鳴ってるボイスをキャンセル
-    [delay speed=100]
     [playse storage="&mp.vf2" loop=false clear=true]
 [endmacro]
 
@@ -130,7 +128,6 @@
 起き上がろうとして、背中に違和感を感じる。[p]
 …妙に冷たい。しかもなんだか湿っている。[p]
 
-[kanim name = "yukito" keyframe = "un" time = "450"]
 #雪翔
 …これに関しては久しぶりだな。[p]
 
@@ -144,7 +141,6 @@
 #
 あれ、というのは夢の内容のことである。[p]
 
-[chara_hide name="yukito" time="0" wait="false"]
 [bg storage="black.jpg" time="0"]
 
 『悲劇の飲酒暴走事故』[p]
@@ -161,7 +157,6 @@
 …その事故で俺は、母親を失うことになった。[p]
 
 [bg storage="myroom.jpg" time="400" wait = "false"]
-[chara_show name="yukito" top="80" time="400"]
 
 #雪翔
 …自殺なんかに、他人の命を巻き込むんじゃねぇよ。[p]
