@@ -1,5 +1,5 @@
 *start
-;kkkkkkkkk
+
 [cm]
 [clearfix]
 [start_keyconfig]
@@ -225,7 +225,6 @@
 どうしようもない、と言った風に俺はドアを開け、階下へ降りる。[p]
 
 [chara_hide_all]
-@layopt layer=message0 visible=false
-@hidemenubutton
 
-@jump storage="title.ks"
+@jump storage="1-2.ks"
+[s]
