@@ -57,6 +57,7 @@
 俺の意識は、キッチンに立つ父さんではなく…[p]
 
 ;[playse storage = "bgm"]
+[chara_hide name = "kouki"]
 [chara_show name = "mizuka" face = "smile" top="-70"]
 
 #mizuka
@@ -72,6 +73,7 @@
 #
 いや、そうでなければただの不審者なのだが…と、自分の考えに自分で突っ込む。[p]
 
+[chara_show name = "kouki" top="-70"]
 #kouki:kyoton
 ん？何をそこでボーっと突っ立ってるんだ？[p]
 
