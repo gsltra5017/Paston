@@ -23,52 +23,6 @@
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]
 
-;このゲームで登場するキャラクターを宣言(立ち絵は仮)
-[chara_new  name="otoko" storage = "chara/yukito/dansei_15.png" jname="男"  ]
-[chara_new  name="roz" storage = "chara/yukito/dansei_15.png" jname="ロズ"  ]
-[chara_new  name="laz" storage = "chara/yukito/dansei_15.png" jname="ラズ"  ]
-
-;ボイスのマクロを作成1
-;そのシーンにおいて最初にボイスを再生するときのみ宣言
-[macro name="voice1"]
-;ただ再生するだけ
-    [playse storage="&mp.vf1" loop=false]
-[endmacro]
-
-;ボイスのマクロを作成2
-;そのシーンにおいて2回目以降にボイスを再生するときに宣言
-[macro name="voice2"]
-;次のセリフに行くたびに鳴ってるボイスをキャンセル
-    [playse storage="&mp.vf2" loop=false clear=true]
-[endmacro]
-
-;ボイスのマクロを作成3
-;ボイスを止めたいときに宣言
-[macro name="voicestop"]
-;鳴ってるボイスをキャンセル
-    [stopse]
-    [resetdelay]
-[endmacro]
-
-;頷き風
-[keyframe name = "un"]
-    [frame p = "50%" y = "20"]
-[endkeyframe]
-
-;ぴょんぴょん
-[keyframe name = "pyonpyon"]
-    [frame p = "25%" y = "-20"]
-    [frame p = "50%" y = "20"]
-    [frame p = "75%" y = "-20"]
-[endkeyframe]
-
-;ぴょん
-[keyframe name = "pyon"]
-    [frame p = "50%" y = "-20"]
-[endkeyframe]
-
-
-
 [bg storage="black.jpg" time="0"]
 
 #
@@ -226,5 +180,8 @@
 
 [chara_hide_all]
 
+[mask time="800" effect= "slideInRight"]
+
 @jump storage="1-2.ks"
+
 [s]
