@@ -1,5 +1,5 @@
 *start
-;辻です
+
 [cm]
 [clearfix]
 [start_keyconfig]
