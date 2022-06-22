@@ -2,4 +2,8 @@
 ;[bg storage = "天井"] 
 [afterjumpmaskNormal]
 
-…と、いうわけで…
+[chara_show name = "kouki"]
+
+#kouki
+…と、いうわけで…[p]
+
