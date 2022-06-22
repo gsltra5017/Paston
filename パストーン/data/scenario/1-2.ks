@@ -1,6 +1,6 @@
-*start
+;*start
 ;[bg storage = "天井"]
-[mask_off effect = "slideOutLeft" time = "800"]
+;[mask_off effect = "slideOutLeft" time = "800"]
 
 #???
 ーーあと、食材はここにあるから、後で…[p]

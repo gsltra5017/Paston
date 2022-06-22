@@ -27,6 +27,20 @@
     [playse storage="&mp.vf2" loop=false clear=true]
 [endmacro]
 
+[macro name = "scenejump"]
+    [mask time="800" effect= "slideInRight"]
+
+    @jump storage="mp.sc"
+
+    [s]
+
+    *start
+
+    ;[bg storage = "mp.bgi"]
+
+    [mask_off effect = "slideOutLeft" time = "800"]
+[endmacro]
+
 ;ボイスのマクロを作成3
 ;ボイスを止めたいときに宣言
 [macro name="voicestop"]

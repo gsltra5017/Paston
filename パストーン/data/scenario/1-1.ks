@@ -180,8 +180,9 @@
 
 [chara_hide_all]
 
-[mask time="800" effect= "slideInRight"]
+;[mask time="800" effect= "slideInRight"]
 
-@jump storage="1-2.ks"
+;@jump storage="1-2.ks"
 
-[s]
+;[s]
+[scenejump sc = "1-2.ks"]
