@@ -50,7 +50,7 @@
 …『言葉』だけを、ただ、紡いでいく。[p]
 
 [bg storage="black.jpg" time="400"]
-#雪翔
+#yukito
 『やめてくれ』[p]
 『止めてくれ』[p]
 『誰か…[r]助けてくれ』[p]
@@ -65,7 +65,7 @@
 [wait time="400"]
 [mask_off time = "400" wait = "true"]
 
-#雪翔
+#yukito
 ・・・・・[p]
 
 #
@@ -74,7 +74,7 @@
 
 [reset_camera]
 
-#雪翔
+#yukito
 ;[playse storage ="cloth.拡張子" loop = "false" ]
 …ん…[p]
 
@@ -82,14 +82,14 @@
 起き上がろうとして、背中に違和感を感じる。[p]
 …妙に冷たい。しかもなんだか湿っている。[p]
 
-#雪翔
+#yukito
 …これに関しては久しぶりだな。[p]
 
 #
 起き上がると、案の定シーツの上に地図が描かれている。[p]
 勿論、大学生になってお漏らしをした、というわけではない。[p]
 
-#雪翔
+#yukito
 脳に刻み込まれているとはいえ…あれを何回も見せられるのはつらいな…[p]
 
 #
@@ -112,7 +112,7 @@
 
 [bg storage="myroom.jpg" time="400" wait = "false"]
 
-#雪翔
+#yukito
 …自殺なんかに、他人の命を巻き込むんじゃねぇよ。[p]
 
 ;[playse storage ="cloth.拡張子" loop = "false" ]
@@ -123,28 +123,28 @@
 …その時だった。[p]
 
 [voice1 vf1="roz/Roz1-1_1.wav"]
-#ロズ
+#roz
 なぁなぁ、もう８時やで？早う起きた方がええんやないの？[p]
 
 [voice2 vf2="laz/Laz1-1_1.wav"]
-#ラズ
+#laz
 いいじゃありませんかロズ。今雪翔様の学校は夏休み、むしろ早起きのほうかと…[p]
 
 [voicestop]
-#雪翔
+#yukito
 朝から騒がしいな…[p]
 
 [chara_show name="roz" top="80" left = "652" wait = "false" pos_mode = "false"]
 [chara_show name="laz" top="80" wait = "true" pos_mode = "true"]
 
 [voice2 vf2="roz/Roz1-1_2.wav"]
-;いらないかも
+
 [kanim name = "roz" time = "150" keyframe = "pyon"] 
-#ロズ
+#roz
 そうやってラズが甘やかすから、どんどんマスターの生活リズムが崩れていくんやで？[p]
 
 [voice2 vf2="laz/Laz1-1_2.wav"]
-#ラズ
+#laz
 あらあら、それならあなただってどうして深夜まで頑張って作業しているご主人様を止めませんの？元はといえばロズのせいだと言えますが[p]
 
 [free_filter]
@@ -153,16 +153,16 @@
 俺の言葉を無視し、携帯からの声達はどんどん険悪な雰囲気になっていく。[p]
 
 [voice2 vf2="roz/Roz1-1_3.wav"]
-#ロズ
+#roz
 どうやら、今日こそ決着つけなあかんみたいやな。[p]
 
 [voice2 vf2="laz/Laz1-1_3.wav"]
-#ラズ
+#laz
 勝てるとお思いで？私、貴方に負けたことないでしょう？[p]
 
 [kanim name = "roz" time = "300" keyframe = "pyonpyon"] 
 [voice2 vf2="roz/Roz1-1_4.wav"]
-#ロズ
+#roz
 当たりまえやろ毎回引き分けなんやから！！とにかく、覚悟…[p]
 
 [chara_hide_all time="0" wait="true"]
@@ -171,7 +171,7 @@
 #
 何やら決闘が始まりそうなので、これ以上うるさくならないうちに音量をゼロに。[p]
 
-#雪翔
+#yukito
 おしゃべりAI達め…[p]
 
 ;[playse storage ="dooropen.拡張子" loop = "false" ]
@@ -180,9 +180,4 @@
 
 [chara_hide_all]
 
-;[mask time="800" effect= "slideInRight"]
-
-;@jump storage="1-2.ks"
-
-;[s]
-[scenejump sc = "1-2.ks"]
+[scenejumpNormal sc = "1-2.ks"]
