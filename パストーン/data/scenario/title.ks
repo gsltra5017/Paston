@@ -1,12 +1,17 @@
 
 [cm]
 
+
 @clearstack
 @bg storage ="title.png" time=100
 @wait time = 200
+@layopt layer=message0 visible=false
+[hidemenubutton]
+
 
 *start 
 
+[afterjumpmaskNormal]
 
 [button x=130 y=260 graphic="title/START.png" enterimg="title/START_c.png"  target="gamestart"]
 [button x=130 y=370 graphic="title/LOAD.png" enterimg="title/LOAD_c.png" role="load" ]
@@ -16,7 +21,8 @@
 
 [image x=10 y=30 width=692 height=232 storage="logo_title.png" layer="0" visible=true]
 
-[playbgm storage="title.ogg" loop=true]
+[fadeinbgm storage="title.ogg" loop=true time=1000]
+
 [s]
 
 *gamestart
