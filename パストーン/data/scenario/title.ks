@@ -16,6 +16,7 @@
 
 [image x=10 y=30 width=692 height=232 storage="logo_title.png" layer="0" visible=true]
 
+[playbgm storage="title.ogg" loop=true]
 [s]
 
 *gamestart

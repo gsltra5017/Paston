@@ -34,6 +34,7 @@
 
 ;シナリオの一番最初に宣言する設定
 [macro name = "startoption"]
+	[fadeoutbgm time=300]
 	[freeimage layer=0]
 	[cm]
 	[clearfix]
