@@ -34,16 +34,19 @@
 
 ;シナリオの一番最初に宣言する設定
 [macro name = "startoption"]
+	[freeimage layer=0]
 	[cm]
 	[clearfix]
 	[start_keyconfig]
-	[chara_config talk_focus="brightness"]
 
 	;メニューボタンの表示
 	@showmenubutton
 
 	;メッセージウィンドウの設定
 	[position layer="message0" left=160 top=500 width=1000 height=200 page=fore visible=true]
+
+	;テキストボックス画像設定
+	[change_textbox bg_image="textbox.png"]
 
 	;文字が表示される領域を調整
 	[position layer=message0 page=fore margint="45" marginl="50" marginr="70" marginb="60"]

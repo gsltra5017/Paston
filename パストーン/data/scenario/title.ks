@@ -2,16 +2,19 @@
 [cm]
 
 @clearstack
-@bg storage ="title.jpg" time=100
+@bg storage ="title.png" time=100
 @wait time = 200
 
 *start 
 
-[button x=135 y=230 graphic="title/button_start.png" enterimg="title/button_start2.png"  target="gamestart"]
-[button x=135 y=320 graphic="title/button_load.png" enterimg="title/button_load2.png" role="load" ]
-[button x=135 y=410 graphic="title/button_cg.png" enterimg="title/button_cg2.png" storage="cg.ks" ]
-[button x=135 y=500 graphic="title/button_replay.png" enterimg="title/button_replay2.png" storage="replay.ks" ]
-[button x=135 y=590 graphic="title/button_config.png" enterimg="title/button_config2.png" role="sleepgame" storage="config.ks" ]
+
+[button x=130 y=260 graphic="title/START.png" enterimg="title/START_c.png"  target="gamestart"]
+[button x=130 y=370 graphic="title/LOAD.png" enterimg="title/LOAD_c.png" role="load" ]
+[button x=130 y=480 graphic="title/GALLERY.png" enterimg="title/GALLERY_u.png" storage="cg.ks" ]
+;[button x=135 y=500 graphic="title/button_replay.png" enterimg="title/button_replay2.png" storage="replay.ks" ]
+[button x=130 y=590 graphic="title/CONFIG.png" enterimg="title/CONFIG_c.png" role="sleepgame" storage="config.ks" ]
+
+[image x=10 y=30 width=692 height=232 storage="logo_title.png" layer="0" visible=true]
 
 [s]
 
