@@ -11,11 +11,21 @@
 
 ;ゲームで必ず必要な初期化処理はこのファイルに記述するのがオススメ
 
+;マクロやキーフレームの定義
+@call storage="macro.ks"
+
+;このゲームで登場するキャラクターを宣言(立ち絵は仮)
+@call storage="chara.ks"
+
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 
 ;最初は右下のメニューボタンを非表示にする
 [hidemenubutton]
+
+;プラグイン(＆設定)呼び出し
+[chara_config talk_focus="brightness"]
+[plugin name="textbox_ex"]
 
 ;タイトル画面へ移動
 @jump storage="title.ks"
