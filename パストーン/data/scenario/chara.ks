@@ -7,6 +7,8 @@
 [chara_face name="mizuka" face="smile" storage = "chara/mizuka/smile.png"]
 [chara_face name="mizuka" face="surprise" storage = "chara/mizuka/surprise.png"]
 [chara_face name="mizuka" face="think" storage = "chara/mizuka/think.png"]
+[chara_face name="mizuka" face="r_kyoton" storage = "chara/mizuka/r_kyoton.png"]
+[chara_face name="mizuka" face="r_think" storage = "chara/mizuka/r_think.png"]
 
 [chara_new  name="kouki" storage = "chara/kouki/grin_1.png" width="868" height="1227" jname="黄樹"]
 [chara_face name="kouki" face="kushou" storage = "chara/kouki/kushou.png"]
