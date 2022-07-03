@@ -360,7 +360,8 @@
 …そういえばあいつら…なんで美寿花の前に出てこないんだ…？[p]
 
 ;背景 黒
-[bg storage="black.png" time=0]
+[chara_hide_all time=1000 wait="false"]
+[bg storage="black.jpg" time=1000]
 
 ;[voice2 vf2="laz/Laz2-1_1.wav"]
 #ラズ
