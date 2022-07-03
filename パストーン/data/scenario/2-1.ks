@@ -13,7 +13,7 @@
 [bg storage="myroom.jpg" time=0]
 ;マウスの音
 ;タイピング音で代用中
-[playse storage=se/typing_1.ogg loop=true]
+[voice1 vf1="se/typing_1.ogg"]
 [wait time=2000]
 [stopse]
 
@@ -50,7 +50,7 @@
 そうはいっても、かれこれ数時間はこの状態。[p]
 
 ;いすが軋む音
-;[playse storage=se/椅子 loop=false]
+;[voice2 vf2="se/椅子"]
 
 #
 流石に休憩入れるか…と立ち上がる。[p]
@@ -73,7 +73,7 @@
 どんな罰ゲームだよ…と思いながらも、仕方なく美寿花の手を肩に乗せる。[p]
 
 ;能力発動音
-;[playse storage=se/ability_on.ogg loop=false]
+;[voice2 vf2="se/ability_on.ogg"]
 
 #美寿花:r_think
 「さっきの部分、結構時間かかってたね。どうしたの？」[p]
@@ -109,7 +109,9 @@
 そんな嫌な予感を抱きながら、美寿花から離れ部屋から出る。[p]
 
 ;ドアを開ける音
+[voice2 vf2="se/dooropen_1.ogg"]
 ;リビング
+;[bg storage="リビング.jpg" time=0]
 
 #美寿花:r_kyoton
 「あれ、どこ行くの？」[p]
@@ -167,7 +169,7 @@
 数秒間の葛藤の末、結局美寿花に頼ることにする。[p]
 
 ;能力発動音
-;[playse storage=se/ability_on.ogg loop=false]
+;[voice2 vf2="ability_on.ogg"]
 
 #雪翔
 ≪…学校、ずっと行ってないんだ≫[p]
@@ -183,6 +185,7 @@
 「……」[p]
 
 ;間抜けな音
+;[voice2 vf2=""]
 ;[playse storage=se/間抜け loop=false]
 
 #
@@ -205,7 +208,7 @@
 
 #美寿花
 「じゃあ、一緒に学校行こうよ！」[p]
-;表情 やる気
+;表情 やる気　あとで
 
 #雪翔
 ≪何となくそう言うと思った…[p]
@@ -269,9 +272,12 @@
 [chara_hide name="mizuka" time=2000]
 
 ;玄関のドアが開く音
-;[playse storage=se/dooropen_1.ogg loop=false]
+[voice2 vf2="se/dooropen_1.ogg"]
+
+[wait time=1000]
+
 ;玄関のドアが閉まる音
-;[playse storage=se/doorclose_1.ogg loop=false]
+[voice2 vf2="se/doorclose_1.ogg"]
 
 #
 …行ってしまった。[p]
@@ -283,9 +289,9 @@
 ここで待っていても仕方ないので、自分の部屋に戻る。[p]
 
 ;雪翔の部屋
-[bg storage="room.png" time=0]
+[bg storage="myroom.jpg" time=0]
 ;部屋のドアを閉める音
-;[playse storage=se/doorclose_1.ogg loop=false]
+[voice2 vf2="se/doorclose_1.ogg"]
 
 #雪翔
 ≪…大学…か≫[p]
@@ -302,6 +308,9 @@
 笑ってしまう。[p]
 自分から勝手に閉じこもっておいて、そんなものに縋ってしまう傲慢さに。[p]
 
+[chara_show name="roz" top="-70" storage="chara/roz/normal.png" wait="true"]
+;とりあえずノーマルを描画
+;[voice2 vf2="roz/Roz2-1_1.wav"]
 #ロズ
 「随分楽しそうやね。マスター」[p]
 
@@ -318,12 +327,10 @@
 まぁ、勿論ラズもいるんだろうが。[p]
 …というか、[p]
 
-;[chara_show name="roz" top="-70" storage="chara/roz/不満.png" wait="true"]
-;とりあえずノーマルを描画
-[chara_show name="roz" top="-70" storage="chara/roz/normal.png" wait="true"]
 #ロズ
+;[voice2 vf2="roz/Roz2-1_2.wav"]
 「…む～…」[p]
-;表情 不満
+;表情 不満　あとで
 
 #
 …ちょっと怒って…ますね。はい。[p]
@@ -336,6 +343,7 @@
 スマホでそう文字を打ち込み、謝罪の念を伝える。[p]
 
 #ロズ
+;[voice2 vf2="roz/Roz2-1_3.wav"]
 「…まぁ、それに関してはもういいんやけどさ…」[p]
 ;表情 呆れ　あとで
 
@@ -343,6 +351,7 @@
 ≪ラズにも伝えといてくれ。あの子怒らせるのが一番怖い≫[p]
 
 #ロズ
+;[voice2 vf2="roz/Roz2-1_4.wav"]
 「はいは～い」[p]
 ;表情 糸目　あとで
 
@@ -353,26 +362,34 @@
 ;背景 黒
 [bg storage="black.png" time=0]
 
+;[voice2 vf2="laz/Laz2-1_1.wav"]
 #ラズ
 「ふむ…ご主人様を大学に？」[p]
 
+;[voice2 vf2="roz/Roz2-1_5.wav"]
 #ロズ
 「せや。まだマスターは決めてへんけど…まぁ、多分時間の問題やろな。」[p]
 
+;[voice2 vf2="laz/Laz2-1_2.wav"]
 #ラズ
 「よろしいのではないですか？むしろいい方向に転がっているように見えますが…」[p]
 
+;[voice2 vf2="roz/Roz2-1_6.wav"]
 #ロズ
 「いや、それだけやなくてな…」[p]
 
+;[voice2 vf2="laz/Laz2-1_3.wav"]
 #ラズ
 「…何です？」[p]
 
+;[voice2 vf2="roz/Roz2-1_7.wav"]
 #ロズ
 「マスター、デレデレしとった」[p]
 
+;[voice2 vf2="laz/Laz2-1_4.wav"]
 #ラズ
 「…なるほど。」[p]
 
+;[voice2 vf2="laz/Laz2-1_5.wav"]
 #ラズ
 「少々、見極める必要がありますわね…常葉、美寿花…」[p]
