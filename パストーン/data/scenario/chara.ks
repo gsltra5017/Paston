@@ -7,12 +7,15 @@
 [chara_face name="mizuka" face="smile" storage = "chara/mizuka/smile.png"]
 [chara_face name="mizuka" face="surprise" storage = "chara/mizuka/surprise.png"]
 [chara_face name="mizuka" face="think" storage = "chara/mizuka/think.png"]
+[chara_face name="mizuka" face="worry" storage = "chara/mizuka/worry.png"]
+[chara_face name="mizuka" face="kyoton" storage = "chara/mizuka/kyoton.png"]
 [chara_face name="mizuka" face="r_kyoton" storage = "chara/mizuka/r_kyoton.png"]
 [chara_face name="mizuka" face="r_think" storage = "chara/mizuka/r_think.png"]
 [chara_face name="mizuka" face="r_kushou" storage = "chara/mizuka/r_kushou.png"]
 [chara_face name="mizuka" face="r_smile" storage = "chara/mizuka/r_smile.png"]
 [chara_face name="mizuka" face="r_surprise" storage = "chara/mizuka/r_surprise.png"]
 [chara_face name="mizuka" face="r_yaruki" storage = "chara/mizuka/r_yaruki.png"]
+
 
 [chara_new  name="kouki" storage = "chara/kouki/grin_1.png" width="868" height="1227" jname="黄樹"]
 [chara_face name="kouki" face="kushou" storage = "chara/kouki/kushou.png"]
