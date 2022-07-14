@@ -4,6 +4,7 @@
 ;背景 青空
 [bg storage="daysky.png" time=0]
 
+[voice1 vf1="mizuka/mizuka2-1_1.ogg"]
 #美寿花
 「…本当に大丈夫なの？何か、今すぐにでも倒れそうだけど…」[p]
 
@@ -259,5 +260,6 @@
 ≪…まぁ多分。ちゃんと休憩できたから≫[p]
 
 ;背景 青空
+[bg storage="daysky.png" time=0]
 #
 …そんなこんなで。[p]
