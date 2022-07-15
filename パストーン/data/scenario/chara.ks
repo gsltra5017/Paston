@@ -16,12 +16,17 @@
 ;[chara_face name="mizuka" face="困惑" storage = "chara/mizuka/困惑.png"]
 ;[chara_face name="mizuka" face="不満" storage = "chara/mizuka/不満.png"]
 
-[chara_face name="mizuka" face="r_kyoton" storage = "chara/mizuka/r_kyoton.png"]
-[chara_face name="mizuka" face="r_think" storage = "chara/mizuka/r_think.png"]
+[chara_face name="mizuka" face="r_grin" storage = "chara/mizuka/r_grin.png"]
+[chara_face name="mizuka" face="r_jitome" storage = "chara/mizuka/r_jitome.png"]
 [chara_face name="mizuka" face="r_kushou" storage = "chara/mizuka/r_kushou.png"]
+[chara_face name="mizuka" face="r_kyoton" storage = "chara/mizuka/r_kyoton.png"]
 [chara_face name="mizuka" face="r_smile" storage = "chara/mizuka/r_smile.png"]
+[chara_face name="mizuka" face="r_smile_2" storage = "chara/mizuka/r_smile_2.png"]
 [chara_face name="mizuka" face="r_surprise" storage = "chara/mizuka/r_surprise.png"]
+[chara_face name="mizuka" face="r_think" storage = "chara/mizuka/r_think.png"]
 [chara_face name="mizuka" face="r_yaruki" storage = "chara/mizuka/r_yaruki.png"]
+[chara_face name="mizuka" face="r_yaruki_2" storage = "chara/mizuka/r_kyoton.png"]
+
 
 
 [chara_new  name="kouki" storage = "chara/kouki/grin_1.png" width="868" height="1227" jname="黄樹"]

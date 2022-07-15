@@ -27,7 +27,6 @@
 #美寿花
 「‥‥‥」[p]
 
-
 #雪翔
 ≪‥‥‥≫[p]
 
@@ -98,7 +97,6 @@
 
 #
 我が家に一つだけある空き部屋。クーラーもあるので空調面で問題はないはずだが…[p]
-
 
 [voice2 vf2="mizuka/mizuka2-1_4.ogg"]
 #美寿花:r_kushou
@@ -183,9 +181,9 @@
 何かに書いて…と思ったが、取りに行くのもなんだか面倒くさい。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_10.ogg"]
-#美寿花
+#美寿花:r_jitome
 「…いや、変な意地張ってないで素直に来なよ。私も相手の声聞けた方が話しやすいし」[p]
-;表情 ジト目　あとで
+;表情 ジト目
 
 [voicestop]
 #雪翔
@@ -219,8 +217,9 @@
 ;[playse storage=se/間抜け loop=false]
 
 [voice2 vf2="mizuka/mizuka2-1_12.ogg"]
-#美寿花
+#美寿花:r_kyoton
 「…ニート…ってこと…？」[p]
+;きょとん
 
 [voicestop]
 #雪翔
@@ -243,9 +242,9 @@
 同時に、そこはかとなく嫌な予感。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_15.ogg"]
-#美寿花
+#美寿花:r_yaruki
 「じゃあ、一緒に学校行こうよ！」[p]
-;表情 やる気　あとで
+;表情 やる気　
 
 [voicestop]
 #雪翔
@@ -289,9 +288,9 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_20.ogg"]
-#美寿花:r_smile
+#美寿花:r_grin
 「それでも、行ってみない？学校。」[p]
-;表情 優しい笑み　あとで優しい笑みにする
+;表情 優しい笑み
 
 [voicestop]
 #雪翔
@@ -408,18 +407,18 @@
 スマホでそう文字を打ち込み、謝罪の念を伝える。[p]
 
 [voice2 vf2="roz/Roz2-1_3.ogg"]
-#ロズ
+#ロズ:akire
 「…まぁ、それに関してはもういいんやけどさ…」[p]
-;表情 呆れ　あとで
+;表情 呆れ
 
 [voicestop]
 #雪翔
 ≪ラズにも伝えといてくれ。あの子怒らせるのが一番怖い≫[p]
 
 [voice2 vf2="roz/Roz2-1_4.ogg"]
-#ロズ
+#ロズ:itome
 「はいは～い」[p]
-;表情 糸目　あとで
+;表情 糸目
 
 [voicestop]
 #
@@ -430,17 +429,22 @@
 [chara_hide_all time=1000 wait="false"]
 [bg storage="black.jpg" time=1000]
 
+;↓表情指定まだ
+
 [voice2 vf2="laz/Laz2-1_1.ogg"]
 #ラズ
 「ふむ…ご主人様を大学に？」[p]
+;辻　疑い
 
 [voice2 vf2="roz/Roz2-1_5.ogg"]
 #ロズ
 「せや。まだマスターは決めてへんけど…まぁ、多分時間の問題やろな。」[p]
+;
 
 [voice2 vf2="laz/Laz2-1_2.ogg"]
 #ラズ
 「よろしいのではないですか？むしろ良い方向に転がっているように見えますが…」[p]
+;辻　think
 
 [voice2 vf2="roz/Roz2-1_6.ogg"]
 #ロズ
