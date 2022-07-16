@@ -23,8 +23,7 @@
 ;関心がまだできていないのでr_smileで代用してる
 [chara_show name="mizuka" top="-70" storage="chara/mizuka/r_smile.png" wait="true"]
 ;[chara_mod name="mizuka" storage="chara/mizuka/r_interest.png"]
-[chara_mod name="mizuka" storage="chara/mizuka/r_smile.png"]
-#美寿花
+#美寿花:r_smile
 「‥‥‥」[p]
 
 #雪翔
