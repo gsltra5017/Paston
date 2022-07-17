@@ -25,8 +25,9 @@
 [chara_face name="mizuka" face="r_surprise" storage = "chara/mizuka/r_surprise.png"]
 [chara_face name="mizuka" face="r_think" storage = "chara/mizuka/r_think.png"]
 [chara_face name="mizuka" face="r_yaruki" storage = "chara/mizuka/r_yaruki.png"]
-[chara_face name="mizuka" face="r_yaruki_2" storage = "chara/mizuka/r_kyoton.png"]
-
+[chara_face name="mizuka" face="r_yaruki_2" storage = "chara/mizuka/r_yaruki_2.png"]
+[chara_face name="mizuka" face="r_interest" storage = "chara/mizuka/r_interest.png"]
+[chara_face name="mizuka" face="r_think_2" storage = "chara/mizuka/r_think_2.png"]
 
 
 [chara_new  name="kouki" storage = "chara/kouki/grin_1.png" width="868" height="1227" jname="黄樹"]
@@ -36,15 +37,19 @@
 [chara_face name="kouki" face="worry" storage = "chara/kouki/worried.png"]
 
 [chara_new  name="roz" storage = "chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
+[chara_face  name="roz" face="akire" storage = "chara/roz/akire.png"]
+[chara_face  name="roz" face="confident" storage = "chara/roz/confident.png"]
+[chara_face  name="roz" face="itome" storage = "chara/roz/itome.png"]
+[chara_face  name="roz" face="kyoton" storage = "chara/roz/kyoton.png"]
+[chara_face  name="roz" face="taunt" storage = "chara/roz/taunt.png"]
+[chara_face  name="roz" face="worry" storage = "chara/roz/worry.png"]
 ;[chara_face  name="roz" face="不満" storage = "chara/roz/不満.png"]
 ;[chara_face  name="roz" face="怒り" storage = "chara/roz/怒り.png"]
 ;[chara_face  name="roz" face="得意げ" storage = "chara/roz/得意げ.png"]
-;[chara_face  name="roz" face="きょとん" storage = "chara/roz/きょとん.png"]
-;[chara_face  name="roz" face="きょとん" storage = "chara/roz/きょとん.png"]
 ;[chara_face  name="roz" face="bow" storage = "chara/roz/bow.png"]
 ;[chara_face  name="roz" face="jitome" storage = "chara/roz/jitome.png"]
 ;[chara_face  name="roz" face="close" storage = "chara/roz/close.png"]
-;[chara_face  name="roz" face="worry" storage = "chara/roz/worry.png"]
+
 
 [chara_new  name="laz" storage = "chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
 ;[chara_face  name="laz" face="不満" storage = "chara/laz/不満.png"]

@@ -19,11 +19,10 @@
 
 [voicestop]
 
-;表情 関心
+;表情 関心→r_think2
 ;関心がまだできていないのでr_smileで代用してる
-[chara_show name="mizuka" top="-70" storage="chara/mizuka/r_smile.png" wait="true"]
-;[chara_mod name="mizuka" storage="chara/mizuka/r_interest.png"]
-#美寿花:r_smile
+[chara_show name="mizuka" top="-70" storage="chara/mizuka/r_think_2.png" wait="true"]
+#美寿花:r_think_2
 「‥‥‥」[p]
 
 #雪翔
@@ -35,7 +34,7 @@
 
 #美寿花
 「‥‥‥‥‥‥」[p]
-;表情 関心
+;表情 関心→r_think2
 ;素材きたら
 
 #雪翔
@@ -140,9 +139,9 @@
 少し迷った結果、冷蔵庫を指さす。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_7.ogg"]
-#美寿花
+#美寿花:r_smile_2
 「ああ、休憩ね。了解了解。」[p]
-;表情 慌て　あとで
+;表情 慌て→　あとで
 
 [voicestop]
 #
@@ -366,7 +365,6 @@
 （…ハッ）[p]
 笑ってしまう。[p]
 自分から勝手に閉じこもっておいて、そんなものに縋ってしまう傲慢さに。[p]
-
 
 ;とりあえずノーマルを描画
 [voice2 vf2="roz/Roz2-1_1.ogg"]
