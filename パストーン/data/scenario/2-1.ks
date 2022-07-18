@@ -86,7 +86,7 @@
 
 [voice2 vf2="mizuka/mizuka2-1_3.ogg"]
 #美寿花:r_kyoton
-「暇だったから」[p]
+「暇だったからかな？」[p]
 ;表情 きょとん
 
 [voicestop]
@@ -149,7 +149,7 @@
 改めて、喋れないことの不便さが浮き彫りになる。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_8.ogg"]
-#美寿花
+#美寿花:r_worry_2
 「…そういえばさ、君って学校どうしてるの？」[p]
 ;表情 心配　あとで
 
@@ -163,9 +163,9 @@
 ;表情 きょとん2　あとで２にする
 
 [voice2 vf2="mizuka/mizuka2-1_9.ogg"]
-#美寿花:r_think
+#美寿花:r_think_2
 「大学だよ大学。声が出ないんじゃ、色々と大変じゃないかな～って」[p]
-;表情 考え2 あとで２にする
+;表情 考え2 
 
 [voicestop]
 #
@@ -230,7 +230,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_14.ogg"]
-#美寿花
+#美寿花:r_worry
 「…でもそっか。学校行けてないのか…」[p]
 ;表情 不安
 
@@ -259,7 +259,9 @@
 #雪翔
 「…というと？」[p]
 
-[voice2 vf2="mizuka/mizuka2-1_17.ogg"]
+[playse storage="mizuka/mizuka2-1_17.ogg" loop=false clear=true]
+[wait time=1000]
+;[playse storage="mizuka/mizuka2-1_18.ogg" loop=false clear=true]
 #美寿花:r_surprise
 「考えたんだけどさ、雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
 ;表情 驚き2 あとで２にする
@@ -273,19 +275,19 @@
 実際、美寿花が来るまでは人に会うとしても父さんぐらい。[p]
 しかも、頻度は3日に一度ぐらいなわけで…[p]
 
-[voice2 vf2="mizuka/mizuka2-1_18.ogg"]
+[voice2 vf2="mizuka/mizuka2-1_19.ogg"]
 #美寿花
 「前までは、人に何か伝えることが大変だったかもしれないけど…今は私っていう『声』もいる。」[p]
 ;表情 真剣
 
 [voicestop]
-[voice2 vf2="mizuka/mizuka2-1_19.ogg"]
+[voice2 vf2="mizuka/mizuka2-1_20.ogg"]
 #美寿花
 「めんどくさいのは…私じゃどうにもできないかもしれないけど...」[p]
 ;表情 不安
 
 [voicestop]
-[voice2 vf2="mizuka/mizuka2-1_20.ogg"]
+[voice2 vf2="mizuka/mizuka2-1_21.ogg"]
 #美寿花:r_grin
 「それでも、行ってみない？学校。」[p]
 ;表情 優しい笑み
@@ -294,13 +296,13 @@
 #雪翔
 「…って言われてもなぁ…」[p]
 
-[voice2 vf2="mizuka/mizuka2-1_21.ogg"]
+[voice2 vf2="mizuka/mizuka2-1_22.ogg"]
 #美寿花:r_smile
 「まぁ、考えといてよ。といっても、学校明日からだけどね。」[p]
 ;表情　笑顔
 
 [voicestop]
-[voice2 vf2="mizuka/mizuka2-1_22.ogg"]
+[voice2 vf2="mizuka/mizuka2-1_23.ogg"]
 #美寿花:r_surprise
 「…ってもうこんな時間！？作業ちょっとだけ見たら買い物しようと思ってたのに…」[p]
 ;表情 驚き
@@ -320,7 +322,7 @@
 そう言い終わる前に、何やらメモ帳を取り出して書き出している。[p]
 …さっきそれ渡してくれたら、触れる必要なかったんじゃないか？[p]
 
-[voice2 vf2="mizuka/mizuka2-1_23.ogg"]
+[voice2 vf2="mizuka/mizuka2-1_24.ogg"]
 #美寿花
 「待ってて！ちょっと色々買ってくるから！」[p]
 ;表情 慌て

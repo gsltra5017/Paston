@@ -28,7 +28,9 @@
 [chara_face name="mizuka" face="r_yaruki_2" storage = "chara/mizuka/r_yaruki_2.png"]
 [chara_face name="mizuka" face="r_interest" storage = "chara/mizuka/r_interest.png"]
 [chara_face name="mizuka" face="r_think_2" storage = "chara/mizuka/r_think_2.png"]
-
+[chara_face name="mizuka" face="r_worry" storage = "chara/mizuka/r_worry.png"]
+[chara_face name="mizuka" face="r_worry_2" storage = "chara/mizuka/r_worry_2.png"]
+[chara_face name="mizuka" face="r_worry_3" storage = "chara/mizuka/r_worry_3.png"]
 
 [chara_new  name="kouki" storage = "chara/kouki/grin_1.png" width="868" height="1227" jname="黄樹"]
 [chara_face name="kouki" face="kushou" storage = "chara/kouki/kushou.png"]
