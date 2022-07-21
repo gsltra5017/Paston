@@ -11,7 +11,7 @@
 [chara_face name="mizuka" face="worry" storage = "chara/mizuka/worry.png"]
 [chara_face name="mizuka" face="kyoton" storage = "chara/mizuka/kyoton.png"]
 ;[chara_face name="mizuka" face="panic" storage = "chara/mizuka/panic.png"]
-;[chara_face name="mizuka" face="jitome" storage = "chara/mizuka/jitome.png"]
+[chara_face name="mizuka" face="jitome" storage = "chara/mizuka/jitome.png"]
 ;[chara_face name="mizuka" face="焦り" storage = "chara/mizuka/焦り.png"]
 ;[chara_face name="mizuka" face="困惑" storage = "chara/mizuka/困惑.png"]
 ;[chara_face name="mizuka" face="不満" storage = "chara/mizuka/不満.png"]

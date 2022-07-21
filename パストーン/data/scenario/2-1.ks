@@ -259,11 +259,14 @@
 #雪翔
 「…というと？」[p]
 
-[playse storage="mizuka/mizuka2-1_17.ogg" loop=false clear=true]
-[wait time=1000]
-;[playse storage="mizuka/mizuka2-1_18.ogg" loop=false clear=true]
+[voice2 vf2="mizuka/mizuka2-1_17.ogg"]
 #美寿花:r_surprise
-「考えたんだけどさ、雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
+「考えたんだけどさ」[p]
+;表情 驚き2 あとで２にする
+
+[voice2 vf2="mizuka/mizuka2-1_18.ogg"]
+#美寿花:r_surprise
+雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
 ;表情 驚き2 あとで２にする
 
 [voicestop]
@@ -372,6 +375,7 @@
 [voice2 vf2="roz/Roz2-1_1.ogg"]
 #ロズ
 「随分楽しそうやね。マスター」[p]
+;表情　あとで
 
 [voicestop]
 #雪翔
@@ -433,7 +437,6 @@
 [voice2 vf2="laz/Laz2-1_1.ogg"]
 #ラズ
 「ふむ…ご主人様を大学に？」[p]
-;辻　疑い
 
 [voice2 vf2="roz/Roz2-1_5.ogg"]
 #ロズ
@@ -443,7 +446,6 @@
 [voice2 vf2="laz/Laz2-1_2.ogg"]
 #ラズ
 「よろしいのではないですか？むしろ良い方向に転がっているように見えますが…」[p]
-;辻　think
 
 [voice2 vf2="roz/Roz2-1_6.ogg"]
 #ロズ

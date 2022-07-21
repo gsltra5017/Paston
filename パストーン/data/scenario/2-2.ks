@@ -7,6 +7,7 @@
 ;[voice1 vf1="mizuka/mizuka2-2_1.ogg"]
 #美寿花
 「…本当に大丈夫なの？何か、今すぐにでも倒れそうだけど…」[p]
+;表情　心配
 
 #雪翔
 ≪だ、大丈夫大丈夫…≫[p]
@@ -35,9 +36,9 @@
 ≪…外…歩くの…めっちゃしんどい…≫[p]
 
 ;[voice2 vf2="mizuka/mizuka2-2_3.ogg"]
-#美寿花
+#美寿花:jitome
 「…肌白いなぁ、外とかあまり出ないんだろうなぁ、とか思ってたけど、想像以上に運動不足だね君」[p]
-;表情 jitome あとで
+;表情 jitome 
 
 #
 呆れたように美寿花は言うが、よく考えてほしい。[p]
@@ -90,12 +91,12 @@
 
 [chara_show name="laz" top="-70" storage="chara/laz/normal.png" wait="true"]
 ;[voice2 vf2="laz/Laz2-2_3.ogg"]
-#ラズ
+#ラズ:normal
 「あなたが美寿花…ですね？」[p]
 ;表情 normal
 
 ;[voice2 vf2="laz/Laz2-2_4.ogg"]
-#ラズ
+#ラズ:bow
 「お初にお目にかかります。私、ラズと申します。雪翔様がお世話になっているようで…」[p]
 ;表情 bow　あとで
 
