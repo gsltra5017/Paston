@@ -5,7 +5,7 @@
 [bg storage="daysky.png" time=0]
 
 ;[voice1 vf1="mizuka/mizuka2-2_1.ogg"]
-#美寿花
+#美寿花:worry
 「…本当に大丈夫なの？何か、今すぐにでも倒れそうだけど…」[p]
 ;表情　心配
 
@@ -21,7 +21,7 @@
 
 ;背景 道路
 [bg storage="city.png" time=1000]
-[chara_show name="mizuka" top="-70" storage="chara/mizuka/smile.png" time="1000" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/smile.png" time="1000" wait="true"]
 
 ;[voice2 vf2="mizuka/mizuka2-2_2.ogg"]
 #美寿花
@@ -113,9 +113,9 @@
 ;表情 kushou
 
 ;[voice2 vf2="laz/Laz2-2_5.ogg"]
-#ラズ
+#ラズ:jitome
 「…ラズ、とさっき申し上げたはずですが…」[p]
-;表情 jitome　あとで
+;表情 jitome
 
 #雪翔
 ≪…いや名前じゃなくて君たちが何者なのか、だよ…≫[p]
@@ -124,21 +124,21 @@
 会話が成立するように、助け船を出してやる。[p]
 
 ;[voice2 vf2="laz/Laz2-2_6.ogg"]
-#ラズ
+#ラズ:kyoton
 「ああ、そういうことですか。私は…」[p]
-;表情 kyoton　あとで
+;表情 kyoton
 
 [chara_show name="roz" top="-70" storage="chara/roz/normal.png" wait="true"]
 ;[voice2 vf2="roz/Roz2-2_1.ogg"]
 #ロズ
 「あっずるっ！！二人で驚かせようって話やったやん！！何で一人で話してんの！？」[p]
-;表情 （）　あとで
+;表情
 
 #
 …せっかくの助け船が、もう一人の登場によって撃ち落される。[p]
 
 ;[voice2 vf2="mizuka/mizuka2-2_9.ogg"]
-#美寿花
+#美寿花:kyoton
 「えっ、関西弁…」[p]
 ;表情 kyoton
 
@@ -146,7 +146,7 @@
 もはやカオスな状況に、美寿花も目を点にして固まってしまう。[p]
 
 ;[voice2 vf2="laz/Laz2-2_7.ogg"]
-#ラズ
+#ラズ:kushou
 「…あの、人が喋っているときに被せるのはいかがなものでしょう？」[p]
 ;表情 kushou　あとで
 
@@ -156,14 +156,14 @@
 ;表情 不満　あとで
 
 ;[voice2 vf2="laz/Laz2-2_8.ogg"]
-#ラズ
+#ラズ:close
 「あら、私はご主人様を助けるために出ていっただけのこと。そもそも貴方の話に賛同した覚えはありませんし」[p]
-;表情 close　あとで
+;表情 close
 
 ;[voice2 vf2="roz/Roz2-2_3.ogg"]
-#ロズ
+#ロズ:angry_3
 「はぁ～？」[p]
-;表情 怒り　あとで
+;表情 angry_3　
 
 ;[voice2 vf2="mizuka/mizuka2-2_10.ogg"]
 #美寿花
@@ -188,9 +188,9 @@
 ≪お前達、また一日中ミュートでもいいんだぞ？≫[p]
 
 ;[voice2 vf2="laz/Laz2-2_10.ogg"]
-#ラズ
+#ラズ:smile
 「あらいやですわ。喧嘩なんてはしたない真似するはずないでしょう？ねぇ、ロズ」[p]
-;表情 smile　あとで
+;表情 smile
 
 ;[voice2 vf2="roz/Roz2-2_5.ogg"]
 #ロズ
@@ -213,7 +213,7 @@
 ふと、俺の肩に何かが触れる感覚。[p]
 
 ;[voice2 vf2="mizuka/mizuka2-2_12.ogg"]
-#美寿花
+#美寿花:jitome
 「…説明、よろしく。」[p]
 ;表情 ジト目　あとで
 
@@ -257,7 +257,7 @@
 それでも最近ではAI技術も進歩し、近い将来完全なアンドロイドが作られるという話もあるくらいだ。[p]
 
 ;[voice2 vf2="mizuka/mizuka2-2_16.ogg"]
-#美寿花
+#美寿花:jitome
 「…でも、何で関西弁とお嬢様口調？」[p]
 ;表情 jitome
 
@@ -265,7 +265,7 @@
 ≪それは…分からん。多分何かのアニメの影響だと思うけど…≫[p]
 
 ;[voice2 vf2="laz/Laz2-2_11.ogg"]
-#ラズ
+#ラズ:worry
 「そういえば、ご主人様達は今登校中では？私たちが出てきてから随分時間が経っていますが…」[p]
 ;表情 worry
 
@@ -281,9 +281,9 @@
 時計を見ると、登校前にはあったはずの時間の余裕がなくなっている。[p]
 
 ;[voice2 vf2="roz/Roz2-2_6.ogg"]
-#ロズ
+#ロズ:kyoton
 「はよいかな遅刻するで？」[p]
-;表情 きょとん　あとで
+;表情 きょとん
 
 #雪翔
 ≪その通りだけど、それをお前が言うなお前が≫[p]

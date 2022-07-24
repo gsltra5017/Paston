@@ -11,7 +11,7 @@
 机に突っ伏しながら、俺はため息をつく。[p]
 
 [chara_show name="mizuka" top="-70" storage="chara/mizuka/kushou.png" time="100" wait="true"]
-#美寿花
+#美寿花:kushou
 「ほんとに危なかったね…講義室入った時点で3分前だったし…」[p]
 ;表情 kushou
 
@@ -20,7 +20,7 @@
 
 #美寿花:worry_2
 「…というか、雪翔君当然のようにここにいるけど、1時限目ここなの？」[p]
-;表情 worry_2 あとで２にする
+;表情 worry_2
 
 #雪翔
 ≪…ああ、そうっぽいな≫[p]
