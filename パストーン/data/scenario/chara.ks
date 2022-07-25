@@ -45,7 +45,7 @@
 [chara_face  name="roz" face="kyoton" storage = "chara/roz/kyoton.png"]
 [chara_face  name="roz" face="taunt" storage = "chara/roz/taunt.png"]
 [chara_face  name="roz" face="worry" storage = "chara/roz/worry.png"]
-;[chara_face  name="roz" face="不満" storage = "chara/roz/不満.png"]
+[chara_face  name="roz" face="angry" storage = "chara/roz/angry.png"]
 ;[chara_face  name="roz" face="怒り" storage = "chara/roz/怒り.png"]
 ;[chara_face  name="roz" face="得意げ" storage = "chara/roz/得意げ.png"]
 ;[chara_face  name="roz" face="bow" storage = "chara/roz/bow.png"]
@@ -54,12 +54,18 @@
 
 
 [chara_new  name="laz" storage = "chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
-;[chara_face  name="laz" face="不満" storage = "chara/laz/不満.png"]
-;[chara_face  name="laz" face="怒り" storage = "chara/laz/怒り.png"]
+[chara_face  name="laz" face="bow" storage = "chara/laz/bow.png"]
+[chara_face  name="laz" face="close" storage = "chara/laz/close.png"]
+[chara_face  name="laz" face="confident" storage = "chara/laz/confident.png"]
+[chara_face  name="laz" face="jitome" storage = "chara/laz/jitome.png"]
+[chara_face  name="laz" face="kushou" storage = "chara/laz/kushou.png"]
+[chara_face  name="laz" face="kyoton" storage = "chara/laz/kyoton.png"]
+[chara_face  name="laz" face="normal" storage = "chara/laz/normal.png"]
+[chara_face  name="laz" face="worry" storage = "chara/laz/worry.png"]
+
 ;[chara_face  name="laz" face="得意げ" storage = "chara/laz/得意げ.png"]
-;[chara_face  name="laz" face="きょとん" storage = "chara/laz/きょとん.png"]
-;[chara_face  name="laz" face="bow" storage = "chara/laz/bow.png"]
-;[chara_face  name="laz" face="jitome" storage = "chara/laz/jitome.png"]
-;[chara_face  name="laz" face="close" storage = "chara/laz/close.png"]
-;[chara_face  name="laz" face="worry" storage = "chara/laz/worry.png"]
+;[chara_face  name="laz" face="kyoton" storage = "chara/laz/kyoton.png"]
+;[chara_face  name="laz" face="kushou" storage = "chara/laz/kushou.png"]
+
+
 
