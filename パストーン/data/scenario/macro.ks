@@ -1,5 +1,6 @@
 ;ボイスのマクロを作成1
 ;そのシーンにおいて最初にボイスを再生するときのみ宣言
+;[voice1 vf1=""]←コピペ用
 [macro name="voice1"]
 ;ただ再生するだけ
 	[playse storage="&mp.vf1" loop=false]
@@ -7,6 +8,7 @@
 
 ;ボイスのマクロを作成2
 ;そのシーンにおいて2回目以降にボイスを再生するときに宣言
+;[voice2 vf2=""]←コピペ用
 [macro name="voice2"]
 ;次のセリフに行くたびに鳴ってるボイスをキャンセル
     [playse storage="&mp.vf2" loop=false clear=true]
