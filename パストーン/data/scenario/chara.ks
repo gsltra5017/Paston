@@ -2,8 +2,8 @@
 
 [chara_new  name="yukito" storage = "chara/yukito/dansei_15.png" jname="雪翔"  ]
 
-[chara_new  name="mizuka" storage = "chara/mizuka/kushou.png" width="868" height="1227" jname="美寿花"]
-[chara_face name="mizuka" face="kushou" storage = "chara/mizuka/kushou.png"]
+[chara_new  name="mizuka" storage = "chara/mizuka/grin.png" width="868" height="1227" jname="美寿花"]
+[chara_face name="mizuka" face="kusshou" storage = "chara/mizuka/kushou.png"]
 [chara_face name="mizuka" face="smile" storage = "chara/mizuka/smile_2.png"]
 [chara_face name="mizuka" face="smile_2" storage = "chara/mizuka/smile_2.png"]
 [chara_face name="mizuka" face="surprise" storage = "chara/mizuka/surprise.png"]
