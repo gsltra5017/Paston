@@ -10,11 +10,11 @@
 というわけで、今日も変わらず作業する…はずだったのだが、[p]
 
 ;雪翔の部屋
-[bg storage="myroom.jpg" time=0]
+[bg storage="myroom.jpg" time="0"]
 ;マウスの音
 ;タイピング音で代用中
 [voice1 vf1="se/typing_1.ogg"]
-[wait time=2000]
+[wait time="2000"]
 [stopse]
 
 [voicestop]
@@ -395,9 +395,10 @@
 …というか、[p]
 
 [voice2 vf2="roz/Roz2-1_2.ogg"]
-#ロズ
+#ロズ:angry
 「…む～…」[p]
 ;表情 不満　あとで
+;angryもあり？
 
 [voicestop]
 #

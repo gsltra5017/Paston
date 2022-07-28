@@ -2,7 +2,7 @@
 [startoption]
 
 ;背景 青空
-[bg storage="daysky.png" time=0]
+[bg storage="daysky.png" time="0"]
 
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
 #美寿花:worry
@@ -140,7 +140,7 @@
 
 [chara_show name="roz" top="-70" storage="chara/roz/angry.png" wait="true"]
 [voice2 vf2="roz/Roz2-2_1.ogg"]
-#ロズ
+#ロズ:angry
 「あっずるっ！！二人で驚かせようって話やったやん！！何で一人で話してんの！？」[p]
 ;表情　angry
 
@@ -176,9 +176,9 @@
 ;表情 angry_3　
 
 [voice2 vf2="mizuka/mizuka2-2_10.ogg"]
-#美寿花
+#美寿花:konwaku
 「…え、ちょ…」[p]
-;表情 困惑　あとで
+;表情 困惑　
 
 #
 目の前で繰り広げられる喧嘩にどうすればいいのか分からないのか、美寿花は俺を見る。[p]
