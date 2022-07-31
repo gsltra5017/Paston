@@ -434,8 +434,6 @@
 [chara_hide_all time=1000 wait="false"]
 [bg storage="black.jpg" time=1000]
 
-;↓表情指定まだ
-
 [voice2 vf2="laz/Laz2-1_1.ogg"]
 #ラズ
 「ふむ…ご主人様を大学に？」[p]
