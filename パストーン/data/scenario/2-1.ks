@@ -1,6 +1,6 @@
 *start
 [startoption]
-a
+
 ;青空
 [bg storage="daysky.png" time=0]
 
