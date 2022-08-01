@@ -1,7 +1,7 @@
 *start
 [startoption]
 
-@jump target=*debug
+;@jump target=*debug
 ;背景 青空
 [bg storage="daysky.png" time=0]
 
@@ -99,7 +99,7 @@
 「どういたしまして。はよ行かなどやされるで？」[p]
 ;表情 akire
 
-*debug
+;*debug
 
 
 ;背景 廊下
