@@ -23,7 +23,8 @@
 ;[stop_keyconfig]
 ;背景 道路
 [bg storage="city.png" time="1000"]
-[chara_show name="mizuka" top="20" storage="chara/mizuka/smile.png" time="1000" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/smile.png" wait="false"]
+[chara_show name="kouki" top="20" time="1000" wait="true"]
 ;[start_keyconfig]
 
 [voice2 vf2="mizuka/mizuka2-2_2.ogg"]

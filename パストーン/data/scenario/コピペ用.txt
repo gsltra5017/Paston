@@ -1,0 +1,16 @@
+;[chara_show]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/表情" wait="true"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
