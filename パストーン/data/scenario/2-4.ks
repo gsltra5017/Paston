@@ -8,7 +8,7 @@
 ;背景 空き教室
 [bg storage="room.jpg" time="0"]
 
-[mask_off effect=" fadeOutDownBig"]
+[mask_off effect="fadeOutLeftBig"]
 
 [voice1 vf1="mizuka/mizuka2-4_1.ogg"]
 #美寿花

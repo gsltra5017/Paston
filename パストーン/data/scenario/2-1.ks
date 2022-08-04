@@ -20,7 +20,6 @@
 [voicestop]
 
 ;表情 関心→r_think2
-;関心がまだできていないのでr_smileで代用してる
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_think_2.png" wait="true"]
 #美寿花:r_think_2
 「‥‥‥」[p]
@@ -71,9 +70,8 @@
 どんな罰ゲームだよ…と思いながらも、仕方なく美寿花の手を肩に乗せる。[p]
 
 ;能力発動音
-;[voice2 vf2="se/ability_on.ogg"]
+[voice2 vf2="se/ability_on.ogg"]
 
-[voicestop]
 [voice2 vf2="mizuka/mizuka2-1_2.ogg"]
 #美寿花:r_think
 「さっきの部分、結構時間かかってたね。どうしたの？」[p]
@@ -192,7 +190,7 @@
 数秒間の葛藤の末、結局美寿花に頼ることにする。[p]
 
 ;能力発動音
-;[voice2 vf2="ability_on.ogg"]
+[voice2 vf2="ability_on.ogg"]
 
 #雪翔
 「…学校、ずっと行ってないんだ」[p]
