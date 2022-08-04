@@ -2,7 +2,7 @@
 [startoption]
 
 ;青空
-[bg storage="daysky.png" time=0]
+[bg storage="daysky.png" time="0"]
 
 怒涛の初日から一夜明け、翌日。[p]
 8月31日、夏休み最後の日という事で一部の学生は憂鬱な気分に包まれることだろう。[p]
@@ -21,7 +21,7 @@
 
 ;表情 関心→r_think2
 ;関心がまだできていないのでr_smileで代用してる
-[chara_show name="mizuka" top="-70" storage="chara/mizuka/r_think_2.png" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/r_think_2.png" wait="true"]
 #美寿花:r_think_2
 「‥‥‥」[p]
 
@@ -337,7 +337,7 @@
 ;玄関のドアが開く音
 [voice2 vf2="se/dooropen_1.ogg"]
 
-[wait time=1000]
+[wait time="1000"]
 
 ;玄関のドアが閉まる音
 [voice2 vf2="se/doorclose_1.ogg"]

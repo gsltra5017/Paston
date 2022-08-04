@@ -24,13 +24,11 @@
 ;背景 道路
 [bg storage="city.png" time="1000"]
 [chara_show name="mizuka" top="20" storage="chara/mizuka/smile.png" wait="false"]
-[chara_show name="kouki" top="20" time="1000" wait="true"]
-;[start_keyconfig]
 
 [voice2 vf2="mizuka/mizuka2-2_2.ogg"]
 #美寿花
 「…ちょ、一旦休憩。水飲もう水。」[p]
-;表情 panic あとで
+;表情 慌て あとで
 
 [voicestop]
 #
