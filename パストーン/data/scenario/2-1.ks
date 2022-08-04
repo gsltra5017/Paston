@@ -21,7 +21,7 @@
 
 ;表情 関心→r_think2
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_think_2.png" wait="true"]
-#美寿花:r_think_2
+#美寿花
 「‥‥‥」[p]
 
 #雪翔
@@ -156,7 +156,7 @@
 ≪…学校？≫[p]
 
 #
-[chara_mod name="mizuka" storage="chara/mizuka/r_kyoton.png"]
+[chara_mod name="mizuka" storage="chara/mizuka/r_kyoton_2.png"]
 俺が首を傾げると、美寿花も『あれ？』と同じことをする。[p]
 ;表情 きょとん2　あとで２にする
 
@@ -190,7 +190,7 @@
 数秒間の葛藤の末、結局美寿花に頼ることにする。[p]
 
 ;能力発動音
-[voice2 vf2="ability_on.ogg"]
+[voice2 vf2="se/ability_on.ogg"]
 
 #雪翔
 「…学校、ずっと行ってないんだ」[p]
@@ -278,7 +278,7 @@
 しかも、頻度は3日に一度ぐらいなわけで…[p]
 
 [voice2 vf2="mizuka/mizuka2-1_19.ogg"]
-#美寿花
+#美寿花:seriously
 「前までは、人に何か伝えることが大変だったかもしれないけど…今は私っていう『声』もいる。」[p]
 ;表情 真剣
 
