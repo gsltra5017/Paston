@@ -19,6 +19,10 @@
 [bg storage="ファイル名" time=0]
 [bg storage="" time=0]
 
+;マスク
+[mask time="0"]
+[mask_off effect="fadeOutLeftBig"]
+
 ;その他
 [startoption]
 [wait time="0"]
