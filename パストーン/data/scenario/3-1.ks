@@ -1,7 +1,7 @@
 *start
 [startoption]
 
-;@jump target=*debug
+@jump target=*debug
 ;背景 青空
 [bg storage="daysky.png" time=0]
 
@@ -99,7 +99,7 @@
 「どういたしまして。はよ行かなどやされるで？」[p]
 ;表情 akire
 
-;*debug
+*debug
 
 
 ;背景 廊下
@@ -142,13 +142,16 @@
 #雪翔
 ≪はいはいストップ。急がないとだから用件を言ってからじゃれあって≫[p]
 
-;ラズ＆ロズ同時 [未解決]
+;ラズ＆ロズ同時 [ある程度解決]
+
+[chara_config  talk_focus=none]
 #ロズ:angry
-#ラズ
-#ロズ　ラズ
+;#ラズ:angly☆
+#ラズ　ロズ
 「じゃれあったりなんかしてません！」[r]
 「じゃれあったりなんかしてへん！」[p]
 ;表情 ラズ＆ロズ angry
+[chara_config  talk_focus=brightness]
 #
 …毎回思うが、仲いいよなこいつら。[p]
 
