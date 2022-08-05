@@ -147,7 +147,7 @@
 改めて、喋れないことの不便さが浮き彫りになる。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_8.ogg"]
-#美寿花:r_worry_2
+#美寿花:r_worry
 「…そういえばさ、君って学校どうしてるの？」[p]
 ;表情 心配
 
@@ -158,7 +158,7 @@
 #
 [chara_mod name="mizuka" storage="chara/mizuka/r_kyoton_2.png"]
 俺が首を傾げると、美寿花も『あれ？』と同じことをする。[p]
-;表情 きょとん2　あとで２にする
+;表情 きょとん2
 
 [voice2 vf2="mizuka/mizuka2-1_9.ogg"]
 #美寿花:r_think_2
@@ -229,7 +229,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_14.ogg"]
-#美寿花:r_worry
+#美寿花
 「…でもそっか。学校行けてないのか…」[p]
 ;表情 不安
 
@@ -284,7 +284,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_20.ogg"]
-#美寿花:r_worry
+#美寿花
 「めんどくさいのは…私じゃどうにもできないかもしれないけど...」[p]
 ;表情 不安
 
@@ -328,7 +328,7 @@
 #美寿花
 「待ってて！ちょっと色々買ってくるから！」[p]
 ;表情 慌て
-[chara_hide name="mizuka" time=2000]
+[chara_hide name="mizuka" time="2000"]
 
 [voicestop]
 #

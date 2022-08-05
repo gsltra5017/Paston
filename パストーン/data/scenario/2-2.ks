@@ -157,12 +157,12 @@
 [voice2 vf2="laz/Laz2-2_7.ogg"]
 #ラズ:kushou
 「…あの、人が喋っているときに被せるのはいかがなものでしょう？」[p]
-;表情 kushou　あとで
+;表情 kushou
 
 [voice2 vf2="roz/Roz2-2_2.ogg"]
 #ロズ
 「それを言うなら抜け駆けしたんはそっちやん。お互い様やで？」[p]
-;表情 不満　あとで
+;表情 不満
 
 [voice2 vf2="laz/Laz2-2_8.ogg"]
 #ラズ:close

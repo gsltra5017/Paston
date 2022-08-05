@@ -15,6 +15,7 @@
 [chara_face name="mizuka" face="konwaku" storage = "chara/mizuka/konwaku.png"]
 [chara_face name="mizuka" face="yaruki" storage = "chara/mizuka/yaruki.png"]
 [chara_face name="mizuka" face="yaruki_2" storage = "chara/mizuka/yaruki_2.png"]
+[chara_face name="mizuka" face="seriously" storage = "chara/mizuka/seriously.png"]
 ;[chara_face name="mizuka" face="焦り" storage = "chara/mizuka/焦り.png"]
 ;[chara_face name="mizuka" face="困惑" storage = "chara/mizuka/困惑.png"]
 ;[chara_face name="mizuka" face="不満" storage = "chara/mizuka/不満.png"]
