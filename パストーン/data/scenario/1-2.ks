@@ -1,6 +1,11 @@
 *start
+
+[startoption]
+
 ;[bg storage = "天井"] 
 [afterjumpmaskNormal]
+
+
 
 #???
 ーーあと、食材はここにあるから、後で…[p]
@@ -43,11 +48,13 @@
 心の中で結論にもなっていない結論を出し、俺はそうっと階段を下りる。[p]
 
 ;[bg storage = "リビング"]
-[chara_show name = "kouki" top="-70"]
+[chara_show name="kouki" top="20" storage="chara/kouki/grin_1.png" wait="true"]
 
+[voice1 vf1="kouki/1-2/kouki1-2_1.ogg"]
 #kouki
 お、やっと起きた。[p]
 
+[voice2 vf1="kouki/1-2/kouki1-2_2.ogg"]
 #kouki:smile
 中々降りてこなかったから体調でも悪いのかと思ったんだが…[p]
 
@@ -60,8 +67,9 @@
 
 ;[playse storage = "bgm"]
 [chara_hide name = "kouki"]
-[chara_show name = "mizuka" face = "smile" top="-70"]
+[chara_show name = "mizuka" face = "smile" top="20"]
 
+[voice2 vf1="mizuka/mizuka1-2_1.ogg"]
 #mizuka
 …雪翔君、だよね？おはよう[p]
 

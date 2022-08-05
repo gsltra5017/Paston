@@ -3,6 +3,7 @@
 [chara_new  name="yukito" storage = "chara/yukito/dansei_15.png" jname="雪翔"  ]
 
 [chara_new  name="mizuka" storage = "chara/mizuka/kushou.png" width="868" height="1227" jname="美寿花"]
+
 [chara_face name="mizuka" face="kushou" storage = "chara/mizuka/kushou.png"]
 [chara_face name="mizuka" face="smile" storage = "chara/mizuka/smile.png"]
 [chara_face name="mizuka" face="smile_2" storage = "chara/mizuka/smile_2.png"]
@@ -15,7 +16,7 @@
 [chara_face name="mizuka" face="konwaku" storage = "chara/mizuka/konwaku.png"]
 [chara_face name="mizuka" face="yaruki" storage = "chara/mizuka/yaruki.png"]
 [chara_face name="mizuka" face="yaruki_2" storage = "chara/mizuka/yaruki_2.png"]
-[chara_face name="mizuka" face="seriously" storage = "chara/mizuka/seriously.png"]
+
 ;[chara_face name="mizuka" face="焦り" storage = "chara/mizuka/焦り.png"]
 ;[chara_face name="mizuka" face="困惑" storage = "chara/mizuka/困惑.png"]
 ;[chara_face name="mizuka" face="不満" storage = "chara/mizuka/不満.png"]
@@ -57,7 +58,6 @@
 ;[chara_face  name="roz" face="bow" storage = "chara/roz/bow.png"]
 ;[chara_face  name="roz" face="jitome" storage = "chara/roz/jitome.png"]
 ;[chara_face  name="roz" face="close" storage = "chara/roz/close.png"]
-
 
 [chara_new  name="laz" storage = "chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
 [chara_face  name="laz" face="bow" storage = "chara/laz/bow.png"]

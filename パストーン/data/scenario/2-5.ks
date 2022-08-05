@@ -2,9 +2,9 @@
 [startoption]
 
 ;背景 空 夕方
-[bg storage="road_evening.png" time=0]
+[bg storage="road_evening.png" time="0"]
 
-[chara_show name="mizuka" top="-70" storage="chara/mizuka/smile.png" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/smile.png" wait="true"]
 ;[voice1 vf1="mizuka/mizuka2-5_1.ogg"]
 #美寿花
 「ほんとうにごめん…」[p]
