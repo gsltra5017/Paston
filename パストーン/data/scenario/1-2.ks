@@ -40,7 +40,6 @@
 [voice2 vf2="kouki/kouki1-2_3.ogg"]
 うん、そうしてもらえると助かるかな。[r]
 
-[voice2 vf2="kouki/kouki1-2_4.ogg"]
 材料費とかはまた後で払うから、心配しなくていいよ。[p]
 
 #
@@ -55,11 +54,11 @@
 ;[bg storage = "リビング"]
 [chara_show name="kouki" top="20" storage="chara/kouki/grin_1.png" wait="true"]
 
-[voice2 vf2="kouki/kouki1-2_5.ogg"]
+[voice2 vf2="kouki/kouki1-2_4.ogg"]
 #kouki
 お、やっと起きた。[p]
 
-[voice2 vf2="kouki/kouki1-2_6.ogg"]
+[voice2 vf2="kouki/kouki1-2_5.ogg"]
 #kouki:smile
 中々降りてこなかったから体調でも悪いのかと思ったんだが…[p]
 
@@ -90,7 +89,7 @@
 いや、そうでなければただの不審者なのだが…と、自分の考えに自分で突っ込む。[p]
 
 [chara_show name = "kouki" top="20"]
-[voice2 vf2="kouki/kouki1-2_7.ogg"]
+[voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki:kyoton
 ん？何をそこでボーっと突っ立ってるんだ？[p]
 
@@ -99,13 +98,13 @@
 そりゃするだろ。なんだよこの状況。[p]
 そんな念を込めた視線を送ると、ああ、と納得したように笑う。[p]
 
-[voice2 vf2="kouki/kouki1-2_8.ogg"]
+[voice2 vf2="kouki/kouki1-2_7.ogg"]
 #kouki:smile
 そうか。そういえばまだ説明してなかったな。彼女は…[p]
 
 ;[playse name = "着信音"]
 
-[voice2 vf1="kouki/kouki1-2_5.ogg"]
+[voice2 vf2="kouki/kouki1-2_8.ogg"]
 #kouki:worry
 …んん？[p]
 
@@ -168,7 +167,7 @@
 俺の記憶に、こんな美人はいない。[p]
 俺の思い違いか…と、思っていると[p]
 
-[voice2 vf1="mizuka/mizuka1-2_5.ogg"]
+[voice2 vf2="mizuka/mizuka1-2_5.ogg"]
 #mizuka
 それと、訳あって今日からここで暮らすことになって…[p]
 
