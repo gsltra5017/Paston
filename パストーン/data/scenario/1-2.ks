@@ -44,6 +44,7 @@
 
 材料費とかはまた後で払うから、心配しなくていいよ。[p]
 
+[voicestop]
 #
 ……[p]
 …待て、何かおかしい。[p]
@@ -54,7 +55,7 @@
 心の中で結論にもなっていない結論を出し、俺はそうっと階段を下りる。[p]
 
 [bg storage="living.png"]
-[chara_show name="kouki" top="20" storage="chara/kouki/grin_1.png" wait="true"]
+[chara_show name="kouki" top="20" storage="chara/kouki/grin.png" wait="true"]
 
 [voice2 vf2="kouki/kouki1-2_4.ogg"]
 #kouki
@@ -131,7 +132,7 @@
 え、ちょっと待っ…[p]
 
 [chara_hide name="kouki"]
-;[playse storage = "ドア開け閉め"]
+[playse storage="ドア開け閉め"]
 ;BGMフェードアウト
 
 #

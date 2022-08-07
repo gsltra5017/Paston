@@ -38,12 +38,12 @@
 [chara_face name="mizuka" face="r_worry_2" storage = "chara/mizuka/r_worry_2.png"]
 [chara_face name="mizuka" face="r_worry_3" storage = "chara/mizuka/r_worry_3.png"]
 
-[chara_new  name="kouki" storage = "chara/kouki/grin_1.png" width="868" height="1227" jname="黄樹"]
+[chara_new  name="kouki" storage = "chara/kouki/grin.png" width="868" height="1227" jname="黄樹"]
 [chara_face name="kouki" face="kushou" storage = "chara/kouki/kushou.png"]
 [chara_face name="kouki" face="kyoton" storage = "chara/kouki/kyoton.png"]
 [chara_face name="kouki" face="smile" storage = "chara/kouki/smile.png"]
 [chara_face name="kouki" face="worry" storage = "chara/kouki/worried.png"]
-[chara_face name="kouki" face="grin_1" storage = "chara/kouki/grin_1.png"]
+[chara_face name="kouki" face="grin" storage = "chara/kouki/grin.png"]
 
 [chara_new  name="roz" storage = "chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
 [chara_face  name="roz" face="akire" storage = "chara/roz/akire.png"]
