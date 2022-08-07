@@ -132,7 +132,8 @@
 え、ちょっと待っ…[p]
 
 [chara_hide name="kouki"]
-[playse storage="ドア開け閉め"]
+[playse storage="se/dooreopen_1"]
+[playse storage="se/dooreclose_1"]
 ;BGMフェードアウト
 
 #
