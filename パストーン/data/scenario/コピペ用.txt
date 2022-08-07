@@ -23,6 +23,10 @@
 [mask time="0"]
 [mask_off effect="fadeOutLeftBig"]
 
+;シーンジャンプ
+*start
+[scenejumpNormal sc = "1-3.ks"]
+
 ;その他
 [startoption]
 [wait time="0"]

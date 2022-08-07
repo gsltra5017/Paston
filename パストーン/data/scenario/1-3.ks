@@ -2,10 +2,14 @@
 
 [startoption]
 
-[chara_show name="kouki" top="20" ]
+[bg storage="living.png" ]
+[chara_show name="mizuka" face="grin" top="20"]
+[chara_show name="kouki" face="grin_1" top="20" ]
 
 ;[bg storage = "天井"] 
 [afterjumpmaskNormal]
+
+[wait time="500"]
 
 ;背景 リビング
 ;画面に美寿花、黄樹の立ち絵表示
@@ -30,7 +34,7 @@
 あまりにも荒唐無稽な話に、まだ夢の続きではないのか。とかそんな事を考える。[p]
 
 [voice2 vf2="mizuka/mizuka1-3_1.ogg"]
-#美寿花
+#美寿花:kyoton
 「…もしかして、聞かされてなかったの…？私てっきり…」[p]
 ;表情 きょとん
 
@@ -49,24 +53,28 @@
 とは言っても、父さんが忙しいのは事実である。[p]
 
 [voice2 vf2="mizuka/mizuka1-3_2.ogg"]
-#美寿花
+#美寿花:worry
 「大変そうですもんね…大学の教授なんて…」[p]
 ;表情 心配
 
-#黄樹
+;[voice2 vf2="kouki/kouki1-3_4.ogg"]
+#黄樹:kushou
 「本当なら自分の研究に集中したいんだけどね…これがなかなか。事前の説明がなかったのは申し訳ない。」[p]
 ;表情 苦笑い
 
 女性…美寿花の言葉にぼやきながらも、謝る父さん。[p]
 
 [voice2 vf2="mizuka/mizuka1-3_3.ogg"]
-#美寿花
+#美寿花:grin
 「あはは…通りで何か反応がおかしいと思った…。じゃあ、ちゃんと説明しないとだね。」[p]
 ;表情 笑み
 
 [voice2 vf2="mizuka/mizuka1-3_4.ogg"]
-#美寿花
-「私がここにお邪魔させてもらった理由なんだけど…ちょっと、親と喧嘩しちゃって…」[p]
+#美寿花:kushou
+「私がここにお邪魔させてもらった理由なんだけど…」[p]
+
+[voice2 vf2="mizuka/mizuka1-3_5.ogg"]
+「ちょっと、親と喧嘩しちゃって…」[p]
 ;表情 苦笑
 
 #雪翔
@@ -76,15 +84,16 @@
 まさか、それが原因で家出とか…？[p]
 …いや、そんなわけないか。この年でまさか家出なんて…[p]
 
-[voice2 vf2="mizuka/mizuka1-3_5.ogg"]
-#美寿花
+[voice2 vf2="mizuka/mizuka1-3_6.ogg"]
+#美寿花:smile_2
 「私、カッとなって家から飛び出しちゃったんだ」[p]
 ;表情 笑顔2
 
+#
 当たってるのかよ。行動力どうなってんだこの人…[p]
 
-;[voice2 vf2="kouki/kouki1-3_4.ogg"]
-#黄樹
+;[voice2 vf2="kouki/kouki1-3_5.ogg"]
+#黄樹:grin_1
 「美寿花ちゃんの母親は僕の友達でね。流石に一人だと色々と危険だし、落ち着くまで面倒を見てくれないか頼まれたわけだ。」[p]
 ;表情 笑み
 
@@ -92,7 +101,7 @@
 ≪…よく頼んだな。その母親…≫[p]
 いくら友人とはいえ、男二人の家に自分の娘を預ける方が危険ではないか？と少し思ってしまう。[p]
 
-;[voice2 vf2="kouki/kouki1-3_5.ogg"]
+;[voice2 vf2="kouki/kouki1-3_6.ogg"]
 #黄樹
 「それに、ちょうどいいと思ったんだ」[p]
 ;表情 真剣
@@ -100,7 +109,7 @@
 #雪翔
 ≪…何がだよ≫[p]
 
-;[voice2 vf2="kouki/kouki1-3_6.ogg"]
+;[voice2 vf2="kouki/kouki1-3_7.ogg"]
 #黄樹
 「お前、生活リズムめちゃくちゃだろう？」[p]
 ;表情 困り眉
@@ -110,50 +119,51 @@
 …それは…否定できない。[p]
 ロズやラズが呼びかけてくれるおかげで昼夜逆転、とまではいかないが…健康的かと言われれば首を傾げるばかりである。[p]
 
-;[voice2 vf2="kouki/kouki1-3_7.ogg"]
+;[voice2 vf2="kouki/kouki1-3_8.ogg"]
 #黄樹
 「普段料理することもないみたいだし、ちょっと色々と心配でな…僕からしたら、美寿花ちゃんがいてくれる方が安心できる。」[p]
 ;表情 笑み
 
-;[voice2 vf2="kouki/kouki1-3_8.ogg"]
+;[voice2 vf2="kouki/kouki1-3_9.ogg"]
 #黄樹
 「まぁ、その分迷惑をかけてしまうことにもなるんだが…」[p]
 ;表情 困り眉
 
-[voice2 vf2="mizuka/mizuka1-3_6.ogg"]
-#美寿花
+[voice2 vf2="mizuka/mizuka1-3_7.ogg"]
+#美寿花:yaruki
 「任せてください！家では毎日作ってましたし、全然大丈夫です！」[p]
 ;表情 やる気
 
+#
 当の本人は嫌がる様子もなく、むしろやる気に満ち溢れているように見える。[p]
 
-;[voice2 vf2="kouki/kouki1-3_9.ogg"]
+;[voice2 vf2="kouki/kouki1-3_10.ogg"]
 #黄樹
 「というわけだ。しばらくの間、仲良くやってくれ…じゃ、僕は大学に行ってくる」[p]
 ;表情 笑み2
 
-[voice2 vf2="mizuka/mizuka1-3_7.ogg"]
-#美寿花
+[voice2 vf2="mizuka/mizuka1-3_8.ogg"]
+#美寿花:think
 「あれ？確か昼からだと聞いていましたけど…」[p]
 ;表情 考え
 
-;[voice2 vf2="kouki/kouki1-3_10.ogg"]
+;[voice2 vf2="kouki/kouki1-3_11.ogg"]
 #黄樹
 「さっきの電話で早めに来てほしい、って言われてね。何やらかしたのやら…」[p]
 ;表情 苦笑い
 
-;[voice2 vf2="kouki/kouki1-3_11.ogg"]
-#黄樹
+;[voice2 vf2="kouki/kouki1-3_12.ogg"]
+#黄樹:smile
 「あ、早速だが今日の夕飯、頼めるかい？」[p]
 ;表情 笑顔
 
-[voice2 vf2="mizuka/mizuka1-3_8.ogg"]
-#美寿花
+[voice2 vf2="mizuka/mizuka1-3_9.ogg"]
+#美寿花:yaruki
 「もちろんです！お昼ご飯は…」[p]
 ;表情 やる気
 
-;[voice2 vf2="kouki/kouki1-3_12.ogg"]
-#黄樹
+;[voice2 vf2="kouki/kouki1-3_13.ogg"]
+#黄樹:grin_1
 「僕が作ったものが冷蔵庫にあるから、それを食べてもらおうかな」[p]
 ;表情 笑み
 
@@ -162,8 +172,8 @@
 二人の会話の中で、父さんの言葉が引っかかる。[p]
 （父さん…料理できたっけ？）[p]
 
-;[voice2 vf2="kouki/kouki1-3_13.ogg"]
-#黄樹
+;[voice2 vf2="kouki/kouki1-3_14.ogg"]
+#黄樹:smile
 「おっと、もうこんな時間か！じゃ、頼んだよ！」[p]
 ;表情 笑顔
 
@@ -173,8 +183,8 @@
 #雪翔
 ≪……≫[p]
 
-[voice2 vf2="mizuka/mizuka1-3_9.ogg"]
-#美寿花
+[voice2 vf2="mizuka/mizuka1-3_10.ogg"]
+#美寿花:surprise
 「…嵐みたいな人だね」[p]
 ;表情 驚き
 
@@ -191,6 +201,7 @@
 …余談だが、父さんが作った…肉じゃが？もどき。[p]
 控え目に言って子供がギャン泣きする出来に仕上がっており、それを二人で頑張って完食するのは、また別の話である。[p]
 
+[mask effect="fadeInLeftBig" ]
 
 [chara_hide_all]
 

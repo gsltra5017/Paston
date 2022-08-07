@@ -16,6 +16,7 @@
 [chara_face name="mizuka" face="konwaku" storage = "chara/mizuka/konwaku.png"]
 [chara_face name="mizuka" face="yaruki" storage = "chara/mizuka/yaruki.png"]
 [chara_face name="mizuka" face="yaruki_2" storage = "chara/mizuka/yaruki_2.png"]
+[chara_face name="mizuka" face="grin" storage = "chara/mizuka/grin.png"]
 
 ;[chara_face name="mizuka" face="焦り" storage = "chara/mizuka/焦り.png"]
 ;[chara_face name="mizuka" face="困惑" storage = "chara/mizuka/困惑.png"]
@@ -42,6 +43,7 @@
 [chara_face name="kouki" face="kyoton" storage = "chara/kouki/kyoton.png"]
 [chara_face name="kouki" face="smile" storage = "chara/kouki/smile.png"]
 [chara_face name="kouki" face="worry" storage = "chara/kouki/worried.png"]
+[chara_face name="kouki" face="grin_1" storage = "chara/kouki/grin_1.png"]
 
 [chara_new  name="roz" storage = "chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
 [chara_face  name="roz" face="akire" storage = "chara/roz/akire.png"]
