@@ -1,10 +1,15 @@
 *start
-;[bg storage = "天井"] 
+
+[startoption]
+
+[bg storage="myroom.png"] 
 [afterjumpmaskNormal]
 
+[voice1 vf1="kouki/kouki1-2_1.ogg"]
 #???
 ーーあと、食材はここにあるから、後で…[p]
 
+[voicestop]
 #
 …ん？[p]
 階下へ降りる途中、誰かの話す声が聞こえて足が止まる。[p]
@@ -22,17 +27,24 @@
 #
 盗み聞きする気はなかったが、つい耳を傾けてしまう。[p]
 
+[voice2 vf2="kouki/kouki1-2_2.ogg"]
 #???
 まぁ、他は特に変わったものはないし、多分家と同じだと思うよ。[p]
 
+[voicestop]
 #
 話してる内容はよくわからないが…何かを説明してるのか？[p]
 
+[voice2 vf2="mizuka/mizuka1-2_1.ogg"]
 #???
 なるほど、では昼や夜は私が作るってことでいいんですよね？[p]
+
+[voice2 vf2="kouki/kouki1-2_3.ogg"]
 うん、そうしてもらえると助かるかな。[r]
+
 材料費とかはまた後で払うから、心配しなくていいよ。[p]
 
+[voicestop]
 #
 ……[p]
 …待て、何かおかしい。[p]
@@ -42,15 +54,18 @@
 …いや、考えていても仕方ない。[p]
 心の中で結論にもなっていない結論を出し、俺はそうっと階段を下りる。[p]
 
-;[bg storage = "リビング"]
-[chara_show name = "kouki" top="-70"]
+[bg storage="living.png"]
+[chara_show name="kouki" top="20" storage="chara/kouki/grin.png" wait="true"]
 
+[voice2 vf2="kouki/kouki1-2_4.ogg"]
 #kouki
 お、やっと起きた。[p]
 
+[voice2 vf2="kouki/kouki1-2_5.ogg"]
 #kouki:smile
 中々降りてこなかったから体調でも悪いのかと思ったんだが…[p]
 
+[voicestop]
 #yukito
 ……[p]
 
@@ -59,12 +74,14 @@
 俺の意識は、キッチンに立つ父さんではなく…[p]
 
 ;[playse storage = "bgm"]
-[chara_hide name = "kouki"]
-[chara_show name = "mizuka" face = "smile" top="-70"]
+[chara_hide name="kouki"]
+[chara_show name="mizuka" face="smile" top="20"]
 
+[voice2 vf2="mizuka/mizuka1-2_2.ogg"]
 #mizuka
 …雪翔君、だよね？おはよう[p]
 
+[voicestop]
 #
 …この異様な光景を作り出している女性に向いていた。[p]
 年は…同じくらいだろうか？[r]
@@ -76,45 +93,57 @@
 #
 いや、そうでなければただの不審者なのだが…と、自分の考えに自分で突っ込む。[p]
 
-[chara_show name = "kouki" top="-70"]
-#kouki:kyoton
+[chara_show name="kouki" face="kyoton" top="20"]
+[voice2 vf2="kouki/kouki1-2_6.ogg"]
+#kouki
 ん？何をそこでボーっと突っ立ってるんだ？[p]
 
+[voicestop]
 #
 俺の間抜けな姿に、父さんは不思議そうに席に着くよう促す。[p]
 そりゃするだろ。なんだよこの状況。[p]
 そんな念を込めた視線を送ると、ああ、と納得したように笑う。[p]
 
+[voice2 vf2="kouki/kouki1-2_7.ogg"]
 #kouki:smile
 そうか。そういえばまだ説明してなかったな。彼女は…[p]
 
 ;[playse name = "着信音"]
 
+[voice2 vf2="kouki/kouki1-2_8.ogg"]
 #kouki:worry
 …んん？[p]
+
+[voicestop]
 
 #
 タイミング悪く、どこからか聞こえてくる着信音。[p]
 
+[voice2 vf2="kouki/kouki1-2_9.ogg"]
 #kouki
 僕か。なんだなんだ？ちゃんとやることは事前に伝えていたはずだが…[p]
 
+[voice2 vf2="kouki/kouki1-2_10.ogg"]
 #kouki:kushou
 すまん。ちょっと出てくるから、二人でゆっくりしていてくれ[p]
 
+[voicestop]
 #yukito
 え、ちょっと待っ…[p]
 
-[chara_hide name = "kouki"]
-;[playse storage = "ドア開け閉め"]
+[chara_hide name="kouki"]
+[playse storage="se/dooreopen_1"]
+[playse storage="se/dooreclose_1"]
 ;BGMフェードアウト
 
 #
 それだけ言い残して、父さんの姿は書斎の奥へと消えていく。[p]
 
+[voice2 vf2="mizuka/mizuka1-2_3.ogg"]
 #mizuka:kushou
 あ～…[p]
 
+[voicestop]
 #yukito
 ……[p]
 
@@ -125,15 +154,19 @@
 #yukito
 ……[p]
 
+[voice2 vf2="mizuka/mizuka1-2_4.ogg"]
 #mizuka:surprise
 …あ、まず自己紹介から、だよね！[p]
 
+[voicestop]
 #
 このまま沈黙が続くとまずいと感じたのか、半ば無理やり自己紹介を始める女性。[p]
 
+[voice2 vf2="mizuka/mizuka1-2_5.ogg"]
 #mizuka:smile
 …えーと、名前は[ruby text = "ときわ"]常葉[ruby text = "みずか"]美寿花。希み野大学の1年生。[p]
 
+[voicestop]
 #
 …1年ってことは…やっぱり同い年なのか。しかも同じ大学…[p]
 でも…[p]
@@ -147,9 +180,11 @@
 俺の記憶に、こんな美人はいない。[p]
 俺の思い違いか…と、思っていると[p]
 
+[voice2 vf2="mizuka/mizuka1-2_6.ogg"]
 #mizuka
 それと、訳あって今日からここで暮らすことになって…[p]
 
+[voicestop]
 #
 …[p]
 ……[p]
@@ -160,6 +195,8 @@
 #
 …その発言が、爆弾の如く俺の思考を吹っ飛ばしていった。[p]
 
-[chara_hide_all]
+[mask effect="fadeInLeftBig" ]
+
+[chara_hide_all time="0"]
 
 [scenejumpNormal sc = "1-3.ks"]
