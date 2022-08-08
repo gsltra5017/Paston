@@ -38,23 +38,24 @@
 …それが、[r]
 俺の発した、最後の言葉だった。[p]
 
-[mask time = "400"]
-[bg storage="myroom.jpg" time="0"]
-[camera zoom="1.7" x = "-70" y= "-50" time="0" wait="false"]
+[mask time="400"]
+[bg storage="myroom.png" time="0"]
+[camera zoom="1.7" x="-70" y="-50" time="0" wait="false"]
 [wait time="400"]
-[mask_off time = "400" wait = "true"]
+[mask_off time="400" wait="true"]
 
 #yukito
 ・・・・・[p]
 
 #
 今日も、いつもと同じ朝が来る。[p]
-当たり前のことだが、こうも同じだと退屈してくると感じるのは、俺だけだろうか？[p]
+当たり前のことだが、[r]
+こうも同じだと退屈してくると感じるのは、俺だけだろうか？[p]
 
 [reset_camera]
 
+[playse storage="se/cloth_1.ogg" loop="false" ]
 #yukito
-;[playse storage ="cloth.拡張子" loop = "false" ]
 …ん…[p]
 
 #
@@ -66,10 +67,12 @@
 
 #
 起き上がると、案の定シーツの上に地図が描かれている。[p]
-勿論、大学生になってお漏らしをした、というわけではない。[p]
+勿論、大学生になってお漏らしをした、というわけではなく…[r]
+全て、寝ている間にかいた汗だ。[p]
 
 #yukito
-脳に刻み込まれているとはいえ…あれを何回も見せられるのはつらいな…[p]
+脳に刻み込まれているとはいえ…[r]
+あれを何回も見せられるのはつらいな…[p]
 
 #
 あれ、というのは夢の内容のことである。[p]
@@ -89,12 +92,12 @@
 …そして、[r]
 …その事故で俺は、母親を失うことになった。[p]
 
-[bg storage="myroom.jpg" time="400" wait = "false"]
+[bg storage="myroom.png" time="400" wait="false"]
 
 #yukito
 …自殺なんかに、他人の命を巻き込むんじゃねぇよ。[p]
 
-;[playse storage ="cloth.拡張子" loop = "false" ]
+[playse storage="se/cloth_1.ogg" loop="false" ]
 #
 何度吐いたか分からない呪いを吐き捨て、俺はベッドから起きる。[p]
 
@@ -107,24 +110,28 @@
 
 [voice2 vf2="laz/Laz1-1_1.wav"]
 #laz
-いいじゃありませんかロズ。今雪翔様の学校は夏休み、むしろ早起きのほうかと…[p]
+いいじゃありませんかロズ。[r]
+今雪翔様の学校は夏休み、むしろ早起きのほうかと…[p]
 
 [voicestop]
 #yukito
 朝から騒がしいな…[p]
 
-[chara_show name="roz" top="80" left = "652" wait = "false" pos_mode = "false"]
-[chara_show name="laz" top="80" wait = "true" pos_mode = "true"]
+[chara_show name="roz" top="20" left = "505" wait = "false" pos_mode = "false"]
+[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
 
 [voice2 vf2="roz/Roz1-1_2.wav"]
 
-[kanim name = "roz" time = "150" keyframe = "pyon"] 
+[kanim name="roz" time="150" keyframe="pyon"] 
 #roz
-そうやってラズが甘やかすから、どんどんマスターの生活リズムが崩れていくんやで？[p]
+そうやってラズが甘やかすから、[r]
+どんどんマスターの生活リズムが崩れていくんやで？[p]
 
 [voice2 vf2="laz/Laz1-1_2.wav"]
 #laz
-あらあら、それならあなただってどうして深夜まで頑張って作業しているご主人様を止めませんの？元はといえばロズのせいだと言えますが[p]
+あらあら、それならあなただって[r]
+どうして深夜まで頑張って作業しているご主人様を止めませんの？[r]
+元はといえばロズのせいだと言えますが[p]
 
 [free_filter]
 [voicestop]
@@ -148,12 +155,14 @@
 [voicestop]
 
 #
-何やら決闘が始まりそうなので、これ以上うるさくならないうちに音量をゼロに。[p]
+何やら決闘が始まりそうなので、[r]
+これ以上うるさくならないうちに音量をゼロに。[p]
 
 #yukito
 おしゃべりAI達め…[p]
 
-;[playse storage ="dooropen.拡張子" loop = "false" ]
+[playse storage="se/dooropen_1.ogg" loop="false" ]
+
 #
 どうしようもない、と言った風に俺はドアを開け、階下へ降りる。[p]
 
