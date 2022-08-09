@@ -98,8 +98,8 @@
 
 ;一枚絵 （美寿花が雪翔の肩に手を置いて、肩越しにPC画面を覗き込む構図）
 
-[layopt layer="1" visible="true"]
-[image layer="1" storage="1-4/1-4きょとん.png"]
+;[layopt layer="2" visible="true"]
+;[image layer="2" storage="1-4/1-4きょとん.png"]
 
 [l]
 
