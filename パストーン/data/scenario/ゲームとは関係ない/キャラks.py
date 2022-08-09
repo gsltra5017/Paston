@@ -1,7 +1,11 @@
 import os
 
 chara_list = ["mizuka","roz","laz","kouki","ayana"]
+
+#使い方はここのchara_list[]のインデックスを変えるだけ
+#chara変数に表情追加したいキャラの名前を入れて実行するとターミナルにすべての表情が出力される
 chara = chara_list[2]
+
 base_filename = []
 #[chara_face name="" face="" storage = "chara/mizuka/.png"]
 file_path = r"C:\Users\souta\Documents\GitHub\Paston\パストーン\data\fgimage\chara" + r"\\" + str(chara)
