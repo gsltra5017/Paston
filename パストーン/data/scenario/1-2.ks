@@ -155,7 +155,7 @@
 ……[p]
 
 [voice2 vf2="mizuka/mizuka1-2_4.ogg"]
-#mizuka:surprise
+#mizuka:odoroki
 …あ、まず自己紹介から、だよね！[p]
 
 [voicestop]

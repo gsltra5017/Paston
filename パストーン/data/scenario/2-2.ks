@@ -72,7 +72,7 @@
 ≪ん？≫[p]
 
 [voice2 vf2="mizuka/mizuka2-2_5.ogg"]
-#美寿花:surprise
+#美寿花:odoroki
 「え？」[p]
 ;表情 surprise
 

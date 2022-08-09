@@ -19,8 +19,8 @@
 
 [voicestop]
 
-;表情 関心→r_think2
-[chara_show name="mizuka" top="20" storage="chara/mizuka/r_think_2.png" wait="true"]
+;表情 関心→r_kangae2
+[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
 #美寿花
 「‥‥‥」[p]
 
@@ -31,9 +31,9 @@
 部屋に、キーボードとマウスのクリック音が響く。[p]
 …というか、そんな小さな音が目立つぐらい、静かである。[p]
 
-#美寿花:r_think_2
+#美寿花:r_kangae_2
 「‥‥‥‥‥‥」[p]
-;表情 関心→r_think_2
+;表情 関心→r_kangae_2
 ;素材きたら
 
 #雪翔
@@ -73,7 +73,7 @@
 [voice2 vf2="se/ability_on.ogg"]
 
 [voice2 vf2="mizuka/mizuka2-1_2.ogg"]
-#美寿花:r_think
+#美寿花:r_kangae
 「さっきの部分、結構時間かかってたね。どうしたの？」[p]
 ;表情 考え
 
@@ -101,7 +101,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_5.ogg"]
-#美寿花:r_smile
+#美寿花:r_egao
 「結構面白いね。人が何かしてるのを見るのって。」[p]
 ;表情 笑み
 
@@ -137,7 +137,7 @@
 少し迷った結果、冷蔵庫を指さす。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_7.ogg"]
-#美寿花:r_smile_2
+#美寿花:r_egao_2
 「ああ、休憩ね。了解了解。」[p]
 ;表情 慌て　
 
@@ -147,7 +147,7 @@
 改めて、喋れないことの不便さが浮き彫りになる。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_8.ogg"]
-#美寿花:r_worry
+#美寿花:r_shinpai
 「…そういえばさ、君って学校どうしてるの？」[p]
 ;表情 心配
 
@@ -161,7 +161,7 @@
 ;表情 きょとん2
 
 [voice2 vf2="mizuka/mizuka2-1_9.ogg"]
-#美寿花:r_think_2
+#美寿花:r_kangae_2
 「大学だよ大学。声が出ないんじゃ、色々と大変じゃないかな～って」[p]
 ;表情 考え2 
 
@@ -197,7 +197,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_11.ogg"]
-#美寿花:r_surprise
+#美寿花:r_odoroki
 「…ずっと？」[p]
 ;表情 驚き
 
@@ -250,7 +250,7 @@
 「それにめんどくさいし。」[p]
 
 [voice2 vf2="mizuka/mizuka2-1_16.ogg"]
-#美寿花:r_think
+#美寿花:r_kangae
 「それはどうかな？多分、雪翔君の目標の一歩にはなると思うよ？」[p]
 ;表情 考え
 
@@ -259,12 +259,12 @@
 「…というと？」[p]
 
 [voice2 vf2="mizuka/mizuka2-1_17.ogg"]
-#美寿花:r_surprise
+#美寿花:r_odoroki
 「考えたんだけどさ」[p]
 ;表情 驚き2 あとで２にする
 
 [voice2 vf2="mizuka/mizuka2-1_18.ogg"]
-#美寿花:r_surprise
+#美寿花:r_odoroki
 「雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
 ;表情 驚き2 あとで２にする
 
@@ -278,7 +278,7 @@
 しかも、頻度は3日に一度ぐらいなわけで…[p]
 
 [voice2 vf2="mizuka/mizuka2-1_19.ogg"]
-#美寿花:seriously
+#美寿花:shinken
 「前までは、人に何か伝えることが大変だったかもしれないけど…今は私っていう『声』もいる。」[p]
 ;表情 真剣
 
@@ -290,7 +290,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_21.ogg"]
-#美寿花:r_grin
+#美寿花:r_bishou
 「それでも、行ってみない？学校。」[p]
 ;表情 優しい笑み
 
@@ -299,13 +299,13 @@
 「…って言われてもなぁ…」[p]
 
 [voice2 vf2="mizuka/mizuka2-1_22.ogg"]
-#美寿花:r_smile
+#美寿花:r_egao
 「まぁ、考えといてよ。といっても、学校明日からだけどね。」[p]
 ;表情　笑顔
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_23.ogg"]
-#美寿花:r_surprise
+#美寿花:r_odoroki
 「…ってもうこんな時間！？作業ちょっとだけ見たら買い物しようと思ってたのに…」[p]
 ;表情 驚き
 

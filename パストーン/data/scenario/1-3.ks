@@ -143,7 +143,7 @@
 ;表情 笑み2
 
 [voice2 vf2="mizuka/mizuka1-3_8.ogg"]
-#美寿花:think
+#美寿花:kangae
 「あれ？確か昼からだと聞いていましたけど…」[p]
 ;表情 考え
 
@@ -184,7 +184,7 @@
 ≪……≫[p]
 
 [voice2 vf2="mizuka/mizuka1-3_10.ogg"]
-#美寿花:surprise
+#美寿花:odoroki
 「…嵐みたいな人だね」[p]
 ;表情 驚き
 
