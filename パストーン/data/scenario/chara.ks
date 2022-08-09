@@ -1,8 +1,9 @@
 [chara_new  name="otoko" storage="chara/yukito/dansei_15.png" jname="男"  ]
-
 [chara_new  name="yukito" storage="chara/yukito/dansei_15.png" jname="雪翔"  ]
-
 [chara_new  name="mizuka" storage="chara/mizuka/kushou.png" width="868" height="1227" jname="美寿花"]
+[chara_new  name="kouki" storage="chara/kouki/bishou.png" width="868" height="1227" jname="黄樹"]
+[chara_new  name="roz" storage="chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
+[chara_new  name="laz" storage="chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
 
 [chara_face name="mizuka" face="akire" storage="chara/mizuka/akire.png"]
 [chara_face name="mizuka" face="bishou" storage="chara/mizuka/bishou.png"]
@@ -60,18 +61,6 @@
 [chara_face name="mizuka" face="yaruki_2" storage="chara/mizuka/yaruki_2.png"]
 [chara_face name="mizuka" face="照れ目逸らし" storage="chara/mizuka/照れ目逸らし.png"]
 
-[chara_new  name="kouki" storage="chara/kouki/bishou.png" width="868" height="1227" jname="黄樹"]
-[chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
-[chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
-[chara_face name="kouki" face="egao_2" storage="chara/kouki/egao_2.png"]
-[chara_face name="kouki" face="kushou" storage="chara/kouki/kushou.png"]
-[chara_face name="kouki" face="kyoton" storage="chara/kouki/kyoton.png"]
-[chara_face name="kouki" face="lookaway" storage="chara/kouki/lookaway.png"]
-[chara_face name="kouki" face="normal" storage="chara/kouki/normal.png"]
-[chara_face name="kouki" face="shinpai" storage="chara/kouki/shinpai.png"]
-[chara_face name="kouki" face="straight" storage="chara/kouki/straight.png"]
-
-[chara_new  name="roz" storage="chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
 [chara_face name="roz" face="akire" storage="chara/roz/akire.png"]
 [chara_face name="roz" face="batsu" storage="chara/roz/batsu.png"]
 [chara_face name="roz" face="confident" storage="chara/roz/confident.png"]
@@ -88,7 +77,6 @@
 [chara_face name="roz" face="taunt" storage="chara/roz/taunt.png"]
 [chara_face name="roz" face="x" storage="chara/roz/x.png"]
 
-[chara_new  name="laz" storage="chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
 [chara_face name="laz" face="bow" storage="chara/laz/bow.png"]
 [chara_face name="laz" face="close" storage="chara/laz/close.png"]
 [chara_face name="laz" face="confident" storage="chara/laz/confident.png"]
@@ -102,8 +90,19 @@
 [chara_face name="laz" face="shinpai_2" storage="chara/laz/shinpai_2.png"]
 [chara_face name="laz" face="×" storage="chara/laz/×.png"]
 
+[chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
+[chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
+[chara_face name="kouki" face="egao_2" storage="chara/kouki/egao_2.png"]
+[chara_face name="kouki" face="kushou" storage="chara/kouki/kushou.png"]
+[chara_face name="kouki" face="kyoton" storage="chara/kouki/kyoton.png"]
+[chara_face name="kouki" face="lookaway" storage="chara/kouki/lookaway.png"]
+[chara_face name="kouki" face="normal" storage="chara/kouki/normal.png"]
+[chara_face name="kouki" face="shinpai" storage="chara/kouki/shinpai.png"]
+[chara_face name="kouki" face="straight" storage="chara/kouki/straight.png"]
 
-
-
-
-
+[chara_face name="ayana" face="akire" storage="chara/ayana/akire.png"]
+[chara_face name="ayana" face="fuman" storage="chara/ayana/fuman.png"]
+[chara_face name="ayana" face="konwaku" storage="chara/ayana/konwaku.png"]
+[chara_face name="ayana" face="kushou" storage="chara/ayana/kushou.png"]
+[chara_face name="ayana" face="kushoumesorashi" storage="chara/ayana/kushoumesorashi.png"]
+[chara_face name="ayana" face="normal" storage="chara/ayana/normal.png"]
