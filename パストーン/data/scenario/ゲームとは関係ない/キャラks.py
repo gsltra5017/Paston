@@ -2,6 +2,7 @@ import os
 
 chara_list = ["mizuka","roz","laz","kouki","ayana"]
 
+#25行目のpathはそれぞれ端末によって書き換える
 #使い方はここのchara_list[]のインデックスを変えるだけ
 #chara変数に表情追加したいキャラの名前を入れて実行するとターミナルにすべての表情が出力される
 
