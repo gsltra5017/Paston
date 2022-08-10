@@ -172,8 +172,9 @@
 ただ、悔しいのが俺の表情に出てて、それに反応して言った言葉なんだと…[p]
 …でも、今のは…[p]
 
-[free name="img_01" layer="0"]
+
 [image visible="true" name="img_02" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4笑顔.png" time="1000" ]
+[free name="img_01" layer="0"]
 [voice2 vf2="mizuka/mizuka1-4_10.ogg"]
 #美寿花
 「やっと聞けたね。君の声。」[p]
