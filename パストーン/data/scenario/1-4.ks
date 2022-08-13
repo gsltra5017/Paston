@@ -97,17 +97,19 @@
 [voice2 vf2="mizuka/mizuka1-4_5.ogg"]
 #美寿花:r_egao
 「やった！じゃあちょっと失礼しまーす」[p]
-;表情　smile
+;表情　egao
 
 [voicestop]
 ;一枚絵 （美寿花が雪翔の肩に手を置いて、肩越しにPC画面を覗き込む構図）
 [layopt layer="0" visible="true"]
-[image name="img_01" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4.png" time="1000"]
+[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4.png" time="1000"]
 
 #
 そう言って、俺のすぐ後ろまで美寿花が近づいてくる。[p]
 それと同時に、俺の肩にそっと手が置かれた。[p]
 ;能力発動音
+[voice2 vf2="se/ability_on.ogg"]
+
 
 #雪翔
 ≪ん…？≫[p]
@@ -116,10 +118,14 @@
 なんだ、今の…？[p]
 ほんの少しの違和感。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4きょとん.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_6.ogg"]
 #美寿花
 「へぇ、こんな感じで作ってるんだ…」[p]
-;表情　関心
+;表情　きょとん
 
 [voicestop]
 #
@@ -130,7 +136,7 @@
 [voice2 vf2="mizuka/mizuka1-4_7.ogg"]
 #美寿花
 「…あれ、もしかしてこれ…歌詞付き？」[p]
-;表情　kangae
+;表情　きょとん
 
 [voicestop]
 #
@@ -142,7 +148,7 @@
 [voice2 vf2="mizuka/mizuka1-4_8.ogg"]
 #美寿花
 「これも自分で書いたの？すごい…」[p]
-;表情　関心
+;表情　きょとん
 
 #雪翔
 ≪……≫[p]
@@ -159,10 +165,14 @@
 歌は、声があって初めて成立するものだ。[p]
 …でも、俺には…[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_9.ogg"]
 #美寿花
 「意味ないことなんてないよ。この歌詞が、少年君の『声』なんでしょ？」[p]
-;表情　
+;表情　微笑
 
 [voicestop]
 #
@@ -173,8 +183,10 @@
 …でも、今のは…[p]
 
 
-[image visible="true" name="img_02" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4笑顔.png" time="1000" ]
-[free name="img_01" layer="0"]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4笑顔.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_10.ogg"]
 #美寿花
 「やっと聞けたね。君の声。」[p]
@@ -184,10 +196,14 @@
 #雪翔
 ≪…なん、で…？≫[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4悲.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_11.ogg"]
 #美寿花
 「…ごめんね、雪翔君。私、薄谷教授から聞いてたんだ。」[p]
-;表情　worry
+;表情　悲しみ
 
 [image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4悲.png" time="1000" ]
 [voice2 vf2="mizuka/mizuka1-4_12.ogg"]
@@ -205,7 +221,10 @@
 …だから、俺が喋ろうとしても、それが人に届くことはない。[p]
 …そのはず、なのに。[p]
 
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4笑顔.png" time="1000" ]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4真顔.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_13.ogg"]
 #美寿花
 「私はね、相手が何を伝えようとしているか、それが分かるんだ。」[p]
@@ -226,7 +245,10 @@
 #美寿花
 「それに、相手に触れてないと効果はないしね。」[p]
 
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4悲.png" time="1000" ]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4悲.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_16.ogg"]
 #美寿花
 「…だから、大抵の人には使ってもあまり意味はないんだけど…」[p]
@@ -241,7 +263,10 @@
 #雪翔
 ≪…俺、の…≫[p]
 
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4きょとん.png" time="1000" ]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4きょとん.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_18.ogg"]
 #美寿花
 「少年君はさ、夢とかある？」[p]
@@ -257,16 +282,20 @@
 #雪翔
 ≪…作るだけじゃなくて、自分で、歌ってみたい。≫[p]
 
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4笑顔.png" time="1000" ]
-[voice2 vf2="mizuka/mizuka1-4_20.ogg"]
-#美寿花
-「いいじゃん！」[p]
-;表情　smile
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4笑顔.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 
 [voice2 vf2="mizuka/mizuka1-4_19.ogg"]
 #美寿花
+「いいじゃん！」[p]
+;表情　egao
+
+[voice2 vf2="mizuka/mizuka1-4_20.ogg"]
+#美寿花
 「あ、その時は私も一緒に歌ってもいい？さっきの歌詞、すっごいよかったし。」[p]
-;表情　smile_2
+;表情　egao_2
 
 [voicestop]
 #雪翔
@@ -284,7 +313,10 @@
 #雪翔
 ≪…あ、ちょっといいか？≫[p]
 
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4きょとん.png" time="1000" ]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4きょとん.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_22.ogg"]
 #美寿花
 「ん？」[p]
@@ -302,9 +334,14 @@
 #
 それはまぁ、分かる。俺も美寿花とは真逆の意味で同い年とは思えない。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4笑顔.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_24.ogg"]
 #美寿花
 「…じゃあ、これからしばらくの間『君の声』として…よろしく、雪翔君。」[p]
+;表情　笑顔
 
 [voicestop]
 #雪翔
@@ -315,7 +352,13 @@
 …それでも、悪い気はしなかった。[p]
 ;ここまで一枚絵
 
-背景 黒
+[chara_hide_all time=1000 wait="false"]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
+
+;背景 黒
 [voice2 vf2="roz/roz1-4_1.ogg"]
 #ロズ
 「なぁ、ラズ」[p]

@@ -1,14 +1,13 @@
 *start
 [startoption]
 
-[mask time="0"]
-
 ;↓暗転中に画像など準備
+[bg storage="room.jpg" time="0"]
 [chara_show name="mizuka" top="20" storage="chara/mizuka/kyoton.png" time="0" wait="true"]
 ;背景 空き教室
-[bg storage="room.jpg" time="0"]
 
-[mask_off effect="fadeOutLeftBig"]
+
+[afterjumpmaskNormal]
 
 [voice1 vf1="mizuka/mizuka2-4_1.ogg"]
 #美寿花
@@ -33,7 +32,7 @@
 ≪…へ？何？≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_3.ogg"]
-#美寿花
+#美寿花:fuman
 「いや、きょとんじゃなくて、あるでしょ？食べる前にする挨拶」[p]
 ;表情 不満
 [voicestop]
@@ -48,9 +47,9 @@
 ≪じゃあ…いただきます≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_4.ogg"]
-#美寿花:smile
+#美寿花:egao
 「どうぞどうぞ！」[p]
-;表情 smile
+;表情 egao
 [voicestop]
 
 早速、弁当の蓋を開ける。[p]
@@ -72,7 +71,7 @@
 #美寿花:kyoton
 「…雪翔君？食べないの？」[p]
 ;表情 kyoton
-;表情　辻　worry_2
+;表情　辻　shinpai_2
 [voicestop]
 
 #雪翔
@@ -88,18 +87,18 @@
 そう言って、おかずを口にする。[p]
 
 [voice2 vf2="mizuka/mizuka2-4_6.ogg"]
-#美寿花
+#美寿花:shinpai
 「…どうかな。味見したから大丈夫なはずだけど…多分」[p]
-;表情 worry
+;表情 shinpai
 [voicestop]
 
 #雪翔
 ≪…うん。そんな心配しなくてもめっちゃうまい。逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_7.ogg"]
-#美寿花:smile_2
+#美寿花:egao_2
 「おお、めっちゃ頷いてる…よかったぁ…あ、私も食べるね！」[p]
-;表情 smile_2
+;表情 egao_2
 [voicestop]
 
 #
@@ -129,9 +128,9 @@
 そう文字を打つと、ラズは少し困った様子で話を続ける。[p]
 
 [voice2 vf2="laz/Laz2-4_2.ogg"]
-#ラズ:worry
+#ラズ:shinpai
 「外なのですが、雨が降り出してまして…」[p]
-;表情 worry
+;表情 shinpai
 [voicestop]
 
 #雪翔
@@ -141,14 +140,14 @@
 窓を見ると、空は雲に覆われており、確かに雨が降ってきているのが分かる。[p]
 
 [voice2 vf2="roz/Roz2-4_1.ogg"]
-#ロズ
+#ロズ:komari
 「天気予報では今日は晴れやって言っとったんやけどな…」[p]
 ;表情　困り
 
 [voice2 vf2="roz/Roz2-4_2.ogg"]
-#ロズ
+#ロズ:shinpai
 「マスター、傘とか持ってきたりは…」[p]
-;表情　worry
+;表情　shinpai
 
 [voicestop]
 #雪翔
@@ -158,9 +157,9 @@
 もし、帰る時までに止まなかったらちょっと大変だな…[p]
 
 [voice2 vf2="laz/Laz2-4_3.ogg"]
-#ラズ
+#ラズ:shinpai_2
 「いかがなさいますか？黄樹様に連絡いたしましょうか？」[p]
-;表情　worry_2
+;表情　shinpai_2
 
 [voicestop]
 #雪翔
@@ -182,7 +181,7 @@
 #
 そう聞こうと思って、彼女の方を見る。[p]
 
-#美寿花
+#美寿花:onemu
 「‥‥‥」[p]
 ;表情 おねむ
 
@@ -190,7 +189,7 @@
 ≪…美寿花？≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_8.ogg"]
-#美寿花
+#美寿花:kushou
 「…ん？あ、傘の話…だよね？」[p]
 ;表情 （汗が滲んだ笑顔）
 
@@ -200,7 +199,7 @@
 弁当を食べる前までは、普通だったはずだが…[p]
 
 [voice2 vf2="mizuka/mizuka2-4_9.ogg"]
-#美寿花
+#美寿花:kushou
 「いつも折り畳みの傘を持ち歩いてるから…二人ぐらいなら、入ると思う」[p]
 ;表情　kushou?
 
@@ -230,7 +229,7 @@
 ≪…あの…何で寄りかかって…≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_10.ogg"]
-#美寿花
+#美寿花:tsukare
 「ごめん…しばらく、こうさせて…ちょっと体がだるくて…」[p]
 ;表情 疲れた顔
 
@@ -247,7 +246,7 @@
 今美寿花が俺に触れているのは手じゃなくて頭だが…多分通じるだろうと思い、聞いてみる。[p]
 
 [voice2 vf2="mizuka/mizuka2-4_11.ogg"]
-#美寿花
+#美寿花:fushime
 「…うん。雨が…というか、曇りの時も...だね。小さい頃からすぐこうなっちゃうんだ…」[p]
 ;表情 目を伏せた顔
 
@@ -263,7 +262,7 @@
 ≪…やっぱり、雨が止むまでずっとこのままなのか？≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_12.ogg"]
-#美寿花
+#美寿花:neru
 「‥‥‥すぅ…」[p]
 ;表情 寝てる顔
 
@@ -275,7 +274,7 @@
 ≪…あの…美寿花？≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_13.ogg"]
-#美寿花
+#美寿花:neru
 「…すぅ…すぅ…」[p]
 ;表情 寝てる顔
 
@@ -357,3 +356,9 @@
 
 ;一枚絵 美寿花アップ
 ;一枚絵 美寿花アップ（顔赤らめる）
+
+[mask effect="fadeInLeftBig" ]
+
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc="2-4.ks"]

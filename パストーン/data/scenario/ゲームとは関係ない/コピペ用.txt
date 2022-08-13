@@ -5,6 +5,7 @@
 [chara_show name="ayana" top="20" storage="chara/ayana/" wait="true"]
 [chara_show name="roz" top="20" storage="chara/roz/" wait="true"]
 [chara_show name="laz" top="20" storage="chara/laz/" wait="true"]
+[chara_hide_all]
 
 ;サウンド系
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]

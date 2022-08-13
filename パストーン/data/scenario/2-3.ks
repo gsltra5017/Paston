@@ -3,14 +3,16 @@
 
 ;背景 講義室
 [bg storage="room.jpg" time="0"]
+[chara_show name="mizuka" top="-70" storage="chara/mizuka/kushou.png" time="0" wait="true"]
 
+[afterjumpmaskNormal]
 #雪翔
 ≪…危なかった…≫[p]
 
 #
 机に突っ伏しながら、俺はため息をつく。[p]
 
-[chara_show name="mizuka" top="-70" storage="chara/mizuka/kushou.png" time="100" wait="true"]
+
 [voice1 vf1="mizuka/mizuka2-3_1.ogg"]
 #美寿花:kushou
 「ほんとに危なかったね…講義室入った時点で3分前だったし…」[p]
@@ -21,9 +23,9 @@
 苦笑いを浮かべながら、美寿花は鞄の中から講義用のノートを取り出す。[p]
 
 [voice2 vf2="mizuka/mizuka2-3_2.ogg"]
-#美寿花:worry_2
+#美寿花:shinpai_2
 「…というか、雪翔君当然のようにここにいるけど、1時限目ここなの？」[p]
-;表情 worry_2
+;表情 shinpai_2
 
 [voicestop]
 #雪翔
@@ -59,14 +61,14 @@
 時間割表を一瞥し、そのまま彼女に見せる。[p]
 
 [voice2 vf2="mizuka/mizuka2-3_5.ogg"]
-#美寿花:smile
+#美寿花:egao
 「…お、一緒だ！よかった～」[p]
-;表情 smile
+;表情 egao
 
 [voice2 vf2="mizuka/mizuka2-3_6.ogg"]
-#美寿花:smile_2
+#美寿花:egao_2
 「ちょっと夢だったんだよねぇ〜。お昼に自分のお弁当食べてもらえるの」[p]
-;表情 smile_2
+;表情 egao_2
 
 [voicestop]
 #
@@ -127,9 +129,9 @@
 …誰だ…？[p]
 
 [voice2 vf2="mizuka/mizuka2-3_7.ogg"]
-#美寿花:smile_2
+#美寿花:egao_2
 「‥‥‥」[p]
-;表情　smile_2
+;表情　egao_2
 ;効果音 頬をつねる音
 
 ;背景 講義室
@@ -148,7 +150,7 @@
 [voice2 vf2="mizuka/mizuka2-3_8.ogg"]
 #美寿花
 「気持ちいいお目覚めだね、少年君？」[p]
-;表情 mad_smile（引きつった笑み）
+;表情 mad_egao（引きつった笑み）
 
 [voicestop]
 #雪翔
@@ -194,3 +196,9 @@
 ;背景 黒
 …[p]
 …そして、次に意識が戻ったのは1時限目終了後だったのは言うまでもない。[p]
+
+[mask effect="fadeInLeftBig" ]
+
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc="2-4.ks"]

@@ -60,9 +60,10 @@
 [voice2 vf2="kouki/kouki1-2_4.ogg"]
 #kouki
 お、やっと起きた。[p]
+;表情　微笑
 
 [voice2 vf2="kouki/kouki1-2_5.ogg"]
-#kouki:smile
+#kouki:egao
 中々降りてこなかったから体調でも悪いのかと思ったんだが…[p]
 
 [voicestop]
@@ -75,7 +76,7 @@
 
 ;[playse storage = "bgm"]
 [chara_hide name="kouki"]
-[chara_show name="mizuka" face="smile" top="20"]
+[chara_show name="mizuka" face="egao" top="20"]
 
 [voice2 vf2="mizuka/mizuka1-2_2.ogg"]
 #mizuka
@@ -97,6 +98,7 @@
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki
 ん？何をそこでボーっと突っ立ってるんだ？[p]
+;表情　きょとん
 
 [voicestop]
 #
@@ -105,13 +107,13 @@
 そんな念を込めた視線を送ると、ああ、と納得したように笑う。[p]
 
 [voice2 vf2="kouki/kouki1-2_7.ogg"]
-#kouki:smile
+#kouki:egao
 そうか。そういえばまだ説明してなかったな。彼女は…[p]
 
 ;[playse name = "着信音"]
 
 [voice2 vf2="kouki/kouki1-2_8.ogg"]
-#kouki:worry
+#kouki:shinpai
 …んん？[p]
 
 [voicestop]
@@ -163,7 +165,7 @@
 このまま沈黙が続くとまずいと感じたのか、半ば無理やり自己紹介を始める女性。[p]
 
 [voice2 vf2="mizuka/mizuka1-2_5.ogg"]
-#mizuka:smile
+#mizuka:egao
 …えーと、名前は[ruby text = "ときわ"]常葉[ruby text = "みずか"]美寿花。希み野大学の1年生。[p]
 
 [voicestop]

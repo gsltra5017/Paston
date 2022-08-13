@@ -4,7 +4,9 @@
 ;背景 空 夕方
 [bg storage="road_evening.png" time="0"]
 
-[chara_show name="mizuka" top="20" storage="chara/mizuka/smile.png" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/egao.png" wait="true"]
+
+[afterjumpmaskNormal]
 ;[voice1 vf1="mizuka/mizuka2-5_1.ogg"]
 #美寿花
 「ほんとうにごめん…」[p]
@@ -52,9 +54,9 @@
 …なんか俺、気づかない内にやらかしたのだろうか…？[p]
 
 ;[voice2 vf2="mizuka/mizuka2-5_6.ogg"]
-#美寿花:worry_2
+#美寿花:shinpai_2
 「あの…雪翔君、今日って時間ある？」[p]
-;表情 worry_2
+;表情 shinpai_2
 
 #雪翔
 ≪…？ま、まぁあるけど…≫[p]
@@ -79,9 +81,9 @@
 ≪一緒にって…もう体調は大丈夫なのか？≫[p]
 
 ;[voice2 vf2="mizuka/mizuka2-5_8.ogg"]
-#美寿花:smile_2
+#美寿花:egao_2
 「うん。全然問題なし！だから遠慮しなくてもいいよ？」[p]
-;表情 smile_2
+;表情 egao_2
 
 #雪翔
 ≪いや遠慮してるわけじゃないけど…別に行きたいところって言われてもなぁ…≫[p]
@@ -92,9 +94,9 @@
 ;表情 grin
 
 ;[voice2 vf2="mizuka/mizuka2-5_10.ogg"]
-#美寿花:smile
+#美寿花:egao
 「でも、今は私もいるし…せっかくなら…ね？」[p]
-;表情 smile
+;表情 egao
 
 …まぁ、美寿花の言ってる事も一理あるが…これといって思いつく場所はない。[p]
 
@@ -105,9 +107,9 @@
 参考がてら聞いてみると、美寿花は首を捻る。[p]
 
 ;[voice2 vf2="mizuka/mizuka2-5_11.ogg"]
-#美寿花:think
+#美寿花:kangae
 「私？私は〜…確かに、すぐ思いつかないねこれ。」[p]
-;表情 think
+;表情 kangae
 
 ;[voice2 vf2="mizuka/mizuka2-5_12.ogg"]
 #美寿花
@@ -147,9 +149,9 @@
 ;表情 straight
 
 ;[voice2 vf2="mizuka/mizuka2-5_16.ogg"]
-#美寿花:smile_2
+#美寿花:egao_2
 「じゃあそうしよう！ちょうどいいし！」[p]
-;表情 smile_2
+;表情 egao_2
 
 #雪翔
 ≪…ん？ちょうどいい？≫[p]
@@ -163,9 +165,9 @@
 そこで、美寿花は俺の肩から手を離し携帯を取り出す。[p]
 
 ;[voice2 vf2="mizuka/mizuka2-5_18.ogg"]
-#美寿花:worry
+#美寿花:shinpai
 「…出るかなぁ…」[p]
-;表情 worry
+;表情 shinpai
 
 #
 そう言いながら、携帯を操作し耳に当てた。[p]
@@ -176,9 +178,9 @@
 ;[bg storage="karaoke.png" time=0]
 
 ;[voice2 vf2="mizuka/mizuka2-5_19.ogg"]
-#美寿花:smile
+#美寿花:egao
 「何だかんだで私も初めてなんだよねぇ～カラオケ！」[p]
-;表情　smile
+;表情　egao
 
 ;カラオケ店内
 #
@@ -216,13 +218,13 @@
 ;表情　ジト目
 
 ;[voice2 vf2="mizuka/mizuka2-5_22.ogg"]
-#美寿花:smile_2
+#美寿花:egao_2
 「…って、この子の事、まだ紹介してなかったよね。」[p]
-;表情　smile_2
+;表情　egao_2
 
-#美寿花:smile
+#美寿花:egao
 「常葉文永。私の妹だよ」[p]
-;表情　smile
+;表情　egao
 
 #雪翔
 ≪…はぁ、妹さん…≫[p]
@@ -270,7 +272,7 @@
 ;[voice2 vf2="mizuka/mizuka2-5_24.ogg"]
 #美寿花
 「そうだよ？というか、そのために呼んだんだから」[p]
-;表情　smile
+;表情　egao
 
 #文永
 「いや、初対面の人と歌うのは流石に抵抗あるんだけど…？」[p]

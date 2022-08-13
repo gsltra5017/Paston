@@ -117,7 +117,7 @@
 #yukito
 朝から騒がしいな…[p]
 
-[chara_show name="roz" top="20" left = "505" wait = "false" pos_mode = "false"]
+[chara_show name="roz" top="20" face="fuman" left = "505" wait = "false" pos_mode = "false"]
 [chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
 
 [voice2 vf2="roz/Roz1-1_2.wav"]
@@ -148,7 +148,7 @@
 
 [kanim name = "roz" time = "300" keyframe = "pyonpyon"] 
 [voice2 vf2="roz/Roz1-1_4.wav"]
-#roz
+#roz:okori
 当たりまえやろ毎回引き分けなんやから！！とにかく、覚悟…[p]
 
 [chara_hide_all time="0" wait="true"]

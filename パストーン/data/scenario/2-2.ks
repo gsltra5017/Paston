@@ -4,8 +4,11 @@
 ;背景 青空
 [bg storage="daysky.png" time="0"]
 
+
+[afterjumpmaskNormal]
+
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
-#美寿花:worry
+#美寿花
 「…本当に大丈夫なの？何か、今すぐにでも倒れそうだけど…」[p]
 ;表情　心配
 
@@ -23,7 +26,7 @@
 ;[stop_keyconfig]
 ;背景 道路
 [bg storage="city.png" time="1000"]
-[chara_show name="mizuka" top="20" storage="chara/mizuka/smile.png" wait="false"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/egao.png" wait="false"]
 
 [voice2 vf2="mizuka/mizuka2-2_2.ogg"]
 #美寿花
@@ -50,9 +53,9 @@
 9月1日、まだ残暑厳しい季節にいきなり大学まで歩けと言われても、無茶というものである。[p]
 
 [voice2 vf2="mizuka/mizuka2-2_4.ogg"]
-#美寿花:worry
+#美寿花:shinpai
 「…誘うにしても、もうちょっと段階踏んだ方がよかったね…やっぱり戻る？まだ時間に余裕あるし…」[p]
-;表情 worry
+;表情 shinpai
 
 [voicestop]
 #雪翔
@@ -137,11 +140,11 @@
 「ああ、そういうことですか。私は…」[p]
 ;表情 kyoton
 
-[chara_show name="roz" top="-70" storage="chara/roz/angry.png" wait="true"]
+[chara_show name="roz" top="-70" storage="chara/roz/okori.png" wait="true"]
 [voice2 vf2="roz/Roz2-2_1.ogg"]
-#ロズ:angry
+#ロズ:okori
 「あっずるっ！！二人で驚かせようって話やったやん！！何で一人で話してんの！？」[p]
-;表情　angry
+;表情　okori
 
 #
 …せっかくの助け船が、もう一人の登場によって撃ち落される。[p]
@@ -170,9 +173,9 @@
 ;表情 close
 
 [voice2 vf2="roz/Roz2-2_3.ogg"]
-#ロズ:angry_3
+#ロズ:okori_3
 「はぁ～？」[p]
-;表情 angry_3　
+;表情 okori_3　
 
 [voice2 vf2="mizuka/mizuka2-2_10.ogg"]
 #美寿花:konwaku
@@ -197,9 +200,9 @@
 ≪お前達、また一日中ミュートでもいいんだぞ？≫[p]
 
 [voice2 vf2="laz/Laz2-2_10.ogg"]
-#ラズ:smile
+#ラズ:egao
 「あらいやですわ。喧嘩なんてはしたない真似するはずないでしょう？ねぇ、ロズ」[p]
-;表情 smile
+;表情 egao
 
 [voice2 vf2="roz/Roz2-2_5.ogg"]
 #ロズ
@@ -255,9 +258,9 @@
 ;表情 kushou
 
 [voice2 vf2="mizuka/mizuka2-2_15.ogg"]
-#美寿花:think
+#美寿花:kangae
 「にしても、AIかぁ…私初めて見た」[p]
-;表情 think
+;表情 kangae
 
 #雪翔
 ≪まぁまだ普及され始めたばかりだからね…≫[p]
@@ -274,9 +277,9 @@
 ≪それは…分からん。多分何かのアニメの影響だと思うけど…≫[p]
 
 [voice2 vf2="laz/Laz2-2_11.ogg"]
-#ラズ:worry
+#ラズ:shinpai
 「そういえば、ご主人様達は今登校中では？私たちが出てきてから随分時間が経っていますが…」[p]
-;表情 worry
+;表情 shinpai
 
 [voice2 vf2="mizuka/mizuka2-2_17.ogg"]
 #美寿花:kyoton
@@ -298,9 +301,9 @@
 ≪その通りだけど、それをお前が言うなお前が≫[p]
 
 [voice2 vf2="mizuka/mizuka2-2_18.ogg"]
-#美寿花:worry
+#美寿花:shinpai
 「ちょっと辛いだろうけど…急げる？」[p]
-;表情 worry
+;表情 shinpai
 
 #雪翔
 ≪…まぁ多分。ちゃんと休憩できたから≫[p]
@@ -308,3 +311,9 @@
 ;背景 青空
 #
 …そんなこんなで。[p]
+
+[mask effect="fadeInLeftBig" ]
+
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc="2-3.ks"]

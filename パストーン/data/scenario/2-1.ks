@@ -10,7 +10,7 @@
 というわけで、今日も変わらず作業する…はずだったのだが、[p]
 
 ;雪翔の部屋
-[bg storage="myroom.jpg" time="0"]
+[bg storage="myroom.png" time="0"]
 ;マウスの音
 ;タイピング音で代用中
 [voice1 vf1="se/typing_1.ogg"]
@@ -122,7 +122,12 @@
 ;ドアを開ける音
 [voice2 vf2="se/dooropen_1.ogg"]
 ;リビング
-;[bg storage="リビング.jpg" time=0]
+
+[mask effect="fadeInRightBig" time="1000"]
+
+[bg storage="living.png" time="0"]
+
+[mask_off ]
 
 [voice2 vf2="mizuka/mizuka2-1_6.ogg"]
 #美寿花:r_kyoton
@@ -229,7 +234,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_14.ogg"]
-#美寿花
+#美寿花:r_fuan
 「…でもそっか。学校行けてないのか…」[p]
 ;表情 不安
 
@@ -264,7 +269,7 @@
 ;表情 驚き2 あとで２にする
 
 [voice2 vf2="mizuka/mizuka2-1_18.ogg"]
-#美寿花:r_odoroki
+#美寿花:r_odoroki_2
 「雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
 ;表情 驚き2 あとで２にする
 
@@ -278,7 +283,7 @@
 しかも、頻度は3日に一度ぐらいなわけで…[p]
 
 [voice2 vf2="mizuka/mizuka2-1_19.ogg"]
-#美寿花:shinken
+#美寿花:r_shinken
 「前までは、人に何か伝えることが大変だったかもしれないけど…今は私っていう『声』もいる。」[p]
 ;表情 真剣
 
@@ -349,10 +354,14 @@
 …作業、戻るか。[p]
 ここで待っていても仕方ないので、自分の部屋に戻る。[p]
 
-;雪翔の部屋
-[bg storage="myroom.jpg" time=0]
+[mask effect="fadeInRightBig" time="1000"]
+
+[bg storage="myroom.png" time=0]
 ;部屋のドアを閉める音
 [voice2 vf2="se/doorclose_1.ogg"]
+
+[mask_off ]
+;雪翔の部屋
 
 #雪翔
 ≪…大学…か≫[p]
@@ -393,10 +402,10 @@
 …というか、[p]
 
 [voice2 vf2="roz/Roz2-1_2.ogg"]
-#ロズ:angry
+#ロズ:okori
 「…む～…」[p]
 ;表情 不満　あとで
-;angryもあり？
+;okoriもあり？
 
 [voicestop]
 #
@@ -439,8 +448,7 @@
 [voice2 vf2="roz/Roz2-1_5.ogg"]
 #ロズ
 「せや。まだマスターは決めてへんけど…まぁ、多分時間の問題やろな。」[p]
-;
-1
+
 [voice2 vf2="laz/Laz2-1_2.ogg"]
 #ラズ
 「よろしいのではないですか？むしろ良い方向に転がっているように見えますが…」[p]
@@ -464,3 +472,9 @@
 [voice2 vf2="laz/Laz2-1_5.ogg"]
 #ラズ
 「少々、見極める必要がありますわね…常葉、美寿花…」[p]
+
+[mask effect="fadeInLeftBig" ]
+
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc="2-2.ks"]
