@@ -102,7 +102,7 @@
 [voicestop]
 ;一枚絵 （美寿花が雪翔の肩に手を置いて、肩越しにPC画面を覗き込む構図）
 [layopt layer="0" visible="true"]
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4.png" time="1000"]
+[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4微笑.png" time="1000"]
 
 #
 そう言って、俺のすぐ後ろまで美寿花が近づいてくる。[p]
@@ -166,7 +166,7 @@
 …でも、俺には…[p]
 
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4微笑.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 [voice2 vf2="mizuka/mizuka1-4_9.ogg"]
@@ -197,13 +197,13 @@
 ≪…なん、で…？≫[p]
 
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4悲.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4笑顔.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 [voice2 vf2="mizuka/mizuka1-4_11.ogg"]
 #美寿花
 「…ごめんね、雪翔君。私、薄谷教授から聞いてたんだ。」[p]
-;表情　悲しみ
+;表情　悲しみ？　笑顔？
 
 [image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-4/1-4悲.png" time="1000" ]
 [voice2 vf2="mizuka/mizuka1-4_12.ogg"]
@@ -241,6 +241,10 @@
 #美寿花
 「そんな大したものじゃないよ。その人が伝えようって意志を持った言葉しか聞くことはできない。」[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4微笑.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_15.ogg"]
 #美寿花
 「それに、相手に触れてないと効果はないしね。」[p]
@@ -254,6 +258,10 @@
 「…だから、大抵の人には使ってもあまり意味はないんだけど…」[p]
 ;差分 悲しみ
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4真顔.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka1-4_17.ogg"]
 #美寿花
 「私なら、君が自分の声を取り戻すまで、『その代わり』ができる。」[p]
@@ -295,7 +303,7 @@
 [voice2 vf2="mizuka/mizuka1-4_20.ogg"]
 #美寿花
 「あ、その時は私も一緒に歌ってもいい？さっきの歌詞、すっごいよかったし。」[p]
-;表情　egao_2
+;表情　egao
 
 [voicestop]
 #雪翔
@@ -375,4 +383,8 @@
 #ラズ
 「…完全に、忘れられてますわね…」[p]
 
+[mask effect="fadeInLeftBig" ]
 
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc = "2-1.ks"]

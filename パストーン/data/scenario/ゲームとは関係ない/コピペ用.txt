@@ -23,6 +23,7 @@
 ;マスク
 [mask time="0"]
 [mask_off effect="fadeOutLeftBig"]
+[afterjumpmaskNormal]
 
 ;シーンジャンプ
 *start

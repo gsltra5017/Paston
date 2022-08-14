@@ -6,7 +6,6 @@
 [chara_show name="mizuka" top="20" storage="chara/mizuka/kyoton.png" time="0" wait="true"]
 ;背景 空き教室
 
-
 [afterjumpmaskNormal]
 
 [voice1 vf1="mizuka/mizuka2-4_1.ogg"]
@@ -189,7 +188,7 @@
 ≪…美寿花？≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_8.ogg"]
-#美寿花:kushou
+#美寿花:aseganizindaegao
 「…ん？あ、傘の話…だよね？」[p]
 ;表情 （汗が滲んだ笑顔）
 
@@ -295,6 +294,10 @@
 …そして、様々な葛藤の末…[p]
 
 ;一枚絵 膝枕
+;一枚絵
+
+
+
 
 #雪翔
 ≪…どういう状況だよこれ…≫[p]

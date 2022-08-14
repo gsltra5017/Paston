@@ -55,7 +55,7 @@
 心の中で結論にもなっていない結論を出し、俺はそうっと階段を下りる。[p]
 
 [bg storage="living.png"]
-[chara_show name="kouki" top="20" storage="chara/kouki/grin.png" wait="true"]
+[chara_show name="kouki" top="20" storage="chara/kouki/bishou.png" wait="true"]
 
 [voice2 vf2="kouki/kouki1-2_4.ogg"]
 #kouki
@@ -134,8 +134,8 @@
 え、ちょっと待っ…[p]
 
 [chara_hide name="kouki"]
-[playse storage="se/dooreopen_1"]
-[playse storage="se/dooreclose_1"]
+[playse storage="se/dooropen_1.ogg" wait="true"]
+[playse storage="se/doorclose_1.ogg" wait="true"]
 ;BGMフェードアウト
 
 #

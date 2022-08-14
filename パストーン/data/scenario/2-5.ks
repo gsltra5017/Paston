@@ -89,9 +89,9 @@
 ≪いや遠慮してるわけじゃないけど…別に行きたいところって言われてもなぁ…≫[p]
 
 ;[voice2 vf2="mizuka/mizuka2-5_9.ogg"]
-#美寿花:grin
+#美寿花:bishou
 「ほら、なんていうか…一人じゃ行きにくいところってあるでしょ？雪翔君の場合は声の事もあるだろうしさ。」[p]
-;表情 grin
+;表情 bishou
 
 ;[voice2 vf2="mizuka/mizuka2-5_10.ogg"]
 #美寿花:egao

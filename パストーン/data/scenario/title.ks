@@ -29,4 +29,4 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="2-4.ks"
+@jump storage="1-3.ks"
