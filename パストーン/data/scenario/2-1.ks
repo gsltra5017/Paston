@@ -73,7 +73,7 @@
 
 ;能力発動音
 [voice2 vf2="se/ability_on.ogg"]
-
+[wse]
 [voice2 vf2="mizuka/mizuka2-1_2.ogg"]
 #美寿花:r_kangae
 「さっきの部分、結構時間かかってたね。どうしたの？」[p]
@@ -198,7 +198,7 @@
 
 ;能力発動音
 [voice2 vf2="se/ability_on.ogg"]
-
+[wse]
 #雪翔
 「…学校、ずっと行ってないんだ」[p]
 

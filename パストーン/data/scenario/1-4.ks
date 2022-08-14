@@ -113,8 +113,9 @@
 そう言って、俺のすぐ後ろまで美寿花が近づいてくる。[p]
 それと同時に、俺の肩にそっと手が置かれた。[p]
 ;能力発動音
-[voice2 vf2="se/ability_on.ogg"]
-;修正 次の文字表示を音声が鳴りやむまで待ってほしい（つぶ）
+[voice2 vf2="se/ability_on.ogg" wait="true"]
+[wse]
+;修正済み 次の文字表示を音声が鳴りやむまで待ってほしい（つぶ）
 
 #雪翔
 ≪ん…？≫[p]
@@ -165,7 +166,7 @@
 #雪翔
 ≪…すごくなんか、ない…
 こんな歌詞、書いたって意味なんかないし…≫[p]
-;修正 文字送りを一つ消しました
+;修正済み 文字送りを一つ消しました
 
 #
 つい、心の言葉が漏れ出る。[p]
@@ -372,8 +373,8 @@
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
-
-;修正 ここに待ち時間を設定してほしい
+[wait time="2000"]
+;未修正 ここに待ち時間を設定してほしい
 ;背景 黒
 [voice2 vf2="roz/roz1-4_1.ogg"]
 #ロズ
