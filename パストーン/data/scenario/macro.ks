@@ -81,16 +81,22 @@
 [endkeyframe]
 
 ;背景が変わるときに使うマスクのマクロ
-[macro name = "bgchangemask"]
+[macro name="bgchangemask"]
 	[mask effect="slideInRight"]
 [endmacro]
 
 ;マスク効果を切るときのマクロ
-[macro name = "bgchangemask_off"]
+[macro name="bgchangemask_off"]
 	[mask_off effect="slideOutLeft"]
 [endmacro]
 
+;能力発動音
 [macro name="playse_ability_on"]
 	[playse storage="se/ability_on.ogg" loop=false clear=true volume="70"]
+	[wse]
+[endmacro]
+
+[macro name="playse_dooropen_1"]
+	[playse storage="se/dooropen_1.ogg" loop=false clear=true volume="70"]
 	[wse]
 [endmacro]
