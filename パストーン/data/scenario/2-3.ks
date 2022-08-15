@@ -3,15 +3,15 @@
 
 ;背景 講義室
 [bg storage="room.jpg" time="0"]
-[chara_show name="mizuka" top="-70" storage="chara/mizuka/kushou.png" time="0" wait="true"]
-
+[filter layer="base" blur="5" ]
+[chara_show name="mizuka" top="50" storage="chara/mizuka/kushou.png" time="0" wait="true"]
+[camera layer="0" zoom="1.5" x="0" y="0" time="0" wait="false"]
 [afterjumpmaskNormal]
 #雪翔
 ≪…危なかった…≫[p]
 
 #
 机に突っ伏しながら、俺はため息をつく。[p]
-
 
 [voice1 vf1="mizuka/mizuka2-3_1.ogg"]
 #美寿花:kushou
@@ -79,6 +79,8 @@
 #
 ドアが開き、教授らしき人物が入ってきた。[p]
 
+
+
 #
 …そして、程なくして1時限目の講義が始まる。[p]
 最初は、まだ見慣れない講義室、そこで講義を受けるたくさんの学生…そんな空間に俺は新鮮味を感じていて、なんとなくソワソワしていた。[p]
@@ -93,6 +95,8 @@
 #
 …しまった…まさかここまで眠気がここまで強力だとは思わなかった。[p]
 これも、普段のだらしない生活習慣が災いしたのだろうが…[p]
+
+#雪翔
 （…他の人は…）[p]
 そう思って、さりげなく周りを見回す。[p]
 
@@ -105,11 +109,15 @@
 #
 退屈そうにしている人も何人かいるが、それでも寝ているというわけではない。[p]
 …朝のことといい、今までの自分の不摂生を呪う。[p]
+#雪翔
 （…あ…やばい…）[p]
 そんなことを考えてるうちに、視界がどんどんぼやけていく。[p]
+#雪翔
 （…もう…無理…）[p]
 
 ;背景 黒
+[bg storage="makkuro.jpg" time="3000"]
+
 
 #
 …[p]

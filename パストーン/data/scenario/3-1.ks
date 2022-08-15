@@ -3,7 +3,7 @@
 
 @jump target=*debug
 ;背景 青空
-[bg storage="daysky.png" time=0]
+[bg storage="daysky.png" time=1000]
 
 #
 2週間が経過した。[p]

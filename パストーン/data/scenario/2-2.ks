@@ -4,7 +4,6 @@
 ;背景 青空
 [bg storage="daysky.png" time="0"]
 
-
 [afterjumpmaskNormal]
 
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
@@ -23,10 +22,11 @@
 理解の及ばないことは分かっているが、[r]それをどのように切り抜けるか。だと。[p]
 それが大きな間違いだと気付いたのは、家から出た直後だった。[p]
 
-;[stop_keyconfig]
+[bgchangemask]
 ;背景 道路
 [bg storage="city.png" time="1000"]
 [chara_show name="mizuka" top="20" storage="chara/mizuka/egao.png" wait="false"]
+[bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-2_2.ogg"]
 #美寿花
