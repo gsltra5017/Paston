@@ -80,10 +80,17 @@
 	[frame p = "50%" y = "-20"]
 [endkeyframe]
 
+;背景が変わるときに使うマスクのマクロ
 [macro name = "bgchangemask"]
 	[mask effect="slideInRight"]
 [endmacro]
 
+;マスク効果を切るときのマクロ
 [macro name = "bgchangemask_off"]
 	[mask_off effect="slideOutLeft"]
+[endmacro]
+
+[macro name="playse_ability_on"]
+	[playse storage="se/ability_on.ogg" loop=false clear=true volume="70"]
+	[wse]
 [endmacro]

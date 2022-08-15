@@ -77,8 +77,7 @@
 どんな罰ゲームだよ…と思いながらも、仕方なく美寿花の手を肩に乗せる。[p]
 
 ;能力発動音
-[voice2 vf2="se/ability_on.ogg"]
-[wse]
+[playse_ability_on]
 [voice2 vf2="mizuka/mizuka2-1_2.ogg"]
 #美寿花:r_kangae
 「さっきの部分、結構時間かかってたね。どうしたの？」[p]
@@ -202,8 +201,7 @@
 数秒間の葛藤の末、結局美寿花に頼ることにする。[p]
 
 ;能力発動音
-[voice2 vf2="se/ability_on.ogg"]
-[wse]
+[playse_ability_on]
 #雪翔
 「…学校、ずっと行ってないんだ」[p]
 

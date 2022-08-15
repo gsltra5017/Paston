@@ -219,8 +219,7 @@
 ;表情 不満
 
 ;効果音 能力発動音
-[voice2 vf2="se/ability_on.ogg"]
-[wse]
+[playse_ability_on]
 #
 ふと、俺の肩に何かが触れる感覚。[p]
 
