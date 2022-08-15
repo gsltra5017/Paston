@@ -2,26 +2,32 @@
 [startoption]
 
 ;背景 講義室
-[bg storage="room.jpg" time=0]
-
+[bg storage="room.jpg" time="0"]
+[filter layer="base" blur="5" ]
+[chara_show name="mizuka" top="50" storage="chara/mizuka/kushou.png" time="0" wait="true"]
+[camera layer="0" zoom="1.5" x="0" y="0" time="0" wait="false"]
+[afterjumpmaskNormal]
 #雪翔
 ≪…危なかった…≫[p]
 
 #
 机に突っ伏しながら、俺はため息をつく。[p]
 
-[chara_show name="mizuka" top="-70" storage="chara/mizuka/kushou.png" time="100" wait="true"]
+[voice1 vf1="mizuka/mizuka2-3_1.ogg"]
 #美寿花:kushou
 「ほんとに危なかったね…講義室入った時点で3分前だったし…」[p]
 ;表情 kushou
 
+[voicestop]
 #
 苦笑いを浮かべながら、美寿花は鞄の中から講義用のノートを取り出す。[p]
 
-#美寿花:worry_2
+[voice2 vf2="mizuka/mizuka2-3_2.ogg"]
+#美寿花:shinpai_2
 「…というか、雪翔君当然のようにここにいるけど、1時限目ここなの？」[p]
-;表情 worry_2
+;表情 shinpai_2
 
+[voicestop]
 #雪翔
 ≪…ああ、そうっぽいな≫[p]
 
@@ -35,10 +41,12 @@
 その事に気づいて、少し安心した。[p]
 知り合いが誰もいないよりは、やはり知っている人間が近くにいる方が正直助かる。[p]
 
+[voice2 vf2="mizuka/mizuka2-3_3.ogg"]
 #美寿花:kyoton
 「あ、そうだ。私午後は5時限目しか講義ないんだけど雪翔君は？」[p]
 ;表情 きょとん？
 
+[voice2 vf2="mizuka/mizuka2-3_4.ogg"]
 #美寿花
 「せっかくお弁当作ったんだし一緒に食べたいんだけど…」[p]
 ;表情 期待のまなざし
@@ -52,14 +60,17 @@
 #
 時間割表を一瞥し、そのまま彼女に見せる。[p]
 
-#美寿花:smile
+[voice2 vf2="mizuka/mizuka2-3_5.ogg"]
+#美寿花:egao
 「…お、一緒だ！よかった～」[p]
-;表情 smile
+;表情 egao
 
-#美寿花:smile_2
+[voice2 vf2="mizuka/mizuka2-3_6.ogg"]
+#美寿花:egao_2
 「ちょっと夢だったんだよねぇ〜。お昼に自分のお弁当食べてもらえるの」[p]
-;表情 smile_2
+;表情 egao_2
 
+[voicestop]
 #
 そう言いながら、嬉しそうに笑う。[p]
 
@@ -67,6 +78,8 @@
 
 #
 ドアが開き、教授らしき人物が入ってきた。[p]
+
+
 
 #
 …そして、程なくして1時限目の講義が始まる。[p]
@@ -82,6 +95,8 @@
 #
 …しまった…まさかここまで眠気がここまで強力だとは思わなかった。[p]
 これも、普段のだらしない生活習慣が災いしたのだろうが…[p]
+
+#雪翔
 （…他の人は…）[p]
 そう思って、さりげなく周りを見回す。[p]
 
@@ -94,11 +109,15 @@
 #
 退屈そうにしている人も何人かいるが、それでも寝ているというわけではない。[p]
 …朝のことといい、今までの自分の不摂生を呪う。[p]
+#雪翔
 （…あ…やばい…）[p]
 そんなことを考えてるうちに、視界がどんどんぼやけていく。[p]
+#雪翔
 （…もう…無理…）[p]
 
 ;背景 黒
+[bg storage="makkuro.jpg" time="3000"]
+
 
 #
 …[p]
@@ -117,9 +136,10 @@
 誰かが、脇腹あたりをつついている感覚。[p]
 …誰だ…？[p]
 
-#美寿花:smile_2
+[voice2 vf2="mizuka/mizuka2-3_7.ogg"]
+#美寿花:egao_2
 「‥‥‥」[p]
-;表情　smile_2
+;表情　egao_2
 ;効果音 頬をつねる音
 
 ;背景 講義室
@@ -135,10 +155,12 @@
 #雪翔
 ≪…あ、そうだ…俺講義中に寝て…≫[p]
 
+[voice2 vf2="mizuka/mizuka2-3_8.ogg"]
 #美寿花
 「気持ちいいお目覚めだね、少年君？」[p]
-;表情 mad_smile（引きつった笑み）
+;表情 mad_egao（引きつった笑み）
 
+[voicestop]
 #雪翔
 ≪うっ…≫
 
@@ -147,10 +169,12 @@
 見ると、すぐ横で美寿花が意地悪気に笑っていた。[p]
 どうやら、彼女が俺を起こしたらしい。[p]
 
+[voice2 vf2="mizuka/mizuka2-3_9.ogg"]
 #美寿花:jitome
 「…確かに退屈だけど、開始10分で寝るのは流石に関心しないなぁ…」[p]
 ;表情 jitome
 
+[voicestop]
 #雪翔
 ≪…へ？10分？≫[p]
 
@@ -161,10 +185,12 @@
 眠くなった時点で30分は経ってると思った…どうりで周りの人もまだ寝てなかったわけだ。[p]
 すると、美寿花は俺にズイッと顔を寄せる。[p]
 
+[voice2 vf2="mizuka/mizuka2-3_10.ogg"]
 #美寿花:kushou
 「…そりゃ、寝るなとは言わないけどさ…せめてもう少し我慢しよ？ね？」[p]
 ;表情 kushou
 
+[voicestop]
 #雪翔
 ≪…わ、分かった分かった！≫[p]
 
@@ -178,3 +204,9 @@
 ;背景 黒
 …[p]
 …そして、次に意識が戻ったのは1時限目終了後だったのは言うまでもない。[p]
+
+[mask effect="fadeInLeftBig" ]
+
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc="2-4.ks"]

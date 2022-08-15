@@ -38,11 +38,11 @@
 …それが、[r]
 俺の発した、最後の言葉だった。[p]
 
-[mask time = "400"]
-[bg storage="myroom.jpg" time="0"]
-[camera zoom="1.7" x = "-70" y= "-50" time="0" wait="false"]
+[mask time="400"]
+[bg storage="myroom.png" time="0"]
+[camera zoom="1.7" x="-70" y="-50" time="0" wait="false"]
 [wait time="400"]
-[mask_off time = "400" wait = "true"]
+[mask_off time="400" wait="true"]
 
 #yukito
 ・・・・・[p]
@@ -54,8 +54,8 @@
 
 [reset_camera]
 
+[playse storage="se/cloth_1.ogg" loop="false" ]
 #yukito
-;[playse storage ="cloth.拡張子" loop = "false" ]
 …ん…[p]
 
 #
@@ -92,12 +92,12 @@
 …そして、[r]
 …その事故で俺は、母親を失うことになった。[p]
 
-[bg storage="myroom.jpg" time="400" wait = "false"]
+[bg storage="myroom.png" time="400" wait="false"]
 
 #yukito
 …自殺なんかに、他人の命を巻き込むんじゃねぇよ。[p]
 
-;[playse storage ="cloth.拡張子" loop = "false" ]
+[playse storage="se/cloth_1.ogg" loop="false" ]
 #
 何度吐いたか分からない呪いを吐き捨て、俺はベッドから起きる。[p]
 
@@ -117,12 +117,12 @@
 #yukito
 朝から騒がしいな…[p]
 
-[chara_show name="roz" top="-70" left = "505" wait = "false" pos_mode = "false"]
-[chara_show name="laz" top="-70" wait = "true" pos_mode = "true"]
+[chara_show name="roz" top="20" face="fuman" left = "505" wait = "false" pos_mode = "false"]
+[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
 
 [voice2 vf2="roz/Roz1-1_2.wav"]
 
-[kanim name = "roz" time = "150" keyframe = "pyon"] 
+[kanim name="roz" time="150" keyframe="pyon"] 
 #roz
 そうやってラズが甘やかすから、[r]
 どんどんマスターの生活リズムが崩れていくんやで？[p]
@@ -148,7 +148,7 @@
 
 [kanim name = "roz" time = "300" keyframe = "pyonpyon"] 
 [voice2 vf2="roz/Roz1-1_4.wav"]
-#roz
+#roz:okori
 当たりまえやろ毎回引き分けなんやから！！とにかく、覚悟…[p]
 
 [chara_hide_all time="0" wait="true"]
@@ -161,10 +161,11 @@
 #yukito
 おしゃべりAI達め…[p]
 
-;[playse storage ="dooropen.拡張子" loop = "false" ]
+[playse storage="se/dooropen_1.ogg" loop="false" ]
+
 #
 どうしようもない、と言った風に俺はドアを開け、階下へ降りる。[p]
 
 [chara_hide_all]
 
-[scenejumpNormal sc = "title.ks"]
+[scenejumpNormal sc = "1-2.ks"]

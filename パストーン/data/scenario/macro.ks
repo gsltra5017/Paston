@@ -55,10 +55,12 @@
 	@layopt layer=message0 visible=true
 
 	;キャラクターの名前が表示される文字領域
-	[ptext name="chara_name_area" layer="message0" color="white" size=28 bold=true x=140 y=510]
+	[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size=28 bold=true x=140 y=510]
 
 	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 	[chara_config ptext="chara_name_area"]
+
+	[font shadow="0x333333"]
 [endmacro]
 
 ;頷き風
@@ -77,3 +79,25 @@
 [keyframe name = "pyon"]
 	[frame p = "50%" y = "-20"]
 [endkeyframe]
+
+;背景が変わるときに使うマスクのマクロ
+[macro name="bgchangemask"]
+	[mask effect="slideInRight"]
+[endmacro]
+
+;マスク効果を切るときのマクロ
+[macro name="bgchangemask_off"]
+	[mask_off effect="slideOutLeft"]
+[endmacro]
+
+;能力発動音
+[macro name="playse_ability_on"]
+	[playse storage="se/ability_on.ogg" loop=false clear=true volume="70"]
+	[wse]
+[endmacro]
+
+;ドアが開くときの音
+[macro name="playse_dooropen_1"]
+	[playse storage="se/dooropen_1.ogg" loop=false clear=true volume="70"]
+	[wse]
+[endmacro]

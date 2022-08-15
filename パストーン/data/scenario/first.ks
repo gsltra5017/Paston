@@ -26,6 +26,7 @@
 ;プラグイン(＆設定)呼び出し
 [chara_config talk_focus="brightness"]
 [plugin name="textbox_ex"]
+[plugin name="manpu"]
 
 ;タイトル画面へ移動
 @jump storage="title.ks"

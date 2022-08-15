@@ -2,17 +2,24 @@
 [startoption]
 
 ;青空
-[bg storage="daysky.png" time=0]
+[bg storage="daysky.png" time="0"]
 
 [afterjumpmaskNormal]
 
+#
 怒涛の初日から一夜明け、翌日。[p]
 8月31日、夏休み最後の日という事で一部の学生は憂鬱な気分に包まれることだろう。[p]
 （…まぁ、俺にはあまり関係ないけど。）[p]
 というわけで、今日も変わらず作業する…はずだったのだが、[p]
 
 ;雪翔の部屋
-[bg storage="myroom.jpg" time="0"]
+[bgchangemask]
+
+[bg storage="myroom.png" time="0"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
+
+[bgchangemask_off]
+
 ;マウスの音
 ;タイピング音で代用中
 [voice1 vf1="se/typing_1.ogg"]
@@ -21,10 +28,9 @@
 
 [voicestop]
 
-;表情 関心→r_think2
-;関心がまだできていないのでr_smileで代用してる
-[chara_show name="mizuka" top="-70" storage="chara/mizuka/r_think_2.png" wait="true"]
-#美寿花:r_think_2
+;表情 関心→r_kangae2
+[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
+#美寿花
 「‥‥‥」[p]
 
 #雪翔
@@ -34,9 +40,9 @@
 部屋に、キーボードとマウスのクリック音が響く。[p]
 …というか、そんな小さな音が目立つぐらい、静かである。[p]
 
-#美寿花:r_think_2
+#美寿花:r_kangae_2
 「‥‥‥‥‥‥」[p]
-;表情 関心→r_think_2
+;表情 関心→r_kangae_2
 ;素材きたら
 
 #雪翔
@@ -73,18 +79,16 @@
 どんな罰ゲームだよ…と思いながらも、仕方なく美寿花の手を肩に乗せる。[p]
 
 ;能力発動音
-;[voice2 vf2="se/ability_on.ogg"]
-
-[voicestop]
+[playse_ability_on]
 [voice2 vf2="mizuka/mizuka2-1_2.ogg"]
-#美寿花:r_think
+#美寿花:r_kangae
 「さっきの部分、結構時間かかってたね。どうしたの？」[p]
 ;表情 考え
 
 [voicestop]
 #雪翔
-「あ～、なんか納得いかなくて…」[p]
-「いやそうじゃなくて、何でいるの。ここに」[p]
+≪あ～、なんか納得いかなくて…≫[p]
+≪いやそうじゃなくて、何でいるの。ここに≫[p]
 
 [voice2 vf2="mizuka/mizuka2-1_3.ogg"]
 #美寿花:r_kyoton
@@ -93,7 +97,7 @@
 
 [voicestop]
 #雪翔
-「自分の部屋あるでしょ…そこで時間つぶせば…」[p]
+≪自分の部屋あるでしょ…そこで時間つぶせば…≫[p]
 
 #
 我が家に一つだけある空き部屋。クーラーもあるので空調面で問題はないはずだが…[p]
@@ -105,13 +109,13 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_5.ogg"]
-#美寿花:r_smile
+#美寿花:r_egao
 「結構面白いね。人が何かしてるのを見るのって。」[p]
 ;表情 笑み
 
 [voicestop]
 #雪翔
-「俺は全く集中できないんだけどね…」[p]
+≪俺は全く集中できないんだけどね…≫[p]
 
 #
 まさか、これからもここに入り浸るつもりなのだろうか？[p]
@@ -126,7 +130,12 @@
 ;ドアを開ける音
 [voice2 vf2="se/dooropen_1.ogg"]
 ;リビング
-;[bg storage="リビング.jpg" time=0]
+
+[bgchangemask]
+
+[bg storage="living.png" time="0"]
+
+[bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-1_6.ogg"]
 #美寿花:r_kyoton
@@ -141,7 +150,7 @@
 少し迷った結果、冷蔵庫を指さす。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_7.ogg"]
-#美寿花:r_smile_2
+#美寿花:r_egao_2
 「ああ、休憩ね。了解了解。」[p]
 ;表情 慌て　
 
@@ -151,7 +160,7 @@
 改めて、喋れないことの不便さが浮き彫りになる。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_8.ogg"]
-#美寿花:r_worry_2
+#美寿花:r_shinpai
 「…そういえばさ、君って学校どうしてるの？」[p]
 ;表情 心配
 
@@ -160,12 +169,12 @@
 ≪…学校？≫[p]
 
 #
-[chara_mod name="mizuka" storage="chara/mizuka/r_kyoton.png"]
+[chara_mod name="mizuka" storage="chara/mizuka/r_kyoton_2.png"]
 俺が首を傾げると、美寿花も『あれ？』と同じことをする。[p]
-;表情 きょとん2　あとで２にする
+;表情 きょとん2
 
 [voice2 vf2="mizuka/mizuka2-1_9.ogg"]
-#美寿花:r_think_2
+#美寿花:r_kangae_2
 「大学だよ大学。声が出ないんじゃ、色々と大変じゃないかな～って」[p]
 ;表情 考え2 
 
@@ -194,14 +203,13 @@
 数秒間の葛藤の末、結局美寿花に頼ることにする。[p]
 
 ;能力発動音
-;[voice2 vf2="ability_on.ogg"]
-
+[playse_ability_on]
 #雪翔
 「…学校、ずっと行ってないんだ」[p]
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_11.ogg"]
-#美寿花:r_surprise
+#美寿花:r_odoroki
 「…ずっと？」[p]
 ;表情 驚き
 
@@ -233,7 +241,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_14.ogg"]
-#美寿花:r_worry
+#美寿花:r_fuan
 「…でもそっか。学校行けてないのか…」[p]
 ;表情 不安
 
@@ -254,7 +262,7 @@
 「それにめんどくさいし。」[p]
 
 [voice2 vf2="mizuka/mizuka2-1_16.ogg"]
-#美寿花:r_think
+#美寿花:r_kangae
 「それはどうかな？多分、雪翔君の目標の一歩にはなると思うよ？」[p]
 ;表情 考え
 
@@ -263,12 +271,12 @@
 「…というと？」[p]
 
 [voice2 vf2="mizuka/mizuka2-1_17.ogg"]
-#美寿花:r_surprise
+#美寿花:r_odoroki
 「考えたんだけどさ」[p]
 ;表情 驚き2 あとで２にする
 
 [voice2 vf2="mizuka/mizuka2-1_18.ogg"]
-#美寿花:r_surprise
+#美寿花:r_odoroki_2
 「雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
 ;表情 驚き2 あとで２にする
 
@@ -282,19 +290,19 @@
 しかも、頻度は3日に一度ぐらいなわけで…[p]
 
 [voice2 vf2="mizuka/mizuka2-1_19.ogg"]
-#美寿花
+#美寿花:r_shinken
 「前までは、人に何か伝えることが大変だったかもしれないけど…今は私っていう『声』もいる。」[p]
 ;表情 真剣
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_20.ogg"]
-#美寿花:r_worry
+#美寿花
 「めんどくさいのは…私じゃどうにもできないかもしれないけど...」[p]
 ;表情 不安
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_21.ogg"]
-#美寿花:r_grin
+#美寿花:r_bishou
 「それでも、行ってみない？学校。」[p]
 ;表情 優しい笑み
 
@@ -303,13 +311,13 @@
 「…って言われてもなぁ…」[p]
 
 [voice2 vf2="mizuka/mizuka2-1_22.ogg"]
-#美寿花:r_smile
+#美寿花:r_egao
 「まぁ、考えといてよ。といっても、学校明日からだけどね。」[p]
 ;表情　笑顔
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_23.ogg"]
-#美寿花:r_surprise
+#美寿花:r_odoroki
 「…ってもうこんな時間！？作業ちょっとだけ見たら買い物しようと思ってたのに…」[p]
 ;表情 驚き
 
@@ -332,14 +340,14 @@
 #美寿花
 「待ってて！ちょっと色々買ってくるから！」[p]
 ;表情 慌て
-[chara_hide name="mizuka" time=2000]
+[chara_hide name="mizuka" time="2000"]
 
 [voicestop]
 #
 ;玄関のドアが開く音
 [voice2 vf2="se/dooropen_1.ogg"]
 
-[wait time=1000]
+[wait time="1000"]
 
 ;玄関のドアが閉まる音
 [voice2 vf2="se/doorclose_1.ogg"]
@@ -353,10 +361,14 @@
 …作業、戻るか。[p]
 ここで待っていても仕方ないので、自分の部屋に戻る。[p]
 
-;雪翔の部屋
-[bg storage="myroom.jpg" time=0]
+[mask effect="fadeInRightBig" time="1000"]
+
+[bg storage="myroom.png" time=0]
 ;部屋のドアを閉める音
 [voice2 vf2="se/doorclose_1.ogg"]
+
+[mask_off ]
+;雪翔の部屋
 
 #雪翔
 ≪…大学…か≫[p]
@@ -374,11 +386,11 @@
 笑ってしまう。[p]
 自分から勝手に閉じこもっておいて、そんなものに縋ってしまう傲慢さに。[p]
 
-;とりあえずノーマルを描画
+
 [voice2 vf2="roz/Roz2-1_1.ogg"]
 #ロズ
 「随分楽しそうやね。マスター」[p]
-;表情　あとで
+;なし
 
 [voicestop]
 #雪翔
@@ -397,10 +409,10 @@
 …というか、[p]
 
 [voice2 vf2="roz/Roz2-1_2.ogg"]
-#ロズ:angry
+#ロズ:okori
 「…む～…」[p]
 ;表情 不満　あとで
-;angryもあり？
+;okoriもあり？
 
 [voicestop]
 #
@@ -443,8 +455,7 @@
 [voice2 vf2="roz/Roz2-1_5.ogg"]
 #ロズ
 「せや。まだマスターは決めてへんけど…まぁ、多分時間の問題やろな。」[p]
-;
-1
+
 [voice2 vf2="laz/Laz2-1_2.ogg"]
 #ラズ
 「よろしいのではないですか？むしろ良い方向に転がっているように見えますが…」[p]
@@ -468,3 +479,5 @@
 [voice2 vf2="laz/Laz2-1_5.ogg"]
 #ラズ
 「少々、見極める必要がありますわね…常葉、美寿花…」[p]
+
+[scenejumpNormal sc="2-2.ks"]
