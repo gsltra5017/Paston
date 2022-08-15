@@ -33,7 +33,7 @@
 [chara_face name="mizuka" face="neutral" storage="chara/mizuka/neutral.png"]
 [chara_face name="mizuka" face="odoroki" storage="chara/mizuka/odoroki.png"]
 [chara_face name="mizuka" face="odoroki_2" storage="chara/mizuka/odoroki_2.png"]
-[chara_face name="mizuka" face="odoroki_正面" storage="chara/mizuka/odoroki_正面.png"]
+[chara_face name="mizuka" face="odoroki_正面" storage="chara/mizuka/odoroki_正面.png"]        
 [chara_face name="mizuka" face="onemu" storage="chara/mizuka/onemu.png"]
 [chara_face name="mizuka" face="panic" storage="chara/mizuka/panic.png"]
 [chara_face name="mizuka" face="please" storage="chara/mizuka/please.png"]
@@ -68,61 +68,6 @@
 [chara_face name="mizuka" face="yaruki" storage="chara/mizuka/yaruki.png"]
 [chara_face name="mizuka" face="yaruki_2" storage="chara/mizuka/yaruki_2.png"]
 
-
-[chara_face name="mizuka" face="r_grin" storage = "chara/mizuka/r_grin.png"]
-[chara_face name="mizuka" face="r_interest" storage = "chara/mizuka/r_interest.png"]
-
-[chara_new  name="kouki" storage = "chara/kouki/grin_1.png" width="868" height="1227" jname="黄樹"]
-[chara_face name="kouki" face="kushou" storage = "chara/kouki/kushou.png"]
-[chara_face name="kouki" face="kyoton" storage = "chara/kouki/kyoton.png"]
-[chara_face name="kouki" face="smile" storage = "chara/kouki/smile.png"]
-[chara_face name="kouki" face="worry" storage = "chara/kouki/worried.png"]
-
-[chara_new  name="roz" storage = "chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
-[chara_face  name="roz" face="akire" storage = "chara/roz/akire.png"]
-[chara_face  name="roz" face="confident" storage = "chara/roz/confident.png"]
-[chara_face  name="roz" face="itome" storage = "chara/roz/itome.png"]
-[chara_face  name="roz" face="kyoton" storage = "chara/roz/kyoton.png"]
-[chara_face  name="roz" face="taunt" storage = "chara/roz/taunt.png"]
-[chara_face  name="roz" face="worry" storage = "chara/roz/worry.png"]
-[chara_face  name="roz" face="angry" storage = "chara/roz/angry.png"]
-[chara_face  name="roz" face="angry_2" storage = "chara/roz/angry_2.png"]
-[chara_face  name="roz" face="angry_3" storage = "chara/roz/angry_3.png"]
-;[chara_face  name="roz" face="怒り" storage = "chara/roz/怒り.png"]
-;[chara_face  name="roz" face="得意げ" storage = "chara/roz/得意げ.png"]
-;[chara_face  name="roz" face="bow" storage = "chara/roz/bow.png"]
-;[chara_face  name="roz" face="jitome" storage = "chara/roz/jitome.png"]
-;[chara_face  name="roz" face="close" storage = "chara/roz/close.png"]
-
-
-[chara_new  name="laz" storage = "chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
-[chara_face name="laz" face="bow" storage="chara/laz/bow.png"]
-[chara_face name="laz" face="close" storage="chara/laz/close.png"]
-[chara_face name="laz" face="confident" storage="chara/laz/confident.png"]
-[chara_face name="laz" face="egao" storage="chara/laz/egao.png"]
-[chara_face name="laz" face="egao_2" storage="chara/laz/egao_2.png"]
-[chara_face name="laz" face="jitome" storage="chara/laz/jitome.png"]
-[chara_face name="laz" face="kushou" storage="chara/laz/kushou.png"]
-[chara_face name="laz" face="kyoton" storage="chara/laz/kyoton.png"]
-[chara_face name="laz" face="normal" storage="chara/laz/normal.png"]
-[chara_face name="laz" face="shinpai" storage="chara/laz/shinpai.png"]
-[chara_face name="laz" face="shinpai_2" storage="chara/laz/shinpai_2.png"]
-[chara_face name="laz" face="×" storage="chara/laz/×.png"]
-;[chara_face  name="laz" face="得意げ" storage = "chara/laz/得意げ.png"]
-;[chara_face  name="laz" face="kyoton" storage = "chara/laz/kyoton.png"]
-;[chara_face  name="laz" face="kushou" storage = "chara/laz/kushou.png"]
-
-
-
-
-
-
-
-
-
-
-
-
 [chara_face name="roz" face="akire" storage="chara/roz/akire.png"]
 [chara_face name="roz" face="fuman" storage="chara/roz/fuman.png"]
 [chara_face name="roz" face="ge" storage="chara/roz/ge.png"]
@@ -139,6 +84,23 @@
 [chara_face name="roz" face="tokuige" storage="chara/roz/tokuige.png"]
 [chara_face name="roz" face="x" storage="chara/roz/x.png"]
 
+[chara_face name="laz" face="bow" storage="chara/laz/bow.png"]
+[chara_face name="laz" face="close" storage="chara/laz/close.png"]
+[chara_face name="laz" face="confident" storage="chara/laz/confident.png"]
+[chara_face name="laz" face="egao" storage="chara/laz/egao.png"]
+[chara_face name="laz" face="egao_2" storage="chara/laz/egao_2.png"]
+[chara_face name="laz" face="jitome" storage="chara/laz/jitome.png"]
+[chara_face name="laz" face="kushou" storage="chara/laz/kushou.png"]
+[chara_face name="laz" face="kyoton" storage="chara/laz/kyoton.png"]
+[chara_face name="laz" face="normal" storage="chara/laz/normal.png"]
+[chara_face name="laz" face="okori" storage="chara/laz/okori.png"]
+[chara_face name="laz" face="okori_2" storage="chara/laz/okori_2.png"]
+[chara_face name="laz" face="okori_3" storage="chara/laz/okori_3.png"]
+[chara_face name="laz" face="ozigi" storage="chara/laz/ozigi.png"]
+[chara_face name="laz" face="shinpai" storage="chara/laz/shinpai.png"]
+[chara_face name="laz" face="shinpai_2" storage="chara/laz/shinpai_2.png"]
+[chara_face name="laz" face="×" storage="chara/laz/×.png"]
+
 [chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
 [chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
 [chara_face name="kouki" face="egao_2" storage="chara/kouki/egao_2.png"]
@@ -154,5 +116,6 @@
 [chara_face name="ayana" face="konwaku" storage="chara/ayana/konwaku.png"]
 [chara_face name="ayana" face="kushou" storage="chara/ayana/kushou.png"]
 [chara_face name="ayana" face="kushoumesorashi" storage="chara/ayana/kushoumesorashi.png"]
+[chara_face name="ayana" face="mojimoji" storage="chara/ayana/mojimoji.png"]
 [chara_face name="ayana" face="normal" storage="chara/ayana/normal.png"]
 [chara_face name="ayana" face="tameiki" storage="chara/ayana/tameiki.png"]

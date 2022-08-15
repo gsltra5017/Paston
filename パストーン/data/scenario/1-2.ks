@@ -135,6 +135,7 @@
 え、ちょっと待っ…[p]
 
 [chara_hide name="kouki"]
+
 [playse storage="se/dooropen_1.ogg" wait="true"]
 [playse storage="se/doorclose_1.ogg" wait="true"]
 ;BGMフェードアウト
