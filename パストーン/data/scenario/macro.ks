@@ -96,6 +96,7 @@
 	[wse]
 [endmacro]
 
+;ドアが開くときの音
 [macro name="playse_dooropen_1"]
 	[playse storage="se/dooropen_1.ogg" loop=false clear=true volume="70"]
 	[wse]
