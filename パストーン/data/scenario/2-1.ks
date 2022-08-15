@@ -12,7 +12,12 @@
 というわけで、今日も変わらず作業する…はずだったのだが、[p]
 
 ;雪翔の部屋
+[bgchangemask]
+
 [bg storage="myroom.png" time="0"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
+
+[bgchangemask_off]
 ;マウスの音
 ;タイピング音で代用中
 [voice1 vf1="se/typing_1.ogg"]
@@ -125,11 +130,11 @@
 [voice2 vf2="se/dooropen_1.ogg"]
 ;リビング
 
-[mask effect="fadeInRightBig" time="1000"]
+[bgchangemask]
 
 [bg storage="living.png" time="0"]
 
-[mask_off ]
+[bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-1_6.ogg"]
 #美寿花:r_kyoton
@@ -474,9 +479,5 @@
 [voice2 vf2="laz/Laz2-1_5.ogg"]
 #ラズ
 「少々、見極める必要がありますわね…常葉、美寿花…」[p]
-
-[mask effect="fadeInLeftBig" ]
-
-[chara_hide_all time="0"]
 
 [scenejumpNormal sc="2-2.ks"]

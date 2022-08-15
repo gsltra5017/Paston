@@ -23,7 +23,10 @@
 ;マスク
 [mask time="0"]
 [mask_off effect="fadeOutLeftBig"]
+[macro name = "scenejumpNormal"]
 [afterjumpmaskNormal]
+[bgchangemask]
+[bgchangemask_off]
 
 ;シーンジャンプ
 *start

@@ -79,3 +79,11 @@
 [keyframe name = "pyon"]
 	[frame p = "50%" y = "-20"]
 [endkeyframe]
+
+[macro name = "bgchangemask"]
+	[mask effect="slideInRight"]
+[endmacro]
+
+[macro name = "bgchangemask_off"]
+	[mask_off effect="slideOutLeft"]
+[endmacro]
