@@ -1,5 +1,9 @@
 *start
+
+[startoption]
+
 ;[bg storage = "天井"] 
+
 [afterjumpmaskNormal]
 
 #???

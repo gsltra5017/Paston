@@ -23,7 +23,7 @@
 [endmacro]
 
 [macro name = "afterjumpmaskNormal"]
-    [mask_off effect = "slideOutLeft" time = "800"]
+    [mask_off effect = "slideOutLeft" time = "800" wait="false"]
 [endmacro]
 
 ;ボイスのマクロを作成3
@@ -46,10 +46,10 @@
 	@showmenubutton
 
 	;メッセージウィンドウの設定
-	[position layer="message0" left=160 top=500 width=1000 height=200 page=fore visible=true]
+	[position layer="message0" left=160 top=500 width=960 height=200 page=fore visible=true]
 
 	;文字が表示される領域を調整
-	[position layer=message0 page=fore frame="textbox.png" width=12000 left=0 margint="45" marginl="150" marginr="70" marginb="60" ]
+	[position layer=message0 page=fore frame="textbox.png" width=1280 left=0 margint="45" marginl="150" marginr="150" marginb="60" ]
 
 	;メッセージウィンドウの表示
 	@layopt layer=message0 visible=true

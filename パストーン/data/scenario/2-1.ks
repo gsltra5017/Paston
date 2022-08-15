@@ -4,17 +4,19 @@
 ;青空
 [bg storage="daysky.png" time=0]
 
+[afterjumpmaskNormal]
+
 怒涛の初日から一夜明け、翌日。[p]
 8月31日、夏休み最後の日という事で一部の学生は憂鬱な気分に包まれることだろう。[p]
 （…まぁ、俺にはあまり関係ないけど。）[p]
 というわけで、今日も変わらず作業する…はずだったのだが、[p]
 
 ;雪翔の部屋
-[bg storage="myroom.jpg" time=0]
+[bg storage="myroom.jpg" time="0"]
 ;マウスの音
 ;タイピング音で代用中
 [voice1 vf1="se/typing_1.ogg"]
-[wait time=2000]
+[wait time="2000"]
 [stopse]
 
 [voicestop]
@@ -395,9 +397,10 @@
 …というか、[p]
 
 [voice2 vf2="roz/Roz2-1_2.ogg"]
-#ロズ
+#ロズ:angry
 「…む～…」[p]
 ;表情 不満　あとで
+;angryもあり？
 
 [voicestop]
 #
@@ -433,8 +436,6 @@
 [chara_hide_all time=1000 wait="false"]
 [bg storage="black.jpg" time=1000]
 
-;↓表情指定まだ
-
 [voice2 vf2="laz/Laz2-1_1.ogg"]
 #ラズ
 「ふむ…ご主人様を大学に？」[p]
@@ -443,7 +444,7 @@
 #ロズ
 「せや。まだマスターは決めてへんけど…まぁ、多分時間の問題やろな。」[p]
 ;
-
+1
 [voice2 vf2="laz/Laz2-1_2.ogg"]
 #ラズ
 「よろしいのではないですか？むしろ良い方向に転がっているように見えますが…」[p]

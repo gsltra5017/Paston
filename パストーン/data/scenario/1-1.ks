@@ -167,4 +167,4 @@
 
 [chara_hide_all]
 
-[scenejumpNormal sc = "1-2.ks"]
+[scenejumpNormal sc = "title.ks"]
