@@ -6,7 +6,6 @@
 [chara_show name="mizuka" face="bishou" top="20"]
 [chara_show name="kouki" face="bishou" top="20" ]
 
-;[bg storage = "天井"] 
 [afterjumpmaskNormal]
 
 [wait time="500"]

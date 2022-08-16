@@ -296,9 +296,6 @@
 ;一枚絵 膝枕
 ;一枚絵
 
-
-
-
 #雪翔
 ≪…どういう状況だよこれ…≫[p]
 
@@ -360,7 +357,7 @@
 ;一枚絵 美寿花アップ
 ;一枚絵 美寿花アップ（顔赤らめる）
 
-[mask effect="fadeInLeftBig" ]
+[mask effect="fadeInLeftBig"]
 
 [chara_hide_all time="0"]
 
