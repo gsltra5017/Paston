@@ -6,6 +6,7 @@
 [chara_show name="mizuka" face="bishou" top="20"]
 [chara_show name="kouki" face="bishou" top="20" ]
 
+[camera layer="base" zoom="1.7" x="0" y="0" time="0" wait="false"]
 [afterjumpmaskNormal]
 
 [wait time="500"]
@@ -179,9 +180,12 @@
 「おっと、もうこんな時間か！じゃ、頼んだよ！」[p]
 ;表情 笑顔
 
+[chara_hide name="kouki" wait="true"]
+[reset_camera]
 #
 その直後、よほど余裕がないのか父さんはドタバタと家を出て行ってしまった。[p]
-;修正前 黄樹の立ち絵フェード、美寿花を中央に移動（背景も一緒に多少移動できると良いので、若干背景をあらかじめズームさせておきたいかも）
+;修正前 黄樹の立ち絵フェード、美寿花を中央に移動（背景も一緒に多少移動できると
+;良いので、若干背景をあらかじめズームさせておきたいかも）
 
 #雪翔
 ≪……≫[p]
