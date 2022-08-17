@@ -13,7 +13,8 @@
 焦ったような、どうしようもない苦痛を抱えたような、そんな叫び。[p]
 
 ;[bg storage="救急車" time="400"]
-[playse storage="se/ambulance.ogg" loop="true" volume="100" sprite_time="00:01-01:32"]
+[fadeinse storage="se/ambulance.ogg" loop="true" sprite_time="2000-93000" time="5000" volume="30"]
+[wait time="300"]
 …その次に聞こえたのは、耳を劈くようなサイレン。[p]
 さっきの声で通報されたのであろう…[r]
 猛スピードでやってきた救急車が、瞬く間に『母だったもの』を乗せていく。[p]
@@ -21,9 +22,8 @@
 思い出したく、なかった。[p]
 …なら、俺は？[p]
 
-[stopse]
-
 ;[bg storage="立ち尽くす" time="400"]
+
 …ああ、そうだ。[p]
 あの時の俺は、立ち尽くしていた。[p]
 目の前の状況に、思考が停止し、[p]
@@ -39,6 +39,8 @@
 #
 …それが、[r]
 俺の発した、最後の言葉だった。[p]
+
+[stopse]
 
 [mask time="400"]
 [bg storage="myroom.png" time="0"]
