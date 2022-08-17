@@ -1,4 +1,3 @@
-
 [cm]
 
 
@@ -7,7 +6,6 @@
 @wait time = 200
 @layopt layer=message0 visible=false
 [hidemenubutton]
-
 
 *start 
 
