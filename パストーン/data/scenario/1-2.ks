@@ -1,8 +1,9 @@
 *start
-
+;修正前 黄樹の立ち絵を美寿花とバランスがとれるようにサイズを大きく調整
 [startoption]
 
 [bg storage="myroom.png"] 
+;修正前 背景をリビングの左側の壁にズームしたものにする
 [afterjumpmaskNormal]
 
 [voice1 vf1="kouki/kouki1-2_1.ogg"]
@@ -59,12 +60,12 @@
 
 [voice2 vf2="kouki/kouki1-2_4.ogg"]
 #kouki
-お、やっと起きた。[p]
+「お、やっと起きた。」[p]
 ;表情　微笑
 
 [voice2 vf2="kouki/kouki1-2_5.ogg"]
 #kouki:egao
-中々降りてこなかったから体調でも悪いのかと思ったんだが…[p]
+「中々降りてこなかったから体調でも悪いのかと思ったんだが…」[p]
 
 [voicestop]
 #yukito
@@ -80,7 +81,8 @@
 
 [voice2 vf2="mizuka/mizuka1-2_2.ogg"]
 #mizuka
-…雪翔君、だよね？おはよう[p]
+「…雪翔君、だよね？[r]
+_　おはよう」[p]
 
 [voicestop]
 #
@@ -97,24 +99,27 @@
 [chara_show name="kouki" face="kyoton" top="20"]
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki
-ん？何をそこでボーっと突っ立ってるんだ？[p]
+「ん？[r]
+_　何をそこでボーっと突っ立ってるんだ？」[p]
 ;表情　きょとん
 
 [voicestop]
 #
 俺の間抜けな姿に、父さんは不思議そうに席に着くよう促す。[p]
-そりゃするだろ。なんだよこの状況。[p]
+そりゃするだろ。[r]
+なんだよこの状況。[p]
 そんな念を込めた視線を送ると、ああ、と納得したように笑う。[p]
 
 [voice2 vf2="kouki/kouki1-2_7.ogg"]
 #kouki:egao
-そうか。そういえばまだ説明してなかったな。彼女は…[p]
+「そうか。[r]
+_　そういえばまだ説明してなかったな。彼女は…」[p]
 
 ;[playse name = "着信音"]
 
 [voice2 vf2="kouki/kouki1-2_8.ogg"]
 #kouki:shinpai
-…んん？[p]
+「…んん？」[p]
 
 [voicestop]
 
@@ -123,15 +128,17 @@
 
 [voice2 vf2="kouki/kouki1-2_9.ogg"]
 #kouki
-僕か。なんだなんだ？ちゃんとやることは事前に伝えていたはずだが…[p]
+「僕か。なんだなんだ？[r]
+_　ちゃんとやることは事前に伝えていたはずだが…」[p]
 
 [voice2 vf2="kouki/kouki1-2_10.ogg"]
 #kouki:kushou
-すまん。ちょっと出てくるから、二人でゆっくりしていてくれ[p]
+「すまん。[r]
+_　ちょっと出てくるから、二人でゆっくりしていてくれ」[p]
 
 [voicestop]
 #yukito
-え、ちょっと待っ…[p]
+≪え、ちょっと待っ…≫[p]
 
 [chara_hide name="kouki"]
 [playse storage="se/dooropen_1.ogg" wait="true"]
@@ -143,22 +150,23 @@
 
 [voice2 vf2="mizuka/mizuka1-2_3.ogg"]
 #mizuka:kushou
-あ～…[p]
+「あ～…」[p]
 
 [voicestop]
 #yukito
-……[p]
+≪……≫[p]
 
 #
-女性は気まずそうに苦笑。俺も何だか居心地悪くてその場でフリーズ。[p]
+女性は気まずそうに苦笑。[r]
+俺も何だか居心地悪くてその場でフリーズ。[p]
 …だが、いつまでもそうしているわけにもいかず、諦めて席につく。[p]
 
 #yukito
-……[p]
+≪……≫[p]
 
 [voice2 vf2="mizuka/mizuka1-2_4.ogg"]
 #mizuka:odoroki
-…あ、まず自己紹介から、だよね！[p]
+「…あ、まず自己紹介から、だよね！」[p]
 
 [voicestop]
 #
@@ -166,11 +174,12 @@
 
 [voice2 vf2="mizuka/mizuka1-2_5.ogg"]
 #mizuka:egao
-…えーと、名前は[ruby text = "ときわ"]常葉[ruby text = "みずか"]美寿花。希み野大学の1年生。[p]
+「…えーと、名前は[ruby text = "ときわ"]常葉[ruby text = "みずか"]美寿花。希み野大学の1年生。」[p]
 
 [voicestop]
 #
-…1年ってことは…やっぱり同い年なのか。しかも同じ大学…[p]
+…1年ってことは…やっぱり同い年なのか。[p]
+しかも同じ大学…[p]
 でも…[p]
 
 #yukito
@@ -184,7 +193,7 @@
 
 [voice2 vf2="mizuka/mizuka1-2_6.ogg"]
 #mizuka
-それと、訳あって今日からここで暮らすことになって…[p]
+「それと、訳あって今日からここで暮らすことになって…」[p]
 
 [voicestop]
 #
@@ -192,7 +201,7 @@
 ……[p]
 
 #yukito
-…は？[p]
+≪…は？≫[p]
 
 #
 …その発言が、爆弾の如く俺の思考を吹っ飛ばしていった。[p]
