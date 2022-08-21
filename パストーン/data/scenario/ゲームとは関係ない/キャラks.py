@@ -1,6 +1,6 @@
 import os
 
-chara_list = ["mizuka","roz","laz","kouki","ayana"]
+chara_list = ["mizuka","roz","laz","kouki","ayana","RozLaz"]
 
 #25行目のpathはそれぞれ端末によって書き換える
 #使い方はここのchara_list[]のインデックスを変えるだけ

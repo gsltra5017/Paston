@@ -1,4 +1,3 @@
-
 [cm]
 
 
@@ -7,7 +6,6 @@
 @wait time = 200
 @layopt layer=message0 visible=false
 [hidemenubutton]
-
 
 *start 
 
@@ -28,5 +26,6 @@
 [s]
 
 *gamestart
+
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="3-1.ks"
+@jump storage="1-1.ks"

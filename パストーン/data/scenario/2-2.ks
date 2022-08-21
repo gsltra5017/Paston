@@ -93,7 +93,7 @@
 ≪…ラズ…か？≫[p]
 
 [voice2 vf2="mizuka/mizuka2-2_6.ogg"]
-#美寿花
+#美寿花:aseri
 「何！？誰が喋ってるの！？」[p]
 ;表情 焦り あとで
 
@@ -184,13 +184,13 @@
 
 #
 目の前で繰り広げられる喧嘩にどうすればいいのか分からないのか、美寿花は俺を見る。[p]
-…仕方ない。
+…仕方ない。[p]
 
 #雪翔
 ≪とりあえず二人とも落ち着け。一応今は朝だってことを…≫[p]
 
-[voice2 vf2="laz/Laz2-2_9.ogg"]
-[voice2 vf2="roz/Roz2-2_4.ogg"]
+[playse storage="laz/Laz2-2_9.ogg" buf="0"]
+[playse storage="roz/Roz2-2_4.ogg" buf="1"]
 #ロズ＆ラズ
 「マスターは黙っとって！！」「ご主人様は黙っててくださいまし！！」[p]
 ;表情 x　あとで
@@ -213,7 +213,7 @@
 …ならなんで君たちはすぐ喧嘩するんだ？[p]
 俺の言葉を聞いた瞬間必死に取り繕い出す二人に、そんなツッコミが頭に浮かんだが…まぁ、やめてくれたのでこれ以上は触れないでおこう。[p]
 
-[voice2 vf2="mizuka/mizuka2-2_11.ogg"]
+
 #美寿花
 「‥‥‥」[p]
 ;表情 不満
@@ -223,7 +223,7 @@
 #
 ふと、俺の肩に何かが触れる感覚。[p]
 
-[voice2 vf2="mizuka/mizuka2-2_12.ogg"]
+[voice2 vf2="mizuka/mizuka2-2_11.ogg"]
 #美寿花:jitome
 「…説明、よろしく。」[p]
 ;表情 ジト目　あとで
@@ -243,7 +243,7 @@
 #雪翔
 ≪…あとは喧嘩っ早いところを直してくれれば完璧なんだが…≫[p]
 
-[voice2 vf2="mizuka/mizuka2-2_13.ogg"]
+[voice2 vf2="mizuka/mizuka2-2_12.ogg"]
 #美寿花
 「…じゃあ、雪翔君にとっては兄妹？みたいなものなんだ…」[p]
 ;表情 surprise_2 あとで
@@ -251,12 +251,12 @@
 #雪翔
 ≪…兄妹…こんな騒がしい妹が二人いたら頭痛くなるな…≫[p]
 
-[voice2 vf2="mizuka/mizuka2-2_14.ogg"]
+[voice2 vf2="mizuka/mizuka2-2_13.ogg"]
 #美寿花:kushou
 「あはは…それはそうかも。」[p]
 ;表情 kushou
 
-[voice2 vf2="mizuka/mizuka2-2_15.ogg"]
+[voice2 vf2="mizuka/mizuka2-2_14.ogg"]
 #美寿花:kangae
 「にしても、AIかぁ…私初めて見た」[p]
 ;表情 kangae
@@ -267,7 +267,7 @@
 #
 それでも最近ではAI技術も進歩し、近い将来完全なアンドロイドが作られるという話もあるくらいだ。[p]
 
-[voice2 vf2="mizuka/mizuka2-2_16.ogg"]
+[voice2 vf2="mizuka/mizuka2-2_15.ogg"]
 #美寿花:jitome
 「…でも、何で関西弁とお嬢様口調？」[p]
 ;表情 jitome
@@ -280,7 +280,7 @@
 「そういえば、ご主人様達は今登校中では？私たちが出てきてから随分時間が経っていますが…」[p]
 ;表情 shinpai
 
-[voice2 vf2="mizuka/mizuka2-2_17.ogg"]
+[voice2 vf2="mizuka/mizuka2-2_16.ogg"]
 #美寿花:kyoton
 「え？」[p]
 ;表情 kyoton
@@ -299,7 +299,7 @@
 #雪翔
 ≪その通りだけど、それをお前が言うなお前が≫[p]
 
-[voice2 vf2="mizuka/mizuka2-2_18.ogg"]
+[voice2 vf2="mizuka/mizuka2-2_17.ogg"]
 #美寿花:shinpai
 「ちょっと辛いだろうけど…急げる？」[p]
 ;表情 shinpai

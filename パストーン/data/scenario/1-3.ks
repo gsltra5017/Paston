@@ -4,7 +4,9 @@
 
 [bg storage="living.png" ]
 [chara_show name="mizuka" face="bishou" top="20"]
-[chara_show name="kouki" face="bishou" top="20" ]
+[chara_show name="kouki" face="bishou" top="-50" ]
+
+[camera layer="base" zoom="1.2" x="0" y="0" time="0" wait="false"]
 
 [afterjumpmaskNormal]
 
@@ -274,8 +276,12 @@
 「おっと、もうこんな時間か！じゃ、頼んだよ！」[p]
 ;表情 笑顔
 
+[chara_hide name="kouki" wait="true"]
+[reset_camera time="1000" layer="base" ]
 #
 その直後、よほど余裕がないのか父さんはドタバタと家を出て行ってしまった。[p]
+;修正済み 黄樹の立ち絵フェード、美寿花を中央に移動（背景も一緒に多少移動できると
+;良いので、若干背景をあらかじめズームさせておきたいかも）
 
 #雪翔
 ≪……≫[p]
@@ -298,12 +304,14 @@
 #
 美寿花が居心地悪そうにキョロキョロしている一方で、俺はそんなことを考え、一人悶々とするのであった…。[p]
 
-[chara_hide_all]
-
-[bg storage="black.jpg" time="1000" wait="true"]
+[chara_hide_all time="1000" wait="true"]
+[bg storage="makkuro.jpg" time="1000"]
+;修正済み 背景 黒
+#
 …余談だが、父さんが作った…肉じゃが？もどき。[p]
 控え目に言って子供がギャン泣きする出来に仕上がっており、[r]
 それを二人で頑張って完食するのは、また別の話である。[p]
+
 
 [mask effect="fadeInLeftBig" ]
 

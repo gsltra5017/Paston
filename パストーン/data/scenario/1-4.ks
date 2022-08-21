@@ -15,13 +15,17 @@
 #
 夕食後、自室で一息つく。[p]
 いつもならすぐパソコンに向かっているだろうが、今日ばかりは違った。[p]
+
 #雪翔
 （…美寿花の料理…めっちゃうまかった…）[p]
+
 #
 夕食に出された料理はどれも、自分で作ったものを遥かに超えていて、店で出しても全く違和感を感じないレベルだった。[p]
 当の本人は、家で家事をしていたから慣れているだけ。と言っていたが…[p]
+
 #雪翔
 （…俺なんか自炊自体滅多にしないからな…）[p]
+
 #
 気まぐれで時々することもあるが、面倒なので弁当で済ましてしまうことがほとんど。[p]
 なので、久しぶりに食べた人の手料理のおいしさに、衝撃を覚えるほどである。[p]
@@ -377,7 +381,7 @@
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
-[wait time="2000"]
+[wait time="4000"]
 ;未修正 ここに待ち時間を設定してほしい
 ;背景 黒
 [voice2 vf2="roz/roz1-4_1.ogg"]
@@ -396,8 +400,9 @@
 #ラズ
 「…完全に、忘れられてますわね…」[p]
 
+[stopse]
 [mask effect="fadeInLeftBig" ]
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc = "2-1.ks"]
+[scenejumpNormal sc="2-1.ks"]
