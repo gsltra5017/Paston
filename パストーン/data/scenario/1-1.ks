@@ -126,18 +126,20 @@ _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[
 #yukito
 ≪朝から騒がしいな…≫[p]
 
-[chara_show name="roz" top="20" face="fuman" left = "505" wait = "false" pos_mode = "false"]
-[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
-
+;[chara_show name="roz" top="20" face="fuman" left = "505" wait = "false" pos_mode = "false"]
+;[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
+[chara_show name="RozLaz" top="20" face="roz_taunt" wait="true" pos_mode="true"]
+[chara_config  talk_focus="none"]
 [voice2 vf2="roz/Roz1-1_2.wav"]
 
-[kanim name="roz" time="150" keyframe="pyon"] 
-#roz
+;[kanim name="roz" time="150" keyframe="pyon"] 
+#ロズ
 「そうやってラズが甘やかすから、[r]
 _　どんどんマスターの生活リズムが崩れていくんやで？」[p]
 
+[chara_mod name="RozLaz" face="laz_kushou"]
 [voice2 vf2="laz/Laz1-1_2.wav"]
-#laz
+#ラズ
 「あらあら、それならあなただって[r]
 _　どうして深夜まで頑張って作業しているご主人様を止めませんの？[r]
 _　元はといえばロズのせいだと言えますが」[p]
@@ -147,18 +149,21 @@ _　元はといえばロズのせいだと言えますが」[p]
 #
 俺の言葉を無視し、携帯からの声達はどんどん険悪な雰囲気になっていく。[p]
 
+[chara_mod name="RozLaz" face="roz_okori_2"]
 [voice2 vf2="roz/Roz1-1_3.wav"]
-#roz
+#ロズ
 「どうやら、今日こそ決着つけなあかんみたいやな。」[p]
 
+[chara_mod name="RozLaz" face="laz_confident"]
 [voice2 vf2="laz/Laz1-1_3.wav"]
-#laz
+#ラズ
 「勝てるとお思いで？[r]
 _　私、貴方に負けたことないでしょう？」[p]
 
-[kanim name = "roz" time = "300" keyframe = "pyonpyon"] 
+;[kanim name = "roz" time = "300" keyframe = "pyonpyon"] 
+[chara_mod name="RozLaz" face="roz_okori_3"]
 [voice2 vf2="roz/Roz1-1_4.wav"]
-#roz:okori
+#ロズ
 「当たりまえやろ毎回引き分けなんやから！！[r]
 _　とにかく、覚悟…」[p]
 
