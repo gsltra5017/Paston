@@ -14,8 +14,7 @@
 焦ったような、どうしようもない苦痛を抱えたような、そんな叫び。[p]
 
 ;[bg storage="救急車" time="400"]
-[fadeinse storage="se/ambulance.ogg" loop="true" sprite_time="2000-93000" time="5000" volume="30"]
-[wait time="300"]
+[playse_ambulance]
 …その次に聞こえたのは、耳を劈くようなサイレン。[p]
 さっきの声で通報されたのであろう…[p]
 猛スピードでやってきた救急車が、[r]
@@ -85,8 +84,8 @@ _　あれを何回も見せられるのはつらいな…≫[p]
 #
 あれ、というのは夢の内容のことである。[p]
 
-[bg storage="black.jpg" time="0"]
-;修正前 黒背景フェードイン
+[bg storage="black.jpg" time="1000"]
+;修正済 黒背景フェードイン
 
 『悲劇の飲酒暴走事故』[p]
 5年前の2022年。[p]
@@ -173,7 +172,7 @@ _　とにかく、覚悟…」[p]
 #yukito
 ≪おしゃべりAI達め…≫[p]
 
-[playse storage="se/dooropen_1.ogg" loop="false" ]
+[playse_dooropen_1]
 
 #
 どうしようもない、と言った風に俺はドアを開け、階下へ降りる。[p]

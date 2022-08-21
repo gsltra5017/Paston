@@ -4,7 +4,7 @@
 
 [bg storage="living.png" ]
 [chara_show name="mizuka" face="bishou" top="20"]
-[chara_show name="kouki" face="bishou" top="20" ]
+[chara_show name="kouki" face="bishou" top="-50" ]
 
 [camera layer="base" zoom="1.2" x="0" y="0" time="0" wait="false"]
 [afterjumpmaskNormal]

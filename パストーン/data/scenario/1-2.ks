@@ -1,9 +1,11 @@
 *start
-;修正前 黄樹の立ち絵を美寿花とバランスがとれるようにサイズを大きく調整
+;修正済み 黄樹の立ち絵を美寿花とバランスがとれるようにサイズを大きく調整
 [startoption]
 
-[bg storage="myroom.png"] 
+[bg storage="living.png"]
 ;修正前 背景をリビングの左側の壁にズームしたものにする
+
+[camera zoom="2" x="-300" y="0" time="0" wait="true"]
 [afterjumpmaskNormal]
 
 [voice1 vf1="kouki/kouki1-2_1.ogg"]
@@ -55,8 +57,8 @@
 …いや、考えていても仕方ない。[p]
 心の中で結論にもなっていない結論を出し、俺はそうっと階段を下りる。[p]
 
-[bg storage="living.png"]
-[chara_show name="kouki" top="20" storage="chara/kouki/bishou.png" wait="true"]
+[reset_camera]
+[chara_show name="kouki" top="-50" storage="chara/kouki/bishou.png" wait="true"]
 
 [voice2 vf2="kouki/kouki1-2_4.ogg"]
 #kouki
@@ -75,9 +77,21 @@
 申し訳ないが、今は父さんの言葉に反応する余裕はなかった。[p]
 俺の意識は、キッチンに立つ父さんではなく…[p]
 
-;[playse storage = "bgm"]
 [chara_hide name="kouki"]
-[chara_show name="mizuka" face="egao" top="20"]
+
+;テーブルにズーム
+[camera layer="base" zoom="1.3" x="150" y="-70" time="1000" wait="false"]
+;背景ぼかし
+[filter layer="base" blur="5"]
+;みずかの立ち絵を大きめに表示
+[chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]
+
+
+
+
+
+;[playse storage = "bgm"]
+;[chara_show name="mizuka" face="egao" top="20"]
 
 [voice2 vf2="mizuka/mizuka1-2_2.ogg"]
 #mizuka
@@ -96,7 +110,8 @@ _　おはよう」[p]
 #
 いや、そうでなければただの不審者なのだが…と、自分の考えに自分で突っ込む。[p]
 
-[chara_show name="kouki" face="kyoton" top="20"]
+
+[chara_show name="kouki" face="kyoton" top="-50"]
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki
 「ん？[r]
