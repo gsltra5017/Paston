@@ -400,9 +400,17 @@
 #ラズ
 「…完全に、忘れられてますわね…」[p]
 
+;発表用終わり(?)
+#
+
+[wait time="1000" ]
+
+#system
+発表版終了
+
 [stopse]
-[mask effect="fadeInLeftBig" ]
+;[mask effect="fadeInLeftBig" ]
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc="2-1.ks"]
+;[scenejumpNormal sc="title.ks"]

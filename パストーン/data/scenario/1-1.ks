@@ -2,7 +2,7 @@
 
 [startoption]
 
-[bg storage="black.jpg" time="0"]
+[bg storage="makkuro.jpg" time="0"]
 
 #
 『やめてくれ』[p]
@@ -32,7 +32,7 @@
 理解を拒み、[p]
 …『言葉』だけを、ただ、紡いでいく。[p]
 
-[bg storage="black.jpg" time="400"]
+[bg storage="makkuro.jpg" time="400"]
 #yukito
 『やめてくれ』[p]
 『止めてくれ』[p]
@@ -84,7 +84,7 @@ _　あれを何回も見せられるのはつらいな…≫[p]
 #
 あれ、というのは夢の内容のことである。[p]
 
-[bg storage="black.jpg" time="1000"]
+[bg storage="makkuro.jpg" time="1000"]
 ;修正済 黒背景フェードイン
 
 『悲劇の飲酒暴走事故』[p]
