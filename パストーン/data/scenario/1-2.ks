@@ -196,7 +196,7 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 
 [voice2 vf2="mizuka/mizuka1-2_5.ogg"]
 #mizuka:egao
-「…えーと、名前は[ruby text = "ときわ"]常葉[ruby text = "みずか"]美寿花。希み野大学の1年生。」[p]
+「…えーと、名前は[ruby text = "ときわ"]常葉美[ruby text = "みずか"]寿花。希み野大学の1年生。」[p]
 
 [voicestop]
 #
