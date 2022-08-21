@@ -79,6 +79,9 @@
 
 [chara_hide name="kouki"]
 
+;イントロ
+;[playbgm storage="mizuka_intro.ogg" loop="false" ]
+
 ;テーブルにズーム
 [camera layer="base" zoom="1.3" x="150" y="-70" time="1000" wait="false"]
 ;背景ぼかし
@@ -90,7 +93,7 @@
 
 
 
-;[playse storage = "bgm"]
+[playbgm storage="mizuka.ogg" volume="70" ]
 ;[chara_show name="mizuka" face="egao" top="20"]
 
 [voice2 vf2="mizuka/mizuka1-2_2.ogg"]
@@ -154,6 +157,8 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 [voicestop]
 #yukito
 ≪え、ちょっと待っ…≫[p]
+
+[fadeoutbgm time=2000]
 
 [chara_hide name="kouki"]
 [playse storage="se/dooropen_1.ogg" wait="true"]
