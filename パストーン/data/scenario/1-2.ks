@@ -131,7 +131,8 @@ _　何をそこでボーっと突っ立ってるんだ？」[p]
 「そうか。[r]
 _　そういえばまだ説明してなかったな。彼女は…」[p]
 
-;[playse name = "着信音"]
+[playse storage="se/phone.ogg" sprite_time="0000-2000"]
+[wse]
 
 [voice2 vf2="kouki/kouki1-2_8.ogg"]
 #kouki:shinpai
@@ -159,8 +160,8 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 [fadeoutbgm time=2000]
 
 [chara_hide name="kouki"]
-[playse storage="se/dooropen_1.ogg" wait="true"]
-[playse storage="se/doorclose_1.ogg" wait="true"]
+[playse_dooropen_1]
+[playse_doorclose_1]
 ;BGMフェードアウト
 
 #
