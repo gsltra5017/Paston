@@ -83,14 +83,11 @@
 ;[playbgm storage="mizuka_intro.ogg" loop="false" ]
 
 ;テーブルにズーム
-[camera layer="base" zoom="1.3" x="150" y="-70" time="1000" wait="false"]
+[camera layer="base" zoom="1.3" x="140" y="-70" time="1000" wait="false"]
 ;背景ぼかし
 [filter layer="base" blur="5"]
 ;みずかの立ち絵を大きめに表示
 [chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]
-
-
-
 
 
 [playbgm storage="mizuka.ogg" volume="70" ]
@@ -113,8 +110,9 @@ _　おはよう」[p]
 #
 いや、そうでなければただの不審者なのだが…と、自分の考えに自分で突っ込む。[p]
 
-
-[chara_show name="kouki" face="kyoton" top="-50"]
+[reset_camera time="1000" wait="false" layer="base"]
+[chara_config pos_change_time="1000"]
+[chara_show name="kouki" face="kyoton" top="-50" time="1000"]
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki
 「ん？[r]
@@ -230,4 +228,7 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc = "1-3.ks"]
+[reset_camera]
+
+
+[scenejumpNormal sc = "title.ks"]

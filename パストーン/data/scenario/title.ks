@@ -8,7 +8,6 @@
 [hidemenubutton]
 
 *start 
-
 [afterjumpmaskNormal]
 
 [button x=130 y=260 graphic="title/START.png" enterimg="title/START_c.png"  target="gamestart"]
@@ -27,4 +26,4 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="1-1.ks"
+@jump storage="1-2.ks"
