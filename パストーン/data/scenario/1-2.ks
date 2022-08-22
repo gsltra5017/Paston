@@ -89,7 +89,6 @@
 ;みずかの立ち絵を大きめに表示
 [chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]
 
-
 [playbgm storage="mizuka.ogg" volume="70" ]
 ;[chara_show name="mizuka" face="egao" top="20"]
 
@@ -111,6 +110,7 @@ _　おはよう」[p]
 いや、そうでなければただの不審者なのだが…と、自分の考えに自分で突っ込む。[p]
 
 [reset_camera time="1000" wait="false" layer="base"]
+[filter layer="base" blur="0" wait="false" time="1000"]
 [chara_config pos_change_time="1000"]
 [chara_show name="kouki" face="kyoton" top="-50" time="1000"]
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
