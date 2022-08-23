@@ -77,21 +77,32 @@
 申し訳ないが、今は父さんの言葉に反応する余裕はなかった。[p]
 俺の意識は、キッチンに立つ父さんではなく…[p]
 
+@layopt layer="message0" visible="false"
 [chara_hide name="kouki"]
 
 ;BGMイントロと美寿花初登場演出の動画再生
-[movie storage="mizuka_first.mp4" skip="false" ]
+[bgmovie storage="mizuka_first.mp4" loop="false" skip="false"]
 
-;テーブルにズーム
+[wait time="9000"]
+
+[camera layer="base" zoom="1.3" x="140" y="-70" time="0" wait="false"]
+;背景ぼかし
+[filter layer="base" blur="5"]
+[stop_bgmovie time="1000" wait="true"]
+
+/*;テーブルにズーム
+[bg storage="living.png"]
 [camera layer="base" zoom="1.3" x="140" y="-70" time="0" wait="false"]
 ;背景ぼかし
 [filter layer="base" blur="5"]
 ;動画の最後のフレームの画像を表示
 [image layer="0"  storage="mizuka_first.png"]
 [p]
+*/
 
 ;動画の最後のフレームをフェードアウト
 [freeimage layer="0" time="1000"]
+
 
 ;みずかの立ち絵を大きめに表示
 [chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]
