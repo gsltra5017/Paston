@@ -81,7 +81,7 @@
 [chara_hide name="kouki"]
 
 ;BGMイントロと美寿花初登場演出の動画再生
-[bgmovie storage="mizuka_first.mp4" loop="false" skip="false"]
+[bgmovie storage="mizuka_first_2.mp4" loop="false" skip="false"]
 
 [wait time="9000"]
 
@@ -89,8 +89,9 @@
 ;背景ぼかし
 [filter layer="base" blur="5"]
 [stop_bgmovie time="1000" wait="true"]
-
-/*;テーブルにズーム
+@layopt layer="message0" visible="true"
+/*
+;テーブルにズーム
 [bg storage="living.png"]
 [camera layer="base" zoom="1.3" x="140" y="-70" time="0" wait="false"]
 ;背景ぼかし
