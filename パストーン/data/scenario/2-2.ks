@@ -103,7 +103,7 @@
 …にしても、またややこしいタイミングで出てきたな…[p]
 スマホを取り出し、その画面を美寿花に見せる。[p]
 
-[chara_show name="RozLaz" top="-70" face="laz_normal" wait="true"]
+[chara_show name="RozLaz" top="-16" face="laz_normal" wait="true"]
 [voice2 vf2="laz/Laz2-2_3.ogg"]
 #ラズ
 「あなたが美寿花…ですね？」[p]
@@ -208,11 +208,13 @@
 #雪翔
 ≪お前達、また一日中ミュートでもいいんだぞ？≫[p]
 
+[chara_mod name="RozLaz" face="laz_egao"]
 [voice2 vf2="laz/Laz2-2_10.ogg"]
-#ラズ:egao
+#ラズ
 「あらいやですわ。喧嘩なんてはしたない真似するはずないでしょう？ねぇ、ロズ」[p]
 ;表情 egao
 
+[chara_mod name="RozLaz" face="roz_tokuige"]
 [voice2 vf2="roz/Roz2-2_5.ogg"]
 #ロズ
 「せやせや。なんてったってウチらAIやで？ちゃんと失敗から学んでるんやから」[p]
@@ -223,7 +225,7 @@
 俺の言葉を聞いた瞬間必死に取り繕い出す二人に、そんなツッコミが頭に浮かんだが…まぁ、やめてくれたのでこれ以上は触れないでおこう。[p]
 
 
-#美寿花
+#美寿花:fuman
 「‥‥‥」[p]
 ;表情 不満
 
@@ -253,7 +255,7 @@
 ≪…あとは喧嘩っ早いところを直してくれれば完璧なんだが…≫[p]
 
 [voice2 vf2="mizuka/mizuka2-2_12.ogg"]
-#美寿花
+#美寿花:odoroki_2
 「…じゃあ、雪翔君にとっては兄妹？みたいなものなんだ…」[p]
 ;表情 surprise_2 あとで
 
@@ -284,8 +286,9 @@
 #雪翔
 ≪それは…分からん。多分何かのアニメの影響だと思うけど…≫[p]
 
+[chara_mod name="RozLaz" face="laz_shinpai"]
 [voice2 vf2="laz/Laz2-2_11.ogg"]
-#ラズ:shinpai
+#ラズ
 「そういえば、ご主人様達は今登校中では？私たちが出てきてから随分時間が経っていますが…」[p]
 ;表情 shinpai
 
@@ -300,8 +303,9 @@
 #
 時計を見ると、登校前にはあったはずの時間の余裕がなくなっている。[p]
 
+[chara_mod name="RozLaz" face="roz_kyoton"]
 [voice2 vf2="roz/Roz2-2_6.ogg"]
-#ロズ:kyoton
+#ロズ
 「はよいかな遅刻するで？」[p]
 ;表情 きょとん
 
