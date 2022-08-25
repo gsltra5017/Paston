@@ -129,7 +129,6 @@ _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[
 ;[chara_show name="roz" top="20" face="fuman" left = "505" wait = "false" pos_mode = "false"]
 ;[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
 [chara_show name="RozLaz" top="-16" face="roz_taunt" wait="true" pos_mode="true"]
-[chara_config  talk_focus="none"]
 [voice2 vf2="roz/Roz1-1_2.wav"]
 
 ;[kanim name="roz" time="150" keyframe="pyon"] 
