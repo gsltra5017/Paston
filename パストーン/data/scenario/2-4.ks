@@ -126,8 +126,9 @@
 #
 そう文字を打つと、ラズは少し困った様子で話を続ける。[p]
 
+[chara_show name="RozLaz" top="-16" face="laz_shinpai" wait="true"]
 [voice2 vf2="laz/Laz2-4_2.ogg"]
-#ラズ:shinpai
+#ラズ
 「外なのですが、雨が降り出してまして…」[p]
 ;表情 shinpai
 [voicestop]
@@ -138,13 +139,15 @@
 #
 窓を見ると、空は雲に覆われており、確かに雨が降ってきているのが分かる。[p]
 
+[chara_mod name="RozLaz" face="roz_komari"]
 [voice2 vf2="roz/Roz2-4_1.ogg"]
-#ロズ:komari
+#ロズ
 「天気予報では今日は晴れやって言っとったんやけどな…」[p]
 ;表情　困り
 
+[chara_mod name="RozLaz" face="roz_shinpai"]
 [voice2 vf2="roz/Roz2-4_2.ogg"]
-#ロズ:shinpai
+#ロズ
 「マスター、傘とか持ってきたりは…」[p]
 ;表情　shinpai
 
@@ -155,8 +158,9 @@
 #
 もし、帰る時までに止まなかったらちょっと大変だな…[p]
 
+[chara_mod name="RozLaz" face="laz_shinpai_2"]
 [voice2 vf2="laz/Laz2-4_3.ogg"]
-#ラズ:shinpai_2
+#ラズ
 「いかがなさいますか？黄樹様に連絡いたしましょうか？」[p]
 ;表情　shinpai_2
 
@@ -295,6 +299,11 @@
 
 ;一枚絵 膝枕
 ;一枚絵
+
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4微笑.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 
 #雪翔
 ≪…どういう状況だよこれ…≫[p]
