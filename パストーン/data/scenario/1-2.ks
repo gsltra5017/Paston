@@ -84,12 +84,14 @@
 [bgmovie storage="mizuka_first_2.mp4" loop="false" skip="false"]
 
 [wait time="9000"]
-
+;テーブルにズーム
 [camera layer="base" zoom="1.3" x="140" y="-70" time="0" wait="false"]
 ;背景ぼかし
 [filter layer="base" blur="5"]
+;ムービーをフェードアウトさせる
 [stop_bgmovie time="1000" wait="true"]
 @layopt layer="message0" visible="true"
+
 /*
 ;テーブルにズーム
 [bg storage="living.png"]
@@ -103,7 +105,6 @@
 
 ;動画の最後のフレームをフェードアウト
 [freeimage layer="0" time="1000"]
-
 
 ;みずかの立ち絵を大きめに表示
 [chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]
