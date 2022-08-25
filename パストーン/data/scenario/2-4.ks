@@ -126,11 +126,13 @@
 #
 そう文字を打つと、ラズは少し困った様子で話を続ける。[p]
 
-[chara_show name="RozLaz" top="-16" face="laz_shinpai" wait="true"]
+[chara_show name="RozLaz" top="100" face="laz_shinpai" wait="true"]
 [voice2 vf2="laz/Laz2-4_2.ogg"]
 #ラズ
 「外なのですが、雨が降り出してまして…」[p]
 ;表情 shinpai
+;未修正　テキスト変わってるから、あとでやる
+
 [voicestop]
 
 #雪翔
@@ -184,6 +186,7 @@
 #
 そう聞こうと思って、彼女の方を見る。[p]
 
+[voice2 vf2="mizuka/mizuka2-4_8.ogg"]
 #美寿花:onemu
 「‥‥‥」[p]
 ;表情 おねむ
@@ -191,7 +194,7 @@
 #雪翔
 ≪…美寿花？≫[p]
 
-[voice2 vf2="mizuka/mizuka2-4_8.ogg"]
+[voice2 vf2="mizuka/mizuka2-4_9.ogg"]
 #美寿花:aseganizindaegao
 「…ん？あ、傘の話…だよね？」[p]
 ;表情 （汗が滲んだ笑顔）
@@ -201,7 +204,7 @@
 俺が見ていることに気づいたのか、慌てて返事を返すが…どこか、美寿花の顔色が悪いように見える。[p]
 弁当を食べる前までは、普通だったはずだが…[p]
 
-[voice2 vf2="mizuka/mizuka2-4_9.ogg"]
+[voice2 vf2="mizuka/mizuka2-4_10.ogg"]
 #美寿花:kushou
 「いつも折り畳みの傘を持ち歩いてるから…二人ぐらいなら、入ると思う」[p]
 ;表情　kushou?
@@ -231,7 +234,7 @@
 #雪翔
 ≪…あの…何で寄りかかって…≫[p]
 
-[voice2 vf2="mizuka/mizuka2-4_10.ogg"]
+[voice2 vf2="mizuka/mizuka2-4_11.ogg"]
 #美寿花:tsukare
 「ごめん…しばらく、こうさせて…ちょっと体がだるくて…」[p]
 ;表情 疲れた顔
@@ -248,7 +251,7 @@
 #
 今美寿花が俺に触れているのは手じゃなくて頭だが…多分通じるだろうと思い、聞いてみる。[p]
 
-[voice2 vf2="mizuka/mizuka2-4_11.ogg"]
+[voice2 vf2="mizuka/mizuka2-4_12.ogg"]
 #美寿花:fushime
 「…うん。雨が…というか、曇りの時も...だね。小さい頃からすぐこうなっちゃうんだ…」[p]
 ;表情 目を伏せた顔
@@ -264,7 +267,7 @@
 #雪翔
 ≪…やっぱり、雨が止むまでずっとこのままなのか？≫[p]
 
-[voice2 vf2="mizuka/mizuka2-4_12.ogg"]
+[voice2 vf2="mizuka/mizuka2-4_13.ogg"]
 #美寿花:neru
 「‥‥‥すぅ…」[p]
 ;表情 寝てる顔
@@ -276,7 +279,7 @@
 #雪翔
 ≪…あの…美寿花？≫[p]
 
-[voice2 vf2="mizuka/mizuka2-4_13.ogg"]
+[voice2 vf2="mizuka/mizuka2-4_14.ogg"]
 #美寿花:neru
 「…すぅ…すぅ…」[p]
 ;表情 寝てる顔
@@ -300,10 +303,10 @@
 ;一枚絵 膝枕
 ;一枚絵
 
-[backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4微笑.png"]
-[trans layer="0" time="500" method="fadeIn"]
-[wt]
+[chara_hide_all]
+
+[layopt layer="0" visible="true"]
+[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/2-4/2-4.png" time="1000"]
 
 #雪翔
 ≪…どういう状況だよこれ…≫[p]
@@ -313,7 +316,12 @@
 …いや完全に膝枕だなこれ。[p]
 さっきまでの異常な距離感に比べればまだマシだが…[p]
 
-[voice2 vf2="mizuka/mizuka2-4_14.ogg"]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4しかめ.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
+
+[voice2 vf2="mizuka/mizuka2-4_15.ogg"]
 #美寿花
 「…ん…」[p]
 ;一枚絵 差分 顔をしかめる
@@ -325,7 +333,12 @@
 #
 少し動いた美寿花を落とさないように、体勢を調整する。[p]
 
-[voice2 vf2="mizuka/mizuka2-4_15.ogg"]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
+
+[voice2 vf2="mizuka/mizuka2-4_16.ogg"]
 #美寿花
 「…すぅ…すぅ…」[p]
 ;表情 寝てる顔
@@ -343,7 +356,7 @@
 普段元気そうに振舞っていても、もしかしたら精神的に参ってしまっていたのかもしれない。[p]
 
 #雪翔
-≪‥‥‥≫
+≪‥‥‥≫[p]
 
 #
 …変わった…か。[p]
@@ -357,9 +370,20 @@
 #雪翔
 ≪…ありがとな、美寿花≫[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
+
 #
 そんな、短い一言。[p]
 まだ面と向かっては言えない一言。[p]
+
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4.png"]
+[trans layer="0" time="1000" method="fadeIn"]
+[wt]
+
 意味はないかもしれないが、それでも…今はこれでいい。[p]
 そう思いながら、彼女が起きるまでしばらくそのままでいたのだった。[p]
 
@@ -370,4 +394,4 @@
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc="2-4.ks"]
+[scenejumpNormal sc="2-5.ks"]
