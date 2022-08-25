@@ -401,14 +401,15 @@
 #雪翔
 ≪…ロズか≫[p]
 
-[chara_show name="RozLaz" top="-16" storage="chara/roz/normal.png" wait="true"]
+[chara_show name="RozLaz" top="-16" face="roz_neutral" wait="true"]
 
 #
 まぁ、勿論ラズもいるんだろうが。[p]
 …というか、[p]
 
+[chara_mod name="RozLaz" face="roz_okori"]
 [voice2 vf2="roz/Roz2-1_2.ogg"]
-#ロズ:okori
+#ロズ
 「…む～…」[p]
 ;表情 不満　あとで
 ;okoriもあり？

@@ -103,14 +103,15 @@
 …にしても、またややこしいタイミングで出てきたな…[p]
 スマホを取り出し、その画面を美寿花に見せる。[p]
 
-[chara_show name="laz" top="-70" storage="chara/laz/normal.png" wait="true"]
+[chara_show name="RozLaz" top="-70" face="laz_normal" wait="true"]
 [voice2 vf2="laz/Laz2-2_3.ogg"]
-#ラズ:normal
+#ラズ
 「あなたが美寿花…ですね？」[p]
 ;表情 normal
 
 [voice2 vf2="laz/Laz2-2_4.ogg"]
-#ラズ:bow
+[chara_mod name="RozLaz" face="laz_bow"]
+#ラズ
 「お初にお目にかかります。私、ラズと申します。雪翔様がお世話になっているようで…」[p]
 ;表情 bow　あとで
 
@@ -125,7 +126,8 @@
 ;表情 kushou
 
 [voice2 vf2="laz/Laz2-2_5.ogg"]
-#ラズ:jitome
+[chara_mod name="RozLaz" face="laz_jitome"]
+#ラズ
 「…ラズ、とさっき申し上げたはずですが…」[p]
 ;表情 jitome
 
@@ -136,13 +138,14 @@
 会話が成立するように、助け船を出してやる。[p]
 
 [voice2 vf2="laz/Laz2-2_6.ogg"]
-#ラズ:kyoton
+[chara_mod name="RozLaz" face="laz_kyoton"]
+#ラズ
 「ああ、そういうことですか。私は…」[p]
 ;表情 kyoton
 
-[chara_show name="roz" top="-70" storage="chara/roz/okori.png" wait="true"]
+[chara_mod name="RozLaz" face="roz_okori"]
 [voice2 vf2="roz/Roz2-2_1.ogg"]
-#ロズ:okori
+#ロズ
 「あっずるっ！！二人で驚かせようって話やったやん！！何で一人で話してんの！？」[p]
 ;表情　okori
 
@@ -157,23 +160,27 @@
 #
 もはやカオスな状況に、美寿花も目を点にして固まってしまう。[p]
 
+[chara_mod name="RozLaz" face="laz_kushou"]
 [voice2 vf2="laz/Laz2-2_7.ogg"]
-#ラズ:kushou
+#ラズ
 「…あの、人が喋っているときに被せるのはいかがなものでしょう？」[p]
 ;表情 kushou
 
+[chara_mod name="RozLaz" face="roz_fuman"]
 [voice2 vf2="roz/Roz2-2_2.ogg"]
 #ロズ
 「それを言うなら抜け駆けしたんはそっちやん。お互い様やで？」[p]
 ;表情 不満
 
+[chara_mod name="RozLaz" face="laz_close"]
 [voice2 vf2="laz/Laz2-2_8.ogg"]
-#ラズ:close
+#ラズ
 「あら、私はご主人様を助けるために出ていっただけのこと。そもそも貴方の話に賛同した覚えはありませんし」[p]
 ;表情 close
 
+[chara_mod name="RozLaz" face="roz_okori_3"]
 [voice2 vf2="roz/Roz2-2_3.ogg"]
-#ロズ:okori_3
+#ロズ
 「はぁ～？」[p]
 ;表情 okori_3　
 
@@ -189,9 +196,11 @@
 #雪翔
 ≪とりあえず二人とも落ち着け。一応今は朝だってことを…≫[p]
 
+[chara_mod name="RozLaz" face="laz_×"]
+[chara_mod name="RozLaz" face="roz_x"]
 [playse storage="laz/Laz2-2_9.ogg" buf="0"]
 [playse storage="roz/Roz2-2_4.ogg" buf="1"]
-#ロズ＆ラズ
+#ロズラズ
 「マスターは黙っとって！！」「ご主人様は黙っててくださいまし！！」[p]
 ;表情 x　あとで
 ;表情 ＞＜　あとで

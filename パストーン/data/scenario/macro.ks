@@ -61,6 +61,8 @@
 	[chara_config ptext="chara_name_area"]
 
 	[font shadow="0x333333"]
+
+	[chara_config talk_focus="none"]
 [endmacro]
 
 ;頷き風
