@@ -5,7 +5,7 @@
 ;[chara_new  name="roz" storage="chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
 ;[chara_new  name="laz" storage="chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
 [chara_new  name="ayana" storage="chara/ayana/normal.png" width="694" height="982" jname="文永"  ]
-[chara_new  name="RozLaz" storage="chara/RozLaz/normal.png" width="555" height="786" jname="ロズラズ"  ]
+[chara_new  name="RozLaz" storage="chara/RozLaz/normal.png" width="370" height="524" jname="ロズラズ"  ]
 
 [chara_face name="mizuka" face="akire" storage="chara/mizuka/akire.png"]
 [chara_face name="mizuka" face="aseganizindaegao" storage="chara/mizuka/aseganizindaegao.png"]
