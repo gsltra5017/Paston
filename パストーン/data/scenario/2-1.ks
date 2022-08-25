@@ -401,14 +401,15 @@
 #雪翔
 ≪…ロズか≫[p]
 
-[chara_show name="roz" top="-70" storage="chara/roz/normal.png" wait="true"]
+[chara_show name="RozLaz" top="-16" face="roz_neutral" wait="true"]
 
 #
 まぁ、勿論ラズもいるんだろうが。[p]
 …というか、[p]
 
+[chara_mod name="RozLaz" face="roz_okori"]
 [voice2 vf2="roz/Roz2-1_2.ogg"]
-#ロズ:okori
+#ロズ
 「…む～…」[p]
 ;表情 不満　あとで
 ;okoriもあり？
@@ -424,8 +425,9 @@
 #
 スマホでそう文字を打ち込み、謝罪の念を伝える。[p]
 
+[chara_mod name="RozLaz" face="roz_akire"]
 [voice2 vf2="roz/Roz2-1_3.ogg"]
-#ロズ:akire
+#ロズ
 「…まぁ、それに関してはもういいんやけどさ…」[p]
 ;表情 呆れ
 
@@ -433,8 +435,9 @@
 #雪翔
 ≪ラズにも伝えといてくれ。あの子怒らせるのが一番怖い≫[p]
 
+[chara_mod name="RozLaz" face="roz_itome"]
 [voice2 vf2="roz/Roz2-1_4.ogg"]
-#ロズ:itome
+#ロズ
 「はいは～い」[p]
 ;表情 糸目
 
