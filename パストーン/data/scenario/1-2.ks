@@ -151,6 +151,7 @@ _　何をそこでボーっと突っ立ってるんだ？」[p]
 「そうか。[r]
 _　そういえばまだ説明してなかったな。彼女は…」[p]
 
+#
 [playse storage="se/phone.ogg" sprite_time="0000-2000"]
 [wse]
 
@@ -177,6 +178,7 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 #yukito
 ≪え、ちょっと待っ…≫[p]
 
+#
 [fadeoutbgm time=2000]
 
 [chara_hide name="kouki"]
@@ -251,5 +253,4 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 
 [reset_camera]
 
-
-[scenejumpNormal sc = "title.ks"]
+[scenejumpNormal sc="1-3.ks"]

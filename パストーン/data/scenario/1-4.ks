@@ -63,7 +63,7 @@
 ;BGM（美寿花のテーマ）
 ;美寿花立ち絵表示 きょとん顔
 
-[chara_show name="mizuka" top="20" storage="chara/mizuka/r_egao.png" wait="true"]
+[chara_show name="mizuka" top="-20" width="1041" height="1472" storage="chara/mizuka/r_egao.png" wait="true"]
 
 [voice2 vf2="mizuka/mizuka1-4_2.ogg"]
 #美寿花

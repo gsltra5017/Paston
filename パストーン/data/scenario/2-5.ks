@@ -199,7 +199,7 @@
 ;背景 カラオケ
 [bg storage="karaoke.png" time=0]
 
-[chara_show top="40" name="ayana" face="kyoton"]
+
 
 [bgchangemask_off]
 
@@ -224,14 +224,17 @@
 「二人とも、なんでそこでボーっとしてるの？」[p]
 ;表情　kyoton
 
+[voicestop]
+[chara_show top="40" name="ayana" face="akire"]
+
 [voice2 vf2="ayana/ayana2-5_1.ogg"]
-#文永:akire
+#文永
 「…そりゃ呆気にもとられるよ。」[p]
 ;表情　呆れ
 
 [voice2 vf2="ayana/ayana2-5_2.ogg"]
 #文永
-「家出したはずの姉に突然来いって言われてさ、何かと思ったらカラオケに連れていかれるんだもん」[p]
+「家出したはずの姉に突然来いって言われてさ、何かと思ったらカラオケに連れていかれたらさ。」[p]
 ;表情　溜息
 
 [voicestop]
@@ -256,7 +259,7 @@
 
 [voice2 vf2="mizuka/mizuka2-5_25.ogg"]
 #美寿花:egao
-「常葉[ruby text = "あやな"]文永。私の妹だよ」[p]
+「常葉[ruby text="あや"]文[ruby text="な"]永。私の妹だよ」[p]
 ;表情　egao
 
 [voicestop]
@@ -270,7 +273,7 @@
 ≪俺も自己紹介…≫[p]
 
 [voice2 vf2="ayana/ayana2-5_4.ogg"]
-#文永
+#文永:mewofusetamuhyoujou
 「初めまして、雪翔さん。いつも姉がお世話になっています」[p]
 ;表情　目を伏せた無表情（ラズのお辞儀てきな感じ...？）
 
@@ -305,22 +308,22 @@
 若干の違和感を飲み込み、俺も美寿花の隣に座る。[p]
 
 [voice2 vf2="ayana/ayana2-5_6.ogg"]
-#文永
+#文永:konwaku
 「…って、普通に流しちゃったけど私も歌うの？」[p]
 ;表情　困惑（驚き？）
 
 [voice2 vf2="mizuka/mizuka2-5_27.ogg"]
-#美寿花
+#美寿花:egao
 「そうだよ？というか、そのために呼んだんだから」[p]
 ;表情　egao
 
 [voice2 vf2="ayana/ayana2-5_7.ogg"]
-#文永
+#文永:awate
 「いや、初対面の人と歌うのは流石に抵抗あるんだけど…？」[p]
 ;表情　慌て
 
 [voice2 vf2="mizuka/mizuka2-5_28.ogg"]
-#美寿花
+#美寿花:bishou
 「まぁ、たまにでいいよ。私も歌うし」[p]
 ;表情　
 
@@ -370,7 +373,7 @@
 …『ちょうどいい』ってこういうことか…[p]
 
 [voice2 vf2="ayana/ayana2-5_8.ogg"]
-#文永
+#文永:kyoton
 「…お姉ちゃんが男とイチャイチャしてる…」[p]
 ;表情　きょとん
 
@@ -381,7 +384,7 @@
 ;表情　
 
 [voice2 vf2="ayana/ayana2-5_9.ogg"]
-#文永
+#文永:konwaku
 「やっぱり私、来なかった方がよかったんじゃ…」[p]
 ;表情　困り顔 
 
@@ -403,3 +406,9 @@
 カラオケだけじゃない。[p]
 美寿花と大学にいくのも、一緒にお昼を食べるのも…悪くない。と。[p]
 そう思った、一日だった。[p]
+
+[mask effect="fadeInLeftBig"]
+
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc="3-1.ks"]
