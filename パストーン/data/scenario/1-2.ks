@@ -3,7 +3,7 @@
 [startoption]
 
 [bg storage="living.png"]
-;修正前 背景をリビングの左側の壁にズームしたものにする
+;修正後 背景をリビングの左側の壁にズームしたものにする
 
 [camera zoom="2" x="-300" y="0" time="0" wait="true"]
 [afterjumpmaskNormal]
@@ -155,7 +155,7 @@ _　そういえばまだ説明してなかったな。彼女は…」[p]
 #
 [playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35"]
 [wse]
-;修正前 携帯のバイブ音の音量を下げてほしい
+;修正後 携帯のバイブ音の音量を下げてほしい
 
 [voice2 vf2="kouki/kouki1-2_8.ogg"]
 #kouki:shinpai
