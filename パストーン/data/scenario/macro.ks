@@ -94,7 +94,7 @@
 
 ;能力発動音
 [macro name="playse_ability_on"]
-	[playse storage="se/ability_on.ogg" loop=false clear=true volume="70"]
+	[playse storage="se/ability_on.ogg" loop=false clear=true volume="30"]
 	[wse]
 [endmacro]
 
