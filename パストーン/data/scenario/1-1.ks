@@ -23,7 +23,9 @@
 思い出したく、なかった。[p]
 …なら、俺は？[p]
 
-[bg storage="1-1CG.png" time="400"]
+[bg storage="1-1CG.png" time="2000"]
+;修正後 フェード時間を長くしました（つぶ）
+;修正前 CGに対して何らかのノイズエフェクトを追加したい
 
 …ああ、そうだ。[p]
 あの時の俺は、立ち尽くしていた。[p]
@@ -31,7 +33,7 @@
 理解を拒み、[p]
 …『言葉』だけを、ただ、紡いでいく。[p]
 
-[bg storage="black.jpg" time="400"]
+[bg storage="black.jpg" time="2000"]
 #yukito
 『やめてくれ』[p]
 『止めてくれ』[p]
@@ -129,6 +131,7 @@ _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[
 ;[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
 [chara_show name="RozLaz" top="-16" face="roz_taunt" wait="true" pos_mode="true"]
 [voice2 vf2="roz/Roz1-1_2.wav"]
+;修正前 ロズラズ単体で画面に表示するなら以前のように大きく表示しても良いと思う（今回のアップロード時に手が間に合わないのは仕方がないので一旦手無しで）
 
 ;[kanim name="roz" time="150" keyframe="pyon"] 
 #ロズ
@@ -174,10 +177,11 @@ _　とにかく、覚悟…」[p]
 
 #yukito
 ≪おしゃべりAI達め…≫[p]
+#
+;修正後 名前表示をSE再生の前に削除（つぶ）
 
 [playse_dooropen_1]
 
-#
 どうしようもない、と言った風に俺はドアを開け、階下へ降りる。[p]
 
 [chara_hide_all]

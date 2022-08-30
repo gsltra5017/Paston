@@ -106,10 +106,11 @@
 ;動画の最後のフレームをフェードアウト
 [freeimage layer="0" time="1000"]
 
+[playbgm storage="mizuka.ogg" volume="70" ]
+
 ;みずかの立ち絵を大きめに表示
 [chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]
 
-[playbgm storage="mizuka.ogg" volume="70" ]
 ;[chara_show name="mizuka" face="egao" top="20"]
 
 [voice2 vf2="mizuka/mizuka1-2_2.ogg"]
@@ -152,8 +153,9 @@ _　何をそこでボーっと突っ立ってるんだ？」[p]
 _　そういえばまだ説明してなかったな。彼女は…」[p]
 
 #
-[playse storage="se/phone.ogg" sprite_time="0000-2000"]
+[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35"]
 [wse]
+;修正前 携帯のバイブ音の音量を下げてほしい
 
 [voice2 vf2="kouki/kouki1-2_8.ogg"]
 #kouki:shinpai
