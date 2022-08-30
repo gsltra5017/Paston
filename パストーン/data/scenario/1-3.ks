@@ -99,7 +99,7 @@ _　じゃあ、ちゃんと説明しないとだね。」[p]
 …いや、そんなわけないか。[r]
 この年でまさか家出なんて…[p]
 
-[voice2 vf2="mizuka/mizuka1-3_6.ogg"]
+[playse storage="mizuka/mizuka1-3_6.ogg" volume="75"]
 #美寿花:egao_2
 「私、カッとなって家から飛び出しちゃったんだ」[p]
 ;表情 笑顔2
