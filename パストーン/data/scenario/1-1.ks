@@ -135,7 +135,7 @@ _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[
 「そうやってラズが甘やかすから、[r]
 _　どんどんマスターの生活リズムが崩れていくんやで？」[p]
 
-[chara_mod name="RozLaz" face="laz_kushou"]
+[chara_mod name="RozLaz" face="laz_kushou" wait="false"]
 [voice2 vf2="laz/Laz1-1_2.wav"]
 #ラズ
 「あらあら、それならあなただって[r]
@@ -147,19 +147,19 @@ _　元はといえばロズのせいだと言えますが」[p]
 #
 俺の言葉を無視し、携帯からの声達はどんどん険悪な雰囲気になっていく。[p]
 
-[chara_mod name="RozLaz" face="roz_okori_2"]
+[chara_mod name="RozLaz" face="roz_okori_2" wait="false"]
 [voice2 vf2="roz/Roz1-1_3.wav"]
 #ロズ
 「どうやら、今日こそ決着つけなあかんみたいやな。」[p]
 
-[chara_mod name="RozLaz" face="laz_confident"]
+[chara_mod name="RozLaz" face="laz_confident" wait="false"]
 [voice2 vf2="laz/Laz1-1_3.wav"]
 #ラズ
 「勝てるとお思いで？[r]
 _　私、貴方に負けたことないでしょう？」[p]
 
 ;[kanim name = "roz" time = "300" keyframe = "pyonpyon"] 
-[chara_mod name="RozLaz" face="roz_okori_3"]
+[chara_mod name="RozLaz" face="roz_okori_3" wait="false"]
 [voice2 vf2="roz/Roz1-1_4.wav"]
 #ロズ
 「当たりまえやろ毎回引き分けなんやから！！[r]
