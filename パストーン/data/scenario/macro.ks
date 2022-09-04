@@ -115,7 +115,14 @@
 	[wait time="300"]
 [endmacro]
 
+;布擦れの音
 [macro name="playse_cloth_1"]
 	[playse storage="se/cloth_1.ogg" loop="false" volume="70"]
+	[wse]
+[endmacro]
+
+;ドアスライド
+[macro name="playse_slidedoor_open"]
+	[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
 	[wse]
 [endmacro]

@@ -295,7 +295,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_20.ogg"]
-#美寿花
+#美寿花:r_fuan
 「めんどくさいのは…私じゃどうにもできないかもしれないけど...」[p]
 ;表情 不安
 
@@ -482,4 +482,9 @@
 #ラズ
 「少々、見極める必要がありますわね…常葉、美寿花…」[p]
 
-[scenejumpNormal sc="2-2.ks"]
+[stopse]
+[mask effect="fadeInLeftBig" ]
+
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc="title.ks"]
