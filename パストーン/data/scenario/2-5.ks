@@ -1,6 +1,6 @@
 *start
 [startoption]
-
+;2-5のボイス音でかいです。
 ;背景 空 夕方
 [bg storage="road_evening.png" time="0"]
 
@@ -199,12 +199,12 @@
 ;背景 カラオケ
 [bg storage="karaoke.png" time=0]
 
-
+[chara_mod name="mizuka" face="egao"]
 
 [bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-5_21.ogg"]
-#美寿花:egao
+#美寿花
 「何だかんだで私も初めてなんだよねぇ～カラオケ！」[p]
 ;表情　egao
 
@@ -393,9 +393,19 @@
 「待って帰ろうとしないで！文永とも一緒に歌うから～！！」[p]
 ;表情　落ち込み？苦笑？
 
+
+
 ;背景 空 夕方（夜でもいいかも？） ゆっくりと上にスライド
 
+
 [voicestop]
+
+[bg storage="nightsky.png" time="1500" method="slideInDown"]
+
+[layopt layer="0" visible="true"]
+[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/2-4/2-4.png" time="1000"]
+
+
 #
 …[p]
 …俺の軽い言葉で決まったカラオケだったが…[p]
