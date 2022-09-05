@@ -400,11 +400,8 @@
 
 [voicestop]
 
-[bg storage="nightsky.png" time="1500" method="slideInDown"]
-
 [layopt layer="0" visible="true"]
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/2-4/2-4.png" time="1000"]
-
+[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/2-5/nightsky.png" time="1000"]
 
 #
 …[p]
