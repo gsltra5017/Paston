@@ -197,7 +197,9 @@
 [bgchangemask]
 
 ;背景 カラオケ
-[bg storage="karaoke.png" time=0]
+[bg storage="karaoke&nightsky.png" time=0]
+
+[camera x="640" y="360"]
 
 [chara_mod name="mizuka" face="egao"]
 
