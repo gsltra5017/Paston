@@ -8,7 +8,6 @@
 [hidemenubutton]
 
 *start 
-
 [afterjumpmaskNormal]
 
 [button x=130 y=260 graphic="title/START.png" enterimg="title/START_c.png"  target="gamestart"]

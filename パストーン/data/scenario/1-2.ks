@@ -80,19 +80,22 @@
 
 [chara_hide name="kouki"]
 
-;イントロ
-;[playbgm storage="mizuka_intro.ogg" loop="false" ]
+;BGMイントロと美寿花初登場演出の動画再生
+[movie storage="mizuka_first.mp4" skip="false" ]
 
 ;テーブルにズーム
-[camera layer="base" zoom="1.3" x="150" y="-70" time="1000" wait="false"]
+[camera layer="base" zoom="1.3" x="140" y="-70" time="0" wait="false"]
 ;背景ぼかし
 [filter layer="base" blur="5"]
+;動画の最後のフレームの画像を表示
+[image layer="0"  storage="mizuka_first.png"]
+[p]
+
+;動画の最後のフレームをフェードアウト
+[freeimage layer="0" time="1000"]
+
 ;みずかの立ち絵を大きめに表示
 [chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]
-
-
-
-
 
 [playbgm storage="mizuka.ogg" volume="70" ]
 ;[chara_show name="mizuka" face="egao" top="20"]
@@ -114,8 +117,10 @@ _　おはよう」[p]
 #
 いや、そうでなければただの不審者なのだが…と、自分の考えに自分で突っ込む。[p]
 
-
-[chara_show name="kouki" face="kyoton" top="-50"]
+[reset_camera time="1000" wait="false" layer="base"]
+[filter layer="base" blur="0" wait="false" time="1000"]
+[chara_config pos_change_time="1000"]
+[chara_show name="kouki" face="kyoton" top="-50" time="1000"]
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki
 「ん？[r]
@@ -134,7 +139,8 @@ _　何をそこでボーっと突っ立ってるんだ？」[p]
 「そうか。[r]
 _　そういえばまだ説明してなかったな。彼女は…」[p]
 
-;[playse name = "着信音"]
+[playse storage="se/phone.ogg" sprite_time="0000-2000"]
+[wse]
 
 [voice2 vf2="kouki/kouki1-2_8.ogg"]
 #kouki:shinpai
@@ -163,9 +169,8 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 
 [chara_hide name="kouki"]
 
-[playse storage="se/dooropen_1.ogg" wait="true"]
-[playse storage="se/doorclose_1.ogg" wait="true"]
-;BGMフェードアウト
+[playse_dooropen_1]
+[playse_doorclose_1]
 
 #
 それだけ言い残して、父さんの姿は書斎の奥へと消えていく。[p]
@@ -232,4 +237,7 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc = "1-3.ks"]
+[reset_camera]
+
+
+[scenejumpNormal sc = "title.ks"]

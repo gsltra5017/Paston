@@ -102,6 +102,11 @@
 	[wse]
 [endmacro]
 
+[macro name="playse_doorclose_1"]
+	[playse storage="se/doorclose_1.ogg" loop=false clear=true volume="50"]
+	[wse]
+[endmacro]
+
 ;1-1救急車
 [macro name="playse_ambulance"]
 	[fadeinse storage="se/ambulance.ogg" loop="true" sprite_time="2000-93000" time="5000" volume="20"]
