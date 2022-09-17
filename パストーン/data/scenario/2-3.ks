@@ -76,14 +76,12 @@
 #
 そう言いながら、嬉しそうに笑う。[p]
 
-;修正前 効果音変更
+;修正後 効果音変更
 [playse_slidedoor_open]
 
 ;ドアが開く音（スライド）
 
 ;[chara_show name="kouki" face="straight"]
-
-
 
 [reset_camera layer="base" time="1500" wait="false"]
 [reset_camera layer="0" time="1500"]
@@ -130,6 +128,7 @@
 #雪翔
 （…もう…無理…）[p]
 
+#
 ;背景 黒
 [bg storage="makkuro.jpg" time="3000"]
 
@@ -174,7 +173,7 @@
 #雪翔
 ≪…あ、そうだ…俺講義中に寝て…≫[p]
 
-;修正前 美寿花の出てくる位置がおかしい
+;修正後 美寿花の出てくる位置がおかしい
 [chara_show name="mizuka" top="50" face="mad_smile" time="1000"]
 
 [voice2 vf2="mizuka/mizuka2-3_8.ogg"]
@@ -223,7 +222,10 @@
 …だが、美寿花のおかげですっかり眠気はなくなっていた。[p]
 これなら乗り切れそうだ、と俺は真面目に講義に向き合うのだった。[p]
 
-;修正前 背景 黒
+;修正後 背景 黒
+[chara_hide_all]
+[bg storage="makkuro.jpg" time="1000" wait="false"]
+
 …[p]
 …そして、次に意識が戻ったのは1時限目終了後だったのは言うまでもない。[p]
 

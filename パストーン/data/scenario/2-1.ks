@@ -134,7 +134,7 @@
 
 [voicestop]
 ;ドアを開ける音
-;修正前 音量を下げる
+;修正済み 音量を下げる
 [voice2 vf2="se/dooropen_1.ogg"]
 ;リビング
 
@@ -460,11 +460,12 @@
 ちょっと不満げだが、それ以降は声が聞こえなくなる。[p]
 …そういえばあいつら…なんで美寿花の前に出てこないんだ…？[p]
 
-;修正前 完全に暗転してから黒背景に移る
-
+[mask effect="fadeIn" time="2000"]
+;修正済み 完全に暗転してから黒背景に移る
 ;背景 黒
 [chara_hide_all time=1000 wait="false"]
 [bg storage="black.jpg" time=1000]
+[mask_off effect="fadeOut" time="2000"]
 
 [voice2 vf2="laz/Laz2-1_1.ogg"]
 #ラズ
