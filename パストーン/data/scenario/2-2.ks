@@ -207,7 +207,7 @@ _　誰が喋ってるの！？」[p]
 
 [chara_mod name="RozLaz" face="laz_×"]
 [chara_mod name="RozLaz" face="roz_x"]
-[playse storage="laz/Laz2-2_9.ogg" buf="0"]
+;[playse storage="laz/Laz2-2_9.ogg" buf="0"]
 [playse storage="roz/Roz2-2_4.ogg" buf="1"]
 #ロズラズ
 「マスターは黙っとって！！」「ご主人様は黙っててくださいまし！！」[p]
