@@ -7,7 +7,7 @@
 [chara_show name="mizuka" top="20" storage="chara/mizuka/egao.png" wait="true"]
 
 [afterjumpmaskNormal]
-
+[voice1 vf1="mizuka/mizuka2-5_1.ogg"]
 #美寿花
 「ほんとうにごめん…」[p]
 ;表情 申し訳ない
