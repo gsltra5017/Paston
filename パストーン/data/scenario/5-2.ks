@@ -222,6 +222,9 @@
 「…お父…さん…？」[p]
 ;表情
 
+;修正前 暗転 キャラを全員画面から消す
+;修正前 透明な画像ファイルを永寿郎として描画するのもあり
+
 [voice2 vf2="eijurou/eijurou5-2_5.ogg"]
 #永寿郎
 「久しぶりだね。美寿花」[p]
@@ -300,10 +303,11 @@
 
 #
 そこまで言って、俺に視線を戻す。[p]
+;修正前 黄樹さんout
 
 [voice2 vf2="eijurou/eijurou5-2_13.ogg"]
 #永寿郎
-「…それにしても、まさか美寿花と『同い年』とは…ね。これからも仲良くしてくれたら嬉しい」[p]
+「…それにしても、まさか美寿花と『同い年』とは…ね。これからも仲良くしてくれたら嬉しいよ」[p]
 
 [voicestop]
 
@@ -365,7 +369,7 @@
 「…はぁ…貴方は少し様子を見るということが出来ないんですの？」[p]
 ;表情 okori
 
-;[chara_mod name="RozLaz" face="raz_fuman_2"]
+[chara_mod name="RozLaz" face="roz_fuman_2"]
 [voice2 vf2="roz/roz5-2_3.ogg"]
 #ロズ
 「別にええやん！さっき呼ばれたんラズだけやったし、次はウチに喋らせてーな」[p]
@@ -409,7 +413,7 @@
 
 [voicestop]
 
-[chara_mod name="RozLaz" face="laz_fuman"]
+[chara_mod name="RozLaz" face="laz_utagai"]
 [voice2 vf2="laz/laz5-2_4.ogg"]
 #ラズ
 「…なら、どうしてそう美寿花を執拗に自分の元に置こうとするのでしょうか？それも本人の意見も聞かずに」[p]
@@ -428,7 +432,7 @@
 
 [voice2 vf2="eijurou/eijurou5-2_20.ogg"]
 #永寿郎
-「ほら、その当の本人がこう言ってるんだ。何も問題はないだろう？」[p]
+「ほら、当の本人がこう言ってるんだ。何も問題はないだろう？」[p]
 
 [voicestop]
 
