@@ -414,7 +414,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 …その弱さも、愚かさも、全部ぶつけて…美寿花と精一杯話そう。[p]
 
 [bgchangemask]
-[bg storage="living.png" time="0"]
+[bg storage="makkuro.jpg" time="0"]
 
 ;薄暗いリビング素材あったほうがいいかも？
 
@@ -431,6 +431,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 
 ;もともと薄暗いリビングにしてたら明るくする
 
+[bg storage="living.png" time="500"]
 #美寿花:onemu
 「…ん…」[p]
 ;表情 おねむ
