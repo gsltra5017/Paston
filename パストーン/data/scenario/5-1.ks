@@ -68,6 +68,7 @@
 #雪翔
 ≪ダメだ！！！！≫[p]
 
+#
 [bg storage="makkuro.jpg" time="0" ]
 [freeimage layer="0" time="500"]
 
@@ -452,6 +453,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 …それから…[p]
 
 ;チャイム鳴らす
+[playse_chaimu]
 
 #雪翔
 ≪…ぇ…？≫[p]

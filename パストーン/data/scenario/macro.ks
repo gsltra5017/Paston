@@ -126,3 +126,9 @@
 	[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
 	[wse]
 [endmacro]
+
+;チャイム、インターホン
+[macro name="playse_chaimu"]
+	[playse storage="se/chaimu.ogg" loop="false" volume="50"]
+	[wse]
+[endmacro]
