@@ -45,11 +45,13 @@
 「…よろしいのですか？」[p]
 ;表情 normal_2
 
+[voicestop]
+
 #雪翔
 ≪…一応、美寿花の父親って可能性もあるが…少しでも怪しかったら切っていい≫[p]
 
 [chara_mod name="RozLaz" face="laz_ozigi"]
-[voice2 vf2="laz/laz5-2_2.ogg"]
+;[voice2 vf2="laz/laz5-2_2.ogg"]
 #ラズ
 「承知いたしました。では…」[p]
 ;表情 ozigi
@@ -121,9 +123,11 @@
 #雪翔
 ≪‥‥‥‥‥‥≫[p]
 
-[voice2 vf="eijurou/eijurou5-2_1.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_1.ogg"]
 #???
 「すまないね………いきなり……しまって」[p]
+
+[voicestop]
 
 #
 客人と話しているのだろう。[p]
@@ -134,9 +138,11 @@
 「いえいえ、それよりどうしたんです？貴方のような人が何故こんな所まで…」[p]
 ;表情 なし
 
-[voice2 vf="eijurou/eijurou5-2_2.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_2.ogg"]
 #永寿郎
 「いや何、私の娘が君や君の家族に随分迷惑かけてしまったからね」[p]
+
+[voicestop]
 
 #雪翔
 ≪ッ！？≫[p]
@@ -145,9 +151,11 @@
 「あ～…いえ、そんなことは…」[p]
 ;表情 なし
 
-[voice2 vf="eijurou/eijurou5-2_3.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_3.ogg"]
 #永寿郎
 「今日は謝罪と、娘を連れて帰るつもりで来たんだ」[p]
+
+[voicestop]
 
 #
 今、父さんと話しているのは…EL社の社長であり、美寿花の父親…常葉永寿郎だ。[p]
@@ -193,9 +201,11 @@
 …ダメだ。[p]
 …俺には…できない。[p]
 
-[voice2 vf="eijurou/eijurou5-2_4.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_4.ogg"]
 #永寿郎
 「…すまないが、上がってもいいかね？あの子と話がしたいんだ」[p]
+
+[voicestop]
 
 #黄樹
 「……分かりました」[p]
@@ -212,38 +222,48 @@
 「…お父…さん…？」[p]
 ;表情
 
-[voice2 vf="eijurou/eijurou5-2_5.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_5.ogg"]
 #永寿郎
 「久しぶりだね。美寿花」[p]
+
+[voicestop]
 
 #
 させてはならない再会が今、果たされてしまった。[p]
 
-[voice2 vf="eijurou/eijurou5-2_6.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_6.ogg"]
 #永寿郎
 「隣にいるのは…薄谷雪翔君、かな」[p]
+
+[voicestop]
 
 #
 すっと、男…常葉永寿郎の意識が俺の方を向く。[p]
 鋭い視線で貫かれ、俺は何を言われるのかと身構えてしまったが…[p]
 
-[voice2 vf="eijurou/eijurou5-2_7.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_7.ogg"]
 #永寿郎
 「本当にすまなかった。うちの美寿花が迷惑かけて」[p]
+
+[voicestop]
 
 #雪翔
 ≪…へ？≫[p]
 
-[voice2 vf="eijurou/eijurou5-2_8.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_8.ogg"]
 #永寿郎
 「君には君の事情があるというのに、部外者が安易に立ち入ってしまった。この子は私が責任を持って家に連れて帰るよ」[p]
+
+[voicestop]
 
 #雪翔
 ≪‥‥えーと‥≫[p]
 
-[voice2 vf="eijurou/eijurou5-2_9.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_9.ogg"]
 #永寿郎
 「君の事は薄谷教授から聞いているよ。何でも声を失ってしまったとか。今まで大変だっただろう？」[p]
+
+[voicestop]
 
 #
 にこやかに話しかけられて、動揺してしまう。[p]
@@ -256,28 +276,36 @@
 #
 どうしようか悩んでいると、父さんが助け船を出してくれた。[p]
 
-[voice2 vf="eijurou/eijurou5-2_10.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_10.ogg"]
 #永寿郎
 「いやいや、私は自分のするべき事をしただけだよ。確かに大変だが、その分やりがいも感じられる。」[p]
 
-[voice2 vf="eijurou/eijurou5-2_11.ogg"]
+[voicestop]
+
+[voice2 vf2="eijurou/eijurou5-2_11.ogg"]
 #永寿郎
 「どうだい？また私と働くというのは…」[p]
+
+[voicestop]
 
 #黄樹:kushou
 「ありがたいお誘いですが、遠慮しておきます。私も今の仕事にやりがいを感じているので」[p]
 ;表情 kushou
 
-[voice2 vf="eijurou/eijurou5-2_12.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_12.ogg"]
 #永寿郎
 「そ、そうか…」[p]
+
+[voicestop]
 
 #
 そこまで言って、俺に視線を戻す。[p]
 
-[voice2 vf="eijurou/eijurou5-2_13.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_13.ogg"]
 #永寿郎
 「…それにしても、まさか美寿花と『同い年』とは…ね。これからも仲良くしてくれたら嬉しい」[p]
+
+[voicestop]
 
 #雪翔
 ≪……いや…≫[p]
@@ -296,17 +324,21 @@
 最悪なのは、このまま美寿花と二度と会えなくなること。[p]
 俺があの事故の裏を知っていると分かれば、警戒されてしまう。[p]
 
-[voice2 vf="eijurou/eijurou5-2_14.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_14.ogg"]
 #永寿郎
 「さて、時間も時間だし、そろそろ私たちは…」[p]
+
+[voicestop]
 
 #
 「ちょい聞きたいんやけどさ」[p]
 ;名前、立ち絵表示無し
 
-[voice2 vf="eijurou/eijurou5-2_15.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_15.ogg"]
 #永寿郎
 「ん？」[p]
+
+[voicestop]
 
 #美寿花
 「え…」[p]
@@ -316,10 +348,12 @@
 スマホからの声に、周囲の空気が凍る。[p]
 
 [chara_show name="RozLaz" top="-16" face="roz_okori_2" wait="true" pos_mode="true"]
-;[voice2 vf2="roz/roz5-2_1.wav"]
+[voice2 vf2="roz/roz5-2_1.ogg"]
 #ロズ
 「それ、本当に親のやることなん？」[p]
 ;表情 okori_2
+
+[voicestop]
 
 #
 しまった…放っておいたらやばい奴らがまだいた…[p]
@@ -330,24 +364,27 @@
 ;表情 okori
 
 ;[chara_mod name="RozLaz" face="raz_fuman_2"]
+[voice2 vf2="roz/roz5-2_2.ogg"]
 #ロズ
 「別にええやん！さっき呼ばれたんラズだけやったし、次はウチに喋らせてーな」[p]
 ;表情 fuman_2
 
-[voice2 vf="eijurou/eijurou5-2_16.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_16.ogg"]
 #永寿郎
 「おや…これはうちのAIかな？しかも2体も…こんなところでも使われているとは、嬉しいね。」[p]
 
-[voice2 vf="eijurou/eijurou5-2_17.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_17.ogg"]
 #永寿郎
 「それで…どういう事かな？」[p]
 
 [chara_mod name="RozLaz" face="roz_fuman"]
+[voice2 vf2="roz/roz5-2_3.ogg"]
 #ロズ
 「そのまんまの意味や。さっきから口を開けばうちの美寿花、うちの美寿花って…」[p]
 ;表情 fuman
 
 [chara_mod name="RozLaz" face="roz_okori_3"]
+[voice2 vf2="roz/roz5-2_14.ogg"]
 #ロズ
 「別に美寿花はあんたのもんとちゃうやろ。勝手に所有物にせんといてや」[p]
 ;表情 okori_3
@@ -364,16 +401,18 @@
 警戒云々以前に、相手は美寿花の記憶を消すことすらできてしまうんだ。[p]
 なら、ここで連れて帰られたら最後、もう会う事は出来なくなる…！[p]
 
-[voice2 vf="eijurou/eijurou5-2_18.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_18.ogg"]
 #永寿郎
 「ちょ、ちょっと被害妄想が過ぎないかい？私はそんな…」[p]
+
+[voicestop]
 
 ;[chara_mod name="RozLaz" face="laz_fuman"]
 #ラズ
 「…なら、どうしてそう美寿花を執拗に自分の元に置こうとするのでしょうか？それも本人の意見も聞かずに」[p]
 ;表情 utagai
 
-[voice2 vf="eijurou/eijurou5-2_19.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_19.ogg"]
 #永寿郎
 「ハッ…文永の話だと、雪翔君とはあまり上手くいってないらしいじゃないか。…そうなんだろう？美寿花」[p]
 
@@ -384,11 +423,14 @@
 #
 顔を俯かせ、怯えたような様子で答える美寿花を見て、永寿郎は勝ち誇ったように笑みを浮かべる。[p]
 
-[voice2 vf="eijurou/eijurou5-2_20.ogg"]
+[voice2 vf2="eijurou/eijurou5-2_20.ogg"]
 #永寿郎
 「ほら、その当の本人がこう言ってるんだ。何も問題はないだろう？」[p]
 
+[voicestop]
+
 [chara_mod name="RozLaz" face="roz_ge"]
+[voice2 vf2="roz/roz5-2_5.ogg"]
 #ロズ
 「ぐっ…」[p]
 ;表情
