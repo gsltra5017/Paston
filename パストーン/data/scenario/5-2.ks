@@ -40,7 +40,7 @@
 #
 俺は首を横に振ってから、スマホでラズを呼びだす。[p]
 
-[voice1 vf1="roz/roz5-2_1.wav"]
+[voice1 vf1="laz/laz5-2_1.ogg"]
 #ラズ
 「…よろしいのですか？」[p]
 ;表情 normal_2
@@ -49,7 +49,7 @@
 ≪…一応、美寿花の父親って可能性もあるが…少しでも怪しかったら切っていい≫[p]
 
 [chara_mod name="RozLaz" face="laz_ozigi"]
-[voice2 vf2="roz/roz5-2_2.wav"]
+[voice2 vf2="laz/laz5-2_2.ogg"]
 #ラズ
 「承知いたしました。では…」[p]
 ;表情 ozigi
