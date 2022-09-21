@@ -331,6 +331,7 @@
 [voicestop]
 
 #
+[voice2 vf2="roz/roz5-2_1.ogg"]
 「ちょい聞きたいんやけどさ」[p]
 ;名前、立ち絵表示無し
 
@@ -348,7 +349,7 @@
 スマホからの声に、周囲の空気が凍る。[p]
 
 [chara_show name="RozLaz" top="-16" face="roz_okori_2" wait="true" pos_mode="true"]
-[voice2 vf2="roz/roz5-2_1.ogg"]
+;[voice2 vf2="roz/roz5-2_2.ogg"]
 #ロズ
 「それ、本当に親のやることなん？」[p]
 ;表情 okori_2
@@ -364,7 +365,7 @@
 ;表情 okori
 
 ;[chara_mod name="RozLaz" face="raz_fuman_2"]
-[voice2 vf2="roz/roz5-2_2.ogg"]
+;[voice2 vf2="roz/roz5-2_3.ogg"]
 #ロズ
 「別にええやん！さっき呼ばれたんラズだけやったし、次はウチに喋らせてーな」[p]
 ;表情 fuman_2
@@ -378,13 +379,13 @@
 「それで…どういう事かな？」[p]
 
 [chara_mod name="RozLaz" face="roz_fuman"]
-[voice2 vf2="roz/roz5-2_3.ogg"]
+;[voice2 vf2="roz/roz5-2_4.ogg"]
 #ロズ
 「そのまんまの意味や。さっきから口を開けばうちの美寿花、うちの美寿花って…」[p]
 ;表情 fuman
 
 [chara_mod name="RozLaz" face="roz_okori_3"]
-[voice2 vf2="roz/roz5-2_14.ogg"]
+;[voice2 vf2="roz/roz5-2_4.ogg"]
 #ロズ
 「別に美寿花はあんたのもんとちゃうやろ。勝手に所有物にせんといてや」[p]
 ;表情 okori_3
@@ -430,7 +431,7 @@
 [voicestop]
 
 [chara_mod name="RozLaz" face="roz_ge"]
-[voice2 vf2="roz/roz5-2_5.ogg"]
+;[voice2 vf2="roz/roz5-2_6.ogg"]
 #ロズ
 「ぐっ…」[p]
 ;表情
