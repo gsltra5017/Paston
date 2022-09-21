@@ -51,7 +51,7 @@
 ≪…一応、美寿花の父親って可能性もあるが…少しでも怪しかったら切っていい≫[p]
 
 [chara_mod name="RozLaz" face="laz_ozigi"]
-;[voice2 vf2="laz/laz5-2_2.ogg"]
+[voice2 vf2="laz/laz5-2_2.ogg"]
 #ラズ
 「承知いたしました。では…」[p]
 ;表情 ozigi
@@ -349,7 +349,7 @@
 スマホからの声に、周囲の空気が凍る。[p]
 
 [chara_show name="RozLaz" top="-16" face="roz_okori_2" wait="true" pos_mode="true"]
-;[voice2 vf2="roz/roz5-2_2.ogg"]
+[voice2 vf2="roz/roz5-2_2.ogg"]
 #ロズ
 「それ、本当に親のやることなん？」[p]
 ;表情 okori_2
@@ -360,12 +360,13 @@
 しまった…放っておいたらやばい奴らがまだいた…[p]
 
 [chara_mod name="RozLaz" face="laz_okori"]
+[voice2 vf2="laz/laz5-2_3.ogg"]
 #ラズ
 「…はぁ…貴方は少し様子を見るということが出来ないんですの？」[p]
 ;表情 okori
 
 ;[chara_mod name="RozLaz" face="raz_fuman_2"]
-;[voice2 vf2="roz/roz5-2_3.ogg"]
+[voice2 vf2="roz/roz5-2_3.ogg"]
 #ロズ
 「別にええやん！さっき呼ばれたんラズだけやったし、次はウチに喋らせてーな」[p]
 ;表情 fuman_2
@@ -379,13 +380,13 @@
 「それで…どういう事かな？」[p]
 
 [chara_mod name="RozLaz" face="roz_fuman"]
-;[voice2 vf2="roz/roz5-2_4.ogg"]
+[voice2 vf2="roz/roz5-2_4.ogg"]
 #ロズ
 「そのまんまの意味や。さっきから口を開けばうちの美寿花、うちの美寿花って…」[p]
 ;表情 fuman
 
 [chara_mod name="RozLaz" face="roz_okori_3"]
-;[voice2 vf2="roz/roz5-2_4.ogg"]
+[voice2 vf2="roz/roz5-2_5.ogg"]
 #ロズ
 「別に美寿花はあんたのもんとちゃうやろ。勝手に所有物にせんといてや」[p]
 ;表情 okori_3
@@ -408,7 +409,8 @@
 
 [voicestop]
 
-;[chara_mod name="RozLaz" face="laz_fuman"]
+[chara_mod name="RozLaz" face="laz_fuman"]
+[voice2 vf2="laz/laz5-2_4.ogg"]
 #ラズ
 「…なら、どうしてそう美寿花を執拗に自分の元に置こうとするのでしょうか？それも本人の意見も聞かずに」[p]
 ;表情 utagai
@@ -431,7 +433,7 @@
 [voicestop]
 
 [chara_mod name="RozLaz" face="roz_ge"]
-;[voice2 vf2="roz/roz5-2_6.ogg"]
+[voice2 vf2="roz/roz5-2_6.ogg"]
 #ロズ
 「ぐっ…」[p]
 ;表情
