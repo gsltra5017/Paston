@@ -55,10 +55,14 @@
 	@layopt layer=message0 visible=true
 
 	;キャラクターの名前が表示される文字領域
-	[ptext name="chara_name_area" layer="message0" color="white" size=28 bold=true x=140 y=510]
+	[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size=28 bold=true x=140 y=510]
 
 	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 	[chara_config ptext="chara_name_area"]
+
+	[font shadow="0x333333"]
+
+	[chara_config  talk_focus="none"]
 [endmacro]
 
 ;頷き風
@@ -77,3 +81,54 @@
 [keyframe name = "pyon"]
 	[frame p = "50%" y = "-20"]
 [endkeyframe]
+
+;背景が変わるときに使うマスクのマクロ
+[macro name="bgchangemask"]
+	[mask effect="slideInRight"]
+[endmacro]
+
+;マスク効果を切るときのマクロ
+[macro name="bgchangemask_off"]
+	[mask_off effect="slideOutLeft"]
+[endmacro]
+
+;能力発動音
+[macro name="playse_ability_on"]
+	[playse storage="se/ability_on.ogg" loop=false clear=true volume="30"]
+	[wse]
+[endmacro]
+
+;ドアが開くときの音
+[macro name="playse_dooropen_1"]
+	[playse storage="se/dooropen_1.ogg" loop=false clear=true volume="20"]
+	[wse]
+[endmacro]
+
+[macro name="playse_doorclose_1"]
+	[playse storage="se/doorclose_1.ogg" loop=false clear=true volume="50"]
+	[wse]
+[endmacro]
+
+;1-1救急車
+[macro name="playse_ambulance"]
+	[fadeinse storage="se/ambulance.ogg" loop="true" sprite_time="2000-93000" time="5000" volume="20"]
+	[wait time="300"]
+[endmacro]
+
+;布擦れの音
+[macro name="playse_cloth_1"]
+	[playse storage="se/cloth_1.ogg" loop="false" volume="70"]
+	[wse]
+[endmacro]
+
+;ドアスライド
+[macro name="playse_slidedoor_open"]
+	[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
+	[wse]
+[endmacro]
+
+;チャイム、インターホン
+[macro name="playse_chaimu"]
+	[playse storage="se/chaimu.ogg" loop="false" volume="50"]
+	[wse]
+[endmacro]

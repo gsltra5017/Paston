@@ -1,4 +1,3 @@
-
 [cm]
 
 
@@ -8,9 +7,7 @@
 @layopt layer=message0 visible=false
 [hidemenubutton]
 
-
 *start 
-
 [afterjumpmaskNormal]
 
 [button x=130 y=260 graphic="title/START.png" enterimg="title/START_c.png"  target="gamestart"]
@@ -29,4 +26,4 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="3-2.ks"
+@jump storage="5-2.ks"
