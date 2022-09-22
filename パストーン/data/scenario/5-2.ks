@@ -36,7 +36,7 @@
 #雪翔
 ≪…いや、大丈夫。…ラズ、頼めるか？≫[p]
 
-[chara_show name="RozLaz" top="-16" face="laz_normal_2" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="200" face="laz_normal_2" wait="true" pos_mode="true"]
 #
 俺は首を横に振ってから、スマホでラズを呼びだす。[p]
 
