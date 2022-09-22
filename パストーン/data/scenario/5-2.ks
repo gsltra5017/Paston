@@ -222,8 +222,13 @@
 「…お父…さん…？」[p]
 ;表情
 
+[bg storage="makkuro.jpg" time="500" wait="true"]
+[chara_hide_all]
+[bg storage="living.png" time="500"]
 ;修正前 暗転 キャラを全員画面から消す
 ;修正前 透明な画像ファイルを永寿郎として描画するのもあり
+
+[p]
 
 [voice2 vf2="eijurou/eijurou5-2_5.ogg"]
 #永寿郎
@@ -304,6 +309,8 @@
 #
 そこまで言って、俺に視線を戻す。[p]
 ;修正前 黄樹さんout
+
+[chara_hide name="kouki" time="1000"]
 
 [voice2 vf2="eijurou/eijurou5-2_13.ogg"]
 #永寿郎
