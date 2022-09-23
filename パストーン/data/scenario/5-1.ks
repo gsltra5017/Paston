@@ -5,9 +5,11 @@
 
 [afterjumpmaskNormal]
 
+[voice1 vf1="mizuka/mizuka5-1_1.ogg"]
 #？？？
 「なるほどね…」[p]
 
+[voice2 vf2="mizuka/mizuka5-1_2.ogg"]
 #？？？
 「それで、君とお母さんが喧嘩してしまった…と」[p]
 
@@ -29,6 +31,7 @@
 そこにいたのは、まだ中学生の俺と…美寿花。[p]
 まだ、生きている…死んでいない常葉美寿花。[p]
 
+[voice2 vf2="mizuka/mizuka5-1_3.ogg"]
 #美寿花
 「で、少年君はどうしたいの？仲直り、したい？」[p]
 
@@ -41,9 +44,11 @@
 #
 俺は、半泣きになりながらも涙声で頷く。[p]
 
+[voice2 vf2="mizuka/mizuka5-1_4.ogg"]
 #美寿花
 「そっか。じゃあどうやって仲直りするか、考えなきゃね」[p]
 
+[voice2 vf2="mizuka/mizuka5-1_5.ogg"]
 #美寿花
 「でも…う～ん…仲直りの方法かぁ…あ、じゃあ…」[p]
 
@@ -53,6 +58,7 @@
 #
 嫌な予感がした。[p]
 
+[voice2 vf2="mizuka/mizuka5-1_6.ogg"]
 #美寿花
 「お母さんの行きたいところに連れていくとかどう？」[p]
 
@@ -62,6 +68,7 @@
 #
 そこに行ってしまったら、お前は…！！[p]
 
+[voice2 vf2="mizuka/mizuka5-1_7.ogg"]
 #美寿花
 「例えば…そう！水族館とか！！」[p]
 
@@ -376,7 +383,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 
 [chara_show name="RozLaz" top="-16" face="roz_tokuige" wait="true" pos_mode="true"]
 ;あとでvoice2に変える
-[voice1 vf1="roz/roz5-1_1.ogg"]
+[voice2 vf2="roz/roz5-1_1.ogg"]
 #ロズ
 「はいな」[p]
 ;表情 tokuige

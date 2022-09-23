@@ -197,16 +197,16 @@
 [bgchangemask]
 
 ;背景 カラオケ
-[bg storage="karaoke&nightsky.png" time=0]
+[bg storage="karaoke.png" time=0]
 
-[camera x="640" y="360"]
+;[camera x="640" y="360"]
 
 [chara_mod name="mizuka" face="egao"]
 
 [bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-5_21.ogg"]
-#美寿花
+#美寿花:egao
 「何だかんだで私も初めてなんだよねぇ～カラオケ！」[p]
 ;表情　egao
 
@@ -230,13 +230,13 @@
 [chara_show top="40" name="ayana" face="akire"]
 
 [voice2 vf2="ayana/ayana2-5_1.ogg"]
-#文永
+#文永:akire
 「…そりゃ呆気にもとられるよ。」[p]
 ;表情　呆れ
 
 [voice2 vf2="ayana/ayana2-5_2.ogg"]
-#文永
-「家出したはずの姉に突然来いって言われてさ、何かと思ったらカラオケに連れていかれたらさ。」[p]
+#文永:tameiki
+「家出したはずの姉に突然来いって言われて、何かと思えばカラオケに連れていかれたらさ。」[p]
 ;表情　溜息
 
 [voicestop]
@@ -244,12 +244,12 @@
 俺の隣…さっき美寿花が電話で呼んでいた相手が、恨めしそうに睨む。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_23.ogg"]
-#美寿花
+#美寿花:kushou
 「ごめんごめん。文永もそういえば歌うの好きだったなーって思い出して…」[p]
 ;表情　kushou
 
 [voice2 vf2="ayana/ayana2-5_3.ogg"]
-#文永
+#文永:jitome
 「つまり数合わせで呼んだ、と…」[p]
 ;表情　ジト目
 
@@ -334,7 +334,7 @@
 そう言って、美寿花は俺に選曲用のタッチパネルを渡す。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_29.ogg"]
-#美寿花
+#美寿花:kyoton_2
 「さて少年君、何から歌う？」[p]
 ;表情　
 
@@ -351,7 +351,7 @@
 …しかし、美寿花は引かなかった。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_30.ogg"]
-#美寿花
+#美寿花:bishou
 「練習だよ、君の…『自分の声で歌いたい』って目標のための。[p]
 …って言っても、流石に一人で歌うのは難しそうだから…」[p]
 ;表情　
@@ -361,7 +361,7 @@
 そう言って、俺の肩に触れる美寿花。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_31.ogg"]
-#美寿花
+#美寿花:bishou
 「『一緒に』歌お？それなら、私に届くから」[p]
 ;表情　
 
