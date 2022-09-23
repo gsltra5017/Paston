@@ -13,6 +13,8 @@
 （…まぁ、俺にはあまり関係ないけど。）[p]
 というわけで、今日も変わらず作業する…はずだったのだが、[p]
 
+#
+
 ;雪翔の部屋
 [bgchangemask]
 
@@ -22,11 +24,14 @@
 [bgchangemask_off]
 ;マウスの音
 ;タイピング音で代用中
+;修正前 マウスクリックの音に変える
 [voice1 vf1="se/typing_1.ogg"]
 [wait time="2000"]
 [stopse]
 
 [voicestop]
+
+[p]
 
 ;表情 関心→r_kangae2
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
@@ -43,7 +48,6 @@
 #美寿花:r_kangae_2
 「‥‥‥‥‥‥」[p]
 ;表情 関心→r_kangae_2
-;素材きたら
 
 #雪翔
 ≪‥‥‥‥‥‥≫[p]
@@ -57,7 +61,7 @@
 #
 そうはいっても、かれこれ数時間はこの状態。[p]
 
-;いすが軋む音
+;修正前　いすが軋む音
 ;[voice2 vf2="se/椅子"]
 
 #
@@ -228,7 +232,7 @@
 「……」[p]
 ;表情　kyoton
 
-;間抜けな音
+;修正前　間抜けな音
 ;[voice2 vf2=""]
 ;[playse storage=se/間抜け loop=false]
 
@@ -254,7 +258,11 @@
 
 [voicestop]
 #
-そこまで言って、あ、と何か閃いたように目が輝きだす。[p]
+そこまで言って、あ、
+[chara_mod name="mizuka" face="r_harikiri" time="500" wait="false"]
+と何か閃いたように目が輝きだす。[p]
+
+
 同時に、そこはかとなく嫌な予感。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_15.ogg"]
@@ -344,12 +352,14 @@
 そう言い終わる前に、何やらメモ帳を取り出して書き出している。[p]
 …さっきそれ渡してくれたら、触れる必要なかったんじゃないか？[p]
 
+[chara_hide name="mizuka" time="2000" wait="false"]
+
 [voice2 vf2="mizuka/mizuka2-1_24.ogg"]
 #美寿花
 「待ってて！ちょっと色々買ってくるから！」[p]
 ;表情 慌て
 #
-[chara_hide name="mizuka" time="2000"]
+
 
 [voicestop]
 
@@ -370,13 +380,13 @@
 …作業、戻るか。[p]
 ここで待っていても仕方ないので、自分の部屋に戻る。[p]
 
-[mask effect="fadeInRightBig" time="1000"]
+[bgchangemask]
 
 [bg storage="myroom.png" time=0]
 ;部屋のドアを閉める音
 [voice2 vf2="se/doorclose_1.ogg"]
 
-[mask_off ]
+[bgchangemask_off]
 ;雪翔の部屋
 
 #雪翔
@@ -413,7 +423,7 @@
 #雪翔
 ≪…ロズか≫[p]
 
-[chara_show name="RozLaz" top="-16" face="roz_neutral" wait="true"]
+[chara_show name="RozLaz" top="200" face="roz_neutral" wait="true"]
 
 #
 まぁ、勿論ラズもいるんだろうが。[p]

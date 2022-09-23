@@ -4,7 +4,7 @@
 ;背景 空 夕方
 [bg storage="road_evening.png" time="0"]
 
-[chara_show name="mizuka" top="20" storage="chara/mizuka/egao.png" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/fuan.png" wait="true"]
 
 [afterjumpmaskNormal]
 [voice1 vf1="mizuka/mizuka2-5_1.ogg"]
@@ -21,7 +21,7 @@
 帰り道、何度目かの謝罪を美寿花は口にする。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_2.ogg"]
-#美寿花
+#美寿花:tereawate
 「確かにあの時は強烈な睡魔に襲われてたのは事実だけど、[l]
 まさか本当に寝ちゃうとは自分でも思わなかったというか…」[p]
 ;表情 照れ慌て
