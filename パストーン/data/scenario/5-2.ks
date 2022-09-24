@@ -25,7 +25,7 @@
 [p]
 もう一度、チャイムが鳴る。[p]
 
-[voice1 vf1="roz/mizuka5-2_1.ogg"]
+[voice1 vf1="mizuka/mizuka5-2_1.ogg"]
 #美寿花:shinpai
 「で、出ようか…？」[p]
 ;表情 shinapi
