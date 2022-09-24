@@ -132,3 +132,9 @@
 	[playse storage="se/chaimu.ogg" loop="false" volume="50"]
 	[wse]
 [endmacro]
+
+;学校チャイム
+[macro name="playse_schoolbell"]
+	[playse storage="se/school_bell.ogg" loop="false" volume="50"]
+	[wse]
+[endmacro]

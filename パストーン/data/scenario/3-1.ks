@@ -5,11 +5,6 @@
 
 [afterjumpmaskNormal]
 
-;@jump target=*debug
-
-;背景 青空
-[bg storage="daysky.png" time=1000]
-
 #
 2週間が経過した。[p]
 最初はドタバタしていた美寿花との同居生活も、[r]
@@ -18,17 +13,16 @@
 それでも問題なく通えていた。[p]
 
 ;背景 講義室
-[bg storage="room.jpg" time=1000]
-;☆
+[bg storage="classroom.jpg" time=1000]
 
 ;効果音 チャイム
-;[playse storage="" roop=false]☆
+[playse_schoolbell]☆
 
 #雪翔
 ≪…終わった…≫[p]
 
 ;学校のテーマ
-;[playbgm storage=""]☆
+;[playbgm storage=""]
 
 #
 授業終了のチャイムが鳴り、重い瞼をこする。[p]
@@ -40,8 +34,8 @@
 ただボーッとしているより断然いい。[p]
 そんなことを考え、立ち上がろうとすると…[p]
 
-;[voice2 vf2="roz/Roz3-1_1.ogg"]☆
 #ロズ
+[voice2 vf2="roz/Roz3-1_1.ogg"]
 「マスター、ちょい待った」[p]
 ;立ち絵なし
 
@@ -55,13 +49,13 @@
 ≪…なんだ、ロズか…どうした？≫[p]
 
 [chara_show name="roz" top=-70 storage="chara/roz/worry.png" wait=true time=500]
-;[voice2 vf2="roz/Roz3-1_2.ogg"]☆
 #ロズ:worry
+[voice2 vf2="roz/Roz3-1_2.ogg"]
 「いや、全然気づいてへんっぽいから…」[p]
 ;表情 worry
 
-;#ロズ:neutral☆
-;[voice2 vf2="roz/Roz3-1_3.ogg"]☆
+#ロズ:neutral
+[voice2 vf2="roz/Roz3-1_3.ogg"]☆
 「美寿花からメッセージが来とるで。[r]
 講義終わったら大学前集合って」[p]
 ;表情 neutral
@@ -73,7 +67,7 @@
 言われてスマホを見ると、確かにメッセージの通知が一つ。[p]
 
 #ロズ:angry_2
-;[voice2 vf2="roz/Roz3-1_4.ogg"]☆
+[voice2 vf2="roz/Roz3-1_4.ogg"]
 「マスター、言われんかったらそのまま帰るつもりやったやろ？」[p]
 ;表情 angry_2
 
@@ -87,7 +81,7 @@
 
 [chara_show name="mizuka" top=-70 storage="chara/mizuka/worry_3.png" wait=true time=500]
 #美寿花
-;[voice2 vf2="mizuka/Mizuka3-1_1.ogg"]☆
+[voice2 vf2="mizuka/Mizuka3-1_1.ogg"]
 『一人で大丈夫？しらない人について行かないでよ？』[p]
 ;表情 worry_3
 [chara_hide name="mizuka"]
@@ -102,16 +96,14 @@
 
 [chara_show name="roz" top=-70 storage="chara/roz/akire.png" wait=true time=500]
 #ロズ:akire
-;[voice2 vf2="roz/Roz3-1_5.ogg"]☆
+[voice2 vf2="roz/Roz3-1_5.ogg"]
 「どういたしまして。はよ行かなどやされるで？」[p]
 ;表情 akire
 
-*debug
-
 ;背景 廊下
 [chara_hide name="roz" time=500]
-[bg storage="rouka.jpg" time=1000]
-;☆
+[bg storage="rouka.jpg" time=1000] 
+;☆ 廊下フリー素材
 
 #
 ロズは引っ込み、俺は言われた通り校門前に向かう。[p]
@@ -119,10 +111,9 @@
 [chara_show name="roz" top=-70 storage="chara/roz/ge.png" wait=true time=500]
 [chara_show name="laz" top=-70 storage="chara/laz/bow.png" wait=true time=500]
 
-#ラズ:bow
+#ラズ
 「あの…一つ、よろしいでしょうか？」[p]
 ;表情 bow
-
 
 #ロズ
 「げ」[p]
@@ -139,7 +130,7 @@
 
 #ラズ:kyoton
 「ええ。そこのエセ関西AIが黙ってご主人様と話していたので」[p]
-;表情 kyoton?
+;表情 kyoton
 
 #ロズ:angry
 「誰がエセ関西人や誰が」[p]
@@ -153,8 +144,8 @@
 [chara_config  talk_focus=none]
 
 #ロズ:angry
-;#ラズ:angly☆
-#ラズ　ロズ
+#ラズ:angry
+#ラズ＆ロズ
 「じゃれあったりなんかしてません！」[r]
 「じゃれあったりなんかしてへん！」[p]
 ;表情 ラズ＆ロズ angry
@@ -178,6 +169,8 @@
 …といっても『この機能誰が使うんだ？』的なものが多く[r]
 、時間がかかるのも相まって、めんどくさいのが正直なところである。[p]
 
+[chara_hide_all]
+
 ;背景 校門前（あるのかな…？）
 
 …と、[p]
@@ -187,6 +180,7 @@
 
 #
 そうこうしてる間に校門前についたが…何やら見覚えのある顔が。[p]
+
 
 #文永:smile
 「あ…こんにちは」[p]
