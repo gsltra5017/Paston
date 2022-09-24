@@ -145,11 +145,12 @@
 [bgchangemask]
 
 [bg storage="living.png" time="0"]
+[chara_mod name="mizuka" face="r_kyoton"]
 
 [bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-1_6.ogg"]
-#美寿花:r_kyoton
+#美寿花
 「あれ、どこ行くの？」[p]
 ;表情 きょとん
 
