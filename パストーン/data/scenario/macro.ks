@@ -132,3 +132,13 @@
 	[playse storage="se/chaimu.ogg" loop="false" volume="50"]
 	[wse]
 [endmacro]
+
+[macro name="playse_chair"]
+	[playse storage="se/chair.ogg" loop="false" volume="80"]
+	[wse]
+[endmacro]
+
+[macro name="playse_click_1"]
+	[playse storage="se/click_1.mp3" loop="false" volume="80"]
+	[wse]
+[endmacro]
