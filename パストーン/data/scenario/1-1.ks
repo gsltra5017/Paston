@@ -23,8 +23,9 @@
 思い出したく、なかった。[p]
 …なら、俺は？[p]
 
-;[bg storage="立ち尽くす" time="400"]
-;修正前 背景 CG4-1（事故現場 顔加工版）
+[bg name="1-1CG" storage="1-1CG.png" time="2000"]
+;修正後 フェード時間を長くしました（つぶ）
+;修正前 CGに対して何らかのノイズエフェクトを追加したい
 
 …ああ、そうだ。[p]
 あの時の俺は、立ち尽くしていた。[p]
@@ -32,7 +33,8 @@
 理解を拒み、[p]
 …『言葉』だけを、ただ、紡いでいく。[p]
 
-[bg storage="makkuro.jpg" time="400"]
+
+[bg storage="black.jpg" time="2000"]
 #yukito
 『やめてくれ』[p]
 『止めてくれ』[p]
@@ -128,16 +130,17 @@ _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[
 
 ;[chara_show name="roz" top="20" face="fuman" left = "505" wait = "false" pos_mode = "false"]
 ;[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
-[chara_show name="RozLaz" top="-16" face="roz_taunt" wait="true" pos_mode="true"]
-[chara_config  talk_focus="none"]
+[chara_show name="RozLaz" top="200" face="roz_taunt" wait="true" pos_mode="true"]
 [voice2 vf2="roz/Roz1-1_2.wav"]
+;修正後 ロズラズ単体で画面に表示するなら以前のように大きく表示しても良いと思う（今回のアップロード時に手が間に合わないのは仕方がないので一旦手無しで）
+
 
 ;[kanim name="roz" time="150" keyframe="pyon"] 
 #ロズ
 「そうやってラズが甘やかすから、[r]
 _　どんどんマスターの生活リズムが崩れていくんやで？」[p]
 
-[chara_mod name="RozLaz" face="laz_kushou"]
+[chara_mod name="RozLaz" face="laz_kushou" wait="false"]
 [voice2 vf2="laz/Laz1-1_2.wav"]
 #ラズ
 「あらあら、それならあなただって[r]
@@ -149,19 +152,19 @@ _　元はといえばロズのせいだと言えますが」[p]
 #
 俺の言葉を無視し、携帯からの声達はどんどん険悪な雰囲気になっていく。[p]
 
-[chara_mod name="RozLaz" face="roz_okori_2"]
+[chara_mod name="RozLaz" face="roz_okori_2" wait="false"]
 [voice2 vf2="roz/Roz1-1_3.wav"]
 #ロズ
 「どうやら、今日こそ決着つけなあかんみたいやな。」[p]
 
-[chara_mod name="RozLaz" face="laz_confident"]
+[chara_mod name="RozLaz" face="laz_confident" wait="false"]
 [voice2 vf2="laz/Laz1-1_3.wav"]
 #ラズ
 「勝てるとお思いで？[r]
 _　私、貴方に負けたことないでしょう？」[p]
 
 ;[kanim name = "roz" time = "300" keyframe = "pyonpyon"] 
-[chara_mod name="RozLaz" face="roz_okori_3"]
+[chara_mod name="RozLaz" face="roz_okori_3" wait="false"]
 [voice2 vf2="roz/Roz1-1_4.wav"]
 #ロズ
 「当たりまえやろ毎回引き分けなんやから！！[r]
@@ -176,10 +179,11 @@ _　とにかく、覚悟…」[p]
 
 #yukito
 ≪おしゃべりAI達め…≫[p]
+#
+;修正後 名前表示をSE再生の前に削除（つぶ）
 
 [playse_dooropen_1]
 
-#
 どうしようもない、と言った風に俺はドアを開け、階下へ降りる。[p]
 
 [chara_hide_all]

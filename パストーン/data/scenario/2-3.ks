@@ -2,9 +2,10 @@
 [startoption]
 
 ;背景 講義室
-[bg storage="room.jpg" time="0"]
+[bg storage="classroom.png" time="0"]
 [filter layer="base" blur="5" ]
 [chara_show name="mizuka" top="50" storage="chara/mizuka/kushou.png" time="0" wait="true"]
+[camera layer="base" zoom="1.5" x="0" y="0" time="0" wait="false"]
 [camera layer="0" zoom="1.5" x="0" y="0" time="0" wait="false"]
 [afterjumpmaskNormal]
 #雪翔
@@ -47,10 +48,11 @@
 ;表情 きょとん？
 
 [voice2 vf2="mizuka/mizuka2-3_4.ogg"]
-#美寿花
+#美寿花:uwame
 「せっかくお弁当作ったんだし一緒に食べたいんだけど…」[p]
 ;表情 期待のまなざし
 
+[voicestop]
 #
 どこかワクワクした様子で、美寿花は尋ねる。[p]
 
@@ -74,14 +76,28 @@
 #
 そう言いながら、嬉しそうに笑う。[p]
 
+;修正後 効果音変更
+[playse_slidedoor_open]
+
 ;ドアが開く音（スライド）
+
+;[chara_show name="kouki" face="straight"]
+
+;[reset_camera layer="base" time="1500" wait="false"]
+;[reset_camera layer="0" time="1500"]
+
+[camera layer="base" zoom="1.05" x="0" y="0" time="1500" wait="false"]
+[camera layer="0" zoom="1.05" x="0" y="0" time="1500" wait="false"]
 
 #
 ドアが開き、教授らしき人物が入ってきた。[p]
 
+[chara_hide name="mizuka"]
+
 #
 …そして、程なくして1時限目の講義が始まる。[p]
-最初は、まだ見慣れない講義室、そこで講義を受けるたくさんの学生…そんな空間に俺は新鮮味を感じていて、なんとなくソワソワしていた。[p]
+最初は、まだ見慣れない講義室、そこで講義を受けるたくさんの学生…[r]
+そんな空間に俺は新鮮味を感じていて、なんとなくソワソワしていた。[p]
 …最初は。[p]
 
 #雪翔
@@ -115,6 +131,7 @@
 #雪翔
 （…もう…無理…）[p]
 
+#
 ;背景 黒
 [bg storage="makkuro.jpg" time="3000"]
 
@@ -124,12 +141,12 @@
 ……[p]
 ………[p]
 
-;効果音 ツンッ
+;修正前 効果音 ツンッ
 
 ツンッ[p]
 …[p]
 
-;効果音 ツンッ×２
+;修正前 効果音 ツンッ×２
 
 ツンツンッ[p]
 …んん…？[p]
@@ -137,13 +154,17 @@
 …誰だ…？[p]
 
 [voice2 vf2="mizuka/mizuka2-3_7.ogg"]
+
 #美寿花:egao_2
 「‥‥‥」[p]
 ;表情　egao_2
 ;効果音 頬をつねる音
 
+[bg storage="classroom.png" time="1500"]
+
 ;背景 講義室
 
+[voicestop]
 #雪翔
 ≪痛い痛い痛い痛い！！！！≫[p]
 
@@ -155,6 +176,9 @@
 #雪翔
 ≪…あ、そうだ…俺講義中に寝て…≫[p]
 
+;修正後 美寿花の出てくる位置がおかしい
+[chara_show name="mizuka" top="50" face="mad_smile" time="1000"]
+
 [voice2 vf2="mizuka/mizuka2-3_8.ogg"]
 #美寿花
 「気持ちいいお目覚めだね、少年君？」[p]
@@ -162,7 +186,7 @@
 
 [voicestop]
 #雪翔
-≪うっ…≫
+≪うっ…≫[p]
 
 #
 小声で、だが皮肉めいた言い回しが耳にささる。[p]
@@ -201,7 +225,10 @@
 …だが、美寿花のおかげですっかり眠気はなくなっていた。[p]
 これなら乗り切れそうだ、と俺は真面目に講義に向き合うのだった。[p]
 
-;背景 黒
+;修正後 背景 黒
+[chara_hide_all]
+[bg storage="makkuro.jpg" time="1000" wait="false"]
+
 …[p]
 …そして、次に意識が戻ったのは1時限目終了後だったのは言うまでもない。[p]
 

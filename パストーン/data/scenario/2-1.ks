@@ -9,8 +9,11 @@
 #
 怒涛の初日から一夜明け、翌日。[p]
 8月31日、夏休み最後の日という事で一部の学生は憂鬱な気分に包まれることだろう。[p]
+#雪翔
 （…まぁ、俺にはあまり関係ないけど。）[p]
 というわけで、今日も変わらず作業する…はずだったのだが、[p]
+
+#
 
 ;雪翔の部屋
 [bgchangemask]
@@ -22,11 +25,14 @@
 
 ;マウスの音
 ;タイピング音で代用中
+;修正前 マウスクリックの音に変える
 [voice1 vf1="se/typing_1.ogg"]
 [wait time="2000"]
 [stopse]
 
 [voicestop]
+
+[p]
 
 ;表情 関心→r_kangae2
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
@@ -43,7 +49,6 @@
 #美寿花:r_kangae_2
 「‥‥‥‥‥‥」[p]
 ;表情 関心→r_kangae_2
-;素材きたら
 
 #雪翔
 ≪‥‥‥‥‥‥≫[p]
@@ -52,10 +57,12 @@
 …なんだこの空間。[p]
 俺はパソコンに向かって作業中。もちろん、日課である楽曲制作だ。[p]
 一方、美寿花はその様子をジッと観察している。[p]
+#雪翔
 （…落ち着かない…）[p]
+#
 そうはいっても、かれこれ数時間はこの状態。[p]
 
-;いすが軋む音
+;修正前　いすが軋む音
 ;[voice2 vf2="se/椅子"]
 
 #
@@ -68,15 +75,18 @@
 
 [voicestop]
 #
-そう言いながら、やっぱり同じ体勢じゃ辛かったのか、大きく伸びをして僕の肩に手を伸ばす。[p]
+そう言いながら、やっぱり同じ体勢じゃ辛かったのか、[r]
+大きく伸びをして僕の肩に手を伸ばす。[p]
 
 #雪翔
 ≪‥‥‥≫[p]
 
 #
-恐らく喋りたい。ということだろうが…[p]
+恐らく喋りたい。[r]
+ということだろうが…[p]
 …今考えてみれば、俺と会話している間、ずっと美寿花はどこかに触れてないといけないわけで…[p]
-どんな罰ゲームだよ…と思いながらも、仕方なく美寿花の手を肩に乗せる。[p]
+どんな罰ゲームだよ…[r]
+と思いながらも、仕方なく美寿花の手を肩に乗せる。[p]
 
 ;能力発動音
 [playse_ability_on]
@@ -100,7 +110,8 @@
 ≪自分の部屋あるでしょ…そこで時間つぶせば…≫[p]
 
 #
-我が家に一つだけある空き部屋。クーラーもあるので空調面で問題はないはずだが…[p]
+我が家に一つだけある空き部屋。[r]
+クーラーもあるので空調面で問題はないはずだが…[p]
 
 [voice2 vf2="mizuka/mizuka2-1_4.ogg"]
 #美寿花:r_kushou
@@ -128,6 +139,7 @@
 
 [voicestop]
 ;ドアを開ける音
+;修正済み 音量を下げる
 [voice2 vf2="se/dooropen_1.ogg"]
 ;リビング
 
@@ -221,7 +233,7 @@
 「……」[p]
 ;表情　kyoton
 
-;間抜けな音
+;修正前　間抜けな音
 ;[voice2 vf2=""]
 ;[playse storage=se/間抜け loop=false]
 
@@ -247,7 +259,11 @@
 
 [voicestop]
 #
-そこまで言って、あ、と何か閃いたように目が輝きだす。[p]
+そこまで言って、あ、
+[chara_mod name="mizuka" face="r_harikiri" time="500" wait="false"]
+と何か閃いたように目が輝きだす。[p]
+
+
 同時に、そこはかとなく嫌な予感。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_15.ogg"]
@@ -296,8 +312,8 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_20.ogg"]
-#美寿花
-「めんどくさいのは…私じゃどうにもできないかもしれないけど...」[p]
+#美寿花:r_fuan
+「めんどくさいのは…私じゃどうにもできないかもしれないけど…」[p]
 ;表情 不安
 
 [voicestop]
@@ -318,7 +334,8 @@
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_23.ogg"]
 #美寿花:r_odoroki
-「…ってもうこんな時間！？作業ちょっとだけ見たら買い物しようと思ってたのに…」[p]
+「…ってもうこんな時間！？[r]
+作業ちょっとだけ見たら買い物しようと思ってたのに…」[p]
 ;表情 驚き
 
 [voicestop]
@@ -336,14 +353,17 @@
 そう言い終わる前に、何やらメモ帳を取り出して書き出している。[p]
 …さっきそれ渡してくれたら、触れる必要なかったんじゃないか？[p]
 
+[chara_hide name="mizuka" time="2000" wait="false"]
+
 [voice2 vf2="mizuka/mizuka2-1_24.ogg"]
 #美寿花
 「待ってて！ちょっと色々買ってくるから！」[p]
 ;表情 慌て
-[chara_hide name="mizuka" time="2000"]
+#
+
 
 [voicestop]
-#
+
 ;玄関のドアが開く音
 [voice2 vf2="se/dooropen_1.ogg"]
 
@@ -361,13 +381,13 @@
 …作業、戻るか。[p]
 ここで待っていても仕方ないので、自分の部屋に戻る。[p]
 
-[mask effect="fadeInRightBig" time="1000"]
+[bgchangemask]
 
 [bg storage="myroom.png" time=0]
 ;部屋のドアを閉める音
 [voice2 vf2="se/doorclose_1.ogg"]
 
-[mask_off ]
+[bgchangemask_off]
 ;雪翔の部屋
 
 #雪翔
@@ -381,7 +401,9 @@
 …原因は、俺だ。[p]
 その生活を自ら望み、塞ぎこんだ自分自身にある。[p]
 …でも…[p]
-…彼女なら、俺の心の殻を壊してくれるんじゃないか。なんていう…期待に近い何かを、抱いてしまっているのも事実だった。[p]
+…彼女なら、俺の心の殻を壊してくれるんじゃないか。[r]
+なんていう…期待に近い何かを、抱いてしまっているのも事実だった。[p]
+#雪翔
 （…ハッ）[p]
 笑ってしまう。[p]
 自分から勝手に閉じこもっておいて、そんなものに縋ってしまう傲慢さに。[p]
@@ -402,14 +424,15 @@
 #雪翔
 ≪…ロズか≫[p]
 
-[chara_show name="roz" top="-70" storage="chara/roz/normal.png" wait="true"]
+[chara_show name="RozLaz" top="200" face="roz_neutral" wait="true"]
 
 #
 まぁ、勿論ラズもいるんだろうが。[p]
 …というか、[p]
 
+[chara_mod name="RozLaz" face="roz_okori"]
 [voice2 vf2="roz/Roz2-1_2.ogg"]
-#ロズ:okori
+#ロズ
 「…む～…」[p]
 ;表情 不満　あとで
 ;okoriもあり？
@@ -425,8 +448,9 @@
 #
 スマホでそう文字を打ち込み、謝罪の念を伝える。[p]
 
+[chara_mod name="RozLaz" face="roz_akire"]
 [voice2 vf2="roz/Roz2-1_3.ogg"]
-#ロズ:akire
+#ロズ
 「…まぁ、それに関してはもういいんやけどさ…」[p]
 ;表情 呆れ
 
@@ -434,19 +458,25 @@
 #雪翔
 ≪ラズにも伝えといてくれ。あの子怒らせるのが一番怖い≫[p]
 
+[chara_mod name="RozLaz" face="roz_itome"]
 [voice2 vf2="roz/Roz2-1_4.ogg"]
-#ロズ:itome
+#ロズ
 「はいは～い」[p]
+#
+[chara_hide name="RozLaz" time="2000"]
+
 ;表情 糸目
 
 [voicestop]
-#
 ちょっと不満げだが、それ以降は声が聞こえなくなる。[p]
 …そういえばあいつら…なんで美寿花の前に出てこないんだ…？[p]
 
+[mask effect="fadeIn" time="2000"]
+;修正済み 完全に暗転してから黒背景に移る
 ;背景 黒
 [chara_hide_all time=1000 wait="false"]
 [bg storage="black.jpg" time=1000]
+[mask_off effect="fadeOut" time="2000"]
 
 [voice2 vf2="laz/Laz2-1_1.ogg"]
 #ラズ
@@ -458,7 +488,8 @@
 
 [voice2 vf2="laz/Laz2-1_2.ogg"]
 #ラズ
-「よろしいのではないですか？むしろ良い方向に転がっているように見えますが…」[p]
+「よろしいのではないですか？
+_　むしろ良い方向に転がっているように見えますが…」[p]
 
 [voice2 vf2="roz/Roz2-1_6.ogg"]
 #ロズ
@@ -479,5 +510,11 @@
 [voice2 vf2="laz/Laz2-1_5.ogg"]
 #ラズ
 「少々、見極める必要がありますわね…常葉、美寿花…」[p]
+#
 
-[scenejumpNormal sc="2-2.ks"]
+[stopse]
+[mask effect="fadeInLeftBig" ]
+
+[chara_hide_all time="0"]
+
+[scenejumpNormal sc="title.ks"]

@@ -61,6 +61,8 @@
 	[chara_config ptext="chara_name_area"]
 
 	[font shadow="0x333333"]
+
+	[chara_config  talk_focus="none"]
 [endmacro]
 
 ;頷き風
@@ -92,13 +94,13 @@
 
 ;能力発動音
 [macro name="playse_ability_on"]
-	[playse storage="se/ability_on.ogg" loop=false clear=true volume="70"]
+	[playse storage="se/ability_on.ogg" loop=false clear=true volume="30"]
 	[wse]
 [endmacro]
 
 ;ドアが開くときの音
 [macro name="playse_dooropen_1"]
-	[playse storage="se/dooropen_1.ogg" loop=false clear=true volume="50"]
+	[playse storage="se/dooropen_1.ogg" loop=false clear=true volume="20"]
 	[wse]
 [endmacro]
 
@@ -113,7 +115,20 @@
 	[wait time="300"]
 [endmacro]
 
+;布擦れの音
 [macro name="playse_cloth_1"]
 	[playse storage="se/cloth_1.ogg" loop="false" volume="70"]
+	[wse]
+[endmacro]
+
+;ドアスライド
+[macro name="playse_slidedoor_open"]
+	[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
+	[wse]
+[endmacro]
+
+;チャイム、インターホン
+[macro name="playse_chaimu"]
+	[playse storage="se/chaimu.ogg" loop="false" volume="50"]
 	[wse]
 [endmacro]
