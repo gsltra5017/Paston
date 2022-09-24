@@ -58,6 +58,7 @@
 
 
 [chara_mod name="RozLaz" face="laz_kushou"]
+[voice2 vf2="laz/laz5-4_1.ogg"]
 #ラズ
 「…私たちとしては、ご主人様が自らの声でお話しになってる事こそ慣れませんが…」[p]
 ;表情 kushou
@@ -69,6 +70,7 @@
 「…ああ、そういえばお前らとこうやって話すのは初めてか」[p]
 
 [chara_mod name="RozLaz" face="laz_bishou"]
+[voice2 vf2="laz/laz5-4_2.ogg"]
 #ラズ
 「ですね。何せ昨日はお疲れの様でしたから…」[p]
 ;表情 bishou
@@ -92,11 +94,13 @@
 訳を話すが…話終わる頃には何故か二人とも呆れ気味な表情を浮かべていた。[p]
 
 [chara_mod name="RozLaz" face="roz_akire_2"]
+[voice2 vf2="roz/roz5-4_5.ogg"]
 #ロズ
 「…いや、マスター…それは…」[p]
 ;表情 akire_2
 
 [chara_mod name="RozLaz" face="laz_tokuige"]
+[voice2 vf2="laz/laz5-4_3.ogg"]
 #ラズ
 「こら、辞めておきましょうロズ。ここで変に口を挟むのは野暮というものですわ」[p]
 ;表情 tokuige
@@ -105,11 +109,13 @@
 「…？お前らの言ってる意味がよく分からないんだが…」[p]
 
 [chara_mod name="RozLaz" face="laz_egao"]
+[voice2 vf2="laz/laz5-4_4.ogg"]
 #ラズ
 「大丈夫です。今は分からなくて良いんですのよ」[p]
 ;表情 egao
 
 [chara_mod name="RozLaz" face="laz_ozigi"]
+[voice2 vf2="laz/laz5-4_5.ogg"]
 #ラズ
 「…ですが、どうしても聞きたいのであれば…その答えは本人から、ということで」[p]
 ;表情 ojigi
