@@ -1,7 +1,12 @@
 *start
 [startoption]
 
+<<<<<<< Updated upstream
 [bg storage="daysky.png" time=0]
+=======
+;背景 青空
+[bg storage="daysky.png"]
+>>>>>>> Stashed changes
 
 [afterjumpmaskNormal]
 
@@ -16,7 +21,11 @@
 [bg storage="classroom.jpg" time=1000]
 
 ;効果音 チャイム
+<<<<<<< Updated upstream
 [playse_schoolbell]☆
+=======
+[playse_schoolchaimu]
+>>>>>>> Stashed changes
 
 #雪翔
 ≪…終わった…≫[p]
@@ -48,14 +57,25 @@
 #雪翔
 ≪…なんだ、ロズか…どうした？≫[p]
 
+<<<<<<< Updated upstream
 [chara_show name="roz" top=-70 storage="chara/roz/worry.png" wait=true time=500]
 #ロズ:worry
+=======
+[chara_show name="RozLaz" top=-70 face="roz_shinpai.png"]
+#ロズ
+>>>>>>> Stashed changes
 [voice2 vf2="roz/Roz3-1_2.ogg"]
 「いや、全然気づいてへんっぽいから…」[p]
-;表情 worry
+;表情 shinpai
 
+<<<<<<< Updated upstream
 #ロズ:neutral
 [voice2 vf2="roz/Roz3-1_3.ogg"]☆
+=======
+[chara_mod name="RozLaz" face="roz_neutral"]
+#ロズ
+[voice2 vf2="roz/Roz3-1_3.ogg"]
+>>>>>>> Stashed changes
 「美寿花からメッセージが来とるで。[r]
 講義終わったら大学前集合って」[p]
 ;表情 neutral
@@ -66,10 +86,15 @@
 #
 言われてスマホを見ると、確かにメッセージの通知が一つ。[p]
 
+<<<<<<< Updated upstream
 #ロズ:angry_2
+=======
+[chara_mod name="RozLaz" face="roz_okori_2"]
+#ロズ
+>>>>>>> Stashed changes
 [voice2 vf2="roz/Roz3-1_4.ogg"]
 「マスター、言われんかったらそのまま帰るつもりやったやろ？」[p]
-;表情 angry_2
+;表情 okori_2
 
 #雪翔
 ≪…危なかった…≫[p]
@@ -77,9 +102,9 @@
 #
 美寿花とは基本的に受ける講義は同じなのだが、[r]
 選択科目では違う講義になることもしばしば。[p]
-[chara_hide name="roz" time=500]
+[chara_hide name="RozLaz" time=500]
 
-[chara_show name="mizuka" top=-70 storage="chara/mizuka/worry_3.png" wait=true time=500]
+[chara_show name="mizuka" top=-70 face="shinpai_3"]
 #美寿花
 [voice2 vf2="mizuka/Mizuka3-1_1.ogg"]
 『一人で大丈夫？しらない人について行かないでよ？』[p]
@@ -94,28 +119,44 @@
 #雪翔
 ≪助かったよ。ありがとう≫[p]
 
-[chara_show name="roz" top=-70 storage="chara/roz/akire.png" wait=true time=500]
+[chara_show name="RozLaz" top=-70 face="roz_akire"]
 #ロズ:akire
 [voice2 vf2="roz/Roz3-1_5.ogg"]
 「どういたしまして。はよ行かなどやされるで？」[p]
 ;表情 akire
 
 ;背景 廊下
+<<<<<<< Updated upstream
 [chara_hide name="roz" time=500]
 [bg storage="rouka.jpg" time=1000] 
 ;☆ 廊下フリー素材
+=======
+[chara_hide name="RozLaz" time=500]
+[bg storage="rouka.jpg" time=1000]
+;☆
+>>>>>>> Stashed changes
 
 #
 ロズは引っ込み、俺は言われた通り校門前に向かう。[p]
 
+<<<<<<< Updated upstream
 [chara_show name="roz" top=-70 storage="chara/roz/ge.png" wait=true time=500]
 [chara_show name="laz" top=-70 storage="chara/laz/bow.png" wait=true time=500]
 
+=======
+[chara_show name="RozLaz" top=-70 face="laz_bow"]
+[voice2 vf2="laz/Laz3-1_1.ogg"]
+>>>>>>> Stashed changes
 #ラズ
 「あの…一つ、よろしいでしょうか？」[p]
 ;表情 bow
 
+<<<<<<< Updated upstream
+=======
+[chara_mod name="RozLaz" face="roz_ge"]
+>>>>>>> Stashed changes
 #ロズ
+[voice2 vf2="roz/Roz3-1_6.ogg"]
 「げ」[p]
 ;表情 ge
 
@@ -128,13 +169,16 @@
 #雪翔
 ≪あ、そういえばいなかったなお前…≫[p]
 
-#ラズ:kyoton
+[chara_mod name="RozLaz" face="laz_kyoton"]
+#ラズ
+[voice2 vf2="laz/Laz3-1_2.ogg"]
 「ええ。そこのエセ関西AIが黙ってご主人様と話していたので」[p]
 ;表情 kyoton
 
-#ロズ:angry
+[chara_mod name="RozLaz" face="roz_okori"]
+#ロズ
 「誰がエセ関西人や誰が」[p]
-;表情 angry
+;表情 okori
 
 #雪翔
 ≪はいはいストップ。急がないとだから用件を言ってからじゃれあって≫[p]
@@ -142,10 +186,14 @@
 ;ラズ＆ロズ同時 [ある程度解決]
 
 [chara_config  talk_focus=none]
+<<<<<<< Updated upstream
 
 #ロズ:angry
 #ラズ:angry
 #ラズ＆ロズ
+=======
+#ロズ＆ラズ
+>>>>>>> Stashed changes
 「じゃれあったりなんかしてません！」[r]
 「じゃれあったりなんかしてへん！」[p]
 ;表情 ラズ＆ロズ angry
@@ -155,7 +203,9 @@
 #
 …毎回思うが、仲いいよなこいつら。[p]
 
-#ラズ:bow
+[chara_mod name="RozLaz" face="laz_bow"]
+#ラズ
+[voice2 vf2="laz/Laz3-1_3.ogg"]
 「はぁ…ついさっきなんですが、私たちの更新が来ているそうなので、[r]
 また夜にでも確認してくださいませ」[p]
 ;表情 bow
@@ -181,8 +231,14 @@
 #
 そうこうしてる間に校門前についたが…何やら見覚えのある顔が。[p]
 
+<<<<<<< Updated upstream
 
 #文永:smile
+=======
+[chara_show name="ayana" top="40" face="normal"]
+#文永
+[voice2 vf2="ayana/ayana3-1_1.ogg"]
+>>>>>>> Stashed changes
 「あ…こんにちは」[p]
 ;表情 smile
 
@@ -192,7 +248,8 @@
 #
 …でも、彼女は高校生のはず…何で大学に？[p]
 
-#文永:worry
+#文永:odoroki
+[voice2 vf2="ayana/ayana3-1_2.ogg"]
 「あの…お姉ちゃん、いないんですか？てっきり一緒だと思ってたんですけど…」[p]
 ;表情 worry
 
@@ -202,7 +259,8 @@
 #
 …多分、ここにいるのは俺と一緒の理由だろう。[p]
 
-#文永
+#文永:tameiki
+[voice2 vf2="ayana/ayana3-1_3.ogg"]
 「…本当、すいません…うちの姉がいい加減で…」
 ;表情 ぺこり?☆
 
@@ -210,6 +268,7 @@
 俺が首を横に振ると、半ばうんざりした様子で謝る文永。[p]
 
 #文永:kyoton
+[voice2 vf2="ayana/ayana3-1_4.ogg"]
 「多分、またカラオケに行くつもりで呼んだんだと思うんですが…何も聞いてないですか？」[p]
 ;表情 kyoton
 
@@ -219,9 +278,10 @@
 #
 なら、わざわざ文永を呼ぶ必要もないだろうし…[p]
 
-#文永
+#文永:kanashimi
+[voice2 vf2="ayana/ayana3-1_5.ogg"]
 「です、よね…」[p]
-;表情 悲しみ☆
+;表情 悲しみ
 
 #雪翔
 ≪‥‥‥≫[p]
@@ -230,6 +290,7 @@
 話すことがなくなったのか、しばし沈黙が場を支配する。[p]
 
 #文永:kushou
+[voice2 vf2="ayana/ayana3-1_6.ogg"]
 「…その…えっと…Twine、交換しませんか！？」[p]
 ;表情 kushou
 
@@ -238,6 +299,7 @@
 どうやらそっちが耐えられなくなったらしい。[p]
 
 #文永:kushou
+[voice2 vf2="ayana/ayana3-1_7.ogg"]
 「今は…その、お姉ちゃんもいないので会話も難しいし…！」[p]
 ;表情 kushou
 
@@ -247,9 +309,10 @@
 #雪翔
 ≪…ハハッ≫[p]
 
-#文永:surprise
+#文永:odoroki
+[voice2 vf2="ayana/ayana3-1_8.ogg"]
 「…な、何で笑うんですか…？」[p]
-;表情 surprise
+;表情 odoroki
 
 #雪翔
 ≪いや、別に…≫[p]
@@ -259,16 +322,19 @@
 むしろ話せる相手が増えるのは嬉しい。[p]
 頷き、さっそくアプリを起動させて、教えてもらったIDを打ち込む。[p]
 
-#文永:smile
+#文永:normal
+[voice2 vf2="ayana/ayana3-1_9.ogg"]
 「ありがとうございます…！」[p]
-;表情 smile
+;表情 smile ☆
 
 #
 お礼を言ってから、う〜ん…と数秒の思考の末…[p]
 
-#文永
+#文永:moijmoji
+[voice2 vf2="ayana/ayana3-1_10.ogg"]
 「…えっ…と…」[p]
-;表情 もじもじ☆
+;表情 もじもじ
+
 #
 …再び、沈黙。
 
@@ -284,6 +350,7 @@
 ≪少しだけ、美寿花に似てるなって思ってさ≫[p]
 
 #文永:kyoton
+[voice2 vf2="ayana/ayana3-1_11.ogg"]
 「…お姉ちゃんに？」[p]
 ;表情 kyoton
 
@@ -291,29 +358,34 @@
 ≪美寿花と初めて会った時にも、同じような空気になって…[r]
 さっきみたいに無理やり喋ったり≫[p]
 
-#文永
+#文永:ushirokurai
+[voice2 vf2="ayana/ayana3-1_12.ogg"]
 「…ああ…そう…なんですね」[p]
-;表情 後ろ暗い表情☆
+;表情 後ろ暗い
 
 #雪翔
 ≪あと、焦るとちょっとだけ早口になるところも≫[p]
 
 #文永:kushou
+[voice2 vf2="ayana/ayana3-1_13.ogg"]
 「うぐっ…それは、自分でも心当たりが…」[p]
 ;表情 kushou
 
 #文永
+[voice2 vf2="ayana/ayana3-1_14.ogg"]
 「…でも、そっか…私、似てるんだ…あの人と…」[p]
 ;表情 ？ みずかのことをどう思っているかによってかわる？☆
 
 #雪翔
 ≪…文永？≫[p]
 
-#文永
+#文永:awate
+[voice2 vf2="ayana/ayana3-1_15.ogg"]
 「…あ、その……そう！」[p]
 ;表情 思い付き☆
 
 #文永:kyoton
+[voice2 vf2="ayana/ayana3-1_16.ogg"]
 「来週の木曜日ってどうするんですか？」[p]
 ;表情 kyoton
 
@@ -330,16 +402,18 @@
 #
 俺の送った文を見ると、何故か文永の顔に？が浮かぶ。[p]
 
-文永:kushou
+#文永:kushou
+[voice2 vf2="ayana/ayana3-1_17.ogg"]
 「…いや、えーと…」[p]
 ;表情 kushou
 
 #
 …あれ？俺なんか変なこと言っただろうか？
 
-#文永
+#文永:mojimoji
+[voice2 vf2="ayana/ayana3-1_18.ogg"]
 「…実は、来週の木曜日、お姉ちゃんの誕生日で…」[p]
-;表情 もじもじ☆
+;表情 もじもじ
 
 #雪翔
 ≪…ん？…あ、ああ！そういうことか！！≫[p]
@@ -350,10 +424,11 @@
 #雪翔
 ≪ご、ごめん…全然知らなくて…≫[p]
 
-#文永
+#文永:awate
+[voice2 vf2="ayana/ayana3-1_19.ogg"]
 「い、いえ！そうですよね！普通は知りませんよね！[r]
 こっちこそすいません！」[p]
-;表情 慌て☆
+;表情 慌て
 
 #
 …あ〜…でも誕生日か…どうしたものか…[p]
@@ -364,6 +439,7 @@
 ≪…文永は…≫[cm]
 
 #
+[voice2 vf2="mizuka/mizuka3-1_1.ogg"]
 「ごめ〜ん！！遅れたぁぁ！！」[p]
 
 #
@@ -372,19 +448,31 @@
 #
 遠くから聞こえる大声に、俺ら二人は揃ってビクッとする。[p]
 
+<<<<<<< Updated upstream
+=======
+[chara_show name="mizuka" top="20" face="tsukare"]
+>>>>>>> Stashed changes
 #美寿花
+[voice2 vf2="mizuka/mizuka3-1_2.ogg"]
 「はぁ…はぁ…ごめん。お待たせ…先生に捕まっちゃって…」[p]
+<<<<<<< Updated upstream
 ;表情 疲労☆
+=======
+;表情 疲労
+>>>>>>> Stashed changes
 
 #文永:kushou
+[voice2 vf2="ayana/ayana3-1_20.ogg"]
 「ま、まぁそんな待ってないけど…またカラオケ？」[p]
 ;表情 kushou
 
-#美寿花
+#美寿花:kitai
+[voice2 vf2="mizuka/mizuka3-1_3.ogg"]
 「そうだね。もう一回歌いたいなぁ～って思って…」[p]
-;表情 期待のまなざし？☆
+;表情 期待のまなざし？
 
 #文永:akire
+[voice2 vf2="ayana/ayana3-1_21.ogg"]
 「もうそれなら二人で行けばいいじゃん…[r]
 ほら、行くなら早く行こ。門限に間に合わないし」[p]
 ;表情 呆れ
@@ -393,14 +481,17 @@
 ≪へぇ。門限とかあるんだ≫[p]
 
 #美寿花:kushou
+[voice2 vf2="mizuka/mizuka3-1_4.ogg"]
 「相変わらず厳しいね…」[p]
 ;表情 kushou
 
 #文永:kyoton
+[voice2 vf2="ayana/ayana3-1_22.ogg"]
 「本当はお姉ちゃんも門限あるんだけど…？」[p]
 ;表情 kyoton
 
 #美寿花:smile_2
+[voice2 vf2="mizuka/mizuka3-1_5.ogg"]
 「私はいいの。家出中だもん」[p]
 ;表情 smile_2
 
@@ -410,6 +501,10 @@
 そんなこと言い合いながら、[r]
 俺たち3人はカラオケへと向かった。[p]
 
+<<<<<<< Updated upstream
 [chara_hide_all]
 
 [scenejumpNormal sc = "3-2.ks"]
+=======
+[scenejumpNormal sc="3-2.ks"]
+>>>>>>> Stashed changes

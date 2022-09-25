@@ -2,8 +2,8 @@
 [chara_new  name="yukito" storage="chara/yukito/dansei_15.png" jname="雪翔"  ]
 [chara_new  name="mizuka" storage="chara/mizuka/kushou.png" width="868" height="1227" jname="美寿花"]
 [chara_new  name="kouki" storage="chara/kouki/bishou.png" width="1003" height="1418" jname="黄樹"]
-;[chara_new  name="roz" storage="chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
-;[chara_new  name="laz" storage="chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
+[chara_new  name="roz" storage="chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
+[chara_new  name="laz" storage="chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
 [chara_new  name="ayana" storage="chara/ayana/normal.png" width="868" height="1227" jname="文永"  ]
 [chara_new  name="RozLaz" storage="chara/RozLaz/normal.png" width="523" height="552.51" jname="ロズラズ"  ]
 
@@ -127,7 +127,6 @@
 [chara_face name="RozLaz" face="laz_tokuige" storage="chara/RozLaz/laz_tokuige.png"]
 [chara_face name="RozLaz" face="laz_utagai" storage="chara/RozLaz/laz_utagai.png"]
 [chara_face name="RozLaz" face="laz_x" storage="chara/RozLaz/laz_x.png"]
-[chara_face name="RozLaz" face="laz_×" storage="chara/RozLaz/laz_×.png"]
 [chara_face name="RozLaz" face="normal" storage="chara/RozLaz/normal.png"]
 [chara_face name="RozLaz" face="roz_akire" storage="chara/RozLaz/roz_akire.png"]
 [chara_face name="RozLaz" face="roz_akire_2" storage="chara/RozLaz/roz_akire_2.png"]

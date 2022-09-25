@@ -4,13 +4,22 @@
 ;背景 夕焼けの空
 [bg storage="eveningsky.png" time=1000]
 
+<<<<<<< Updated upstream
 [afterjumpmaskNormal]
 
 [chara_show name=mizuka face=worry top=-70 wait=true time=500]
 ;[chara_show name=ayana]
 #美寿花:worry
+=======
+[chara_show name="mizuka" face="shinpai" top="20"]
+[chara_show name="ayana" face="akire" top="40"]
+
+[afterjumpmaskNormal]
+
+#美寿花
+>>>>>>> Stashed changes
 「最近、結構暗くなるの早くなってきたから気を付けてよ？」[p]
-;worry
+;shinpai
 
 #文永
 「はいはい、大丈夫だから」[p]
@@ -20,9 +29,9 @@
 カラオケで散々歌った後。[r]
 心配する美寿花を軽くあしらい、文永は自転車に乗って帰っていく。[p]
 
-#美寿花:think
+#美寿花:kangae
 「さて、今日のご飯は～…あれ、家に何残ってたっけ…」[p]
-;think
+;考え
 
 #
 ぶつぶつ、と夕飯について考える美寿花[p]
@@ -32,20 +41,20 @@
 
 #
 一方、俺はまた別のことで頭を悩ませていた。[p]
-[chara_hide_all time =500]
+[chara_hide_all time=500]
 
 ;背景 雪翔の自室
 
-[bg storage = "myroom.jpg"]
-[chara_show name=roz top=-70 time=500 wait=true]
-[chara_show name=laz top=-70 time=500 wait=false]
+[bg storage="myroom.png"]
+[chara_show name="RozLaz" face="roz_kyoton" top="-70"]
 #ロズ
 「なるほどなぁ〜。美寿花の誕生日…」[p]
 ;腕組み☆
 
+[chara_mod name="RozLaz" face="laz_kyoton"]
 #ラズ
 「贈り物、ですか…ご主人様の口からそんな悩みを聞く日が来るとは…」[p]
-;
+
 #雪翔
 ≪いや別にいいだろ来ても。…って言いたいけど、[r]
 今までが今までだから否定しきれないな…≫[p]
@@ -54,39 +63,44 @@
 夜、自室で俺らは作戦会議を開いていた。[p]
 …相談するような相手がAIしかいないというのも、悲しい話だが。[p]
 
+[chara_mod name="RozLaz" face="roz_komari"]
 #ロズ
 「やっぱ美寿花の好きなものとかがええんやないの？何かないん？」[p]
-;困り顔？☆
+;困り顔
 
 #雪翔
 ≪好きなもの、か…好きなもの…≫[p]
+
 #
 ‥‥‥[p]
 …あれ…あいつの好きなものってなんだ…？[p]
 
+[chara_mod name="RozLaz" face="laz_bishou"]
 #ラズ
 「それなら、こう…女性にあげて喜びそうなものとか…」[p]
 ;
 
 #雪翔
 ≪‥‥‥≫[p]
-;効果音 キーボードを打つ音
 
-[playse storage="se/typing_1.ogg"]
+;効果音 キーボードを打つ音
+[playse_typing1]
+
 #雪翔
 ≪女性、プレゼント…≫[p]
 [stopse]
 
-#ロズ:akire
+[chara_mod name="RozLaz" face="roz_akire"]
+#ロズ
 「ダメやこのマスター、検索しだした…」[p]
 ;akire
 
 #雪翔
 ≪しょうがないだろ！今までいっさいこういうことなかったんだから！≫[p]
 
+[chara_mod name="RozLaz" face="laz_kushou"]
 #ラズ
 「まぁ、それは分かりますけども…」[p]
-;
 
 #雪翔
 ≪…あ〜…じゃあ逆に、お前らは何かもらって嬉しいものとかはないのか？≫[p]
@@ -96,12 +110,14 @@ AIとはいえ、一応性別は女性だ。[p]
 もしかしたら参考になるかもしれない。[r]
 と藁にも縋る思いで聞いてみる、が…[p]
 
+[chara_mod name="RozLaz" face="laz_akire"]
 #ラズ
 「…と、言われましても…」[p]
 
+[chara_mod name="RozLaz" face="roz_itome_2"]
 #ロズ
 「まずうちら、プレゼントもらっても受け取れへんからな…物理的に…」[p]
-;困り眉、糸目、にっこり口☆
+;itome2
 
 #雪翔
 ≪…そりゃそうだな≫[p]
@@ -111,17 +127,19 @@ AIとはいえ、一応性別は女性だ。[p]
 #雪翔
 ≪‥‥‥≫[p]
 
-#ラズ:worry
+[chara_mod name="RozLaz" face="laz_shinpai"]
+#ラズ
 「‥‥‥」[p]
-;worry
+;shinpai
 
+[chara_mod name="RozLaz" face="roz_shinpai_2"]
 #ロズ
 「‥‥‥」[p]
-;worryの閉じ口
+;shipai2
 
+[chara_mod name="RozLaz" face="laz_kushou"]
 #ラズ
 「…まぁ、それはそれとして、まず更新終わらせません？」[p]
-;
 
 #雪翔
 ≪…だな。そうするか≫[p]
@@ -131,22 +149,28 @@ AIとはいえ、一応性別は女性だ。[p]
 
 #雪翔
 ≪じゃ、始めるぞ～≫[p]
+
+[chara_mod name="RozLaz" face="roz_egao"]
 #ロズ
 「了解～」[p]
 ;smile（itomeの目が通常）
 
+[chara_mod name="RozLaz" face="laz_egao"]
 #ラズ
 「いつでもよろしいですわ」[p]
-;効果音 クリック音
 
-;[playse storage=""]
+;効果音 クリック
+[playse_click1]
+
+;AI更新中の表情
+[wait time="200"]
+[chara_mod name="RozLaz" face="laz_close"]
 
 #
 画面上の開始をクリックすると、『更新中』という文字と進行状態を示すバーが表示される。[p]
 #雪翔
 ≪…さて、更新内容は…≫[p]
 
-;表情を変えた方が良い？
 #
 更新中はシステムが停止するので、[r]
 ラズ達はその間眠ったような状態になる。[p]
@@ -172,7 +196,7 @@ EL社の社長について[p]
 #雪翔
 ≪常葉永寿郎…常葉？≫[p]
 
-;もしかして回想？
+;回想 ☆
 #美寿花
 『えーと、名前は常葉美寿花。大学1年生だよ』[p]
 
@@ -185,10 +209,10 @@ EL社の社長について[p]
 （…偶然？）[p]
 『常葉』という名前の人がそんなにいるとは思えないが…[p]
 
-;[playse storage=通知音]
+[playse storage=通知音]
 #雪翔
 ≪‥‥‥≫[p]
-;効果音 通知音
+;効果音 通知音 ☆
 
 #雪翔
 ≪うおびっくりした…≫[p]
@@ -291,6 +315,10 @@ EL社の社長について[p]
 #雪翔
 ≪…どう誘えばいいんだ？これ…≫[p]
 
+<<<<<<< Updated upstream
 [chara_hide_all]
 
 [scenejumpNormal sc = "3-3.ks"]
+=======
+[scenejumpNormal sc="3-3.ks"]
+>>>>>>> Stashed changes
