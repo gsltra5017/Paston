@@ -26,7 +26,7 @@
 ;マウスの音
 ;タイピング音で代用中
 ;修正前 マウスクリックの音に変える
-[voice1 vf1="se/typing_1.ogg"]
+[playse_click_1]
 [wait time="2000"]
 [stopse]
 
@@ -63,7 +63,7 @@
 そうはいっても、かれこれ数時間はこの状態。[p]
 
 ;修正前　いすが軋む音
-;[voice2 vf2="se/椅子"]
+[playse_chair]
 
 #
 流石に休憩入れるか…と立ち上がる。[p]
@@ -146,11 +146,12 @@
 [bgchangemask]
 
 [bg storage="living.png" time="0"]
+[chara_mod name="mizuka" face="r_kyoton"]
 
 [bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-1_6.ogg"]
-#美寿花:r_kyoton
+#美寿花
 「あれ、どこ行くの？」[p]
 ;表情 きょとん
 

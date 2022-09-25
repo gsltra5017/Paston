@@ -19,7 +19,7 @@
 
 	[stopse]
 	[resetdelay]
-	
+
 	[chara_hide_all time="0"]
 
     @jump storage="&mp.sc"
@@ -150,8 +150,12 @@
 	[wse]
 [endmacro]
 
-;クリック
-[macro name="playse_click1"]
+[macro name="playse_click_1"]
 	[playse storage="se/click_1.mp3" loop="false" volume="80"]
+	[wse]
+[endmacro]
+
+[macro name="playse_chair"]
+	[playse storage="se/chair.ogg" loop="false" volume="80"]
 	[wse]
 [endmacro]

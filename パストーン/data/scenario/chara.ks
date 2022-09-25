@@ -76,6 +76,7 @@
 [chara_face name="mizuka" face="yaruki" storage="chara/mizuka/yaruki.png"]
 [chara_face name="mizuka" face="yaruki_2" storage="chara/mizuka/yaruki_2.png"]
 [chara_face name="mizuka" face="×" storage="chara/mizuka/×.png"]
+[chara_face name="mizuka" face="itazura" storage="chara/mizuka/itazura.png"]
 
 [chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
 [chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
