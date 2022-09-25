@@ -173,7 +173,6 @@ _　じゃあ、ちょっと失礼しまーす」[p]
 「これも自分で書いたの？すごい…」[p]
 ;表情　きょとん
 
-[voicestop]
 #雪翔
 ≪……≫[p]
 
@@ -200,7 +199,6 @@ _　じゃあ、ちょっと失礼しまーす」[p]
 ;表情　微笑
 
 [voicestop]
-
 #
 ‥‥‥[p]
 …？[p]
@@ -419,8 +417,5 @@ _　さっきの歌詞、すっごいよかったし」[p]
 続きは開発中です。９月末のアップデートをお待ちください。[p]
 
 [stopse]
-;[mask effect="fadeInLeftBig" ]
-
-[chara_hide_all time="0"]
 
 [scenejumpNormal sc="title.ks"]

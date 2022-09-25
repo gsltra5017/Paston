@@ -382,7 +382,6 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 ≪…ロズ、ラズ≫[p]
 
 [chara_show name="RozLaz" top="-16" face="roz_tokuige" wait="true" pos_mode="true"]
-;あとでvoice2に変える
 [voice2 vf2="roz/roz5-1_1.ogg"]
 #ロズ
 「はいな」[p]
@@ -472,5 +471,3 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 来客を知らせるチャイムが、部屋に響いた。[p]
 
 [scenejumpNormal sc="5-2.ks"]
-
-

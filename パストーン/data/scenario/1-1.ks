@@ -33,7 +33,6 @@
 理解を拒み、[p]
 …『言葉』だけを、ただ、紡いでいく。[p]
 
-
 [bg storage="black.jpg" time="2000"]
 #yukito
 『やめてくれ』[p]
@@ -86,7 +85,8 @@ _　あれを何回も見せられるのはつらいな…≫[p]
 #
 あれ、というのは夢の内容のことである。[p]
 
-[bg storage="makkuro.jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
+
 ;修正済 黒背景フェードイン
 
 『悲劇の飲酒暴走事故』[p]
@@ -130,7 +130,8 @@ _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[
 
 ;[chara_show name="roz" top="20" face="fuman" left = "505" wait = "false" pos_mode = "false"]
 ;[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
-[chara_show name="RozLaz" top="200" face="roz_taunt" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="-16" face="roz_taunt" wait="true" pos_mode="true"]
+
 [voice2 vf2="roz/Roz1-1_2.wav"]
 ;修正後 ロズラズ単体で画面に表示するなら以前のように大きく表示しても良いと思う（今回のアップロード時に手が間に合わないのは仕方がないので一旦手無しで）
 
