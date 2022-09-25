@@ -2,11 +2,7 @@
 
 [startoption]
 
-<<<<<<< Updated upstream
 [bg storage="daysky.png" time=0]
-=======
-[bg storage="daysky.png" ]
->>>>>>> Stashed changes
 
 [afterjumpmaskNormal]
 
@@ -142,13 +138,9 @@
 ちゃんと…別れを告げることができた…そのはずなのに。[p]
 …俺は…何に囚われている？[p]
 
-<<<<<<< Updated upstream
 [bg storage="aquarium.png" time=300]
 
-#美寿花
-=======
 #美寿花:egao
->>>>>>> Stashed changes
 「…行こっ！そんな暗い顔してちゃ、楽しめるものも楽しめないよ！[r]
 …って、聞いた私が言うのもおかしいけど。」[p]
 ;egao
@@ -162,14 +154,11 @@
 #雪翔
 ≪…？≫[p]
 
-<<<<<<< Updated upstream
 [chara_hide_all]
 
 [bg storage="black.png" time=0]
 
-=======
 #？
->>>>>>> Stashed changes
 --そんな暗い顔してたら、仲直りできるものも出来ないよ！リラックスリラックス！[p]
 
 [bg storage="aquarium.png" time=300]
@@ -180,13 +169,9 @@
 #雪翔
 ≪…美寿花？≫[p]
 
-<<<<<<< Updated upstream
-[chara_show name="mizuka" top="20"]
+[chara_show name="mizuka" face="kyoton" top="20" time="500"]
 
 #美寿花
-=======
-#美寿花:kyoton
->>>>>>> Stashed changes
 「へ？何？」[p]
 ;kyoton
 
@@ -230,22 +215,19 @@
 彼女へのプレゼントと言っておきながら、何だかんだ楽しんでいる自分もいて。[p]
 そんな自分が、少し可笑しくもあるのだった。[p]
 
-<<<<<<< Updated upstream
-[bg storage="aquarium_2.png" time=300]
-=======
+[voicestop]
+
 [bgchangemask]
 
 [bg storage="makkuro.jpg" ]
 [chara_hide_all]
 
 [bgchangemask_off]
->>>>>>> Stashed changes
 
 #飼育員？
 「皆様、大変長らくお待たせいたしました！この水族館名物のイルカショー、[r]
 まずはイルカ達の紹介をさせていただきます！」[p]
 
-[voicestop]
 ;一枚絵 （イルカショー）
 [layopt layer="0" visible="true"]
 [image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/3-4 kirakirame.png" time="1000"]
@@ -468,10 +450,4 @@
 だから…そう。誰も悪くない。ただの事故なのだ。[p]
 …そんな言い訳を心の中でしながら、俺はその空気にただ耐えるのだった。[p]
 
-<<<<<<< Updated upstream
-[chara_hide_all]
-
-[scenejumpNormal sc = "3-5.ks"]
-=======
 [scenejumpNormal sc="3-5.ks"]
->>>>>>> Stashed changes

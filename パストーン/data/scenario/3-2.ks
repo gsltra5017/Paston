@@ -2,26 +2,23 @@
 [startoption]
 
 ;背景 夕焼けの空
-[bg storage="eveningsky.png" time=1000]
+[bg storage="eveningsky.png"]
 
-<<<<<<< Updated upstream
 [afterjumpmaskNormal]
 
-[chara_show name=mizuka face=worry top=-70 wait=true time=500]
-;[chara_show name=ayana]
-#美寿花:worry
-=======
+[wait time="800"]
+
+[bg storage="road_evening.png"]
+
 [chara_show name="mizuka" face="shinpai" top="20"]
-[chara_show name="ayana" face="akire" top="40"]
-
-[afterjumpmaskNormal]
-
 #美寿花
->>>>>>> Stashed changes
+[voice2 vf2="mizuka/mizuka3-2_1.ogg"]
 「最近、結構暗くなるの早くなってきたから気を付けてよ？」[p]
 ;shinpai
 
+[chara_show name="ayana" face="akire" top="40"]
 #文永
+[voice2 vf2="ayana/ayana3-2_1.ogg"]
 「はいはい、大丈夫だから」[p]
 ;呆れ
 
@@ -29,7 +26,10 @@
 カラオケで散々歌った後。[r]
 心配する美寿花を軽くあしらい、文永は自転車に乗って帰っていく。[p]
 
+[chara_hide name="ayana"]
+
 #美寿花:kangae
+[voice2 vf2="mizuka/mizuka3-2_2.ogg"]
 「さて、今日のご飯は～…あれ、家に何残ってたっけ…」[p]
 ;考え
 
@@ -41,18 +41,21 @@
 
 #
 一方、俺はまた別のことで頭を悩ませていた。[p]
-[chara_hide_all time=500]
+
+[chara_hide_all time="500"]
 
 ;背景 雪翔の自室
-
 [bg storage="myroom.png"]
-[chara_show name="RozLaz" face="roz_kyoton" top="-70"]
+
+[chara_show name="RozLaz" face="roz_kyoton" top="-70" time="500"]
 #ロズ
+[voice2 vf2="roz/Roz3-2_1.ogg"]
 「なるほどなぁ〜。美寿花の誕生日…」[p]
-;腕組み☆
+;腕組み ☆
 
 [chara_mod name="RozLaz" face="laz_kyoton"]
 #ラズ
+[voice2 vf2="laz/Laz3-2_1.ogg"]
 「贈り物、ですか…ご主人様の口からそんな悩みを聞く日が来るとは…」[p]
 
 #雪翔
@@ -65,6 +68,7 @@
 
 [chara_mod name="RozLaz" face="roz_komari"]
 #ロズ
+[voice2 vf2="roz/Roz3-2_2.ogg"]
 「やっぱ美寿花の好きなものとかがええんやないの？何かないん？」[p]
 ;困り顔
 
@@ -77,6 +81,7 @@
 
 [chara_mod name="RozLaz" face="laz_bishou"]
 #ラズ
+[voice2 vf2="laz/Laz3-2_2.ogg"]
 「それなら、こう…女性にあげて喜びそうなものとか…」[p]
 ;
 
@@ -92,6 +97,7 @@
 
 [chara_mod name="RozLaz" face="roz_akire"]
 #ロズ
+[voice2 vf2="roz/Roz3-2_3.ogg"]
 「ダメやこのマスター、検索しだした…」[p]
 ;akire
 
@@ -100,6 +106,7 @@
 
 [chara_mod name="RozLaz" face="laz_kushou"]
 #ラズ
+[voice2 vf2="laz/Laz3-2_3.ogg"]
 「まぁ、それは分かりますけども…」[p]
 
 #雪翔
@@ -112,15 +119,18 @@ AIとはいえ、一応性別は女性だ。[p]
 
 [chara_mod name="RozLaz" face="laz_akire"]
 #ラズ
+[voice2 vf2="laz/Laz3-2_4.ogg"]
 「…と、言われましても…」[p]
 
 [chara_mod name="RozLaz" face="roz_itome_2"]
 #ロズ
+[voice2 vf2="roz/Roz3-2_4.ogg"]
 「まずうちら、プレゼントもらっても受け取れへんからな…物理的に…」[p]
 ;itome2
 
 #雪翔
 ≪…そりゃそうだな≫[p]
+
 #
 縋った藁は無惨にも粉々になり、振り出しに戻される。[p]
 
@@ -129,20 +139,24 @@ AIとはいえ、一応性別は女性だ。[p]
 
 [chara_mod name="RozLaz" face="laz_shinpai"]
 #ラズ
+[voice2 vf2="laz/Laz3-2_5.ogg"]
 「‥‥‥」[p]
 ;shinpai
 
 [chara_mod name="RozLaz" face="roz_shinpai_2"]
 #ロズ
+[voice2 vf2="roz/Roz3-2_5.ogg"]
 「‥‥‥」[p]
 ;shipai2
 
 [chara_mod name="RozLaz" face="laz_kushou"]
 #ラズ
+[voice2 vf2="laz/Laz3-2_6.ogg"]
 「…まぁ、それはそれとして、まず更新終わらせません？」[p]
 
 #雪翔
 ≪…だな。そうするか≫[p]
+
 #
 結局いい案が浮かぶことはなく、ラズの言葉で一旦会議は中断。[p]
 さっさと更新の準備を進めていく。[p]
@@ -163,13 +177,16 @@ AIとはいえ、一応性別は女性だ。[p]
 [playse_click1]
 
 ;AI更新中の表情
-[wait time="200"]
+[wait time="100"]
 [chara_mod name="RozLaz" face="laz_close"]
 
 #
 画面上の開始をクリックすると、『更新中』という文字と進行状態を示すバーが表示される。[p]
+
 #雪翔
 ≪…さて、更新内容は…≫[p]
+
+[chara_hide_all]
 
 #
 更新中はシステムが停止するので、[r]
@@ -178,7 +195,8 @@ AIとはいえ、一応性別は女性だ。[p]
 適当に更新内容のページを流し読みしていく。[p]
 
 #雪翔
-≪…特に大きなものはなさ…ん？≫[p]
+≪…特に大きなものは無さ…ん？≫[p]
+
 #
 ふと、読んでいた目がある語に止まる。[p]
 違和感…いや、これは既視感だろうか？[p]
@@ -187,6 +205,7 @@ EL社の社長について[p]
 
 #雪翔
 ≪『常葉…永寿郎』…？≫[p]
+
 #
 そこには、5、60代ぐらいの男性が写真付きで紹介されていた。[p]
 見覚えはない。[r]
@@ -196,9 +215,16 @@ EL社の社長について[p]
 #雪翔
 ≪常葉永寿郎…常葉？≫[p]
 
-;回想 ☆
+[bg storage="living.png" time="500"]
+
+[chara_show name="mizuka" face="egao" top="20" time="500"]
 #美寿花
 『えーと、名前は常葉美寿花。大学1年生だよ』[p]
+
+[chara_hide_all time="500"]
+
+;背景 雪翔の自室
+[bg storage="myroom.png" time="500"]
 
 #雪翔
 ≪…あっ！！≫[p]
@@ -206,13 +232,18 @@ EL社の社長について[p]
 #
 そうだ！確か美寿花の上の名前、[r]
 『常葉』じゃなかったか！？[p]
+
+#雪翔
 （…偶然？）[p]
+
+#
 『常葉』という名前の人がそんなにいるとは思えないが…[p]
 
-[playse storage=通知音]
 #雪翔
 ≪‥‥‥≫[p]
+
 ;効果音 通知音 ☆
+;[playse storage=通知音]
 
 #雪翔
 ≪うおびっくりした…≫[p]
@@ -288,6 +319,7 @@ EL社の社長について[p]
 
 #雪翔
 『そうしてくれると助かる。あ、お金は次会った時に払うから』[p]
+
 #
 何から何まで気を回してくれて、本当に感謝でしかない。[p]
 …お礼に何か…あ、そうだ。[p]
@@ -315,10 +347,4 @@ EL社の社長について[p]
 #雪翔
 ≪…どう誘えばいいんだ？これ…≫[p]
 
-<<<<<<< Updated upstream
-[chara_hide_all]
-
-[scenejumpNormal sc = "3-3.ks"]
-=======
 [scenejumpNormal sc="3-3.ks"]
->>>>>>> Stashed changes

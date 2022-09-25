@@ -17,6 +17,9 @@
 [macro name="scenejumpNormal"]
     [mask time="800" effect="slideInRight" wait="true"]
 
+	[stopse]
+	[resetdelay]
+	
 	[chara_hide_all time="0"]
 
     @jump storage="&mp.sc"
@@ -24,13 +27,8 @@
     [s]
 [endmacro]
 
-<<<<<<< Updated upstream
-[macro name = "afterjumpmaskNormal"]
-    [mask_off effect = "slideOutLeft" time = "800" wait="false"]
-=======
 [macro name="afterjumpmaskNormal"]
     [mask_off effect="slideOutLeft" time="800"]
->>>>>>> Stashed changes
 [endmacro]
 
 ;ボイスのマクロを作成3
@@ -140,14 +138,9 @@
 	[wse]
 [endmacro]
 
-<<<<<<< Updated upstream
-;学校チャイム
-[macro name="playse_schoolbell"]
-	[playse storage="se/school_bell.ogg" loop="false" volume="50"]
-=======
 ;学校のチャイム
 [macro name="playse_schoolchaimu"]
-	[playse storage="se/school_chaimu.ogg" loop="false" volume="50"]
+	[playse storage="se/school_bell.ogg" loop="false" volume="50"]
 	[wse]
 [endmacro]
 
@@ -160,6 +153,5 @@
 ;クリック
 [macro name="playse_click1"]
 	[playse storage="se/click_1.mp3" loop="false" volume="80"]
->>>>>>> Stashed changes
 	[wse]
 [endmacro]

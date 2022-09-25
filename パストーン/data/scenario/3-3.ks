@@ -1,7 +1,7 @@
 *start
 [startoption]
 
-[bg storage="room.png" time=0]
+[bg storage="classroom.png" time=0]
 
 [afterjumpmaskNormal]
 
@@ -129,7 +129,7 @@
 [chara_mod name="RozLaz" face="laz_close"]
 #ラズ
 「まぁ確かに、このままだと誘うのは困難ですわね…」[p]
-;表情 考え込む表情？ ☆
+;表情 考え込む表情
 
 [chara_mod name="RozLaz" face="roz_neutral"]
 #ロズ
@@ -361,10 +361,4 @@
 …こうして、[r]
 多少のごたつきはあったものの、無事に誘う事に成功したのだった。[p]
 
-<<<<<<< Updated upstream
-[chara_hide_all]
-
-[scenejumpNormal sc = "3-4.ks"]
-=======
 [scenejumpNormal sc="3-4.ks"]
->>>>>>> Stashed changes
