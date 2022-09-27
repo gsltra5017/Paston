@@ -455,7 +455,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 #雪翔
 ≪…ロズ、ラズ≫[p]
 
-[chara_show name="RozLaz" top="-16" face="roz_tokuige" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_tokuige" wait="true" pos_mode="true"]
 [voice2 vf2="roz/roz5-1_1.ogg"]
 #ロズ
 「はいな」[p]

@@ -422,7 +422,7 @@
 #雪翔
 ≪…ロズか≫[p]
 
-[chara_show name="RozLaz" top="200" face="roz_neutral" wait="true"]
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_neutral" wait="true"]
 
 #
 まぁ、勿論ラズもいるんだろうが。[p]

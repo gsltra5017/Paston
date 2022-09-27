@@ -39,16 +39,19 @@
 「…ドアの前で何しとるん？マスター？」[p]
 ;立ち絵表示なし
 
+[voicestop]
+
 #雪翔
 「うおっ！？」[p]
 
 #
 どうしたものか悩んでいると…いつものようにスマホから声が。[p]
 
-[chara_show name="RozLaz" top="-16" face="roz_neutral" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_neutral" wait="true" pos_mode="true"]
 
 #雪翔
 「ロズか…やっぱりいきなり話しかけられるのは慣れないな…」[p]
+
 
 [chara_mod name="RozLaz" face="roz_akire"]
 [voice2 vf2="roz/roz5-4_2.ogg"]
@@ -63,11 +66,14 @@
 「…私たちとしては、ご主人様が自らの声でお話しになってる事こそ慣れませんが…」[p]
 ;表情 kushou
 
+[voicestop]
+
 #
 遅れて、ラズの声。[p]
 
 #雪翔
 「…ああ、そういえばお前らとこうやって話すのは初めてか」[p]
+
 
 [chara_mod name="RozLaz" face="laz_bishou"]
 [voice2 vf2="laz/laz5-4_2.ogg"]
@@ -75,11 +81,13 @@
 「ですね。何せ昨日はお疲れの様でしたから…」[p]
 ;表情 bishou
 
+
 [chara_mod name="RozLaz" face="roz_itome"]
 [voice2 vf2="roz/roz5-4_3.ogg"]
 #ロズ
 「せやなぁ…」[p]
 ;表情 itome
+
 
 [chara_mod name="RozLaz" face="roz_neutral"]
 [voice2 vf2="roz/roz5-4_4.ogg"]
@@ -87,11 +95,15 @@
 「って、そうやなくて、どうしたん？下行くんやと思うてたけど」[p]
 ;表情 neutral
 
+[voicestop]
+
 #雪翔
 「…それが…」[p]
 
 #
 訳を話すが…話終わる頃には何故か二人とも呆れ気味な表情を浮かべていた。[p]
+
+
 
 [chara_mod name="RozLaz" face="roz_akire_2"]
 [voice2 vf2="roz/roz5-4_5.ogg"]
@@ -99,14 +111,20 @@
 「…いや、マスター…それは…」[p]
 ;表情 akire_2
 
+
+
 [chara_mod name="RozLaz" face="laz_tokuige"]
 [voice2 vf2="laz/laz5-4_3.ogg"]
 #ラズ
 「こら、辞めておきましょうロズ。ここで変に口を挟むのは野暮というものですわ」[p]
 ;表情 tokuige
 
+[voicestop]
+
 #雪翔
 「…？お前らの言ってる意味がよく分からないんだが…」[p]
+
+
 
 [chara_mod name="RozLaz" face="laz_egao"]
 [voice2 vf2="laz/laz5-4_4.ogg"]
@@ -114,11 +132,15 @@
 「大丈夫です。今は分からなくて良いんですのよ」[p]
 ;表情 egao
 
+
+
 [chara_mod name="RozLaz" face="laz_ozigi"]
 [voice2 vf2="laz/laz5-4_5.ogg"]
 #ラズ
 「…ですが、どうしても聞きたいのであれば…その答えは本人から、ということで」[p]
 ;表情 ojigi
+
+[voicestop]
 
 #雪翔
 「は？それって…」[p]
@@ -127,8 +149,6 @@
 すると、2回のノックが聞こえ、ドアが開く。[p]
 
 [chara_hide name="RozLaz" time="500" wait="true"]
-
-[chara_show name="mizuka" top="20" face="aseganizindaegao" time="0"]
 
 #美寿花
 「ごめん、今大丈夫？」[p]
@@ -139,6 +159,8 @@
 
 #雪翔
 「…だ、大丈夫…だけど？」[p]
+
+[chara_show name="mizuka" top="20" face="aseganizindaegao" time="0"]
 
 #
 朝の事を思い出し、何故か俺もキョドりながらも何とか返事をする。[p]
