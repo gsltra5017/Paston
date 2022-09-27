@@ -7,12 +7,11 @@
 [afterjumpmaskNormal]
 
 ;修正後 メッセージウィンドウを表示するまでの時間が欲しい
-;[wait time="2000"]
+[wait time="2000"]
 
-[p]
+
 
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
-
 #美寿花
 「…本当に大丈夫なの？何か、今すぐにでも倒れそうだけど…」[p]
 ;表情　心配
