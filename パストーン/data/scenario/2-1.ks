@@ -31,8 +31,6 @@
 
 [voicestop]
 
-[p]
-
 ;表情 関心→r_kangae2
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
 #美寿花

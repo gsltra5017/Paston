@@ -22,7 +22,6 @@
 [playse_chaimu]
 
 #
-[p]
 もう一度、チャイムが鳴る。[p]
 
 [voice1 vf1="mizuka/mizuka5-2_1.ogg"]
@@ -237,8 +236,6 @@
 [bg storage="living.png" time="500"]
 ;修正前 暗転 キャラを全員画面から消す
 ;修正前 透明な画像ファイルを永寿郎として描画するのもあり
-
-[p]
 
 [voice2 vf2="eijurou/eijurou5-2_5.ogg"]
 #永寿郎
