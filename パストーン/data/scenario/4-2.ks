@@ -4,8 +4,7 @@
 [bg storage="myroom.png" time="0"]
 
 [afterjumpmaskNormal]
-
-;動作未確認
+;[jump target="*debug"]
 
 その翌日。[p]
 
@@ -133,7 +132,7 @@
 [chara_mod name="RozLaz" face="roz_komari"]
 [voice2 vf2="roz/roz4-2_4.ogg"]
 #ロズ
-「ほんま急やったやんな。マスターのことを誰よりも長く見てきたウチらから見ても」
+「ほんま急やったやんな。マスターのことを誰よりも長く見てきたウチらから見ても」[p]
 ;表情 komari
 
 #雪翔
@@ -144,7 +143,8 @@
 
 [chara_mod name="RozLaz" face="laz_shinpai"]
 [voice2 vf2="laz/laz4-2_6.ogg"]
-ラズ「…美寿花と、何があったんですか…？」[p]
+#ラズ
+「…美寿花と、何があったんですか…？」[p]
 ;
 #雪翔
 ≪‥‥‥≫[p]
@@ -158,7 +158,7 @@
 [chara_mod name="RozLaz" face="laz_okori_3"]
 [voice2 vf2="laz/laz4-2_7.ogg"]
 #ラズ
-「話がややこしくなるので貴方は黙っててください」
+「話がややこしくなるので貴方は黙っててください」[p]
 ;
 
 [chara_mod name="RozLaz" face="roz_okori_3"]

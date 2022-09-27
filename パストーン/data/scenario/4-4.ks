@@ -4,8 +4,9 @@
 [bg storage="eveningsky.png" time="0"]
 
 [afterjumpmaskNormal]
+;[jump target="*debug"]
 
-;動作未確認
+;223画像代替
 
 #
 ≪‥‥‥‥≫[p]
@@ -40,7 +41,8 @@
 それから…[p]
 
 ;[voice1 vf1=mizuka/mizuka4-4_1.ogg]
-美寿花「…随分、暗い顔してるね」[p]
+#美寿花
+「…随分、暗い顔してるね」[p]
 ;立ち絵表示なし
 ;[voicestop]
 
@@ -51,7 +53,8 @@
 
 [chara_show name="mizuka" top="20" face="kushou"]
 ;[voice2 vf2=mizuka/mizuka4-4_2.ogg]
-美寿花「君が動くまで待ってるつもりだったけど…[r]やっぱり、このまま放置ってのも可哀そうだなって」[p]
+#美寿花
+「君が動くまで待ってるつもりだったけど…[r]やっぱり、このまま放置ってのも可哀そうだなって」[p]
 ;表情 困り笑い
 
 #
@@ -68,7 +71,7 @@
 ;表情 bishou
 
 #
-俺の視線に気づいたのか、美寿花は手に持っている買い物袋を持ち上げる。
+俺の視線に気づいたのか、美寿花は手に持っている買い物袋を持ち上げる。[p]
 
 ;[voice2 vf2=mizuka/mizuka4-4_4.ogg]
 #美寿花:egao
@@ -127,8 +130,8 @@
 「…っと…」[p]
 ;一枚絵表示
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1遊具に座る/4-1  yoru yasasii egao.png"]
-[trans layer="0" time="500" method="fadeIn"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_yasasii_egao.png"]
+[trans layer="0" time="1000" method="fadeIn"]
 [wt]
 
 ;[voice2 vf2=mizuka/mizuka4-4_12.ogg]
@@ -141,7 +144,7 @@
 
 ;[voice2 vf2=mizuka/mizuka4-4_13.ogg]
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1遊具に座る/4-1  yoru kuraikao.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_kuraikao.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 #美寿花
@@ -155,11 +158,11 @@
 
 ;[voice2 vf2=mizuka/mizuka4-4_15.ogg]
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1遊具に座る/4-1  yoru sinken.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_sinken.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 #美寿花
-「あの事故で、生前の私は死んじゃって…[r}アンドロイドになっちゃったけど…君の枷が消えたわけじゃない」[p]
+「あの事故で、生前の私は死んじゃって…[r]アンドロイドになっちゃったけど…君の枷が消えたわけじゃない」[p]
 ;差分 真剣な顔
 
 ;[voice2 vf2=mizuka/mizuka4-4_16.ogg]
@@ -169,7 +172,7 @@
 
 ;[voice2 vf2=mizuka/mizuka4-4_17.ogg]
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1遊具に座る/4-1  yoru yasasii egao.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_yasasii_egao.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 #美寿花
@@ -202,18 +205,28 @@
 誰か…助けてくれ…！[p]
 
 ;選択肢 『美寿花は目の前で生きている』『あいつは常葉美寿花じゃない』
-[glink text="『美寿花は目の前で生きている』" size=20 width=500 x=350 y=200]
-[glink text="『あいつは常葉美寿花じゃない』" size=20 width=500 x=350 y=400]
+[glink text="『美寿花は目の前で生きている』" size=20 width=500 x=350 y=200 color="btn_02_blue" target=*next]
+[glink text="『あいつは常葉美寿花じゃない』" size=20 width=500 x=350 y=400 color="btn_02_blue" target=*next]
+
+[s]
+
+*next
 ≪‥‥‥ッ！！≫[p]
 突然、駆け出す。[p]
 ;一枚絵を黒のスライドインで消す、公園の背景に切り替え（できれば若干のモーションブラーもかけたいからここは要相談）
-[backlay layer="0"]
+[image layer="1" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
-[trans layer="0" time="500" method="slideInRight"]
+[trans layer="1" time="500" method="slideInRight"]
 [wt]
-[chara_hide_all]
-[bg storage="夜の公園"]
-[freeimage layer="0" time="500" wait="true"]
+[chara_hide_all time=0]
+
+;夜の公園の画像がなかったので代替
+[bg storage="nightsky.png" time=0]
+
+[freeimage layer="0" time="0"]
+[freeimage layer="1" time="500"]
+
+#
 このままだと…胸の中にあるどす黒い何かを、美寿花にぶつけてしまう気がして。[p]
 …だが、[p]
 

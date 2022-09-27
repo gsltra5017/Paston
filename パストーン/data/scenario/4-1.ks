@@ -6,8 +6,10 @@
 
 [afterjumpmaskNormal]
 
-;動作未確認
-;病院の天井、病院の部屋(？) 画像データなし
+;[jump target="*debug"]
+
+;病院の天井、病室　仮画像を入れておきました
+;パス指定時に空白が入っているとファイルを特定できなかったので一部ファイル名を変更しました
 ;美寿花涙目笑顔なし
 
 …[p]
@@ -24,7 +26,7 @@
 [voicestop]
 ;背景 一枚絵
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1遊具に座る/4-1 n.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_n.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 
@@ -34,7 +36,7 @@
 「少年君、随分難しそうな本読んでるね。」[p]
 
 ;背景 一枚絵
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1遊具に座る/4-1 kangaeru.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_kangaeru.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 ;[voice2 vf2="mizuka/mizuka4-1_3.ogg"]
@@ -43,14 +45,14 @@
 「う～ん…仲直りの方法かぁ…[p]
 
 ;[voice2 vf2="mizuka/mizuka4-1_4.ogg"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1遊具に座る/4-1 omoituita!.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_omoituita!.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 あ、じゃあ…お母さんの行きたいところに連れていくとかどう？[r]例えば…そう！水族館とか！」[p]
 
 ;背景 一枚絵
-[bg storage="penguin.png"]
-[freeimage layer="0" time="1000" wait=true]
+[bg storage="penguin.png" time=0]
+[freeimage layer="0" time="500" wait=true]
 [chara_show name="mizuka" top=20  face="egao_2" time=500]
 ;[voice2 vf2="mizuka/mizuka4-1_4.ogg"]
 #美寿花
@@ -61,7 +63,7 @@
 [bg storage="sky_mono.png" time=500]
 ;背景 一枚絵or白黒夕空（まぁ青空の使いまわしでいい気もするけど）
 [chara_show name="mizuka" top=20  face="egao_2" time=500]
-[voice2 vf2="mizuka/mizuka4-1_5.ogg"]
+;[voice2 vf2="mizuka/mizuka4-1_5.ogg"]
 #美寿花
 ;（昔）
 「じゃ、約束ね！またペンギンを一緒に見るって」[p]
@@ -79,7 +81,7 @@
 ;背景 一枚絵
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1事故/4-1事故.png"]
-[trans layer="0" time="500" method="fadeIn"]
+[trans layer="0" time="1000" method="fadeIn"]
 [wt]
 ;[voice2 vf2="mizuka/mizuka4-1_7.ogg"]
 #美寿花
@@ -92,8 +94,8 @@
 「ご…めん…ね…」[p]
 
 ;背景黒
-[chara_hide_all]
-[bg storage="makkuro.jpg"]
+[chara_hide_all time=0]
+[bg storage="makkuro.jpg" time=0]
 [freeimage layer="0" time="1000" wait=true]
 
 ;[voice2 vf2="mizuka/mizuka4-1_9.ogg"]
@@ -102,12 +104,12 @@
 「雪翔…君…」[p]
 
 ;背景 天井（病院の天井素材って…というか、病院の素材ってあったっけ…？）
-;[bg storage ="病院の天井"]
+[bg storage ="病院天井（仮）.jpg"]
 
 #雪翔
 ≪―――っ！？≫[p]
 #
-俺を呼ぶ声で、現実へと叩き落された。
+俺を呼ぶ声で、現実へと叩き落された。[p]
 #雪翔
 ≪はぁ……っ…はぁっ……≫[p]
 
@@ -121,9 +123,9 @@
 ≪…ここは…≫[p]
 
 #
-そこでようやく目に入っているのが見慣れない天井だと気づき、俺は体を起こす。[p]
+そこでようやく目に入っているのが見慣れない天井だと気づき、[r]俺は体を起こす。[p]
 ;背景 病院
-[bg storage="病院の画像" time="1000" wait="true"]
+[bg storage="病室（仮）.jpg" time="1000" wait="true"]
 
 #雪翔
 ≪…病院の、ベッド…？≫[p]
@@ -147,7 +149,7 @@
 ≪…今の美寿花と、変わらない…変わってない…≫[p]
 
 #
-あの時、年齢こそ聞いてはいなかったが…俺より背は随分高く、とてもじゃないが中学生には見えなかった。[p]
+あの時、年齢こそ聞いてはいなかったが…俺より背は随分高く、[r]とてもじゃないが中学生には見えなかった。[p]
 
 #雪翔
 ≪…でも…美寿花は、俺と同い年って…≫[p]
@@ -224,7 +226,7 @@
 ≪…父さん…？≫[p]
 
 ;[voice2 vf2="mizuka/mizuka4-1_14.ogg"]
-#美寿花:shinapi
+#美寿花:shinpai
 「やっぱり大学で忙しいみたいで、今はいないけど…これ」[p]
 ;表情 worry
 
@@ -314,3 +316,5 @@
 …多分、怯えていたのだろう。[p]
 聞かれたくなかった。知られたくなかった。[p]
 俺が、目の前にいる美寿花という存在自体を…疑っていることを。[p]
+
+[scenejumpNormal sc="4-2.ks"]
