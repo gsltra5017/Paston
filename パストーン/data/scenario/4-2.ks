@@ -71,7 +71,7 @@
 #雪翔
 ≪‥‥‥≫[p]
 
-[chara_show name="RozLaz" top="200" face="laz_shinpai" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="10" face="laz_shinpai" wait="true" pos_mode="true"]
 [voice2 vf2="laz/laz4-2_2.ogg"]
 #ラズ
 「…ご主人様？」[p]

@@ -3,7 +3,7 @@
 
 ;全体修正！！　ボイス再生中に次のテキストに進んだ場合再生中のボイスを停止させる
 ;全体修正！！　ゆきとのセリフのところは名前を表示させる
-
+;51 データなし
 ;背景 青空
 [bg storage="daysky.png" time="0"]
 
@@ -22,7 +22,7 @@
 ;背景 白黒の青空
 [bg storage="sky_mono.png" time="500"]
 
-;[voice1 vf1="mizuka/mizuka4-1_1.ogg"]
+[voice1 vf1="mizuka/mizuka4-1_1.ogg"]
 #美寿花
 ;（昔）
 「ねぇねぇ」[p]
@@ -34,7 +34,7 @@
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 
-;[voice2 vf2="mizuka/mizuka4-1_2.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_2.ogg"]
 #美寿花
 ;（昔）
 「少年君、随分難しそうな本読んでるね。」[p]
@@ -43,12 +43,12 @@
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_kangaeru.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
-;[voice2 vf2="mizuka/mizuka4-1_3.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_3.ogg"]
 #美寿花
 ;（昔）
 「う～ん…仲直りの方法かぁ…[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_4.ogg"]
+;[voice2 vf2="mizuka/mizuka4-1_4.ogg"] ボイスデータなし
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_omoituita!.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
@@ -58,7 +58,7 @@
 [bg storage="penguin.png" time=0]
 [freeimage layer="0" time="500" wait=true]
 [chara_show name="mizuka" top=20  face="egao_2" time=500]
-;[voice2 vf2="mizuka/mizuka4-1_4.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_4.ogg"]
 #美寿花
 ;（昔）
 「あ、ほら見て見て！ペンギン！可愛いよねぇ…」[p]
@@ -67,7 +67,7 @@
 [bg storage="sky_mono.png" time=500]
 ;背景 一枚絵or白黒夕空（まぁ青空の使いまわしでいい気もするけど）
 [chara_show name="mizuka" top=20  face="egao_2" time=500]
-;[voice2 vf2="mizuka/mizuka4-1_5.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_5.ogg"]
 #美寿花
 ;（昔）
 「じゃ、約束ね！またペンギンを一緒に見るって」[p]
@@ -77,7 +77,7 @@
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
-;[voice2 vf2="mizuka/mizuka4-1_6.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_6.ogg"]
 #美寿花
 ;（昔）
 「後ろ！危ない！！」[p]
@@ -87,12 +87,12 @@
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1事故/4-1事故.png"]
 [trans layer="0" time="1000" method="fadeIn"]
 [wt]
-;[voice2 vf2="mizuka/mizuka4-1_7.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_7.ogg"]
 #美寿花
 ;（昔）
 「…約…束…守れなく…なっちゃった…」[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_8.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_8.ogg"]
 #美寿花
 ;（昔）
 「ご…めん…ね…」[p]
@@ -102,7 +102,7 @@
 [bg storage="makkuro.jpg" time=0]
 [freeimage layer="0" time="1000" wait=true]
 
-;[voice2 vf2="mizuka/mizuka4-1_9.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_9.ogg"]
 #美寿花
 ;（昔＆今）
 「雪翔…君…」[p]
@@ -188,13 +188,13 @@
 静かだった部屋に響いた突然の大きな音に、[r]俺は思わず振り返る。[p]
 
 [chara_show name="mizuka" face="shinpai" top="20" time="1000"]
-;[voice2 vf2="mizuka/mizuka4-1_10.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_10.ogg"]
 #美寿花
 「…雪翔君…？」[p]
 ;表情 心配
 [voicestop]
 
-;[voice2 vf2="mizuka/mizuka4-1_11.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_11.ogg"]
 #美寿花:aseri
 「も、もう大丈夫なの！？どこか痛いところない！？」[p]
 ;表情 焦り
@@ -206,7 +206,7 @@
 #
 無言で、頷く。[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_12.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_12.ogg"]
 ;データなし
 #美寿花
 「よ、良かった…このまま眠ったままなんじゃないかって心配で心配で…」[p]
@@ -225,7 +225,7 @@
 分からない。[p]
 分からないから、どうしても彼女に不信感を抱いてしまう。[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_13.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_13.ogg"]
 #美寿花:kyoton
 「あ、そうだ。君が寝てる間に教授が来てて…」[p]
 ;表情 kyoton
@@ -234,7 +234,7 @@
 #雪翔
 ≪…父さん…？≫[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_14.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_14.ogg"]
 #美寿花:shinpai
 「やっぱり大学で忙しいみたいで、今はいないけど…これ」[p]
 ;表情 worry
@@ -243,7 +243,7 @@
 #
 …そう言って差し出したのは、いくつかのスナック菓子。[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_15.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_15.ogg"]
 #美寿花:kyoton
 「雪翔君が起きたら渡しといてって言われたけど…」[p]
 ;表情 kyoton
@@ -252,7 +252,7 @@
 #
 正直食欲はそこまでないので、首を振って今はいらないことを伝える。[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_16.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_16.ogg"]
 #美寿花:bishou
 「なら…一応、ここに置いとくね？まだ万全じゃないだろうし、食べるのは元気になってから」[p]
 ;表情 微笑
@@ -281,7 +281,7 @@
 …俺は、問わずにはいられなかった。[p]
 …だが、[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_17.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_17.ogg"]
 #美寿花:kyoton
 「…ん～？」[p]
 ;表情 kyoton
@@ -295,7 +295,7 @@
 しまった…！今声を聞かれるのはまずい…！！[p]
 そう思った時には、美寿花の手はすぐそこまで迫って…[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_18.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_18.ogg"]
 #美寿花:aseri
 「……あ…」[p]
 ;表情 aseri
@@ -304,7 +304,7 @@
 #
 …手が、止まる。[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_19.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_19.ogg"]
 #美寿花:kushou_2
 「…ご、ごめんね！勝手に触ろうとして…」[p]
 ;表情 kushou_2(口に手あててるやつ）
@@ -317,7 +317,7 @@
 そのまま、一歩俺から距離をとる。[p]
 …その目には…強い戸惑いが、宿っていた。[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_20.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_20.ogg"]
 #美寿花:neutral
 「…じゃ、じゃあ…また、元気になったら学校、一緒に行こうね！」[p]
 ;表情 neutral

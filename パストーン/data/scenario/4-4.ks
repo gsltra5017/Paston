@@ -50,7 +50,7 @@
 帰って…考えを整理して…[p]
 それから…[p]
 
-;[voice1 vf1=mizuka/mizuka4-4_1.ogg]
+[voice1 vf1=mizuka/mizuka4-4_1.ogg]
 #美寿花
 「…随分、暗い顔してるね」[p]
 ;立ち絵表示なし
@@ -64,7 +64,7 @@
 背後からかけられた声に、俺はゆっくりと振り返る。[p]
 
 [chara_show name="mizuka" top="20" face="kushou"]
-;[voice2 vf2=mizuka/mizuka4-4_2.ogg]
+[voice2 vf2=mizuka/mizuka4-4_2.ogg]
 #美寿花
 「君が動くまで待ってるつもりだったけど…[r]やっぱり、このまま放置ってのも可哀そうだなって」[p]
 ;表情 困り笑い
@@ -80,7 +80,7 @@
 #雪翔
 ≪‥‥‥≫[p]
 
-;[voice2 vf2=mizuka/mizuka4-4_3.ogg]
+[voice2 vf2=mizuka/mizuka4-4_3.ogg]
 #美寿花:bishou
 「あぁ…これ？」[p]
 ;表情 bishou
@@ -89,17 +89,19 @@
 #
 俺の視線に気づいたのか、美寿花は手に持っている買い物袋を持ち上げる。[p]
 
-;[voice2 vf2=mizuka/mizuka4-4_4.ogg]
+[voice2 vf2=mizuka/mizuka4-4_4.ogg]
 #美寿花:egao
-「夕ご飯の材料、足りなくてさ。ちょうど買いに行ってたんだ。[r]最近寒くなってきたし、何か温かいもの作りたいな～って」[p]
+「夕ご飯の材料、足りなくてさ。ちょうど買いに行ってたんだ。[p]
+[voice2 vf2=mizuka/mizuka4-4_5.ogg]
+最近寒くなってきたし、何か温かいもの作りたいな～って」[p]
 ;表情 eago
 
-;[voice2 vf2=mizuka/mizuka4-4_5.ogg]
+[voice2 vf2=mizuka/mizuka4-4_6.ogg]
 #美寿花:straight
 「それで…君を見つけた」[p]
 ;表情 straight
 
-;[voice2 vf2=mizuka/mizuka4-4_6.ogg]
+[voice2 vf2=mizuka/mizuka4-4_7.ogg]
 #美寿花
 「『私について』文永と話してる…君を」[p]
 ;表情 straight
@@ -114,17 +116,17 @@
 そして、今更ながら…気づく。[p]
 さっきから、美寿花の目が俺とあっていないことに。[p]
 
-;[voice2 vf2=mizuka/mizuka4-4_7.ogg]
+[voice2 vf2=mizuka/mizuka4-4_8.ogg]
 #美寿花:kushou
 「そっか…私、人間じゃないんだって気づいた時…[r]ちょっと、納得しちゃったんだ」[p]
 ;表情 困り笑い
 
-;[voice2 vf2=mizuka/mizuka4-4_8.ogg]
+[voice2 vf2=mizuka/mizuka4-4_9.ogg]
 #美寿花
 「幼い頃の記憶が、あやふやだったり…[r]文永と私で、少しお父さんの扱いが違っていたり…」[p]
 ;表情 
 
-;[voice2 vf2=mizuka/mizuka4-4_9.ogg]
+[voice2 vf2=mizuka/mizuka4-4_10.ogg]
 #美寿花
 「…不思議な力が使えたり…ね」[p]
 ;表情
@@ -137,7 +139,7 @@
 彼女は、薄々気づいていたのだ。[p]
 自分がどこか…人と違う事を。[p]
 
-;[voice2 vf2=mizuka/mizuka4-4_10.ogg]
+[voice2 vf2=mizuka/mizuka4-4_11.ogg]
 #美寿花
 「ごめんね。本当に」[p]
 ;表情
@@ -150,7 +152,7 @@
 その声は届かず、美寿花は何故か辺りを見回す。[p]
 しばらくして、[p]
 
-;[voice2 vf2=mizuka/mizuka4-4_11.ogg]
+[voice2 vf2=mizuka/mizuka4-4_12.ogg]
 #美寿花
 「…っと…」[p]
 ;一枚絵表示
@@ -159,7 +161,7 @@
 [trans layer="0" time="1000" method="fadeIn"]
 [wt]
 
-;[voice2 vf2=mizuka/mizuka4-4_12.ogg]
+[voice2 vf2=mizuka/mizuka4-4_13.ogg]
 #美寿花
 「ずっと待ってたから足が疲れちゃって…」[p]
 [voicestop]
@@ -168,7 +170,7 @@
 あの、シーソーに座った。[p]
 あくまでも軽く、何でもないことのように。[p]
 
-;[voice2 vf2=mizuka/mizuka4-4_13.ogg]
+[voice2 vf2=mizuka/mizuka4-4_14.ogg]
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_kuraikao.png"]
 [trans layer="0" time="500" method="fadeIn"]
@@ -177,12 +179,12 @@
 「…今まで、私は事故のことを知らずに生きていた…[r]君はその事故で…私のせいで大きな枷を背負ってしまったのに」[p]
 ;差分 目を伏せた顔
 
-;[voice2 vf2=mizuka/mizuka4-4_14.ogg]
+[voice2 vf2=mizuka/mizuka4-4_15.ogg]
 #美寿花
 「…そんなの、あまりにも不公平すぎる。…ごめんね」[p]
 ;差分 目を伏せた顔
 
-;[voice2 vf2=mizuka/mizuka4-4_15.ogg]
+[voice2 vf2=mizuka/mizuka4-4_16.ogg]
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_sinken.png"]
 [trans layer="0" time="500" method="fadeIn"]
@@ -191,12 +193,12 @@
 「あの事故で、生前の私は死んじゃって…[r]アンドロイドになっちゃったけど…君の枷が消えたわけじゃない」[p]
 ;差分 真剣な顔
 
-;[voice2 vf2=mizuka/mizuka4-4_16.ogg]
+[voice2 vf2=mizuka/mizuka4-4_17.ogg]
 #美寿花
 「…私は、常葉美寿花として…生きていかなきゃいけない」[p]
 ;差分 真剣な顔
 
-;[voice2 vf2=mizuka/mizuka4-4_17.ogg]
+[voice2 vf2=mizuka/mizuka4-4_18.ogg]
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_yasasii_egao.png"]
 [trans layer="0" time="500" method="fadeIn"]
@@ -281,7 +283,7 @@
 このままだと…胸の中にあるどす黒い何かを、美寿花にぶつけてしまう気がして。[p]
 …だが、[p]
 
-;[voice2 vf2=mizuka/mizuka4-4_18.ogg]
+[voice2 vf2=mizuka/mizuka4-4_19.ogg]
 #美寿花
 「待って！雪翔君！！」[p]
 ;立ち絵表示なし
@@ -298,7 +300,7 @@
 #雪翔
 ≪お前は…美寿花じゃ…ないっ…！！！≫[p]
 
-;[voice2 vf2=mizuka/mizuka4-4_19.ogg]
+[voice2 vf2=mizuka/mizuka4-4_20.ogg]
 #美寿花
 「‥‥‥‥ぇ？」[p]
 
