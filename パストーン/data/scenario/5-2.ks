@@ -29,13 +29,15 @@
 「で、出ようか…？」[p]
 ;表情 shinapi
 
+[voicestop]
+
 #
 ちょっと俺の様子を伺いながらではあるが、美寿花が声をかけてくれた。[p]
 
 #雪翔
 ≪…いや、大丈夫。…ラズ、頼めるか？≫[p]
 
-[chara_show name="RozLaz" top="200" face="laz_normal_2" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal_2" wait="true" pos_mode="true"]
 #
 俺は首を横に振ってから、スマホでラズを呼びだす。[p]
 
@@ -60,9 +62,13 @@
 「いや、僕が出るよ」[p]
 ;セリフの後に立ち絵フェードイン
 
+[voicestop]
+
 #
 [chara_show name="kouki" face="straight" top="-50" time="1000"]
 [chara_hide name="RozLaz" time="500"]
+
+
 
 #雪翔
 ≪…え…？≫[p]
@@ -81,6 +87,8 @@
 「偶然休みが取れてね。状況が状況だし、部屋から出てくるつもりはなかったんだけど…」[p]
 ;表情 normal
 
+[voicestop]
+
 #
 言いながら、父さんが俺と美寿花を交互に見る。[p]
 
@@ -90,7 +98,7 @@
 ;表情 straight
 
 [voice2 vf2="kouki/kouki5-2_3.ogg"]
-#黄樹#:shinpai
+#黄樹:shinpai
 「…いいんだよ。元々僕がまいた種だ。この状況も…」[p]
 ;表情 shinpai
 
@@ -98,6 +106,8 @@
 #黄樹:shinpai
 「もしかしたら、この来客も…だな」[p]
 ;表情 shinapi
+
+[voicestop]
 
 #雪翔
 ≪え…？≫[p]
@@ -112,6 +122,8 @@
 #美寿花:straight
 「‥‥‥」[p]
 ;表情 straight
+
+[voicestop]
 
 #雪翔
 ≪‥‥‥≫[p]
@@ -231,9 +243,15 @@
 「…お父…さん…？」[p]
 ;表情
 
-[bg storage="makkuro.jpg" time="500" wait="true"]
-[chara_hide_all]
-[bg storage="living.png" time="500"]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
+[bg storage="makkuro.jpg" time="0" wait="false"]
+[chara_hide_all time="0" wait="false"]
+[bg storage="living.png" time="0"]
+[freeimage layer="0" time="500" wait="true"]
+
 ;修正前 暗転 キャラを全員画面から消す
 ;修正前 透明な画像ファイルを永寿郎として描画するのもあり
 

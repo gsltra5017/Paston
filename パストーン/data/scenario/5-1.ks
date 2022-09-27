@@ -485,8 +485,8 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 
 #
 [voicestop]
-[chara_hide_all]
-[bg storage="makkuro.jpg" time="500"]
+[chara_hide_all time="500" wait="false"]
+;[bg storage="makkuro.jpg" time="500"]
 #
 
 背中を押される。[p]
