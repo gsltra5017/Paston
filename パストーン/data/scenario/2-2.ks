@@ -111,7 +111,7 @@ _　誰が喋ってるの！？」[p]
 …にしても、またややこしいタイミングで出てきたな…[p]
 スマホを取り出し、その画面を美寿花に見せる。[p]
 
-[chara_show name="RozLaz" top="200" face="laz_normal" wait="true"]
+[chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal" wait="true"]
 [voice2 vf2="laz/Laz2-2_3.ogg"]
 #ラズ
 「あなたが美寿花…ですね？」[p]
