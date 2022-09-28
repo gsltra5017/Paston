@@ -26,4 +26,8 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
+<<<<<<< Updated upstream
 @jump storage="5-4.ks"
+=======
+@jump storage="4-3（つぶ）.ks"
+>>>>>>> Stashed changes
