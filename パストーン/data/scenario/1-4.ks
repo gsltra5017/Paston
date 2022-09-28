@@ -410,13 +410,13 @@ _　さっきの歌詞、すっごいよかったし」[p]
 #ラズ
 「…完全に、忘れられてますわね…」[p]
 
-#開発者
-続きは開発中です。９月末のアップデートをお待ちください。[p]
+;#開発者
+;続きは開発中です。９月末のアップデートをお待ちください。[p]
 
-[stopse]
-[mask effect="fadeInLeftBig" ]
+[voicestop]
+;[mask effect="fadeInLeftBig" ]
 
-[chara_hide_all time="0"]
+;[chara_hide_all time="0"]
 
-[scenejumpNormal sc="title.ks"]
+[scenejumpNormal sc="2-1.ks"]
 

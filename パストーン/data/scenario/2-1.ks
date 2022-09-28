@@ -99,7 +99,7 @@
 
 [voice2 vf2="mizuka/mizuka2-1_3.ogg"]
 #美寿花:r_kyoton
-「暇だったからかな？」[p]
+「ん～…暇だった…からかな？」[p]
 ;表情 きょとん
 
 [voicestop]
@@ -515,4 +515,4 @@ _　むしろ良い方向に転がっているように見えますが…」[p]
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc="title.ks"]
+[scenejumpNormal sc="2-2.ks"]

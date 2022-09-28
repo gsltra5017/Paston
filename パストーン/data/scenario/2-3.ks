@@ -160,6 +160,8 @@
 ;表情　egao_2
 ;効果音 頬をつねる音
 
+#
+
 [bg storage="classroom.png" time="1500"]
 
 ;背景 講義室

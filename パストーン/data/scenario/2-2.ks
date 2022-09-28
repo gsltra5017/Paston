@@ -210,8 +210,7 @@ _　誰が喋ってるの！？」[p]
 #雪翔
 ≪とりあえず二人とも落ち着け。一応今は朝だってことを…≫[p]
 
-[chara_mod name="RozLaz" face="laz_×"]
-[chara_mod name="RozLaz" face="roz_x"]
+[chara_mod name="RozLaz" face="rozlaz"]
 ;[playse storage="laz/Laz2-2_9.ogg" buf="0"]
 [playse storage="roz/Roz2-2_4.ogg" buf="1"]
 #ロズラズ
@@ -219,6 +218,7 @@ _　誰が喋ってるの！？」[p]
 ;表情 x　あとで
 ;表情 ＞＜　あとで
 ;修正前　表情をロズラズ二人が画面に映っているものにする
+;最上聞く　ロズラズのボイス一つになってるやつある？
 
 [voicestop]
 
