@@ -23,21 +23,22 @@
 この時間にしては珍しく、遊んでいる子供も、談笑している人もいなかった。[p]
 …いるのは、ただ一人だけ。[p]
 
-[chara_show name="ayana" top="20" face="kanashimi" wait="true"]
-[voice1 vf1="ayana/ayana4-3_0.ogg"]
+[chara_show name="ayana" top="20" face="enryo" wait="true"]
+;[voice1 vf1="ayana/ayana4-3_1.ogg"]　ボイスデータなし
 
+[voice2 vf2="ayana/ayana4-3_0.ogg"]
 #文永
-「すいません。こんなところまでわざわざ呼んでしまって」[p]　
-;表情 kanashimi
-;[voicestop]
+「すいません。こんなところまでわざわざ呼んでしまって」[p]
+;修正 表情enryoに変更（つぶ）
+[voicestop]
 
 #雪翔
 ≪…いいよ。俺の家、ここから近いんだ≫[p]
 
 [voice2 vf2="ayana/ayana4-3_1.ogg"]
-#文永:kanashimi_2
+#文永:enryo_2
 「…そう、でしたか…」[p]
-;表情 kanashimi_2
+;修正 表情enryo_2に変更（つぶ）
 
 #
 俺がTwineでそう返すと、文永は上の空で答える。[p]
@@ -56,31 +57,25 @@
 もう、手段を選んではいられなかった。[p]
 
 [voice2 vf2="ayana/ayana4-3_2.ogg"]
-#文永:kanashimi
+#文永:kanashimi_2
 「………記憶」[p]
-;表情 kanashimi
 
 [voice2 vf2="ayana/ayana4-3_3.ogg"]
-#文永
+#文永:enryo
 「…戻ったん…ですよね？」[p]
-;表情 kanashimi
+;修正 表情enryoに変更（つぶ）
 [voicestop]
 
 #雪翔
 ≪……は？≫[p]
 
 #
-≪……は？≫[p]
-
-#
 決意の矢先、予想外の言葉が文永の口から飛び出す。[p]
 
 [voice2 vf2="ayana/ayana4-3_4.ogg"]
-#文永
+#文永:shinpai
 「すいません。話はお姉ちゃんから聞いていました」[p]
-;表情
-;表情
-;表情
+;修正 表情shinpaiに変更（つぶ）
 [voicestop]
 
 #雪翔
@@ -99,10 +94,13 @@
 俺が頷いてみせると、無表情だった文永の顔が一瞬安堵のものに変わった。[p]
 
 [voice2 vf2="ayana/ayana4-3_7.ogg"]
-#文永:normal
+#文永:ando
 「…よかった。これで全然違っていたらどうしようかと」[p]
-;表情 normal
+;修正 normal→andoに変更（つぶ）
 [voicestop]
+
+#文永:neutral
+;修正 neutralにして待機（つぶ）
 
 #雪翔
 ≪おかげで、こっちは胸糞悪いけどな…≫[p]
@@ -112,28 +110,28 @@
 相手からすればため息をついたようにしか見えないだろうが…[r]まぁ、雰囲気ぐらいは伝わるだろう。[p]
 
 [voice2 vf2="ayana/ayana4-3_8.ogg"]
-#文永
+#文永:kushou
 「あ～…すいません、話が脱線しましたね。私も門限があるので早めに終わらせましょう」[p]
-;表情
+;修正 kushouに変更（つぶ）
 [voicestop]
 
 #
 そう一言おいて、しばらく沈黙が続く。[p]
 
 [voice2 vf2="ayana/ayana4-3_9.ogg"]
-#文永
+#文永:fushime
 「…覚えていますか？ここの公園」[p]
-;表情
+;修正 fushimeに変更（つぶ）
 
 [voice2 vf2="ayana/ayana4-3_10.ogg"]
-#文永
+#文永:shinken
 「…あなたと、『みずねぇ』が初めて会った場所です」[p]
-;表情
+;修正 shinkenに変更（つぶ）
 
 [voice2 vf2="ayana/ayana4-3_11.ogg"]
-#文永
+#文永:komarimayu
 「そう、ですよね？」[p]
-;表情 
+;修正 komarimayuに変更（つぶ）
 [voicestop]
 
 #雪翔
@@ -145,8 +143,9 @@
 …あの女の子…常葉美寿花が現れた。[p]
 
 [voice2 vf2="ayana/ayana4-3_12.ogg"]
-#文永
-「…一人だったあなたを、放っておけなかったんでしょうね…[r]あの人は、世話好きだったから」[p]
+#文永:fushime
+「…一人だったあなたを、放っておけなかったんでしょうね…[r]
+_　あの人は、世話好きだったから」[p]
 [voicestop]
 
 #
@@ -160,19 +159,20 @@
 だとしても…なんだ、この違和感は。[p]
 
 [voice2 vf2="ayana/ayana4-3_13.ogg"]
-#文永
-「…仲良くなったあなたとみずねぇは、[r]あなたの母親を加えた3人で…水族館へ行った」[p]
-;表情
+#文永:shinken
+「…仲良くなったあなたとみずねぇは、[r]
+_　あなたの母親を加えた3人で…水族館へ行った」[p]
+;修正 shinkenに変更（つぶ）
 
 [voice2 vf2="ayana/ayana4-3_14.ogg"]
-#文永
+#文永:kanashimi_2
 「…そして…」[p]
-;表情
+;修正 kanashimi_2に変更（つぶ）
 
 [voice2 vf2="ayana/ayana4-3_15.ogg"]
-#文永
+#文永:jitome
 「…あの、最悪の事故が起こった」[p]
-;表情
+;修正 表情jitomeに変更（つぶ）
 [voicestop]
 
 #
@@ -182,9 +182,9 @@
 …しかし、[p]
 
 [voice2 vf2="ayana/ayana4-3_16.ogg"]
-#文永
+#文永:ushirokurai
 「…その事故で…『みずねぇ』はこの世を去りました」[p]
-;表情
+;修正 表情ushirokuraiに変更（つぶ）
 [voicestop]
 
 #雪翔
@@ -215,26 +215,29 @@
 俺は、あの時から逃げ続けていたんだ。[p]
 
 [voice2 vf2="ayana/ayana4-3_17.ogg"]
-#文永
+#文永:neutral
 「…これが、父親が必死になって調べ上げた…『悲劇の事故』です」[p]
 ;表情
 
 
 [voice2 vf2="ayana/ayana4-3_18.ogg"]
-#文永
+#文永:kenno
 「…そう。ここで終わっていれば…ただの『悲劇』だったんです…！」[p]
-;表情
+;修正 表情kennoに変更（つぶ）
 [voicestop]
 
 #
 彼女は、悔しがるように地面を睨む。[p]
 
-[voice2 vf2="ayana/ayana4-3_19.ogg"
-#文永
-「みずねぇを失ってから、父親は狂ってしまった…[p]
+[voice2 vf2="ayana/ayana4-3_19.ogg"]
+#文永:kenno_2
+「みずねぇを失ってから、父親は狂ってしまった…」[p]
+;修正 表情kenno_2に変更（つぶ）
+
+#文永:fuman
 [voice2 vf2="ayana/ayana4-3_20.ogg"]
-娘の死を受け入れず、自らの手で生み出してしまった…」[p]
-;表情
+「娘の死を受け入れず、自らの手で生み出してしまった…」[p]
+;修正 表情fumanに変更（つぶ）
 [voicestop]
 
 #雪翔
@@ -249,13 +252,13 @@
 心が、どうしようもなく冷たかった。[p]
 
 [voice2 vf2="ayana/ayana4-3_21.ogg"]
-#文永
+#文永:shinken
 「薄谷家にお邪魔しているのも…あの父の手から逃れるため。」[p]
-;表情
+;修正 表情shinkenに変更（つぶ）
 [voice2 vf2="ayana/ayana4-3_22.ogg"]
-#文永
+#文永:kanashimi_3
 「…理想の『常葉美寿花』にならず、記憶を何度も何度も『消されて』いるお姉ちゃんを見かねて、お母さんが…」[p]
-;表情
+;修正 表情kanashimi_3に変更（つぶ）
 [voicestop]
 
 #雪翔
@@ -268,71 +271,73 @@
 もし…それが記憶を消されたからだとすると…ゾッとする。[p]
 
 [voice2 vf2="ayana/ayana4-3_23.ogg"]
-#文永
+#文永:kenno_2
 「…でも…もう、時間の問題かもしれない」[p]
-;表情
+;修正
 [voicestop]
 
 #雪翔
 ≪‥‥‥≫[p]
 
 [voice2 vf2="ayana/ayana4-3_24.ogg"]
-#文永
+#文永:shinken_2
 「お姉ちゃんを取り戻そうと…父親が今、必死になって探しています」[p]
-;表情
+;修正
 
 [voice2 vf2="ayana/ayana4-3_25.ogg"]
-#文永
+#文永:kanashimi_3
 「万が一にも、お姉ちゃんがアンドロイドだという事を知られてはいけないから…」[p]
-;表情
+;修正
 
 [voice2 vf2="ayana/ayana4-3_26.ogg"]
-#文永
-「…私が雪翔さんに話したと知られれば…[r]もう、お姉ちゃんを貴方に会わせる事はないでしょうね…」[p]
-;表情
+#文永:ushirokurai
+「…私が雪翔さんに話したと知られれば…[r]
+_　もう、お姉ちゃんを貴方に会わせる事はないでしょうね…」[p]
+;修正
 
 [voice2 vf2="ayana/ayana4-3_27.ogg"]
-#文永
+#文永:kenno
 「記憶を消して…また、『作り直す』…そういう人なんです。あの父親は」[p]
-;表情
+;修正
 [voicestop]
 
 #
 そこまで言って、文永は顔を俯かせる。[p]
 
 [voice2 vf2="ayana/ayana4-3_28.ogg"]
-#文永
+#文永:fuman
 「…本当は…」[p]
-;表情
+;修正
 
 [voice2 vf2="ayana/ayana4-3_29.ogg"]
-#文永
-「…本当は、私がやるべきなんです。[r]誰よりもみずねぇと一緒にいた、私が…[p]
-;表情
+#文永:kenno_2
+「…本当は、私がやるべきなんです。[r]
+_　誰よりもみずねぇと一緒にいた、私が…」[p]
+;修正
 
 [voice2 vf2="ayana/ayana4-3_30.ogg"]
-#文永
+#文永:naki
 「でも…ダメでした。」[p]
-;表情
+;修正
 
 [voice2 vf2="ayana/ayana4-3_31.ogg"]
-#文永
+#文永:kuyashinaki
 「私にはどうしても…あの人を『みずねぇ』だと思うことが出来なかった…！」[p]
-;表情
+;修正
 [voicestop]
 
 #雪翔
 ≪‥‥‥≫[p]
 
 [voice2 vf2="ayana/ayana4-3_32.ogg"]
-#文永
+#文永:uttae
 「…だけど、あなたは違う。」[p]
-;表情
+;修正
 
 [voice2 vf2="ayana/ayana4-3_33.ogg"]
-#文永
+#文永:uttae_2
 「あなたには、今のお姉ちゃんと過ごした日常がある。ちゃんと、人間として過ごした日常が…」[p]
-;表情
+;修正
 [voicestop]
 
 #雪翔
@@ -343,29 +348,34 @@
 これ以上、聞いていられなくて…俺は…[p]
 
 [voice2 vf2="ayana/ayana4-3_34.ogg"]
-#文永
+#文永:nakikushou
 「…本当に、ごめんなさい。最低ですよね…あなたや薄谷教授の優しさに付け込んだようなものですから」[p]
 ;表情
 
 [voice2 vf2="ayana/ayana4-3_35.ogg"]
-#文永
+#文永:hikan
 「…きっと私もあの父親と同じ…狂ってしまっているんです。そんな私が頼むのも、おかしな話ですが…」[p]
 ;表情
 
 [voice2 vf2="ayana/ayana4-3_36.ogg"]
-#文永
+#文永:hisshi
 「父親から、お姉ちゃんを助けてください…お願いします…！」[p]
 ;表情
 [voicestop]
 
+#文永:naki_2
 #雪翔
 ≪‥‥‥‥‥‥≫[p]
+
 
 #
 頭を下げる。[p]
 文永の目から、涙が零れ落ちていく。[p]
 それぐらい真剣に、頼んでいた。[p]
 それでも、俺は…[p]
+
+[chara_hide_all]
+[bg storage="eveningsky.png"]
 
 #雪翔
 ≪……何…なんだよ……≫[p]
