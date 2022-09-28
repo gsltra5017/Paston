@@ -136,7 +136,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 #
 そう文字を打つと、ラズは少し困った様子で話を続ける。[p]
 
-[chara_show name="RozLaz" top="100" face="laz_shinpai" wait="true"]
+[chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_shinpai" wait="true"]
 
 [voice2 vf2="laz/Laz2-4_2.ogg"]
 #ラズ

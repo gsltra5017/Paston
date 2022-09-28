@@ -32,8 +32,6 @@
 
 [voicestop]
 
-[p]
-
 ;表情 関心→r_kangae2
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
 #美寿花
@@ -102,7 +100,7 @@
 
 [voice2 vf2="mizuka/mizuka2-1_3.ogg"]
 #美寿花:r_kyoton
-「暇だったからかな？」[p]
+「ん～…暇だった…からかな？」[p]
 ;表情 きょとん
 
 [voicestop]
@@ -426,7 +424,7 @@
 #雪翔
 ≪…ロズか≫[p]
 
-[chara_show name="RozLaz" top="-16" face="roz_neutral" wait="true"]
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_neutral" wait="true"]
 
 #
 まぁ、勿論ラズもいるんだろうが。[p]
@@ -519,4 +517,4 @@ _　むしろ良い方向に転がっているように見えますが…」[p]
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc="title.ks"]
+[scenejumpNormal sc="2-2.ks"]

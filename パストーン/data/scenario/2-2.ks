@@ -9,10 +9,9 @@
 [afterjumpmaskNormal]
 
 ;修正後 メッセージウィンドウを表示するまでの時間が欲しい
-;[wait time="2000"]
+[wait time="2000"]
 
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
-
 #美寿花
 「…本当に大丈夫なの？何か、今すぐにでも倒れそうだけど…」[p]
 ;表情　心配
@@ -112,7 +111,8 @@ _　誰が喋ってるの！？」[p]
 …にしても、またややこしいタイミングで出てきたな…[p]
 スマホを取り出し、その画面を美寿花に見せる。[p]
 
-[chara_show name="RozLaz" top="-16" face="laz_normal" wait="true"]
+[chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal" wait="true"]
+
 [voice2 vf2="laz/Laz2-2_3.ogg"]
 #ラズ
 「あなたが美寿花…ですね？」[p]
@@ -211,8 +211,7 @@ _　誰が喋ってるの！？」[p]
 #雪翔
 ≪とりあえず二人とも落ち着け。一応今は朝だってことを…≫[p]
 
-[chara_mod name="RozLaz" face="laz_×"]
-[chara_mod name="RozLaz" face="roz_x"]
+[chara_mod name="RozLaz" face="rozlaz"]
 ;[playse storage="laz/Laz2-2_9.ogg" buf="0"]
 [playse storage="roz/Roz2-2_4.ogg" buf="1"]
 #ロズラズ
@@ -220,6 +219,7 @@ _　誰が喋ってるの！？」[p]
 ;表情 x　あとで
 ;表情 ＞＜　あとで
 ;修正前　表情をロズラズ二人が画面に映っているものにする
+;最上聞く　ロズラズのボイス一つになってるやつある？
 
 [voicestop]
 

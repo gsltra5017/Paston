@@ -130,11 +130,9 @@ _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[
 
 ;[chara_show name="roz" top="20" face="fuman" left = "505" wait = "false" pos_mode = "false"]
 ;[chara_show name="laz" top="20" wait = "true" pos_mode = "true"]
-[chara_show name="RozLaz" top="-16" face="roz_taunt" wait="true" pos_mode="true"]
-
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_taunt" wait="true" pos_mode="true"]
 [voice2 vf2="roz/Roz1-1_2.wav"]
 ;修正後 ロズラズ単体で画面に表示するなら以前のように大きく表示しても良いと思う（今回のアップロード時に手が間に合わないのは仕方がないので一旦手無しで）
-
 
 ;[kanim name="roz" time="150" keyframe="pyon"] 
 #ロズ
@@ -171,7 +169,7 @@ _　私、貴方に負けたことないでしょう？」[p]
 「当たりまえやろ毎回引き分けなんやから！！[r]
 _　とにかく、覚悟…」[p]
 
-[chara_hide_all time="0" wait="true"]
+[chara_hide_all time="500" wait="true"]
 [voicestop]
 
 #
