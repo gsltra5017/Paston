@@ -24,7 +24,7 @@
 …いるのは、ただ一人だけ。[p]
 
 [chara_show name="ayana" top="20" face="kanashimi" wait="true"]
-;[voice1 vf1="ayana/ayana4-3_1.ogg"]　ボイスデータなし
+[voice1 vf1="ayana/ayana4-3_0.ogg"]
 
 #文永
 「すいません。こんなところまでわざわざ呼んでしまって」[p]　

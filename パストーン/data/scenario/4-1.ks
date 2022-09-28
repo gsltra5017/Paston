@@ -43,16 +43,19 @@
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_kangaeru.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
-[voice2 vf2="mizuka/mizuka4-1_3.ogg"]
+[voice2 vf2="mizuka/mizuka4-1_a1.ogg"]
 #美寿花
 ;（昔）
-「う～ん…仲直りの方法かぁ…[p]
+「でも…う～ん…仲直りの方法かぁ…あ、じゃあ…」[p]
 
-;[voice2 vf2="mizuka/mizuka4-1_4.ogg"] ボイスデータなし
+[voice2 vf2="mizuka/mizuka4-1_a2.ogg"]
+「お母さんの行きたいところに連れていくとかどう？」[p]
+
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_omoituita!.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
-あ、じゃあ…お母さんの行きたいところに連れていくとかどう？[r]例えば…そう！水族館とか！」[p]
+[voice2 vf2="mizuka/mizuka4-1_a3.ogg"]
+「例えば…そう！水族館とか！」[p]
 
 ;背景 一枚絵
 [bg storage="penguin.png" time=0]
