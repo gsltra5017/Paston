@@ -102,6 +102,18 @@
 [chara_face name="ayana" face="odoroki" storage="chara/ayana/odoroki.png"]
 [chara_face name="ayana" face="tameiki" storage="chara/ayana/tameiki.png"]
 [chara_face name="ayana" face="ushirokurai" storage="chara/ayana/ushirokurai.png"]
+[chara_face name="ayana" face="ando" storage="chara/ayana/ando.png"]
+[chara_face name="ayana" face="shinpai" storage="chara/ayana/shinpai.png"]
+[chara_face name="ayana" face="neutral" storage="chara/ayana/neutral.png"]
+[chara_face name="ayana" face="fushime" storage="chara/ayana/fushime.png"]
+[chara_face name="ayana" face="shinken" storage="chara/ayana/shinken.png"]
+[chara_face name="ayana" face="komarimayu" storage="chara/ayana/komarimayu.png"]
+[chara_face name="ayana" face="enryo" storage="chara/ayana/enryo.png"]
+[chara_face name="ayana" face="enryo_2" storage="chara/ayana/enryo_2.png"]
+[chara_face name="ayana" face="kenno" storage="chara/ayana/kenno.png"]
+[chara_face name="ayana" face="kenno_2" storage="chara/ayana/kenno_2.png"]
+[chara_face name="ayana" face="kanashimi_3" storage="chara/ayana/kanashimi_3.png"]
+
 
 [chara_face name="RozLaz" face="laz_akire" storage="chara/RozLaz/laz_akire.png"]
 [chara_face name="RozLaz" face="laz_bow" storage="chara/RozLaz/laz_bow.png"]
