@@ -174,7 +174,7 @@ AIとはいえ、一応性別は女性だ。[p]
 「いつでもよろしいですわ」[p]
 
 ;効果音 クリック
-[playse_click1]
+[playse_click_1]
 
 ;AI更新中の表情
 [wait time="100"]

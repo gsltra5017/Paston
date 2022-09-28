@@ -128,7 +128,7 @@
 
 [chara_show name="mizuka" top="20"]
 
-#mizuka
+#mizuka:bishou
 「いや、いいよ。ここ結構近いし…
 また連れてってくれるんだもんね？少年君？」
 ;表情 
@@ -136,7 +136,7 @@
 #yukito
 ≪…ぇ？あ、あぁ…≫
 
-#mizuka
+#mizuka:egao_2
 「じゃあ、約束ね！」
 ;表情 
 
@@ -149,7 +149,7 @@
 気のせいで片づけるのは、簡単だ。
 …でも、俺の中の、何か深いところの何かが、それを否定する。
 
-#mizuka
+#mizuka:kyoton
 「…？どうしたの？買い忘れ？」
 ;表情 
 
@@ -162,7 +162,7 @@
 ;背景　通学路　夕方
 [bg storage="road_evening.png" time="500"]
 
-#mizuka
+#mizuka:neutral
 「‥‥‥」
 ;表情 
 
@@ -172,21 +172,21 @@
 #
 日が暮れかけ、オレンジがかった帰り道を揃って歩く。
 
-#mizuka
+#mizuka:kangae
 「あ、今日のご飯どうしようかな…」
 ;表情 
 
 #yukito
 ≪…今日ぐらい、適当でいいだろ。疲れてるだろうし≫
 
-#mizuka
+#mizuka:bishou
 「ん～…うん、そうだね。そうしよう」
 ;表情 
 
 #yukito
 ≪‥‥‥≫
 
-#mizuka
+#mizuka:neutral
 「‥‥‥」
 ;表情
 
@@ -203,14 +203,14 @@
 #yukito
 ≪美寿花って…≫
 
-#mizuka
+#mizuka:kyoton
 「うん？」
 ;表情 
 
 #yukito
 ≪あ～その…今日みたいな水族館とか、行ったことあったの？≫
 
-#mizuka
+#mizuka:kangae
 「水族館？え～…どうだろう…行ったことはない、かなぁ…」
 ;表情 
 
@@ -227,14 +227,14 @@
 でも、当の本人は行ったことがないと…
 …思考が堂々巡りになってきた。
 
-#mizuka
+#mizuka:shinpai_2
 「…雪翔君、大丈夫？」
 ;表情 
 
 #yukito
 ≪…え？≫
 
-#mizuka
+#mizuka:shinpai
 「いや、さっきから妙に落ち込んでるなーって」
 
 #yukito
@@ -258,7 +258,7 @@
 意味わかんねぇ…本当に何なんだよ…
 
 [chara_show name="mizuka" top="20"]
-#mizuka
+#mizuka:aseri
 「え、ね、ねぇ…本当に大丈夫なの…？」
 
 #
@@ -278,15 +278,17 @@
 #yukito
 ≪…ごめん。ちょっと…気分が悪いかも…≫
 
-#mizuka
+#mizuka:shinpai
 「だ、だもんね…どう考えても様子変だもん…」
 
 #
 そう言って、美寿花は手を離す。
 そして、そのまま…
 
-#mizuka
+#mizuka:tsukare
 「‥‥‥」
+
+[chara_hide_all time="200" ]
 
 #yukito
 ≪…ぇ…≫
@@ -323,6 +325,8 @@
 
 #yukito
 ≪…ああ、分かった≫
+
+[chara_show name="mizuka" face="kushou" top="20" time="200"]
 
 #mizuka
 「…と…勢いで抱きついちゃったけど、ごめん。恥ずかしいよね！」
