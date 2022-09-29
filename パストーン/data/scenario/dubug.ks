@@ -1,5 +1,5 @@
 *start
-@layopt layer="message" visible=true
+@layopt layer="message" visible="true"
 [showmenubutton]
 [nowait]
 [link storage="1-1.ks"]1-1　[endlink]

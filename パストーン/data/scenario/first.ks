@@ -29,6 +29,9 @@
 [plugin name="manpu"]
 
 ;タイトル画面へ移動
-@jump storage="dubug.ks"
+@jump storage="title.ks"
+
+;debug画面へ移動
+;@jump storage="dubug.ks"
 
 [s]
