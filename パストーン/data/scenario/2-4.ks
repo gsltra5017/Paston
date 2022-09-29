@@ -13,6 +13,7 @@
 「さてさて、準備もできたことだし…あ、手洗ったよね？」[p]
 ;表情　きょとん
 [voicestop]
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="70" ]
 
 #雪翔
 ≪ちゃんと洗ってるよ。子供じゃないんだ≫[p]
@@ -110,10 +111,11 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 少し前の自分なら、考えられないような状況。[p]
 でも、それになんの抵抗もなく…いや、むしろ安らぎすら感じている自分もいることに…少し、笑ってしまった。[p]
 
-[mask effect="fadeIn" time="1000"]
+[fadeoutbgm time=2000]
+[mask time="1300" effect="slideInLeft" wait="true"]
 [bg storage="classroom.png"]
-[wait time="1000"]
-[mask_off effect="fadeOut" time="1000"]
+[chara_mod name="mizuka" face="onemu"]
+[mask_off effect="slideOutRight" time="1300"]
 
 ;修正後 暗転
 ;背景 空き教室
@@ -140,7 +142,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 [voice2 vf2="laz/Laz2-4_2.ogg"]
 #ラズ
-「外なのですが、雨が降り出してまして…」[p]
+「その雨が降り出してまして…」[p]
 ;表情 shinpai
 ;未修正　テキスト変わってるから、あとでやる
 
@@ -149,7 +151,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 #雪翔
 ≪…あ、本当だ≫[p]
 
-[chara_mod name="mizuka" face="onemu"]
+;[chara_mod name="mizuka" face="onemu"]
 
 #
 窓を見ると、空は雲に覆われており、確かに雨が降ってきているのが分かる。[p]
@@ -207,6 +209,8 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 #雪翔
 ≪…美寿花？≫[p]
 
+;修正前 ロズラズの立ち絵を消して、美寿花だけをアップにする（背景も拡大）
+
 [voice2 vf2="mizuka/mizuka2-4_9.ogg"]
 #美寿花:aseganizindaegao
 「…ん？あ、傘の話…だよね？」[p]
@@ -231,6 +235,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 #
 トンッ[p]
+;修正前 美寿花の顔を更に拡大する
 ふと、肩に重みがかかる。[p]
 一瞬、また美寿花が手を置いたのかと思ったが…それにしては、なんだか大きいし丸みがあるような…[p]
 
@@ -266,7 +271,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 [voice2 vf2="mizuka/mizuka2-4_12.ogg"]
 #美寿花:fushime
-「…うん。雨が…というか、曇りの時も...だね。小さい頃からすぐこうなっちゃうんだ…」[p]
+「…うん。雨が…というか、曇りの時も…だね、小さい頃からすぐこうなっちゃうんだ…」[p]
 ;表情 目を伏せた顔
 
 [voicestop]
@@ -384,7 +389,6 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 ≪…ありがとな、美寿花≫[p]
 
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 
@@ -393,7 +397,6 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 まだ面と向かっては言えない一言。[p]
 
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4.png"]
 [trans layer="0" time="1000" method="fadeIn"]
 [wt]
 
@@ -403,8 +406,9 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 ;一枚絵 美寿花アップ
 ;一枚絵 美寿花アップ（顔赤らめる）
 
-[mask effect="fadeInLeftBig"]
-
-[chara_hide_all time="0"]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
+[trans layer="0" time="1000" method="fadeIn"]
+[wait time="2000"]
 
 [scenejumpNormal sc="2-5.ks"]
