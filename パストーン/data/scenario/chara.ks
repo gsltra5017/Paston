@@ -45,6 +45,7 @@
 [chara_face name="mizuka" face="odoroki_正面" storage="chara/mizuka/odoroki_正面.png"]
 [chara_face name="mizuka" face="onemu" storage="chara/mizuka/onemu.png"]
 [chara_face name="mizuka" face="panic" storage="chara/mizuka/panic.png"]
+[chara_face name="mizuka" face="panic_2" storage="chara/mizuka/panic_2.png"]
 [chara_face name="mizuka" face="please" storage="chara/mizuka/please.png"]
 [chara_face name="mizuka" face="r_bishou" storage="chara/mizuka/r_bishou.png"]
 [chara_face name="mizuka" face="r_egao" storage="chara/mizuka/r_egao.png"]
