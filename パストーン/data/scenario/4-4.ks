@@ -3,7 +3,7 @@
 
 [bg storage="eveningsky.png" time="0"]
 
-[afterjumpmaskNormal]
+[mask_off effect="fadeOut" time="1200"]
 ;[jump target="*debug"]
 
 ;223画像代替
@@ -17,7 +17,11 @@
 気づけば辺りは夕焼け色に包まれ、半袖では少し肌寒さも感じられた。[p]
 …でも、[p]
 俺の体は…動こうとしない。[p]
+
+#雪翔
 （…文永は？）[p]
+
+#
 ふとそう思い、周りを見回すが…[r]その姿はどこにもなかった。[p]
 
 『そんな私が頼むのも、おかしな話ですが…』[p]

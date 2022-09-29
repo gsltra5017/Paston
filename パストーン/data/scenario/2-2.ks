@@ -2,13 +2,14 @@
 [startoption]
 
 
-
+[anim layer="message0" time="0" opacity="0"]
 ;背景 青空
 [bg storage="daysky.png" time="0"]
 
 [afterjumpmaskNormal]
 
-;修正後 メッセージウィンドウを表示するまでの時間が欲しい
+;修正後 メッセージウィンドウをフェード表示
+[anim layer="message0" time="2000" opacity="255"]
 [wait time="2000"]
 
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
@@ -24,15 +25,14 @@
 美寿花の言葉に、頷きで返す。[p]
 …正直、侮っていた。[p]
 大変なのは大学の講義。[p]
-理解の及ばないことは分かっているが、[r]
-それをどのように切り抜けるか。だと。[p]
+理解の及ばないことは分かっているが、それをどのように切り抜けるか。だと。[p]
 それが大きな間違いだと気付いたのは、家から出た直後だった。[p]
 
-[bgchangemask]
+;[bgchangemask]
 ;背景 道路
 [bg storage="city.png" time="1000"]
-[chara_show name="mizuka" top="20" storage="chara/mizuka/egao.png" wait="false"]
-[bgchangemask_off]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/panic_2.png" wait="false"]
+;[bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-2_2.ogg"]
 #美寿花
@@ -55,13 +55,14 @@
 [voicestop]
 #
 呆れたように美寿花は言うが、よく考えてほしい。[p]
-昼前まで寝て、起きたら適当に家にあるものを漁り、後はずっとパソコンと睨めっこ。そんな生活を5年近く送ってきたのだ。[p]
+昼前まで寝て、起きたら適当に家にあるものを漁り、[r]
+後はずっとパソコンと睨めっこ。そんな生活を5年近く送ってきたのだ。[p]
 9月1日、まだ残暑厳しい季節にいきなり大学まで歩けと言われても、無茶というものである。[p]
 
 [voice2 vf2="mizuka/mizuka2-2_4.ogg"]
 #美寿花:shinpai
 「…誘うにしても、もうちょっと段階踏んだ方がよかったね…[r]
-_　やっぱり戻る？まだ時間に余裕あるし…」[p]
+_　やっぱり戻る？　まだ時間に余裕あるし…」[p]
 ;表情 shinpai
 
 [voicestop]
@@ -188,7 +189,8 @@ _　誰が喋ってるの！？」[p]
 [chara_mod name="RozLaz" face="laz_close"]
 [voice2 vf2="laz/Laz2-2_8.ogg"]
 #ラズ
-「あら、私はご主人様を助けるために出ていっただけのこと。そもそも貴方の話に賛同した覚えはありませんし」[p]
+「あら、私はご主人様を助けるために出ていっただけのこと。[r]
+_　そもそも貴方の話に賛同した覚えはありませんし」[p]
 ;表情 close
 
 [chara_mod name="RozLaz" face="roz_okori_3"]
@@ -229,13 +231,15 @@ _　誰が喋ってるの！？」[p]
 [chara_mod name="RozLaz" face="laz_egao"]
 [voice2 vf2="laz/Laz2-2_10.ogg"]
 #ラズ
-「あらいやですわ。喧嘩なんてはしたない真似するはずないでしょう？ねぇ、ロズ」[p]
+「あらいやですわ。喧嘩なんてはしたない真似するはずないでしょう？[r]
+_　ねぇ、ロズ」[p]
 ;表情 egao
 
 [chara_mod name="RozLaz" face="roz_tokuige"]
 [voice2 vf2="roz/Roz2-2_5.ogg"]
 #ロズ
-「せやせや。なんてったってウチらAIやで？ちゃんと失敗から学んでるんやから」[p]
+「せやせや。なんてったってウチらAIやで？[r]
+_　ちゃんと失敗から学んでるんやから」[p]
 ;表情 得意げ　あとで
 
 [voicestop]
@@ -279,7 +283,6 @@ _　誰が喋ってるの！？」[p]
 なので、俺がやったことと言えば、初期設定とラーニング材料を与えたくらいだ。[p]
 二人とも、声が出せない俺の唯一の喋り相手だった。[p]
 ;修正後 それでもこの二人が、声が出せない俺の唯一の喋り相手だった。
-それでもこの二人が、声が出せない俺の唯一の喋り相手だった。[p]
 …AI相手に変な話だが、俺が完全な人間不信にならなかったのは、この二人のおかげかもしれない。[p]
 
 #雪翔
@@ -327,7 +330,7 @@ _　誰が喋ってるの！？」[p]
 [voice2 vf2="laz/Laz2-2_11.ogg"]
 #ラズ
 「そういえば、ご主人様方は今登校中では？[r]
-私たちが出てきてから随分時間が経っていますが…」[p]
+_　私たちが出てきてから随分時間が経っていますが…」[p]
 ;表情 shinpai
 
 [voice2 vf2="mizuka/mizuka2-2_16.ogg"]
@@ -366,7 +369,7 @@ _　誰が喋ってるの！？」[p]
 
 ;背景 青空
 #
-…そんなこんなで。[p]
+;…そんなこんなで。[p]
 
 [mask effect="fadeInLeftBig" ]
 
