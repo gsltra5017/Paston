@@ -135,8 +135,7 @@ _　材料費とかはまた後で払うから、心配しなくていいよ。�
 [chara_show name="kouki" face="kyoton" top="-50" time="1000"]
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki
-「ん？[r]
-_　何をそこでボーっと突っ立ってるんだ？」[p]
+「ん？　何をそこでボーっと突っ立ってるんだ？」[p]
 ;表情　きょとん
 
 [voicestop]
@@ -149,8 +148,7 @@ _　何をそこでボーっと突っ立ってるんだ？」[p]
 
 [voice2 vf2="kouki/kouki1-2_7.ogg"]
 #kouki:egao
-「そうか。[r]
-_　そういえばまだ説明してなかったな。彼女は…」[p]
+「そうか。そういえばまだ説明してなかったな。彼女は…」[p]
 
 #
 [playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35"]
@@ -173,15 +171,14 @@ _　ちゃんとやることは事前に伝えていたはずだが…」[p]
 
 [voice2 vf2="kouki/kouki1-2_10.ogg"]
 #kouki:kushou
-「すまん。[r]
-_　ちょっと出てくるから、二人でゆっくりしていてくれ」[p]
+「すまん。ちょっと出てくるから、二人でゆっくりしていてくれ」[p]
 
 [voicestop]
 #yukito
 ≪え、ちょっと待っ…≫[p]
 
 #
-[fadeoutbgm time=2000]
+
 
 [chara_hide name="kouki"]
 
@@ -232,6 +229,7 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 何故か、彼女の名前で引っかかる。[p]
 どこかで会ったのかとも思ったが…[r]
 俺の記憶に、こんな美人はいない。[p]
+[fadeoutbgm time=2000]
 俺の思い違いか…と、思っていると[p]
 
 [voice2 vf2="mizuka/mizuka1-2_6.ogg"]

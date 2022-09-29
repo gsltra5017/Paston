@@ -1,5 +1,6 @@
 *start
 @layopt layer="message" visible=true
+[showmenubutton]
 [link storage="1-1.ks"]1-1　[endlink]
 [link storage="1-2.ks"]1-2　[endlink]
 [link storage="1-3.ks"]1-3　[endlink]
@@ -27,3 +28,4 @@
 [link storage="5-2.ks"]5-2　[endlink]
 [link storage="5-3.ks"]5-3　[endlink]
 [link storage="5-4.ks"]5-4　[endlink][r]
+
