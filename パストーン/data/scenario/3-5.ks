@@ -8,9 +8,12 @@
 
 [afterjumpmaskNormal]
 
+[voice1 vf1="mizuka/mizuka3-5_1.ogg"]
 #mizuka
 「う～ん…これとか、どう！？」[p]
 ;表情 ドヤ顔？
+
+[voicestop]
 
 #
 イルカのキーホルダーを俺に見せる美寿花。[p]
@@ -18,15 +21,22 @@
 #yukito
 ≪いや可愛いけど…父さんこんなのつけるタイプじゃないからな…≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_2.ogg"]
 #mizuka:kushou
 「あ〜確かに。想像できないかも」[p]
+
+[voicestop]
 
 #yukito
 ≪んー…じゃあ文永にあげたら？≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_3.ogg"]
 #mizuka:kangae
 「あの子はあの子であんまりキーホルダーとか付ける柄じゃない気がするけど…」[p]
 
+[voicestop]
+
+[voice2 vf2="mizuka/mizuka3-5_4.ogg"]
 #mizuka:egao_2
 「まいっか。買っちゃおう！」[p]
 
@@ -37,18 +47,21 @@
 結局一日中このまんまだったな…まぁ悪い気はしないけどさ…[r]
 会話も普通にできるし…[p]
 
+[voice2 vf2="mizuka/mizuka3-5_5.ogg"]
 #mizuka:kyoton
 「後は…あ、雪翔君って教授の他に買う人っている？」[p]
 
 #yukito
 ≪…逆に聞くけど、いると思うか？≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_6.ogg"]
 #mizuka:kushou
 「君、大学でも私以外話す人いないしねぇ…」[p]
 
 #yukito
 ≪そういう美寿花はどうなのさ。文永以外買ってないけど≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_7.ogg"]
 #mizuka:bishou
 「まぁ私も多いわけではないけどね。[r]
 単純にお土産を買うような人が大学にいないってだけ」[p]
@@ -57,6 +70,7 @@
 #
 そう言って、キーホルダーコーナーを抜け、足を止める。[p]
 
+[voice2 vf2="mizuka/mizuka3-5_8.ogg"]
 #mizuka:kyoton_2
 教授って、何か普段身につけてる物ってある？[p]
 ;表情 kyoton_2
@@ -64,6 +78,7 @@
 #yukito
 ≪いやぁ…これ！っていう物は特に思いつかないな…≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_9.ogg"]
 #mizuka
 「そっか…難しいなー…」[p]
 ;表情  
@@ -71,6 +86,7 @@
 #yukito
 ≪無理に水族館グッズとかじゃなくてさ、あそこのお菓子とかでいいんじゃないか？≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_10.ogg"]
 #mizuka
 「あ、そうだね。じゃあ…クッキー？」[p]
 ;表情 
@@ -81,6 +97,7 @@
 #yukito
 ≪うん。いいと思うけど…24枚入りは多くない？≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_11.ogg"]
 #mizuka:egao
 「私たちも食べるからいいの。じゃ決まりね！」[p]
 
@@ -89,16 +106,19 @@
 …ふと思ったのだが、あの人、味覚は正常なんだろうか…？[p]
 …いや、まぁ大丈夫だと思おう。うん。[p]
 
+[voice2 vf2="mizuka/mizuka3-5_12.ogg"]
 #mizuka:kyoton
 よし、お土産も買ったし…どうする？[p]
 
 #yukito
 ≪そうだね…そろそろ閉まっちゃう時間だし、名残惜しいけど帰るか…≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_13.ogg"]
 #mizuka
 「だよ、ね…」[p]
 ;表情 
 
+[voice2 vf2="mizuka/mizuka3-5_14.ogg"]
 #mizuka:kitai
 「‥‥‥」[p]
 ;表情 期待のまなざし
@@ -106,6 +126,7 @@
 #yukito
 ≪…まだあった？何か見たいもの≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_15.ogg"]
 #mizuka:mesorashi
 「へ？あ～…まぁ、あと一回はペンギン、見たかったなーって」[p]
 ;表情 目逸らし
@@ -129,6 +150,7 @@
 
 [chara_show name="mizuka" top="20"]
 
+[voice2 vf2="mizuka/mizuka3-5_16.ogg"]
 #mizuka:bishou
 「いや、いいよ。ここ結構近いし…[r]
 また連れてってくれるんだもんね？少年君？」[p]
@@ -137,6 +159,7 @@
 #yukito
 ≪…ぇ？あ、あぁ…≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_17.ogg"]
 #mizuka:egao_2
 「じゃあ、約束ね！」[p]
 ;表情 
@@ -150,6 +173,7 @@
 気のせいで片づけるのは、簡単だ。[r]
 …でも、俺の中の、何か深いところの何かが、それを否定する。[p]
 
+[voice2 vf2="mizuka/mizuka3-5_18.ogg"]
 #mizuka:kyoton
 「…？どうしたの？買い忘れ？」[p]
 ;表情 
@@ -163,6 +187,7 @@
 ;背景　通学路　夕方
 [bg storage="road_evening.png" time="500"]
 
+[voice2 vf2="mizuka/mizuka3-5_19.ogg"]
 #mizuka:neutral
 「‥‥‥」[p]
 ;表情 
@@ -173,6 +198,7 @@
 #
 日が暮れかけ、オレンジがかった帰り道を揃って歩く。[p]
 
+[voice2 vf2="mizuka/mizuka3-5_20.ogg"]
 #mizuka:kangae
 「あ、今日のご飯どうしようかな…」[p]
 ;表情 
@@ -180,6 +206,7 @@
 #yukito
 ≪…今日ぐらい、適当でいいだろ。疲れてるだろうし≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_21.ogg"]
 #mizuka:bishou
 「ん～…うん、そうだね。そうしよう」[p]
 ;表情 
@@ -187,6 +214,7 @@
 #yukito
 ≪‥‥‥≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_22.ogg"]
 #mizuka:neutral
 「‥‥‥」[p]
 ;表情
@@ -204,6 +232,7 @@
 #yukito
 ≪美寿花って…≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_23.ogg"]
 #mizuka:kyoton
 「うん？」[p]
 ;表情 
@@ -211,6 +240,7 @@
 #yukito
 ≪あ～その…今日みたいな水族館とか、行ったことあったの？≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_24.ogg"]
 #mizuka:kangae
 「水族館？え～…どうだろう…行ったことはない、かなぁ…」[p]
 ;表情 
@@ -228,6 +258,7 @@
 でも、当の本人は行ったことがないと…[p]
 …思考が堂々巡りになってきた。[p]
 
+[voice2 vf2="mizuka/mizuka3-5_25.ogg"]
 #mizuka:shinpai_2
 「…雪翔君、大丈夫？」[p]
 ;表情 
@@ -235,6 +266,7 @@
 #yukito
 ≪…え？≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_26.ogg"]
 #mizuka:shinpai
 「いや、さっきから妙に落ち込んでるなーって」[p]
 
@@ -246,6 +278,7 @@
 ;背景　一枚絵 （公園の美寿花） ☆
 [bg storage="black.png" time="0"]
 
+[voice2 vf2="mizuka/mizuka3-5_27.ogg"]
 #mizuka
 「今日は随分と落ち込んでるね」[p]
 
@@ -259,6 +292,7 @@
 意味わかんねぇ…本当に何なんだよ…[p]
 
 [chara_show name="mizuka" top="20"]
+[voice2 vf2="mizuka/mizuka3-5_28.ogg"]
 #mizuka:aseri
 「え、ね、ねぇ…本当に大丈夫なの…？」[p]
 
@@ -279,6 +313,7 @@
 #yukito
 ≪…ごめん。ちょっと…気分が悪いかも…≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_29.ogg"]
 #mizuka:shinpai
 「だ、だもんね…どう考えても様子変だもん…」[p]
 
@@ -286,6 +321,7 @@
 そう言って、美寿花は手を離す。[r]
 そして、そのまま…[p]
 
+[voice2 vf2="mizuka/mizuka3-5_30.ogg"]
 #mizuka:tsukare
 「‥‥‥」[p]
 
@@ -301,6 +337,7 @@
 #yukito
 ≪ちょ…美寿花？≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_31.ogg"]
 #mizuka
 「ごめんね…気づけなくて…」[p]
 
@@ -314,14 +351,19 @@
 #yukito
 ≪…こっちこそ隠そうとしてごめん…≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_32.ogg"]
 #mizuka
 「本当だよ…そんなに私頼りない？」[p]
 
 #yukito
 ≪そうじゃないけど…≫[p]
 
+[voice2 vf2="mizuka/mizuka3-5_33.ogg"]
 #mizuka
 「いいんだよ、頼ってくれても」[p]
+
+[voice2 vf2="mizuka/mizuka3-5_34.ogg"]
+#mizuka
 「辛いことがあっても、一緒に背負ってあげる。私は君の声…君の一部なんだから」[p]
 
 #yukito
@@ -329,6 +371,7 @@
 
 [chara_show name="mizuka" face="kushou" top="20" time="200"]
 
+[voice2 vf2="mizuka/mizuka3-5_35.ogg"]
 #mizuka
 「…と…勢いで抱きついちゃったけど、ごめん。恥ずかしいよね！」[p]
 
@@ -340,8 +383,9 @@
 …いや、それだけじゃない。[r]
 …俺は、美寿花のことを…[p]
 
+[voice2 vf2="mizuka/mizuka3-5_36.ogg"]
 #mizuka
-「危ない雪翔君！後ろ！！」[p]
+「…雪翔君！後ろ！」[p]
 
 #yukito
 ≪ッ！？≫[p]
@@ -351,8 +395,12 @@
 #
 その瞬間、美寿花に腕を引かれ、そのまま姿勢を崩しかける。[p]
 
+[voice2 vf2="mizuka/mizuka3-5_37.ogg"]
 #mizuka
 「あ、危なかった…ごめん。咄嗟の事で…」[p]
+
+[voice2 vf2="mizuka/mizuka3-5_38.ogg"]
+#mizuka
 「…雪翔君？」[p]
 
 [bg storage="makkuro.jpg"]
