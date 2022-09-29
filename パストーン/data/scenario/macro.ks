@@ -59,7 +59,7 @@
 	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
 
 	;メッセージウィンドウの設定
-	[position layer="message0" left="160" top="470" width="960" height="200" page="fore" visible="true"]
+	[position layer="message0" left="160" top="510" width="960" height="240" page="fore" visible="true"]
 
 	;文字が表示される領域を調整
 	[position layer="message0" page="fore" frame="textbox.png" width="1280" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
