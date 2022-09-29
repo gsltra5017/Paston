@@ -505,6 +505,6 @@
 
 ;背景　黒
 
-[bg storage="black.png" time="0"]
+[bg storage="makkuro.jpg" time="0"]
 
 [scenejumpNormal sc="4-1.ks"]
