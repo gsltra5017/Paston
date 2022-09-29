@@ -1,12 +1,14 @@
 *start
 [startoption]
 
-[bg storage="eveningsky.png" time="0"]
+[bg storage="sky.png" time="0"]
 
 [afterjumpmaskNormal]
 
 ;文永に表情を指定する
 ;雪翔くんのセリフの前に名前がないのは演出？
+
+[playbgm storage="Long_Bygone.mp3" volume="70" ]
 
 #
 …外に出ると虫の合唱が、嫌でも耳に入る。[p]
@@ -111,7 +113,7 @@
 
 [voice2 vf2="ayana/ayana4-3_8.ogg"]
 #文永:kushou
-「あ～…すいません、話が脱線しましたね。私も門限があるので早めに終わらせましょう」[p]
+「あ～…すいません、話が脱線しましたね。[r]　私も門限があるので早めに終わらせましょう」[p]
 ;修正 kushouに変更（つぶ）
 [voicestop]
 
@@ -120,7 +122,7 @@
 
 [voice2 vf2="ayana/ayana4-3_9.ogg"]
 #文永:fushime
-「…覚えていますか？ここの公園」[p]
+「…覚えていますか？　ここの公園」[p]
 ;修正 fushimeに変更（つぶ）
 
 [voice2 vf2="ayana/ayana4-3_10.ogg"]
@@ -257,7 +259,7 @@ _　あなたの母親を加えた3人で…水族館へ行った」[p]
 ;修正 表情shinkenに変更（つぶ）
 [voice2 vf2="ayana/ayana4-3_22.ogg"]
 #文永:kanashimi_3
-「…理想の『常葉美寿花』にならず、記憶を何度も何度も『消されて』いるお姉ちゃんを見かねて、お母さんが…」[p]
+「…理想の『常葉美寿花』にならず、記憶を何度も何度も『消されて』いる[r]　お姉ちゃんを見かねて、お母さんが…」[p]
 ;修正 表情kanashimi_3に変更（つぶ）
 [voicestop]
 
@@ -286,7 +288,7 @@ _　あなたの母親を加えた3人で…水族館へ行った」[p]
 
 [voice2 vf2="ayana/ayana4-3_25.ogg"]
 #文永:kanashimi_3
-「万が一にも、お姉ちゃんがアンドロイドだという事を知られてはいけないから…」[p]
+「万が一にも、お姉ちゃんがアンドロイドだという事を知られてはいけない[r]　から…」[p]
 ;修正
 
 [voice2 vf2="ayana/ayana4-3_26.ogg"]
@@ -322,7 +324,7 @@ _　誰よりもみずねぇと一緒にいた、私が…」[p]
 
 [voice2 vf2="ayana/ayana4-3_31.ogg"]
 #文永:kuyashinaki
-「私にはどうしても…あの人を『みずねぇ』だと思うことが出来なかった…！」[p]
+「私にはどうしても…あの人を『みずねぇ』だと思うことが出来なか[r]　った…！」[p]
 ;修正
 [voicestop]
 
@@ -336,7 +338,7 @@ _　誰よりもみずねぇと一緒にいた、私が…」[p]
 
 [voice2 vf2="ayana/ayana4-3_33.ogg"]
 #文永:uttae_2
-「あなたには、今のお姉ちゃんと過ごした日常がある。ちゃんと、人間として過ごした日常が…」[p]
+「あなたには、今のお姉ちゃんと過ごした日常がある。ちゃんと、人間とし[r]　て過ごした日常が…」[p]
 ;修正
 [voicestop]
 
@@ -349,12 +351,12 @@ _　誰よりもみずねぇと一緒にいた、私が…」[p]
 
 [voice2 vf2="ayana/ayana4-3_34.ogg"]
 #文永:nakikushou
-「…本当に、ごめんなさい。最低ですよね…あなたや薄谷教授の優しさに付け込んだようなものですから」[p]
+「…本当に、ごめんなさい。[r]　最低ですよね…あなたや薄谷教授の優しさに付け込んだようなものですから」[p]
 ;表情
 
 [voice2 vf2="ayana/ayana4-3_35.ogg"]
 #文永:hikan
-「…きっと私もあの父親と同じ…狂ってしまっているんです。そんな私が頼むのも、おかしな話ですが…」[p]
+「…きっと私もあの父親と同じ…狂ってしまっているんです。[r]　そんな私が頼むのも、おかしな話ですが…」[p]
 ;表情
 
 [voice2 vf2="ayana/ayana4-3_36.ogg"]
@@ -363,7 +365,7 @@ _　誰よりもみずねぇと一緒にいた、私が…」[p]
 ;表情
 [voicestop]
 
-#文永:naki_2
+[chara_mod name="ayana" face="naki_2" cross="false"]
 #雪翔
 ≪‥‥‥‥‥‥≫[p]
 
@@ -374,8 +376,8 @@ _　誰よりもみずねぇと一緒にいた、私が…」[p]
 それぐらい真剣に、頼んでいた。[p]
 それでも、俺は…[p]
 
-[chara_hide_all]
-[bg storage="eveningsky.png"]
+[layopt layer="0" visible="true"]
+[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/4-3/daysky.png" time="2000"]
 
 #雪翔
 ≪……何…なんだよ……≫[p]
@@ -384,4 +386,8 @@ _　誰よりもみずねぇと一緒にいた、私が…」[p]
 そう、声にならない言葉を零すことしか、できない。[p]
 秋を奏でる虫の音は、もう聞こえなくなっていた。[p]
 
-[scenejumpNormal sc="4-4.ks"]
+[mask time="3000" effect="fadeIn" wait="true" graphic="eveningsky.png"]
+
+@jump storage="4-4.ks"
+
+[s]
