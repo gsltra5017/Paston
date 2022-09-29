@@ -219,3 +219,8 @@
 
 	[chara_config  talk_focus="none"]
 [endmacro]
+
+[macro name="playse_car"]
+	[playse storage="se/car.mp3" loop="false" clear="true" volume="70"]
+	[wse]
+[endmacro]

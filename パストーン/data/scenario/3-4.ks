@@ -6,8 +6,12 @@
 
 [afterjumpmaskNormal]
 
+;[jump target="*debug"]
+
 #
 そして、ついに迎えた木曜日。[p]
+
+;修正前 優先度高 BGM、楽しげなやつがいいかな？
 
 ;[bg storage="aquarium.png" time=0]
 
@@ -15,7 +19,7 @@
 
 [bg storage="penguin.png"]
 
-;修正前 美寿花の立ち絵をぴょんぴょんさせる ☆
+;修正前 優先度低 美寿花の立ち絵をぴょんぴょんさせる ☆
 [voice1 vf1="mizuka/mizuka3-4_1.ogg"]
 [chara_show name="mizuka" face="×" top="20" time="300"]
 #美寿花
@@ -114,8 +118,8 @@
 
 [bgchangemask]
 
-[bg storage="aquarium.png"]
-[chara_mod name="mizuka" face="egao"]
+[bg storage="aquarium.png" time="1000" ]
+[chara_mod name="mizuka" face="egao" time="0" ]
 
 [bgchangemask_off]
 
@@ -160,6 +164,7 @@ _　父さんと母さんの三人で行ったんだ≫[p]
 
 [voicestop]
 
+
 #雪翔
 ≪いや、もう5年も経ったし、流石に立ち直ってるよ。[r]
 _　…母さんのことは、仕方ない≫[p]
@@ -171,10 +176,19 @@ _　…母さんのことは、仕方ない≫[p]
 
 [voicestop]
 
-;修正前 優先度中 薄く黒を上に乗せる
+;修正済み（担当辻） 優先度中 薄く黒を上に乗せる
 #
-[layopt layer="0" visible="true"]
-[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/makkuro.jpg" time="1000"]
+
+[layermode graphic="makkuro.jpg" folder="bgimage" opacity="155" time="500"]
+
+;[layopt layer="0" visible="false"]
+;[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/makkuro.jpg" time="0" wait="false"]
+;[filter opacity="60" name="makkuro" time="0"]
+;[layopt layer="0" visible="true" time="100000"]
+;[filter opacity="60" name="makkuro" time="500"]
+
+
+
 
 #
 …本当に？[p]
@@ -293,7 +307,7 @@ _　…母さんのことは、仕方ない≫[p]
 
 [bgchangemask]
 
-[bg storage="makkuro.jpg" ]
+[bg storage="makkuro.jpg" time="1000" ]
 [chara_hide_all time="0"]
 
 [bgchangemask_off]
@@ -304,9 +318,8 @@ _　…母さんのことは、仕方ない≫[p]
 
 [voicestop]
 
-[playbgm storage="nc282335.mp3" volume="70"]
-
 #
+[playbgm storage="nc282335.mp3" volume="70"]
 
 ;一枚絵 （イルカショー）
 [layopt layer="0" visible="true"]
@@ -576,6 +589,7 @@ _　！？！？！？！？！？！？≫[p]
 
 [voicestop]
 #
+[fadeoutbgm time="300"]
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
 [trans layer="0" time="1000" method="fadeIn"]
