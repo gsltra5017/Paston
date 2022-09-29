@@ -67,9 +67,10 @@
 
 
 ;背景 一枚絵
-[bg storage="penguin.png" time=0]
-[freeimage layer="0" time="500" wait=true]
-[chara_show name="mizuka" top=20  face="egao_2" time=500]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1/penguin.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka4-1_4.ogg"]
 #美寿花
 ;（昔）

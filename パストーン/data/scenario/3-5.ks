@@ -8,6 +8,8 @@
 
 [afterjumpmaskNormal]
 
+;修正前 優先度高 BGM、ポジティブで落ち着いた曲（最悪Bonyari_Hitsujiもあり）
+
 [voice1 vf1="mizuka/mizuka3-5_1.ogg"]
 #mizuka
 「う～ん…これとか、どう！？」[p]
@@ -45,9 +47,8 @@
 #
 売店にて、俺らは父さんたちのお土産を選んでいた。[p]
 …未だに俺の手を繋いだまま。[p]
-…すぐやめると思ってたけど、[r]
-結局一日中このまんまだったな…まぁ悪い気はしないけどさ…[r]
-会話も普通にできるし…[p]
+…すぐやめると思ってたけど、結局一日中このまんまだったな…[p]
+まぁ悪い気はしないけどさ…会話も普通にできるし…[p]
 
 [voice2 vf2="mizuka/mizuka3-5_5.ogg"]
 #mizuka:kyoton
@@ -70,7 +71,7 @@
 [voice2 vf2="mizuka/mizuka3-5_7.ogg"]
 #mizuka:bishou
 「まぁ私も多いわけではないけどね。[r]
-単純にお土産を買うような人が大学にいないってだけ」[p]
+_　単純にお土産を買うような人が大学にいないってだけ」[p]
 ;表情 grin
 
 [voicestop]
@@ -96,7 +97,7 @@
 [voicestop]
 
 #yukito
-≪無理に水族館グッズとかじゃなくてさ、あそこのお菓子とかでいいんじゃないか？≫[p]
+≪無理に水族館グッズとかじゃなくてさ、あそこのお菓子とかでいいんじゃ[r]　ないか？≫[p]
 
 [voice2 vf2="mizuka/mizuka3-5_10.ogg"]
 #mizuka
@@ -132,7 +133,7 @@
 ≪そうだね…そろそろ閉まっちゃう時間だし、名残惜しいけど帰るか…≫[p]
 
 [voice2 vf2="mizuka/mizuka3-5_13.ogg"]
-#mizuka
+#mizuka:fuan
 「だよ、ね…」[p]
 ;表情 
 
@@ -158,14 +159,14 @@
 
 ;[chara_hide_all time="0"]
 
-;背景　一枚絵 ☆
-;[bg storage="black.png" time="0"]
+[layopt layer="0" visible="true"]
+[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/baiten_past.png" time="1000"]
 
 #
 --じゃ、約束ね！また一緒にペンギン見るって[p]
 
 ;背景　売店
-[bg storage="baiten.png" time="0"]
+[bg storage="baiten.png" time="500"]
 
 #yukito
 ≪……おも…う…≫[p]
@@ -173,7 +174,7 @@
 [voice2 vf2="mizuka/mizuka3-5_16.ogg"]
 #mizuka:bishou
 「いや、いいよ。ここ結構近いし…[r]
-また連れてってくれるんだもんね？少年君？」[p]
+また連れてってくれるんだもんね？　少年君？」[p]
 ;表情 
 
 [voicestop]
@@ -188,6 +189,7 @@
 
 [voicestop]
 
+;修正前 優先度低 画面効果（一瞬ズームする？）
 #yukito
 ≪っ！？≫[p]
 
@@ -199,7 +201,7 @@
 
 [voice2 vf2="mizuka/mizuka3-5_18.ogg"]
 #mizuka:kyoton
-「…？どうしたの？買い忘れ？」[p]
+「…？　どうしたの？　買い忘れ？」[p]
 ;表情 
 
 [voicestop]
@@ -211,9 +213,9 @@
 自分の中で何が起こってるのか分からない俺には、そう答えるだけで精一杯だった。[p]
 
 [bgchangemask]
-[chara_hide_all]
+[chara_hide_all time="0" ]
 ;背景　通学路　夕方
-[bg storage="road_evening.png" time="500"]
+[bg storage="road_evening.png" time="1000"]
 [chara_show name="mizuka" face="neutral" top="20" time="0"]
 [bgchangemask_off]
 
@@ -229,6 +231,8 @@
 
 #
 日が暮れかけ、オレンジがかった帰り道を揃って歩く。[p]
+
+;修正前 優先度高 bgm、夕焼けに合うもの？
 
 [voice2 vf2="mizuka/mizuka3-5_20.ogg"]
 #mizuka:kangae
@@ -257,6 +261,8 @@
 
 [voicestop]
 
+;修正前 優先度低 画面をぼかす
+
 #
 …もし、[p]
 もしあの光景が、気のせいではないのなら。[r]
@@ -266,6 +272,8 @@
 …本当に？[p]
 なら、どうしてここまでの既視感を覚える？[p]
 …確かめてみるか。[p]
+
+;修正前 優先度低 画面ぼかし解除
 
 #yukito
 ≪美寿花って…≫[p]
@@ -325,7 +333,7 @@
 ;[bg storage="black.png" time="0"]
 
 [layopt layer="0" visible="true"]
-[image name="img" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/4-1_遊具に座る/4-1_n.png" time="1000"]
+[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/baiten_past.png" time="1000"]
 
 
 [voice2 vf2="mizuka/mizuka3-5_27.ogg"]
@@ -336,7 +344,7 @@
 #
 [bg storage="road_evening.png" time="0" wait="false"]
 
-[free name="img" layer="0" time="1000"]
+[free name="img" layer="0" time="500"]
 
 #yukito
 ≪…ッァ…クッソ…≫[p]
@@ -366,14 +374,14 @@
 ;・『大丈夫だ』と答える。
 ;・弱音を吐く←今回はこっちを選ぶ。
 
-[glink text="『大丈夫だ』と答える。" size=20 width=500 x=350 y=200 color="btn_02_blue" target=*next]
-[glink text=" 弱音を吐く " size=20 width=500 x=350 y=400 color="btn_02_blue" target=*next]
+;[glink text="『大丈夫だ』と答える。" size=20 width=500 x=350 y=200 color="btn_02_blue" target=*next]
+;[glink text=" 弱音を吐く " size=20 width=500 x=350 y=400 color="btn_02_blue" target=*next]
 
-[s]
+;[s]
 
-*next
+;*next
 
-[font shadow="0x333333"]
+;[font shadow="0x333333"]
 
 #yukito
 ≪…ごめん。ちょっと…気分が悪いかも…≫[p]
@@ -385,8 +393,7 @@
 [voicestop]
 
 #
-そう言って、美寿花は手を離す。[r]
-そして、そのまま…[p]
+そう言って、美寿花は手を離す。そして、そのまま…[p]
 
 [voice2 vf2="mizuka/mizuka3-5_30.ogg"]
 #mizuka:tsukare
@@ -395,6 +402,8 @@
 [voicestop]
 
 [chara_hide_all time="200" ]
+
+;修正前 優先度中 美寿花の立ち絵を顔アップで表示する？
 
 #yukito
 ≪…ぇ…≫[p]

@@ -9,13 +9,15 @@
 #
 そして、ついに迎えた木曜日。[p]
 
+;修正前 優先度高 BGM、楽しげなやつがいいかな？
+
 ;[bg storage="aquarium.png" time=0]
 
 俺らは予定通り、午後から水族館にいた。[p]
 
 [bg storage="penguin.png"]
 
-;修正前 美寿花の立ち絵をぴょんぴょんさせる ☆
+;修正前 優先度低 美寿花の立ち絵をぴょんぴょんさせる ☆
 [voice1 vf1="mizuka/mizuka3-4_1.ogg"]
 [chara_show name="mizuka" face="×" top="20" time="300"]
 #美寿花
@@ -114,8 +116,8 @@
 
 [bgchangemask]
 
-[bg storage="aquarium.png"]
-[chara_mod name="mizuka" face="egao"]
+[bg storage="aquarium.png" time="1000" ]
+[chara_mod name="mizuka" face="egao" time="0" ]
 
 [bgchangemask_off]
 
@@ -293,7 +295,7 @@ _　…母さんのことは、仕方ない≫[p]
 
 [bgchangemask]
 
-[bg storage="makkuro.jpg" ]
+[bg storage="makkuro.jpg" time="1000" ]
 [chara_hide_all time="0"]
 
 [bgchangemask_off]
@@ -304,9 +306,8 @@ _　…母さんのことは、仕方ない≫[p]
 
 [voicestop]
 
-[playbgm storage="nc282335.mp3" volume="70"]
-
 #
+[playbgm storage="nc282335.mp3" volume="70"]
 
 ;一枚絵 （イルカショー）
 [layopt layer="0" visible="true"]
@@ -576,6 +577,7 @@ _　！？！？！？！？！？！？≫[p]
 
 [voicestop]
 #
+[fadeoutbgm time="300"]
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
 [trans layer="0" time="1000" method="fadeIn"]
