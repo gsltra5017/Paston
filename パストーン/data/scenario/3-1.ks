@@ -13,7 +13,7 @@
 それでも問題なく通えていた。[p]
 
 ;背景 講義室
-[bg storage="classroom.jpg" time=1000]
+[bg storage="classroom.png" time=1000]
 
 ;効果音 チャイム
 [playse_schoolchaimu]

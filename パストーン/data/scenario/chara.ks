@@ -78,6 +78,7 @@
 [chara_face name="mizuka" face="terejitome" storage="chara/mizuka/terejitome.png"]
 [chara_face name="mizuka" face="terejitome_2" storage="chara/mizuka/terejitome_2.png"]
 [chara_face name="mizuka" face="teremesorashi" storage="chara/mizuka/teremesorashi.png"]
+[chara_face name="mizuka" face="teremesorashi_2" storage="chara/mizuka/teremesorashi_2.png"]
 [chara_face name="mizuka" face="tsukare" storage="chara/mizuka/tsukare.png"]
 [chara_face name="mizuka" face="uneasy" storage="chara/mizuka/uneasy.png"]
 [chara_face name="mizuka" face="uwame" storage="chara/mizuka/uwame.png"]
@@ -85,6 +86,7 @@
 [chara_face name="mizuka" face="yaruki_2" storage="chara/mizuka/yaruki_2.png"]
 [chara_face name="mizuka" face="×" storage="chara/mizuka/×.png"]
 [chara_face name="mizuka" face="kimazui" storage="chara/mizuka/kimazui.png"]
+[chara_face name="mizuka" face="kimazui_2" storage="chara/mizuka/kimazui_2.png"]
 
 [chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
 [chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
