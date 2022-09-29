@@ -4,7 +4,6 @@
 [bg storage="myroom.png" time="0"]
 
 [afterjumpmaskNormal]
-[jump target="*debug"]
 
 その翌日。[p]
 
@@ -68,7 +67,7 @@
 ;立ち絵表示なし
 [voicestop]
 
-*debug
+
 #雪翔
 ≪‥‥‥≫[p]
 
