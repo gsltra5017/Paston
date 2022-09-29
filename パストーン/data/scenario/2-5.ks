@@ -145,12 +145,12 @@ _　あれも一人じゃ中々ね…」[p]
 ≪…なるほど…でも放課後に行くような場所じゃないな≫[p]
 
 [voice2 vf2="mizuka/mizuka2-5_15.ogg"]
-#美寿花:uneasy
+#美寿花:bishou
 「そうだねぇ…って、今は雪翔君だよ。[r]
 _　まぁ何もないなら無理に言わなくてもいいけど…」[p]
 ;表情 uneasy
 
-;修正前 美寿花の表情をやわらかいものに変更
+;修正済み 美寿花の表情をやわらかいものに変更
 
 [voicestop]
 #雪翔
@@ -221,6 +221,7 @@ _　…あ、でも流石に私一人で歌うのもあれだし…そうだ！�
 [bgchangemask_off]
 
 ;修正前 カラオケのBGM
+;[playbgm storage=""]
 
 [voice2 vf2="mizuka/mizuka2-5_21.ogg"]
 #美寿花
@@ -403,10 +404,10 @@ _　薄谷さんと区別がつかなくなるのでつい…」[p]
 
 
 [voice2 vf2="mizuka/mizuka2-5_33.ogg"]
-#美寿花:
+#美寿花:odoroki_正面
 「してないよ！？[r]
 _　どこをどう見たらそうなるのさ！？」[p]
-;修正前 表情を驚いてる感じの物に変更
+;修正済み 表情を驚いてる感じの物に変更
 
 [voice2 vf2="ayana/ayana2-5_9.ogg"]
 #文永:konwaku
@@ -422,6 +423,7 @@ _　どこをどう見たらそうなるのさ！？」[p]
 ;上にフェード
 
 [voicestop]
+[stopbgm]
 
 [layopt layer="0" visible="true"]
 [image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/2-5/nightsky.png" time="1000"]
