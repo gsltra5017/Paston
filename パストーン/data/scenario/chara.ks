@@ -184,4 +184,4 @@
 [chara_face name="RozLaz" face="roz_taunt" storage="chara/RozLaz/roz_taunt.png"]
 [chara_face name="RozLaz" face="roz_tokuige" storage="chara/RozLaz/roz_tokuige.png"]
 [chara_face name="RozLaz" face="roz_x" storage="chara/RozLaz/roz_x.png"]
-[chara_face name="RozLaz" face="roz_fuman_2" storage="chara/RozLaz/roz_fuman_2.png"]
+[chara_face name="RozLaz" face="inai" storage="chara/RozLaz/inai.png"]
