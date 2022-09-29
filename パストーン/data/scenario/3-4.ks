@@ -15,7 +15,6 @@
 
 [bg storage="penguin.png"]
 
-[voice1 vf1="mizuka/mizuka3-4_1.ogg"]
 ;修正前 美寿花のボイス ☆
 [chara_show name="mizuka" face="×" top="20" time="300"]
 #美寿花
@@ -23,7 +22,6 @@
 
 #雪翔
 ≪はいはいそうだな。泳いでるな≫[p]
-
 
 #美寿花:harikiri
 「あっ！今飼育員さんがあげた餌食べた！」[p]

@@ -8,7 +8,7 @@
 
 [afterjumpmaskNormal]
 
-[jump target="*debug"]
+;[jump target="*debug"]
 
 [voice1 vf1="mizuka/mizuka2-4_1.ogg"]
 #美寿花
@@ -208,7 +208,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 「‥‥‥」[p]
 ;表情 おねむ
 
-*debug
+;*debug
 
 #雪翔
 ≪…美寿花？≫[p]
