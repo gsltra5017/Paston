@@ -78,6 +78,22 @@
 	[chara_config  talk_focus="none"]
 [endmacro]
 
+;numに代入した数字に対応するセーブデータを消去(0~19)
+;[data_delete num=""]←コピペ用
+[macro name="data_delete"]
+  [iscript]
+    var array_save = TG.menu.getSaveData();    //セーブデータを取得
+    array_save.data[mp.num] = {                //num番目のデータを初期化。以下初期化項目
+      title : $.lang("not_saved"),             //セーブタイトル
+      current_order_index : 0,                 //現在の命令実行インデックス
+      save_date : "",                          //セーブ日時
+      img_data : "",                           //セーブサムネイル
+      stat : {}                                //セーブ時の各種情報
+    };
+    $.setStorage(TG.config.projectID + "_tyrano_data", array_save, TG.config.configSave);  //セーブし直す
+  [endscript]
+[endmacro]
+
 ;頷き風
 [keyframe name="un"]
 	[frame p="50%" y="20"]
