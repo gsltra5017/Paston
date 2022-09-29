@@ -18,6 +18,10 @@
 …でも、[p]
 俺の体は…動こうとしない。[p]
 
+;修正前 背景変更（夜の公園） ☆
+[bg storage="park_night.png" time="1000"]
+
+
 #雪翔
 （…文永は？）[p]
 
@@ -70,14 +74,18 @@
 [chara_show name="mizuka" top="20" face="kushou"]
 [voice2 vf2=mizuka/mizuka4-4_2.ogg]
 #美寿花
-「君が動くまで待ってるつもりだったけど…[r]やっぱり、このまま放置ってのも可哀そうだなって」[p]
+「君が動くまで待ってるつもりだったけど…[r]　やっぱり、このまま放置ってのも可哀そうだなって」[p]
 ;表情 困り笑い
 [voicestop]
 
 #
 そう言って、美寿花は笑う。[p]
 …まるで本当に生きているように、笑う。[p]
+
+#雪翔
 （…やめろ、考えるな…！）[p]
+
+#
 そうだ。悟られてはいけない。[p]
 …俺が、君の存在自体を否定しかけている…[r]もしくは、もう否定していることを。[p]
 
@@ -95,9 +103,9 @@
 
 [voice2 vf2=mizuka/mizuka4-4_4.ogg]
 #美寿花:egao
-「夕ご飯の材料、足りなくてさ。ちょうど買いに行ってたんだ。[p]
+「夕ご飯の材料、足りなくてさ。ちょうど買いに行ってたんだ。」[p]
 [voice2 vf2=mizuka/mizuka4-4_5.ogg]
-最近寒くなってきたし、何か温かいもの作りたいな～って」[p]
+「最近寒くなってきたし、何か温かいもの作りたいな～って」[p]
 ;表情 eago
 
 [voice2 vf2=mizuka/mizuka4-4_6.ogg]
@@ -106,7 +114,7 @@
 ;表情 straight
 
 [voice2 vf2=mizuka/mizuka4-4_7.ogg]
-#美寿花
+#美寿花:fushime
 「『私について』文永と話してる…君を」[p]
 ;表情 straight
 [voicestop]
@@ -121,17 +129,17 @@
 さっきから、美寿花の目が俺とあっていないことに。[p]
 
 [voice2 vf2=mizuka/mizuka4-4_8.ogg]
-#美寿花:kushou
-「そっか…私、人間じゃないんだって気づいた時…[r]ちょっと、納得しちゃったんだ」[p]
+#美寿花:jichou
+「そっか…私、人間じゃないんだって気づいた時…[r]　ちょっと、納得しちゃったんだ」[p]
 ;表情 困り笑い
 
 [voice2 vf2=mizuka/mizuka4-4_9.ogg]
-#美寿花
-「幼い頃の記憶が、あやふやだったり…[r]文永と私で、少しお父さんの扱いが違っていたり…」[p]
+#美寿花:shitsui
+「幼い頃の記憶が、あやふやだったり…[r]　文永と私で、少しお父さんの扱いが違っていたり…」[p]
 ;表情 
 
 [voice2 vf2=mizuka/mizuka4-4_10.ogg]
-#美寿花
+#美寿花:jichou
 「…不思議な力が使えたり…ね」[p]
 ;表情
 [voicestop]
@@ -144,7 +152,7 @@
 自分がどこか…人と違う事を。[p]
 
 [voice2 vf2=mizuka/mizuka4-4_11.ogg]
-#美寿花
+#美寿花:kanashii
 「ごめんね。本当に」[p]
 ;表情
 [voicestop]
@@ -152,6 +160,7 @@
 #雪翔
 ≪…何で、謝るんだよ…≫[p]
 
+[chara_mod name="mizuka" face="neutral_2" cross="false"]
 #
 その声は届かず、美寿花は何故か辺りを見回す。[p]
 しばらくして、[p]
@@ -180,7 +189,7 @@
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 #美寿花
-「…今まで、私は事故のことを知らずに生きていた…[r]君はその事故で…私のせいで大きな枷を背負ってしまったのに」[p]
+「…今まで、私は事故のことを知らずに生きていた…[r]　君はその事故で…私のせいで大きな枷を背負ってしまったのに」[p]
 ;差分 目を伏せた顔
 
 [voice2 vf2=mizuka/mizuka4-4_15.ogg]
@@ -194,7 +203,7 @@
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 #美寿花
-「あの事故で、生前の私は死んじゃって…[r]アンドロイドになっちゃったけど…君の枷が消えたわけじゃない」[p]
+「あの事故で、生前の私は死んじゃって…[r]　アンドロイドになっちゃったけど…君の枷が消えたわけじゃない」[p]
 ;差分 真剣な顔
 
 [voice2 vf2=mizuka/mizuka4-4_17.ogg]
@@ -216,7 +225,15 @@
 そう言って、また笑う。[p]
 心からの笑顔ではない、それは勿論…分かっている。[p]
 でも…[p]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_omoituita!.png"]
+[trans layer="0" time="1000" method="fadeIn"]
+[wt]
 『例えば…あ、そう！水族館とか！』[p]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_yasasii_egao.png"]
+[trans layer="0" time="400" method="fadeIn"]
+[wt]
 重なってしまう。[p]
 公園で、まだ中学生だった俺の話を聞いてくれた…あの美寿花と。[p]
 哀しい程に、想ってしまう。[p]
@@ -257,13 +274,16 @@
 #
 誰か…助けてくれ…！[p]
 
+;背景に一時的にぼかし
+
 ;選択肢 『美寿花は目の前で生きている』『あいつは常葉美寿花じゃない』
-[glink text="『美寿花は目の前で生きている』" size=20 width=500 x=350 y=200 color="btn_02_blue" target=*next]
-[glink text="『あいつは常葉美寿花じゃない』" size=20 width=500 x=350 y=400 color="btn_02_blue" target=*next]
+;[glink text="『美寿花は目の前で生きている』" size=20 width=500 x=350 y=200 color="btn_02_blue" target=*next]
+[glink text="『あいつは常葉美寿花じゃない』" size=20 width=500 x=350 y=300 color="btn_02_blue" target=*next]
 
 [s]
 
 *next
+[nextoption]
 
 #雪翔
 ≪‥‥‥ッ！！≫[p]
@@ -278,7 +298,7 @@
 [chara_hide_all time=0]
 
 ;夜の公園の画像がなかったので代替
-[bg storage="nightsky.png" time=0]
+[bg storage="park_night.png" time=0]
 
 [freeimage layer="0" time="0"]
 [freeimage layer="1" time="500"]
@@ -295,7 +315,7 @@
 
 #
 彼女は、俺を離したりしなかった。[p]
-ブランコから降り、逃げる俺の手を…掴んだ。[p]
+逃げる俺の手を…掴んだ。[p]
 
 ;立ち絵表示
 [chara_show name="mizuka" face="shinpai" top="20" time="1000"]
@@ -303,9 +323,11 @@
 
 #雪翔
 ≪お前は…美寿花じゃ…ないっ…！！！≫[p]
+#
 
 [voice2 vf2=mizuka/mizuka4-4_20.ogg]
-#美寿花
+[chara_mod name="mizuka" face="rape" cross="false" ]
+#美寿花:rape
 「‥‥‥‥ぇ？」[p]
 
 ;差分

@@ -39,6 +39,7 @@
 [chara_face name="mizuka" face="mesorashi" storage="chara/mizuka/mesorashi.png"]
 [chara_face name="mizuka" face="neru" storage="chara/mizuka/neru.png"]
 [chara_face name="mizuka" face="neutral" storage="chara/mizuka/neutral.png"]
+[chara_face name="mizuka" face="neutral_2" storage="chara/mizuka/neutral_2.png"]
 [chara_face name="mizuka" face="odoroki" storage="chara/mizuka/odoroki.png"]
 [chara_face name="mizuka" face="odoroki_2" storage="chara/mizuka/odoroki_2.png"]
 [chara_face name="mizuka" face="odoroki_3" storage="chara/mizuka/odoroki_3.png"]
@@ -88,6 +89,9 @@
 [chara_face name="mizuka" face="×" storage="chara/mizuka/×.png"]
 [chara_face name="mizuka" face="kimazui" storage="chara/mizuka/kimazui.png"]
 [chara_face name="mizuka" face="kimazui_2" storage="chara/mizuka/kimazui_2.png"]
+[chara_face name="mizuka" face="jichou" storage="chara/mizuka/jichou.png"]
+[chara_face name="mizuka" face="shitsui" storage="chara/mizuka/shitsui.png"]
+[chara_face name="mizuka" face="rape" storage="chara/mizuka/rape.png"] 
 
 [chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
 [chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
@@ -139,7 +143,6 @@
 [chara_face name="ayana" face="nakikushou" storage="chara/ayana/nakikushou.png"]
 [chara_face name="ayana" face="hikan" storage="chara/ayana/hikan.png"]
 [chara_face name="ayana" face="hisshi" storage="chara/ayana/hisshi.png"]
-
 
 [chara_face name="RozLaz" face="laz_akire" storage="chara/RozLaz/laz_akire.png"]
 [chara_face name="RozLaz" face="laz_bishou" storage="chara/RozLaz/laz_bishou.png"]

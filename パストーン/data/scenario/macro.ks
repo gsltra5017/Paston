@@ -48,19 +48,27 @@
 	[start_keyconfig]
 
 	;メニューボタンの表示
-	@showmenubutton
+	;@showmenubutton
+
+	;システムボタン
+	[button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png"  width="71" height="30" x="50" y="680"]
+	[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png"  width="90" height="30" x="250" y="680"]
+	[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png"  width="90" height="30" x="450" y="680"]
+	[button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png"  width="96" height="30" x="650" y="680"]
+	[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png"  width="112" height="30" x="850" y="680"]
+	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
 
 	;メッセージウィンドウの設定
-	[position layer="message0" left="160" top="500" width="960" height="200" page="fore" visible="true"]
+	[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
 
 	;文字が表示される領域を調整
-	[position layer="message0" page="fore" frame="textbox.png" width="1280" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
+	[position layer="message0" page="fore" frame="textbox.png" width="1280" height="240" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
 
 	;メッセージウィンドウの表示
 	@layopt layer="message0" visible="true"
 
 	;キャラクターの名前が表示される文字領域
-	[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size=28 bold=true x=140 y=510]
+	[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size="28" bold="true" x="140" y="505"]
 
 	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 	[chara_config ptext="chara_name_area"]
@@ -68,6 +76,22 @@
 	[font shadow="0x333333"]
 
 	[chara_config  talk_focus="none"]
+[endmacro]
+
+;numに代入した数字に対応するセーブデータを消去(0~19)
+;[data_delete num=""]←コピペ用
+[macro name="data_delete"]
+  [iscript]
+    var array_save = TG.menu.getSaveData();    //セーブデータを取得
+    array_save.data[mp.num] = {                //num番目のデータを初期化。以下初期化項目
+      title : $.lang("not_saved"),             //セーブタイトル
+      current_order_index : 0,                 //現在の命令実行インデックス
+      save_date : "",                          //セーブ日時
+      img_data : "",                           //セーブサムネイル
+      stat : {}                                //セーブ時の各種情報
+    };
+    $.setStorage(TG.config.projectID + "_tyrano_data", array_save, TG.config.configSave);  //セーブし直す
+  [endscript]
 [endmacro]
 
 ;頷き風
@@ -158,4 +182,40 @@
 [macro name="playse_chair"]
 	[playse storage="se/chair.ogg" loop="false" volume="80"]
 	[wse]
+[endmacro]
+
+[macro name="nextoption"]
+	[cm]
+	[clearfix]
+	[start_keyconfig]
+
+	;メニューボタンの表示
+	;@showmenubutton
+
+	;システムボタン
+	[button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png"  width="71" height="30" x="50" y="680"]
+	[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png"  width="90" height="30" x="250" y="680"]
+	[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png"  width="90" height="30" x="450" y="680"]
+	[button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png"  width="96" height="30" x="650" y="680"]
+	[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png"  width="112" height="30" x="850" y="680"]
+	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
+
+	;メッセージウィンドウの設定
+	[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
+
+	;文字が表示される領域を調整
+	[position layer="message0" page="fore" frame="textbox.png" width="1280" height="240" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
+
+	;メッセージウィンドウの表示
+	@layopt layer="message0" visible="true"
+
+	;キャラクターの名前が表示される文字領域
+	[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size="28" bold="true" x="140" y="505"]
+
+	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
+	[chara_config ptext="chara_name_area"]
+
+	[font shadow="0x333333"]
+
+	[chara_config  talk_focus="none"]
 [endmacro]

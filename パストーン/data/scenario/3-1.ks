@@ -122,10 +122,10 @@
 
 [bgchangemask]
 
-;修正前 背景差し替え
+;修正済み（担当辻） 背景差し替え
 ;素材ができたら書き換え
 ;背景 廊下
-[bg storage="rouka.jpg" time=1000]
+[bg storage="rouka.png" time=1000]
 ;☆
 
 

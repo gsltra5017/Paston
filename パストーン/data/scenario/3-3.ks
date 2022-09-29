@@ -2,10 +2,12 @@
 [startoption]
 
 [bg storage="classroom.png" time=0]
+[filter blur="10" layer="base"]
+[camera layer="base" x="0" y="0" zoom="1.2" time="0"]
 
 [afterjumpmaskNormal]
 
-;修正前 背景ぼかし
+;修正済み（担当辻） 背景ぼかし
 #
 翌朝、またいつものように大学で講義を受ける。[p]
 …なんか、もう普通に大学に行くことが自分の中で当然のことになってきたな…[p]
@@ -37,6 +39,8 @@
 [voice2 vf2="mizuka/mizuka3-3_1.ogg"]
 「雪翔君ってば！！」[p]
 
+[voicestop]
+
 #雪翔
 ≪痛ててててっ！！≫[p]
 
@@ -58,6 +62,8 @@
 「もう講義終わっちゃったよ？」[p]
 ;jitome
 
+[voicestop]
+
 #雪翔
 ≪あれ…？≫[p]
 
@@ -67,8 +73,10 @@
 
 #雪翔
 ≪マジか…チャイムも聞こえなかった…ってうおっ！？≫[p]
+#
+;修正済み（担当辻） 画面演出 揺れ
+[quake count="3" time="1000" hmax="20" wait="true"]
 
-;修正前 画面演出 揺れ
 #
 俺が呆気に取られていると、すごい力で肩を掴まれる。[p]
 
@@ -79,6 +87,8 @@
 [voice2 vf2="mizuka/mizuka3-3_4.ogg"]
 「最近、家でも上の空だったりするしさ…どうしたの？　なんか悩み事？」[p]
 ;shinpai
+
+[voicestop]
 
 #雪翔
 ≪あ～…いや、悩み事ではないんだけど…≫[p]
@@ -92,6 +102,8 @@
 「ないんだけど…何？」[p]
 ;kyoton
 
+[voicestop]
+
 #雪翔
 ≪えーっと…何でもないです…≫[p]
 
@@ -100,28 +112,34 @@
 「本当に？ それと何で敬語…？」[p]
 ;jitome
 
+[voicestop]
+
 #雪翔
 ≪別に深い意味はないけど…うん。大丈夫…≫[p]
 
 #
 
-[chara_hide_all]
-
 [bgchangemask]
+[chara_hide_all time="0"]
 [wait time="500"]
+[chara_show name="RozLaz" face="roz_akire" top="10" left="200" width="753.12" height="795.614" time="500"]
 [bgchangemask_off]
 
-;修正前 ロズラズ表示位置
-;修正前 ロズラズボイス
-[chara_show name="RozLaz" face="roz_akire" top="-70" time="500"]
+;修正済み（担当辻） ロズラズ表示位置
+;修正済み（担当辻） ロズラズボイス
+
+[voice2 vf2="roz/roz3-3_1.ogg"]
 #ロズ
 「いや、全然『大丈夫』やないやろマスター…」[p]
 ;akire
 
+[voice2 vf2="laz/laz3-3_1.ogg"]
 [chara_mod name="RozLaz" face="laz_shinpai"]
 #ラズ
 「むしろどちらかというと『大ピンチ』のようですが…」[p]
 ;shinpai
+
+[voicestop]
 
 #雪翔
 ≪…はい。返す言葉もないです…≫[p]
@@ -130,23 +148,30 @@
 休み時間。[p]
 見事に撃沈した俺は、ラズ達と空き教室で毎度の如く作戦会議を開く。[p]
 
+[voice2 vf2="laz/laz3-3_2.ogg"]
 [chara_mod name="RozLaz" face="laz_close"]
 #ラズ
 「まぁ確かに、このままだと誘うのは困難ですわね…」[p]
 ;表情 考え込む表情
 
+[voice2 vf2="roz/roz3-3_2.ogg"]
 [chara_mod name="RozLaz" face="roz_neutral"]
 #ロズ
 「もういっそのこと、当日に目隠ししてそのまま連れて行ったらいいんちゃう？」[p]
 ;neutral
 
+[voicestop]
+
 #雪翔
 ≪いやそんな度胸あったら普通に誘うんだが…≫[p]
 
+[voice2 vf2="roz/roz3-3_3.ogg"]
 [chara_mod name="RozLaz" face="roz_kyoton"]
 #ロズ
 「せやなぁ…というか、例のチケットは結局どうなったん？」[p]
 ;kyoton
+
+[voicestop]
 
 #雪翔
 ≪ちゃんと取ってもらってる。ほら≫[p]
@@ -154,49 +179,64 @@
 #
 そう言って、俺はポケットからチケットを2枚取り出す。[p]
 
+[voice2 vf2="laz/laz3-3_3.ogg"]
 [chara_mod name="RozLaz" face="laz_kyoton"]
 #ラズ
 「あら、学校まで持ってきてましたの？」[p]
 ;表情 きょとん、もしくはびっくり
 
+[voicestop]
+
 #雪翔
 ≪まぁ…別に持ってくる必要はないんだけど、なんか家に置いていくのも落ち着かなくて≫[p]
 
+[voice2 vf2="roz/roz3-3_4.ogg"]
 [chara_mod name="RozLaz" face="roz_akire"]
 #ロズ
 「乙女やなマスター…」[p]
 ;jitome、（半笑い？）
 
+[voicestop]
+
 #雪翔
 ≪うるせぇ、いやそんなことはどうでもよくてだな…≫[p]
 
+[voice2 vf2="laz/laz3-3_4.ogg"]
 [chara_mod name="RozLaz" face="laz_jitome"]
 #ラズ
 「どういたしましょうか？私たちがさり気なく話を振る…は無理でしょうし…」[p]
 ;修正前 ジト目の横を見ている版 ☆
 
+[voice2 vf2="roz/roz3-3_5.ogg"]
 [chara_mod name="RozLaz" face="roz_fuman"]
 #ロズ
 「ん？何で今ウチを見て断念した？」[p]
 ;表情
 
+[voice2 vf2="laz/laz3-3_5.ogg"]
 [chara_mod name="RozLaz" face="laz_kyoton"]
 #ラズ
 「私はとにかく、あなたにそんな話術ないでしょう？」[p]
 ;表情 
 
+[voice2 vf2="roz/roz3-3_6.ogg"]
 [chara_mod name="RozLaz" face="roz_okori"]
 #ロズ
 「はぁ〜？ラズやってウチと変わらんやろ別に！」[p]
 ;表情
 
+[voicestop]
+
 #
 話術がないことは否定しないのか…[p]
 
+[voice2 vf2="roz/roz3-3_7.ogg"]
 [chara_mod name="RozLaz" face="roz_kyoton"]
 #ロズ
-「…あ、じゃあ文永は？あの子なら自然に話に出せるんちゃう？」[p]
+「…あ、ほな文永は？あの子なら自然に話に出せるんちゃう？」[p]
 ;表情
+
+[voicestop]
 
 #雪翔
 ≪…う～ん…そうだろうけど…≫[p]
@@ -209,15 +249,19 @@
 #雪翔
 ≪断られたら…きついなぁ…≫[p]
 
+[voice2 vf2="roz/roz3-3_8.ogg"]
 [chara_mod name="RozLaz" face="roz_komari"]
 #ロズ
 「…それを考えだしたら終わりやない？」[p]
 ;表情
 
+[voice2 vf2="laz/laz3-3_6.ogg"]
 [chara_mod name="RozLaz" face="laz_kyoton"]
 #ラズ
 「結論を言ってしまうと、結局はご主人様次第。ということになってしまいますね。」[p]
 ;表情
+
+[voicestop]
 
 #雪翔
 ≪…だな。まだ時間がないわけではないし、何とか…≫[p]
@@ -227,18 +271,24 @@
 「何が少年君次第なの？」[p]
 ;立ち絵表示なし
 
+[voicestop]
+
 #雪翔
 ≪ッ！？≫[p]
 
+[voice2 vf2="laz/laz3-3_7.ogg"]
 [chara_mod name="RozLaz" face="laz_normal"]
 #ラズ
 「あ」[p]
 ;あ ☆
 
+[voice2 vf2="roz/roz3-3_9.ogg"]
 [chara_mod name="RozLaz" face="roz_ge"]
 #ロズ
 「げ」[p]
 ;ge
+
+[voicestop]
 
 #
 背後から今一番聞こえてはいけない声がかけられる。[p]
@@ -253,12 +303,14 @@
 
 
 [chara_mod name="RozLaz" face="inai" time="500" cross="false" ]
-;修正前 美寿花を左側に表示 ☆
+;修正済み（担当辻） 美寿花を左側に表示 ☆
 [chara_show name="mizuka" face="kyoton"  top="20" time="500"]
 #美寿花
 [voice2 vf2="mizuka/mizuka3-3_8.ogg"]
 「あれ？それ…水族館のチケット！？」[p]
 ;kyoton
+
+[voicestop]
 
 #雪翔
 ≪…あ、やばっ！≫[p]
@@ -272,6 +324,8 @@
 「ええ！？　なんで隠すの！？　というか、[r]
 _　何で雪翔君がそれ持ってるの！？」[p]
 ;表情
+
+[voicestop]
 
 #雪翔
 ≪……≫[p]
@@ -296,6 +350,8 @@ _　何で雪翔君がそれ持ってるの！？」[p]
 「…雪翔君？」[p]
 ;fuan
 
+[voicestop]
+
 #雪翔
 ≪‥‥‥はぁ…≫[p]
 
@@ -310,6 +366,8 @@ _　何で雪翔君がそれ持ってるの！？」[p]
 [voice2 vf2="mizuka/mizuka3-3_11.ogg"]
 「うわっ…え…ど、どうしたの…？」[p]
 ;表情
+
+[voicestop]
 
 #
 一歩踏み出し、美寿花の手を取る。[p]
@@ -327,6 +385,8 @@ _　何で雪翔君がそれ持ってるの！？」[p]
 「…え…？　木曜って…私の誕生日…？」[p]
 ;odoroki_3
 
+[voicestop]
+
 #雪翔
 ≪……≫[p]
 ≪…さぁ、何の話かな…？≫[p]
@@ -337,6 +397,8 @@ _　何で雪翔君がそれ持ってるの！？」[p]
 「いや絶対そうじゃん。間が全て語ってるじゃん」[p]
 ;表情
 
+[voicestop]
+
 #雪翔
 ≪…はい。その通りです≫[p]
 
@@ -344,6 +406,8 @@ _　何で雪翔君がそれ持ってるの！？」[p]
 [voice2 vf2="mizuka/mizuka3-3_14.ogg"]
 「あ、もしかして最近ずっと悩んでたのって…」[p]
 ;表情
+
+[voicestop]
 
 #雪翔
 ≪いや…誘い方が分からなかったから…≫[p]
@@ -356,6 +420,8 @@ _　何で雪翔君がそれ持ってるの！？」[p]
 「別に、そんな悩まなくても全然いいのに…」[p]
 ;表情
 
+[voicestop]
+
 #雪翔
 ≪え、いいの…？≫[p]
 
@@ -363,6 +429,8 @@ _　何で雪翔君がそれ持ってるの！？」[p]
 [voice2 vf2="mizuka/mizuka3-3_16.ogg"]
 「そりゃいいよ！ずっと行ってみたかったんだよね～」[p]
 ;egao_2
+
+[voicestop]
 
 #
 本当に嬉しそうに話す美寿花に、俺は内心ほっとする。[p]
