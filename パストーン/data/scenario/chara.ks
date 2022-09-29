@@ -142,7 +142,6 @@
 [chara_face name="ayana" face="hikan" storage="chara/ayana/hikan.png"]
 [chara_face name="ayana" face="hisshi" storage="chara/ayana/hisshi.png"]
 
-
 [chara_face name="RozLaz" face="laz_akire" storage="chara/RozLaz/laz_akire.png"]
 [chara_face name="RozLaz" face="laz_bishou" storage="chara/RozLaz/laz_bishou.png"]
 [chara_face name="RozLaz" face="laz_bow" storage="chara/RozLaz/laz_bow.png"]
