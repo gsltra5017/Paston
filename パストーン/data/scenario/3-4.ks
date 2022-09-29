@@ -9,13 +9,14 @@
 #
 そして、ついに迎えた木曜日。[p]
 
-[bg storage="aquarium.png" time=0]
+;[bg storage="aquarium.png" time=0]
 
 俺らは予定通り、午後から水族館にいた。[p]
 
 [bg storage="penguin.png"]
 
-[chara_show name="mizuka" face="x" top="20" time="300"]
+;修正前 美寿花のボイス ☆
+[chara_show name="mizuka" face="×" top="20" time="300"]
 #美寿花
 「ほら見て！雪翔君！ペンギン！ペンギンが泳いでる！！」[p]
 
@@ -55,7 +56,7 @@
 
 #美寿花:doya
 「うん？ああ、勿論必要だよ、これから色んなところ回るんだから。[r]
-もしはぐれちゃったら大変でしょ？」[p]
+_　もしはぐれちゃったら大変でしょ？」[p]
 ;doya
 
 #
