@@ -88,6 +88,8 @@
 [chara_face name="mizuka" face="×" storage="chara/mizuka/×.png"]
 [chara_face name="mizuka" face="kimazui" storage="chara/mizuka/kimazui.png"]
 [chara_face name="mizuka" face="kimazui_2" storage="chara/mizuka/kimazui_2.png"]
+[chara_face name="mizuka" face="jichou" storage="chara/mizuka/jichou.png"]
+[chara_face name="mizuka" face="shitsui" storage="chara/mizuka/shitsui.png"] 
 
 [chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
 [chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
