@@ -22,6 +22,7 @@
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
 
 [bgchangemask_off]
+
 ;マウスの音
 ;タイピング音で代用中
 ;修正前 マウスクリックの音に変える
@@ -357,8 +358,8 @@
 #美寿花
 「待ってて！ちょっと色々買ってくるから！」[p]
 ;表情 慌て
-#
 
+[chara_hide name="mizuka" time="2000"]
 
 [voicestop]
 
@@ -372,6 +373,7 @@
 
 #
 …行ってしまった。[p]
+
 #雪翔
 ≪‥‥‥≫[p]
 
@@ -381,12 +383,12 @@
 
 [bgchangemask]
 
+;雪翔の部屋
 [bg storage="myroom.png" time=0]
 ;部屋のドアを閉める音
 [voice2 vf2="se/doorclose_1.ogg"]
 
 [bgchangemask_off]
-;雪翔の部屋
 
 #雪翔
 ≪…大学…か≫[p]

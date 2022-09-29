@@ -2,7 +2,7 @@
 
 [startoption]
 
-[bg storage="black.jpg" time="0"]
+[bg storage="makkuro.jpg" time="0"]
 
 #
 『やめてくれ』[p]
@@ -86,6 +86,7 @@ _　あれを何回も見せられるのはつらいな…≫[p]
 あれ、というのは夢の内容のことである。[p]
 
 [bg storage="black.jpg" time="1000"]
+
 ;修正済 黒背景フェードイン
 
 『悲劇の飲酒暴走事故』[p]
@@ -98,7 +99,7 @@ _　あれを何回も見せられるのはつらいな…≫[p]
 
 #
 警察の取り調べで、男が吐いた言葉は自殺の意志。[p]
-…そして、[r]
+…そして、[p]
 …その事故で俺は、母親を失うことになった。[p]
 
 [bg storage="myroom.png" time="400" wait="false"]

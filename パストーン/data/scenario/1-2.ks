@@ -6,11 +6,12 @@
 ;修正後 背景をリビングの左側の壁にズームしたものにする
 
 [camera zoom="2" x="-300" y="0" time="0" wait="true"]
+
 [afterjumpmaskNormal]
 
 [voice1 vf1="kouki/kouki1-2_1.ogg"]
 #???
-───あと、食材はここにあるから、後で…[p]
+「───あと、食材はここにあるから、後で…」[p]
 
 [voicestop]
 #
@@ -32,7 +33,7 @@
 
 [voice2 vf2="kouki/kouki1-2_2.ogg"]
 #???
-まぁ、他は特に変わったものはないし、多分家と同じだと思うよ。[p]
+「まぁ、他は特に変わったものはないし、多分家と同じだと思うよ。」[p]
 
 [voicestop]
 #
@@ -40,12 +41,11 @@
 
 [voice2 vf2="mizuka/mizuka1-2_1.ogg"]
 #???
-なるほど、では昼や夜は私が作るってことでいいんですよね？[p]
+「なるほど、では昼や夜は私が作るってことでいいんですよね？」[p]
 
 [voice2 vf2="kouki/kouki1-2_3.ogg"]
-うん、そうしてもらえると助かるかな。[r]
-
-材料費とかはまた後で払うから、心配しなくていいよ。[p]
+「うん、そうしてもらえると助かるかな。[r]
+_　材料費とかはまた後で払うから、心配しなくていいよ。」[p]
 
 [voicestop]
 #
@@ -115,8 +115,7 @@
 
 [voice2 vf2="mizuka/mizuka1-2_2.ogg"]
 #mizuka
-「…雪翔君、だよね？[r]
-_　おはよう」[p]
+「…雪翔君、だよね？　おはよう」[p]
 
 [voicestop]
 #
@@ -136,8 +135,7 @@ _　おはよう」[p]
 [chara_show name="kouki" face="kyoton" top="-50" time="1000"]
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki
-「ん？[r]
-_　何をそこでボーっと突っ立ってるんだ？」[p]
+「ん？　何をそこでボーっと突っ立ってるんだ？」[p]
 ;表情　きょとん
 
 [voicestop]
@@ -150,8 +148,7 @@ _　何をそこでボーっと突っ立ってるんだ？」[p]
 
 [voice2 vf2="kouki/kouki1-2_7.ogg"]
 #kouki:egao
-「そうか。[r]
-_　そういえばまだ説明してなかったな。彼女は…」[p]
+「そうか。そういえばまだ説明してなかったな。彼女は…」[p]
 
 #
 [playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35"]
@@ -174,20 +171,19 @@ _　ちゃんとやることは事前に伝えていたはずだが…」[p]
 
 [voice2 vf2="kouki/kouki1-2_10.ogg"]
 #kouki:kushou
-「すまん。[r]
-_　ちょっと出てくるから、二人でゆっくりしていてくれ」[p]
+「すまん。ちょっと出てくるから、二人でゆっくりしていてくれ」[p]
 
 [voicestop]
 #yukito
 ≪え、ちょっと待っ…≫[p]
 
 #
-[fadeoutbgm time=2000]
+
 
 [chara_hide name="kouki"]
+
 [playse_dooropen_1]
 [playse_doorclose_1]
-;BGMフェードアウト
 
 #
 それだけ言い残して、父さんの姿は書斎の奥へと消えていく。[p]
@@ -218,7 +214,7 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 
 [voice2 vf2="mizuka/mizuka1-2_5.ogg"]
 #mizuka:egao
-「…えーと、名前は[ruby text = "ときわ"]常葉[ruby text = "みずか"]美寿花。希み野大学の1年生。」[p]
+「…えーと、名前は[ruby text = "ときわ"]常葉美[ruby text = "みずか"]寿花。希み野大学の1年生。」[p]
 
 [voicestop]
 #
@@ -233,6 +229,7 @@ _　ちょっと出てくるから、二人でゆっくりしていてくれ」[
 何故か、彼女の名前で引っかかる。[p]
 どこかで会ったのかとも思ったが…[r]
 俺の記憶に、こんな美人はいない。[p]
+[fadeoutbgm time=2000]
 俺の思い違いか…と、思っていると[p]
 
 [voice2 vf2="mizuka/mizuka1-2_6.ogg"]

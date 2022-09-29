@@ -1,6 +1,8 @@
 *start
 [startoption]
 
+
+
 ;背景 青空
 [bg storage="daysky.png" time="0"]
 
@@ -8,8 +10,6 @@
 
 ;修正後 メッセージウィンドウを表示するまでの時間が欲しい
 [wait time="2000"]
-
-
 
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
 #美寿花
@@ -112,6 +112,7 @@ _　誰が喋ってるの！？」[p]
 スマホを取り出し、その画面を美寿花に見せる。[p]
 
 [chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal" wait="true"]
+
 [voice2 vf2="laz/Laz2-2_3.ogg"]
 #ラズ
 「あなたが美寿花…ですね？」[p]
@@ -253,7 +254,6 @@ _　誰が喋ってるの！？」[p]
 
 ;効果音 能力発動音
 [playse_ability_on]
-
 #
 ふと、俺の肩に何かが触れる感覚。[p]
 

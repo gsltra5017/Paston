@@ -83,8 +83,10 @@
 
 ;[chara_show name="kouki" face="straight"]
 
+
 ;[reset_camera layer="base" time="1500" wait="false"]
 ;[reset_camera layer="0" time="1500"]
+
 
 [camera layer="base" zoom="1.05" x="0" y="0" time="1500" wait="false"]
 [camera layer="0" zoom="1.05" x="0" y="0" time="1500" wait="false"]
