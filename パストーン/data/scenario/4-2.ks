@@ -4,7 +4,6 @@
 [bg storage="myroom.png" time="0"]
 
 [afterjumpmaskNormal]
-;[jump target="*debug"]
 
 その翌日。[p]
 
@@ -68,12 +67,13 @@
 ;立ち絵表示なし
 [voicestop]
 
+
 #雪翔
 ≪‥‥‥≫[p]
 
-;修正前 ロズラズの表示位置（ロズラズ単体なので拡大版）
+;修正済み ロズラズの表示位置（ロズラズ単体なので拡大版）（添田）
 
-[chara_show name="RozLaz" top="10" face="laz_shinpai" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="laz_shinpai" wait="true" pos_mode="true"]
 [voice2 vf2="laz/laz4-2_2.ogg"]
 #ラズ
 「…ご主人様？」[p]
