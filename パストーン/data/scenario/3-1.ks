@@ -5,7 +5,7 @@
 
 [afterjumpmaskNormal]
 
-;修正前 vostopが全体についてない
+;修正済み（担当辻） vostopが全体についてない
 #
 2週間が経過した。[p]
 最初はドタバタしていた美寿花との同居生活も、[r]
@@ -51,11 +51,11 @@
 #雪翔
 ≪…なんだ、ロズか…どうした？≫[p]
 
-;修正前 ロズラズの表示位置の修正
-[chara_show name="RozLaz" top=-70 face="roz_shinpai"]
+;修正済み（担当辻） ロズラズの表示位置の修正
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_shinpai"]
 #ロズ
 [voice2 vf2="roz/Roz3-1_2.ogg"]
-「いや、全然気づいてへんっぽいから…」[p]
+「いや、全然気づいてへんみたいやから…」[p]
 ;表情 shinpai
 
 [chara_mod name="RozLaz" face="roz_neutral"]
@@ -87,11 +87,12 @@
 #
 美寿花とは基本的に受ける講義は同じなのだが、[r]
 選択科目では違う講義になることもしばしば。[p]
-[chara_hide name="RozLaz" time="500"]
+[chara_hide name="RozLaz" time="500" wait="false"]
 
-;修正前 背景変更（彩度低めのリビング？）
 
-[chara_show name="mizuka" top="20" face="shinpai_3"]
+;修正済み（担当辻） 背景変更（彩度低めのリビング？）
+[layopt layer="0" visible="true"]
+[image name="img" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-1/3-1living.png" time="1000"]
 #美寿花
 [voice2 vf2="mizuka/Mizuka3-1_1.ogg"]
 『一人で大丈夫？しらない人について行かないでよ？』[p]
@@ -99,7 +100,7 @@
 
 [voicestop]
 
-[chara_hide name="mizuka"]
+[free name="img" layer="0" time="500" wait="true"]
 
 #
 …と、美寿花に何だか子供みたいな心配をされたが…[p]
@@ -108,7 +109,7 @@
 （…まぁ、そもそも声を掛けられる知り合いすらいないからな…）[p]
 ≪助かったよ。ありがとう≫[p]
 
-[chara_show name="RozLaz" top="-70" face="roz_akire"]
+;[chara_show name="RozLaz" top="-70" face="roz_akire"]
 #ロズ
 [voice2 vf2="roz/Roz3-1_5.ogg"]
 「どういたしまして。はよ行かなどやされるで？」[p]
@@ -116,16 +117,22 @@
 
 [voicestop]
 
-;修正前 背景差し替え
-;背景 廊下
-[chara_hide name="RozLaz" time=500]
-[bg storage="rouka.jpg" time=1000]
-;☆
-
 #
 ロズは引っ込み、俺は言われた通り校門前に向かう。[p]
 
-[chara_show name="RozLaz" top=-70 face="laz_bow"]
+[bgchangemask]
+
+;修正前 背景差し替え
+;素材ができたら書き換え
+;背景 廊下
+[bg storage="rouka.jpg" time=1000]
+;☆
+
+
+[bgchangemask_off]
+
+
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="laz_bow"]
 #ラズ
 [voice2 vf2="laz/Laz3-1_1.ogg"]
 「あの…　一つ、よろしいでしょうか？」[p]
@@ -171,8 +178,7 @@
 
 [chara_mod name="RozLaz" face="rozlaz"]
 #ロズ＆ラズ
-[voice2 vf2="roz/Roz3-1_6.ogg"]
-[voice1 vf1="laz/Laz3-1_3.ogg"]
+[voice2 vf2="laz/Laz3-1_3.ogg"]
 「じゃれあったりなんかしてません！」[r]
 「じゃれあったりなんかしてへん！」[p]
 ;表情 ラズ＆ロズ okori ☆
@@ -204,7 +210,11 @@
 
 [chara_hide_all]
 
+[bgchangemask]
+
 ;修正前 背景変更、校門前（素材待ち）☆
+
+[bgchangemask_off]
 
 …と、[p]
 
@@ -320,6 +330,8 @@ _　てっきり一緒だと思ってたんですけど…」[p]
 「ありがとうございます…！」[p]
 ;表情 smile ☆
 
+[voicestop]
+
 #
 お礼を言ってから、う〜ん…と数秒の思考の末…[p]
 
@@ -327,6 +339,8 @@ _　てっきり一緒だと思ってたんですけど…」[p]
 [voice2 vf2="ayana/ayana3-1_10.ogg"]
 「…えっ…と…」[p]
 ;表情 もじもじ
+
+[voicestop]
 
 #
 …再び、沈黙。[p]
@@ -347,6 +361,8 @@ _　てっきり一緒だと思ってたんですけど…」[p]
 「…お姉ちゃんに？」[p]
 ;表情 kyoton
 
+[voicestop]
+
 #雪翔
 ≪美寿花と初めて会った時にも、同じような空気になって…[r]
 _　さっきみたいに無理やり喋ったり≫[p]
@@ -356,6 +372,8 @@ _　さっきみたいに無理やり喋ったり≫[p]
 「…ああ…そう…なんですね」[p]
 ;表情 後ろ暗い
 
+[voicestop]
+
 #雪翔
 ≪あと、焦るとちょっとだけ早口になるところも≫[p]
 
@@ -364,11 +382,15 @@ _　さっきみたいに無理やり喋ったり≫[p]
 「うぐっ…それは、自分でも心当たりが…」[p]
 ;表情 kushou
 
+[voicestop]
+
 #文永:ushirokurai
 [voice2 vf2="ayana/ayana3-1_14.ogg"]
 「…でも、そっか…私、似てるんだ…あの人と…」[p]
-;修正前 個々の表情別なのにしたい
+;修正済み（担当辻） ここの表情別なのにしたい
 ;表情 ？ みずかのことをどう思っているかによってかわる？☆
+
+[voicestop]
 
 #雪翔
 ≪…文永？≫[p]
@@ -382,6 +404,8 @@ _　さっきみたいに無理やり喋ったり≫[p]
 [voice2 vf2="ayana/ayana3-1_16.ogg"]
 「来週の木曜日ってどうするんですか？」[p]
 ;表情 kyoton
+
+[voicestop]
 
 #雪翔
 ≪木曜…？　…ああ、そういえば祝日だっけか≫[p]
@@ -401,6 +425,8 @@ _　もしかしたら美寿花に連れ出されるかもしれないけど…�
 「…いや、えーと…」[p]
 ;表情 kushou
 
+[voicestop]
+
 #
 …あれ？　俺なんか変なこと言っただろうか？[p]
 
@@ -408,6 +434,8 @@ _　もしかしたら美寿花に連れ出されるかもしれないけど…�
 [voice2 vf2="ayana/ayana3-1_18.ogg"]
 「…実は、来週の木曜日、お姉ちゃんの誕生日で…」[p]
 ;表情 もじもじ
+
+[voicestop]
 
 #雪翔
 ≪…ん？…あ、ああ！そういうことか！！≫[p]
@@ -424,6 +452,8 @@ _　もしかしたら美寿花に連れ出されるかもしれないけど…�
 こっちこそすいません！」[p]
 ;表情 慌て
 
+[voicestop]
+
 #
 …あ〜…でも誕生日か…どうしたものか…[p]
 お世話になっているから、何かしら贈りたいが…[r]
@@ -435,6 +465,8 @@ _　もしかしたら美寿花に連れ出されるかもしれないけど…�
 #
 [voice2 vf2="mizuka/mizuka3-1_2.ogg"]
 「ごめ〜ん！！遅れたぁぁ！！」[p]
+
+[voicestop]
 
 #雪翔＆文永
 ≪「っ！？」≫[p]
@@ -464,6 +496,8 @@ _　もしかしたら美寿花に連れ出されるかもしれないけど…�
 ほら、行くなら早く行こ。門限に間に合わないし」[p]
 ;表情 呆れ
 
+[voicestop]
+
 #雪翔
 ≪へぇ。門限とかあるんだ≫[p]
 
@@ -481,6 +515,8 @@ _　もしかしたら美寿花に連れ出されるかもしれないけど…�
 [voice2 vf2="mizuka/mizuka3-1_6.ogg"]
 「私はいいの。家出中だもん」[p]
 ;表情 egao_2
+
+[voicestop]
 
 #雪翔
 ≪胸を張って言うことじゃないだろそれ…≫[p]
