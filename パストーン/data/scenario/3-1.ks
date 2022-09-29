@@ -122,10 +122,10 @@
 
 [bgchangemask]
 
-;修正前 背景差し替え
+;修正済み（担当辻） 背景差し替え
 ;素材ができたら書き換え
 ;背景 廊下
-[bg storage="rouka.jpg" time=1000]
+[bg storage="rouka.png" time=1000]
 ;☆
 
 
@@ -381,8 +381,6 @@ _　さっきみたいに無理やり喋ったり≫[p]
 [voice2 vf2="ayana/ayana3-1_13.ogg"]
 「うぐっ…それは、自分でも心当たりが…」[p]
 ;表情 kushou
-
-[voicestop]
 
 #文永:ushirokurai
 [voice2 vf2="ayana/ayana3-1_14.ogg"]
