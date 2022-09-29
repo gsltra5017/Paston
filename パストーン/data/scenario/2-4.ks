@@ -8,6 +8,8 @@
 
 [afterjumpmaskNormal]
 
+;[jump target="*debug"]
+
 [voice1 vf1="mizuka/mizuka2-4_1.ogg"]
 #美寿花
 「さてさて、準備もできたことだし…あ、手洗ったよね？」[p]
@@ -206,10 +208,17 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 「‥‥‥」[p]
 ;表情 おねむ
 
+;*debug
+
 #雪翔
 ≪…美寿花？≫[p]
 
-;修正前 ロズラズの立ち絵を消して、美寿花だけをアップにする（背景も拡大）
+#
+
+;修正後（担当辻）ロズラズの立ち絵を消して、美寿花だけをアップにする（背景も拡大）
+[chara_hide name="RozLaz" time="500" wait="false"]
+[camera layer="base" x="0" y="0" zoom="1.25" time="3000" wait="false"]
+[camera layer="0" x="0" y="0" zoom="1.25" time="3000" wait="true"]
 
 [voice2 vf2="mizuka/mizuka2-4_9.ogg"]
 #美寿花:aseganizindaegao
@@ -234,7 +243,13 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 ≪…そうか、なら安心…≫[p]
 
 #
+
+;[chara_mod name="mizuka" face="tsukare"]
+
 トンッ[p]
+
+;[camera layer="0" x="0" y="50" zoom="1.5" time="3000"]
+
 ;修正前 美寿花の顔を更に拡大する
 ふと、肩に重みがかかる。[p]
 一瞬、また美寿花が手を置いたのかと思ったが…それにしては、なんだか大きいし丸みがあるような…[p]
