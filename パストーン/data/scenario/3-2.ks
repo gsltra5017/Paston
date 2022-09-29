@@ -48,14 +48,19 @@
 #
 一方、俺はまた別のことで頭を悩ませていた。[p]
 
+[bgchangemask]
+
 [chara_hide_all time="500"]
 
 ;背景 雪翔の自室
 [bg storage="myroom_night.png"]
 
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_kyoton" time="500"]
+
+[bgchangemask_off]
 ;修正済み（担当辻） ロズラズの表示位置 ☆
 ;修正前 BGMわからん ☆
-[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_kyoton" time="500"]
+
 #ロズ
 [voice2 vf2="roz/Roz3-2_1.ogg"]
 「なるほどなぁ〜。美寿花の誕生日…」[p]
