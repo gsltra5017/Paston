@@ -5,6 +5,7 @@
 
 [afterjumpmaskNormal]
 
+;修正前 vostopが全体についてない
 #
 2週間が経過した。[p]
 最初はドタバタしていた美寿花との同居生活も、[r]
@@ -17,6 +18,7 @@
 
 ;効果音 チャイム
 [playse_schoolchaimu]
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="70" ]
 
 #雪翔
 ≪…終わった…≫[p]
@@ -47,7 +49,8 @@
 #雪翔
 ≪…なんだ、ロズか…どうした？≫[p]
 
-[chara_show name="RozLaz" top=-70 face="roz_shinpai.png"]
+;修正前 ロズラズの表示位置の修正
+[chara_show name="RozLaz" top=-70 face="roz_shinpai"]
 #ロズ
 [voice2 vf2="roz/Roz3-1_2.ogg"]
 「いや、全然気づいてへんっぽいから…」[p]
@@ -80,6 +83,8 @@
 選択科目では違う講義になることもしばしば。[p]
 [chara_hide name="RozLaz" time="500"]
 
+;修正前 背景変更（彩度低めのリビング？）
+
 [chara_show name="mizuka" top="20" face="shinpai_3"]
 #美寿花
 [voice2 vf2="mizuka/Mizuka3-1_1.ogg"]
@@ -101,6 +106,7 @@
 「どういたしまして。はよ行かなどやされるで？」[p]
 ;表情 akire
 
+;修正前 背景差し替え
 ;背景 廊下
 [chara_hide name="RozLaz" time=500]
 [bg storage="rouka.jpg" time=1000]
@@ -112,7 +118,7 @@
 [chara_show name="RozLaz" top=-70 face="laz_bow"]
 #ラズ
 [voice2 vf2="laz/Laz3-1_1.ogg"]
-「あの…一つ、よろしいでしょうか？」[p]
+「あの…　一つ、よろしいでしょうか？」[p]
 ;表情 bow
 
 [chara_mod name="RozLaz" face="roz_ge"]
@@ -149,6 +155,7 @@
 
 [chara_config  talk_focus="none"]
 
+[chara_mod name="RozLaz" face="rozlaz"]
 #ロズ＆ラズ
 [voice2 vf2="roz/Roz3-1_6.ogg"]
 [voice1 vf1="laz/Laz3-1_3.ogg"]
@@ -156,12 +163,12 @@
 「じゃれあったりなんかしてへん！」[p]
 ;表情 ラズ＆ロズ okori ☆
 
-[chara_config  talk_focus="brightness"]
+;[chara_config  talk_focus="brightness"]
 
 #
 …毎回思うが、仲いいよなこいつら。[p]
 
-[chara_mod name="RozLaz" face="laz_bow"]
+[chara_mod name="RozLaz" face="laz_akire"]
 #ラズ
 [voice2 vf2="laz/Laz3-1_4.ogg"]
 「はぁ…ついさっきなんですが、私たちの更新が来ているそうなので、[r]
@@ -179,7 +186,7 @@
 
 [chara_hide_all]
 
-;背景 校門前（あるのかな…？）☆
+;修正前 背景変更、校門前（素材待ち）☆
 
 …と、[p]
 
@@ -201,9 +208,10 @@
 #
 …でも、彼女は高校生のはず…何で大学に？[p]
 
-#文永:worry
+#文永:shinpai
 [voice2 vf2="ayana/ayana3-1_2.ogg"]
-「あの…お姉ちゃん、いないんですか？てっきり一緒だと思ってたんですけど…」[p]
+「あの…お姉ちゃん、いないんですか？[r]
+_　てっきり一緒だと思ってたんですけど…」[p]
 ;表情 worry
 
 #雪翔
@@ -214,7 +222,7 @@
 
 #文永:tameiki
 [voice2 vf2="ayana/ayana3-1_3.ogg"]
-「…本当、すいません…うちの姉がいい加減で…」
+「…本当、すいません…うちの姉がいい加減で…」[p]
 ;表情 ぺこり?☆
 
 #
@@ -248,8 +256,7 @@
 ;表情 kushou
 
 #
-俺は話せないし、別に無理に会話する必要ないかと思っていたが、[r]
-どうやらそっちが耐えられなくなったらしい。[p]
+俺は話せないし、別に無理に会話する必要ないかと思っていたが、どうやらそっちが耐えられなくなったらしい。[p]
 
 #文永
 [voice2 vf2="ayana/ayana3-1_7.ogg"]
@@ -271,8 +278,7 @@
 ≪いや、別に…≫[p]
 
 #
-でも、交換するのは全然…というか、[r]
-むしろ話せる相手が増えるのは嬉しい。[p]
+でも、交換するのは全然…というか、むしろ話せる相手が増えるのは嬉しい。[p]
 頷き、さっそくアプリを起動させて、教えてもらったIDを打ち込む。[p]
 
 #文永:normal
@@ -283,13 +289,13 @@
 #
 お礼を言ってから、う〜ん…と数秒の思考の末…[p]
 
-#文永:moijmoji
+#文永:mojimoji
 [voice2 vf2="ayana/ayana3-1_10.ogg"]
 「…えっ…と…」[p]
 ;表情 もじもじ
 
 #
-…再び、沈黙。
+…再び、沈黙。[p]
 
 #雪翔
 ≪…典型的な喋り下手だな、この子…≫[p]
@@ -309,7 +315,7 @@
 
 #雪翔
 ≪美寿花と初めて会った時にも、同じような空気になって…[r]
-さっきみたいに無理やり喋ったり≫[p]
+_　さっきみたいに無理やり喋ったり≫[p]
 
 #文永:ushirokurai
 [voice2 vf2="ayana/ayana3-1_12.ogg"]
@@ -324,9 +330,10 @@
 「うぐっ…それは、自分でも心当たりが…」[p]
 ;表情 kushou
 
-#文永
+#文永:ushirokurai
 [voice2 vf2="ayana/ayana3-1_14.ogg"]
 「…でも、そっか…私、似てるんだ…あの人と…」[p]
+;修正前 個々の表情別なのにしたい
 ;表情 ？ みずかのことをどう思っているかによってかわる？☆
 
 #雪翔
@@ -343,14 +350,14 @@
 ;表情 kyoton
 
 #雪翔
-≪木曜…？…ああ、そういえば祝日だっけか≫[p]
+≪木曜…？　…ああ、そういえば祝日だっけか≫[p]
 
 #
 少しだけ考えてから俺は答える。[p]
 
 #雪翔
 ≪休みって言っても、特にすることはないな…[r]
-もしかしたら美寿花に連れ出されるかもしれないけど…≫[p]
+_　もしかしたら美寿花に連れ出されるかもしれないけど…≫[p]
 
 #
 俺の送った文を見ると、何故か文永の顔に？が浮かぶ。[p]
@@ -361,7 +368,7 @@
 ;表情 kushou
 
 #
-…あれ？俺なんか変なこと言っただろうか？
+…あれ？　俺なんか変なこと言っただろうか？[p]
 
 #文永:mojimoji
 [voice2 vf2="ayana/ayana3-1_18.ogg"]
@@ -389,10 +396,10 @@
 人へのプレゼントを贈った経験が親しかない…イメージが湧かない…[p]
 
 #雪翔
-≪…文永は…≫[cm]
+≪…文永は…≫[p]
 
 #
-[voice2 vf2="mizuka/mizuka3-1_1.ogg"]
+[voice2 vf2="mizuka/mizuka3-1_2.ogg"]
 「ごめ〜ん！！遅れたぁぁ！！」[p]
 
 #雪翔＆文永
@@ -403,7 +410,7 @@
 
 [chara_show name="mizuka" top="20" face="tsukare"]
 #美寿花
-[voice2 vf2="mizuka/mizuka3-1_2.ogg"]
+[voice2 vf2="mizuka/mizuka3-1_3.ogg"]
 「はぁ…はぁ…ごめん。お待たせ…先生に捕まっちゃって…」[p]
 ;表情 疲労
 
@@ -413,7 +420,7 @@
 ;表情 kushou
 
 #美寿花:kitai
-[voice2 vf2="mizuka/mizuka3-1_3.ogg"]
+[voice2 vf2="mizuka/mizuka3-1_4.ogg"]
 「そうだね。もう一回歌いたいなぁ～って思って…」[p]
 ;表情 期待のまなざし？
 
@@ -427,7 +434,7 @@
 ≪へぇ。門限とかあるんだ≫[p]
 
 #美寿花:kushou
-[voice2 vf2="mizuka/mizuka3-1_4.ogg"]
+[voice2 vf2="mizuka/mizuka3-1_5.ogg"]
 「相変わらず厳しいね…」[p]
 ;表情 kushou
 
@@ -437,7 +444,7 @@
 ;表情 kyoton
 
 #美寿花:egao_2
-[voice2 vf2="mizuka/mizuka3-1_5.ogg"]
+[voice2 vf2="mizuka/mizuka3-1_6.ogg"]
 「私はいいの。家出中だもん」[p]
 ;表情 egao_2
 
@@ -446,5 +453,7 @@
 
 そんなこと言い合いながら、[r]
 俺たち3人はカラオケへと向かった。[p]
+
+[fadeoutbgm time=2000]
 
 [scenejumpNormal sc="3-2.ks"]
