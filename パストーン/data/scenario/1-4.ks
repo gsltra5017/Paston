@@ -28,10 +28,8 @@
 （…俺なんか自炊自体滅多にしないからな…）[p]
 
 #
-気まぐれで時々することもあるが、[r]
-面倒なので弁当で済ましてしまうことがほとんど。[p]
-なので、久しぶりに食べた人の手料理のおいしさに、[r]
-衝撃を覚えるほどである。[p]
+気まぐれで時々することもあるが、面倒なので弁当で済ましてしまうことがほとんど。[p]
+なので、久しぶりに食べた人の手料理のおいしさに、衝撃を覚えるほどである。[p]
 父さんの料理もどきを食べた後なので尚更だ。[p]
 
 #雪翔
@@ -65,8 +63,9 @@
 背後から声を掛けられ、反射的に振り向く。[p]
 
 ;BGM（美寿花のテーマ）
-;美寿花立ち絵表示 きょとん顔
+[playbgm storage="mizuka.ogg" volume="70" ]
 
+;美寿花立ち絵表示 きょとん顔
 [chara_show name="mizuka" top="-20" width="1041" height="1472" storage="chara/mizuka/r_egao.png" wait="true"]
 
 [voice2 vf2="mizuka/mizuka1-4_2.ogg"]
@@ -79,8 +78,7 @@
 ≪…み、美寿花か…≫[p]
 
 #
-よく考えれば、[r]
-この家にいるのは俺以外にこの人しかいないのだから、当然である。[p]
+よく考えれば、この家にいるのは俺以外にこの人しかいないのだから、当然である。[p]
 だが、問題はその恰好。[p]
 風呂上りなのか、上は薄いＴシャツ一枚で中々目のやり場に困る。[p]
 
@@ -115,8 +113,7 @@ _　少年君、あんまりこういう創作系のことする感じに思え�
 
 [voice2 vf2="mizuka/mizuka1-4_5.ogg"]
 #美寿花:r_egao
-「やった！[r]
-_　じゃあ、ちょっと失礼しまーす」[p]
+「やった！　じゃあ、ちょっと失礼しまーす」[p]
 ;表情　egao
 
 [voicestop]
@@ -165,12 +162,11 @@ _　じゃあ、ちょっと失礼しまーす」[p]
 文字の羅列が打ち込まれてある。[p]
 #雪翔
 （…し、しまった…）[p]
-作曲画面を見られるのはまだいいが、[r]
-流石に歌詞まで見られるのは恥ずかしすぎる…[p]
+作曲画面を見られるのはまだいいが、流石に歌詞まで見られるのは恥ずかしすぎる…[p]
 
 [voice2 vf2="mizuka/mizuka1-4_8.ogg"]
 #美寿花
-「これも自分で書いたの？すごい…」[p]
+「これも自分で書いたの？　すごい…」[p]
 ;表情　きょとん
 
 #雪翔
@@ -221,7 +217,7 @@ _　じゃあ、ちょっと失礼しまーす」[p]
 ≪…なん、で…？≫[p]
 
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4笑顔.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4微笑.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 [voice2 vf2="mizuka/mizuka1-4_11.ogg"]
@@ -298,7 +294,7 @@ _　じゃあ、ちょっと失礼しまーす」[p]
 ≪…俺、の…≫[p]
 
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4きょとん.png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/1-4/1-4微笑.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 [voice2 vf2="mizuka/mizuka1-4_18.ogg"]
@@ -392,9 +388,10 @@ _　さっきの歌詞、すっごいよかったし」[p]
 [chara_hide_all time=1000 wait="false"]
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
-[trans layer="0" time="500" method="fadeIn"]
+[fadeoutbgm time=2000]
+[trans layer="0" time="4000" method="fadeIn"]
 [wt]
-[wait time="4000"]
+[wait time="1000"]
 ;修正後 ここに待ち時間を設定してほしい
 ;背景 黒
 [voice2 vf2="roz/roz1-4_1.ogg"]
@@ -412,6 +409,10 @@ _　さっきの歌詞、すっごいよかったし」[p]
 [voice2 vf2="laz/laz1-4_2.ogg"]
 #ラズ
 「…完全に、忘れられてますわね…」[p]
+
+;修正済み（担当辻） メッセージボックスがフェードアウトしてほしい（黒を上からフェードインすれば行ける？）
+#
+;@layopt layer="message0" visible="false"
 
 [voicestop]
 

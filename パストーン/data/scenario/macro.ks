@@ -15,7 +15,7 @@
 [endmacro]
 
 [macro name="scenejumpNormal"]
-    [mask time="800" effect="slideInRight" wait="true"]
+    [mask time="800" effect="slideInLeft" wait="true"]
 
 	[stopse]
 	[resetdelay]
@@ -28,7 +28,7 @@
 [endmacro]
 
 [macro name="afterjumpmaskNormal"]
-    [mask_off effect="slideOutLeft" time="800"]
+    [mask_off effect="slideOutRight" time="800"]
 [endmacro]
 
 ;ボイスのマクロを作成3
@@ -151,7 +151,7 @@
 [endmacro]
 
 [macro name="playse_click_1"]
-	[playse storage="se/click_1.mp3" loop="false" volume="80"]
+	[playse storage="se/click_1.ogg" loop="true" volume="80"]
 	[wse]
 [endmacro]
 
