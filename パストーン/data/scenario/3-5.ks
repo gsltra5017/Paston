@@ -355,7 +355,7 @@
 「あ、危なかった…ごめん。咄嗟の事で…」[p]
 「…雪翔君？」[p]
 
-[bg storage="makkuro.jpg"]
+[bg storage="makkuro.jpg" time="5000"]
 
 #
 聞こえるのは、美寿花の不安そうな声。[p]
@@ -374,6 +374,6 @@
 
 ;背景　黒
 
-[bg storage="black.png" time="0"]
+[bg storage="makkuro.jpg" time="0"]
 
 [scenejumpNormal sc="4-1.ks"]
