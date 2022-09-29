@@ -87,6 +87,7 @@
 #
 美寿花とは基本的に受ける講義は同じなのだが、[r]
 選択科目では違う講義になることもしばしば。[p]
+[chara_hide name="RozLaz" time="500" wait="false"]
 
 
 ;修正済み（担当辻） 背景変更（彩度低めのリビング？）
@@ -380,6 +381,8 @@ _　さっきみたいに無理やり喋ったり≫[p]
 [voice2 vf2="ayana/ayana3-1_13.ogg"]
 「うぐっ…それは、自分でも心当たりが…」[p]
 ;表情 kushou
+
+[voicestop]
 
 #文永:ushirokurai
 [voice2 vf2="ayana/ayana3-1_14.ogg"]
