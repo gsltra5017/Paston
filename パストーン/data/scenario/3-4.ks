@@ -15,7 +15,7 @@
 
 [bg storage="penguin.png"]
 
-;修正前 美寿花のボイス ☆
+;修正前 美寿花の立ち絵をぴょんぴょんさせる ☆
 [voice1 vf1="mizuka/mizuka3-4_1.ogg"]
 [chara_show name="mizuka" face="×" top="20" time="300"]
 #美寿花
