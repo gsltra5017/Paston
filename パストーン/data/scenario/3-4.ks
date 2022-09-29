@@ -6,6 +6,8 @@
 
 [afterjumpmaskNormal]
 
+;[jump target="*debug"]
+
 #
 そして、ついに迎えた木曜日。[p]
 
@@ -162,6 +164,7 @@ _　父さんと母さんの三人で行ったんだ≫[p]
 
 [voicestop]
 
+
 #雪翔
 ≪いや、もう5年も経ったし、流石に立ち直ってるよ。[r]
 _　…母さんのことは、仕方ない≫[p]
@@ -173,10 +176,19 @@ _　…母さんのことは、仕方ない≫[p]
 
 [voicestop]
 
-;修正前 優先度中 薄く黒を上に乗せる
+;修正済み（担当辻） 優先度中 薄く黒を上に乗せる
 #
-[layopt layer="0" visible="true"]
-[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/makkuro.jpg" time="1000"]
+
+[layermode graphic="makkuro.jpg" folder="bgimage" opacity="155" time="500"]
+
+;[layopt layer="0" visible="false"]
+;[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/makkuro.jpg" time="0" wait="false"]
+;[filter opacity="60" name="makkuro" time="0"]
+;[layopt layer="0" visible="true" time="100000"]
+;[filter opacity="60" name="makkuro" time="500"]
+
+
+
 
 #
 …本当に？[p]
