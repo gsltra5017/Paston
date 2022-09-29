@@ -93,7 +93,6 @@
 [chara_face name="kouki" face="normal" storage="chara/kouki/normal.png"]
 [chara_face name="kouki" face="shinpai" storage="chara/kouki/shinpai.png"]
 [chara_face name="kouki" face="straight" storage="chara/kouki/straight.png"]
-
 [chara_face name="ayana" face="akire" storage="chara/ayana/akire.png"]
 [chara_face name="ayana" face="akire_2" storage="chara/ayana/akire_2.png"]
 [chara_face name="ayana" face="awate" storage="chara/ayana/awate.png"]
@@ -124,6 +123,15 @@
 [chara_face name="ayana" face="kenno" storage="chara/ayana/kenno.png"]
 [chara_face name="ayana" face="kenno_2" storage="chara/ayana/kenno_2.png"]
 [chara_face name="ayana" face="kanashimi_3" storage="chara/ayana/kanashimi_3.png"]
+[chara_face name="ayana" face="shinken_2" storage="chara/ayana/shinken_2.png"]
+[chara_face name="ayana" face="naki" storage="chara/ayana/naki.png"]
+[chara_face name="ayana" face="naki_2" storage="chara/ayana/naki_2.png"]
+[chara_face name="ayana" face="kuyashinaki" storage="chara/ayana/kuyashinaki.png"]
+[chara_face name="ayana" face="uttae" storage="chara/ayana/uttae.png"]
+[chara_face name="ayana" face="uttae_2" storage="chara/ayana/uttae_2.png"]
+[chara_face name="ayana" face="nakikushou" storage="chara/ayana/nakikushou.png"]
+[chara_face name="ayana" face="hikan" storage="chara/ayana/hikan.png"]
+[chara_face name="ayana" face="hisshi" storage="chara/ayana/hisshi.png"]
 
 
 [chara_face name="RozLaz" face="laz_akire" storage="chara/RozLaz/laz_akire.png"]
