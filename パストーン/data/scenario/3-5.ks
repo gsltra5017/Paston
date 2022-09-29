@@ -8,6 +8,7 @@
 
 [afterjumpmaskNormal]
 
+
 ;修正前 優先度高 BGM、ポジティブで落ち着いた曲（最悪Bonyari_Hitsujiもあり）
 
 [voice1 vf1="mizuka/mizuka3-5_1.ogg"]
@@ -333,7 +334,7 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 ;[bg storage="black.png" time="0"]
 
 [layopt layer="0" visible="true"]
-[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/baiten_past.png" time="1000"]
+[image name="past" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/past.png" time="1000"]
 
 
 [voice2 vf2="mizuka/mizuka3-5_27.ogg"]
@@ -344,7 +345,7 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 #
 [bg storage="road_evening.png" time="0" wait="false"]
 
-[free name="img" layer="0" time="500"]
+[free name="past" layer="0" time="500"]
 
 #yukito
 ≪…ッァ…クッソ…≫[p]
@@ -403,7 +404,7 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 [chara_hide_all time="200" ]
 
-;修正前 優先度中 美寿花の立ち絵を顔アップで表示する？
+;修正前 優先度中 美寿花の立ち絵を顔アップで表示する？いったん消えるのはそのままで
 
 #yukito
 ≪…ぇ…≫[p]
@@ -425,7 +426,7 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 そう言って、俺の頭を撫でる。[p]
 …また子供扱いか…[p]
 いつもの俺なら、そう思って抜け出そうとするんだが…[p]
-……[r]
+……[p]
 そうは、したくなかった。[p]
 
 #yukito
@@ -446,7 +447,7 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 [voice2 vf2="mizuka/mizuka3-5_34.ogg"]
 #mizuka
-「辛いことがあっても、一緒に背負ってあげる。私は君の声…君の一部なんだから」[p]
+「辛いことがあっても、一緒に背負ってあげる。[r]　私は君の声…君の一部なんだから」[p]
 
 [voicestop]
 
@@ -470,40 +471,48 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 …俺は、美寿花のことを…[p]
 
 [voice2 vf2="mizuka/mizuka3-5_36.ogg"]
-#mizuka
-「…雪翔君！後ろ！」[p]
+#mizuka:odoroki
+「…雪翔君！後ろ！危ない！」[p]
 
 [voicestop]
 
+;修正前 優先度高 画面を揺らす
 #yukito
 ≪ッ！？≫[p]
-
-;効果音　ブレーキ音
-
 #
+[playse_car]
+
+
 その瞬間、美寿花に腕を引かれ、そのまま姿勢を崩しかける。[p]
 
 [voice2 vf2="mizuka/mizuka3-5_37.ogg"]
-#mizuka
+#mizuka:kushou
 「あ、危なかった…ごめん。咄嗟の事で…」[p]
 
 [voicestop]
 
 [voice2 vf2="mizuka/mizuka3-5_38.ogg"]
-#mizuka
+#mizuka:shinpai
 「…雪翔君？」[p]
 
 [voicestop]
-
+#
 [bg storage="makkuro.jpg"]
 
-#
+
 聞こえるのは、美寿花の不安そうな声。[p]
 でも、それだけ。[r]
 他は何も…聞こえない。[p]
 
+[layopt layer="0" visible="true"]
+[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-1/cg.png" time="500"]
+[chara_hide_all time="0" ]
+
 #
 ──危ない！後ろ！！[p]
+
+[free name="makkuro" layer="0" time="500"]
+[bg storage="makkuro.jpg" time="500" ]
 
 #yukito
 ≪…ぁ…≫[p]
