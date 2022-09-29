@@ -51,7 +51,7 @@
 
 [voice2 vf2="mizuka/mizuka3-4_3.ogg"]
 #美寿花:kyoton
-「ん？どうしたの？」[p]
+「ん？　どうしたの？」[p]
 ;kyoton
 
 [voicestop]
@@ -72,7 +72,7 @@
 
 [voice2 vf2="mizuka/mizuka3-4_5.ogg"]
 #美寿花:egao
-「これから色んなところ回るんだから。もしはぐれちゃったら大変でしょ？」[p]
+「これから色んなところ回るんだから。[r]　もしはぐれちゃったら大変でしょ？」[p]
 ;egao
 
 [voicestop]
@@ -83,7 +83,7 @@
 
 [voice2 vf2="mizuka/mizuka3-4_6.ogg"]
 #美寿花:itazura
-「あ、何？もしかして…恥ずかしいの？少年君」[p]
+「あ、何？　もしかして…恥ずかしいの？　少年君～」[p]
 ;ニヤリ
 
 [voicestop]
@@ -124,7 +124,7 @@
 
 [voice2 vf2="mizuka/mizuka3-4_9.ogg"]
 #美寿花:kangae
-「大体水族館って暗いイメージあるよねぇ…何でだろ？海も同じくらいの暗さだからかな？」[p]
+「大体水族館って暗いイメージあるよねぇ…何でだろ？[r]　海も同じくらいの暗さだからかな？」[p]
 ;kangae
 
 [voicestop]
@@ -141,7 +141,7 @@
 
 #雪翔
 ≪一応、あるけど…最後に行ったの、小学生ぐらいかな…[r]
-父さんと母さんの三人で行ったんだ≫[p]
+_　父さんと母さんの三人で行ったんだ≫[p]
 
 [voice2 vf2="mizuka/mizuka3-4_11.ogg"]
 #美寿花:straight
@@ -162,7 +162,7 @@
 
 #雪翔
 ≪いや、もう5年も経ったし、流石に立ち直ってるよ。[r]
-…母さんのことは、仕方ない≫[p]
+_　…母さんのことは、仕方ない≫[p]
 
 [voice2 vf2="mizuka/mizuka3-4_13.ogg"]
 #美寿花:shinpai
@@ -171,6 +171,7 @@
 
 [voicestop]
 
+;修正前 優先度中 薄く黒を上に乗せる
 #
 [layopt layer="0" visible="true"]
 [image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/makkuro.jpg" time="1000"]
@@ -209,14 +210,16 @@
 ≪…？≫[p]
 
 #
-;[layopt layer="0" visible="true"]
-;[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/makkuro.jpg" time="1000"]
 
-#？
---そんな暗い顔してたら、仲直りできるものも出来ないよ！リラックスリラックス！[p]
+[layopt layer="0" visible="true"]
+[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/aquarium_past.png" time="1000"]
 
-;[bg storage="aquarium.png" time="0"]
-;[free name="makkuro" layer="0" time="500"]
+#？？？
+--そんな暗い顔してたら、仲直りできるものも出来ないよ！[r]
+リラックスリラックス！[p]
+
+[bg storage="aquarium.png" time="0"]
+[free name="makkuro" layer="0" time="500"]
 
 #
 既視感。[p]
@@ -241,7 +244,7 @@
 [voice2 vf2="mizuka/mizuka3-4_17.ogg"]
 #美寿花:kyoton
 「…んん〜？何で今私を…って、お？」[p]
-
+[chara_mod name="mizuka" face="kyoton" cross="false" ]
 [voicestop]
 
 #
@@ -250,7 +253,7 @@
 カワウソの公開トレーニング、[r]アザラシの餌やりイベント。…そして[p]
 
 [voice2 vf2="mizuka/mizuka3-4_18.ogg"]
-#美寿花:kyoton
+#美寿花:odoroki_3
 「イルカのショー…」[p]
 
 [voicestop]
@@ -263,13 +266,13 @@
 
 [voice2 vf2="mizuka/mizuka3-4_19.ogg"]
 #美寿花:egao
-「うん！行きたい！…って、さっきから私の要望ばっかりじゃん。いいの？」[p]
+「うん！行きたい！[r]　…って、さっきから私の要望ばっかりじゃん。いいの？」[p]
 ;表情
 
 [voicestop]
 
 #雪翔
-≪いや、忘れてるかもしれないけど。君の誕生日のプレゼントだからね？ここに来たの≫[p]
+≪いや、忘れてるかもしれないけど。[r]　君の誕生日のプレゼントだからね？　ここに来たの≫[p]
 
 [voice2 vf2="mizuka/mizuka3-4_20.ogg"]
 #美寿花:aseganizindaegao
@@ -291,16 +294,19 @@
 [bgchangemask]
 
 [bg storage="makkuro.jpg" ]
-[chara_hide_all]
+[chara_hide_all time="0"]
 
 [bgchangemask_off]
 
 [voice2 vf2="others/other3-4_1.ogg"]
 #飼育員
-「皆様、大変長らくお待たせいたしました！この水族館名物のイルカショー、[r]
-まずはイルカ達の紹介をさせていただきます！」[p]
+「皆様、大変長らくお待たせいたしました！この水族館名物のイルカショ[r]　ー、まずはイルカ達の紹介をさせていただきます！」[p]
 
 [voicestop]
+
+[playbgm storage="nc282335.mp3" volume="70"]
+
+#
 
 ;一枚絵 （イルカショー）
 [layopt layer="0" visible="true"]
@@ -340,7 +346,7 @@
 [wt]
 [voice2 vf2="mizuka/mizuka3-4_23.ogg"]
 #美寿花
-「おお〜！！テレビで見たのも凄かったけど、やっぱり生で見ると迫力があるね！」[p]
+「おお〜！！[r]　テレビで見たのも凄かったけど、やっぱり生で見ると迫力があるね！」[p]
 ;表情 手を前に振り上げてワクワクしてる感じのやつ（顔はキラキラ目と同じでいいと思う）
 
 [voicestop]
@@ -350,7 +356,7 @@
 
 [voice2 vf2="others/other3-4_2.ogg"]
 #飼育員
-「では、紹介も終わったところで、今度は少し難しい技にもチャレンジしてみましょう！」[p]
+「では、紹介も終わったところで、今度は少し難しい技にもチャレンジして[r]　みましょう！」[p]
 
 [voicestop]
 
@@ -390,8 +396,8 @@
 
 [voice2 vf2="others/other3-4_3.ogg"]
 #飼育員
-「さぁ、最後はあの上空にあるボールに皆がジャンプします！届いたら盛大な拍手を！」[p]
-
+「さぁ、最後はあの上空にあるボールに皆がジャンプします！[r]　届いたら盛大な拍手を！」[p]
+#
 [voicestop]
 
 [backlay layer="0"]
@@ -420,10 +426,12 @@
 
 [voicestop]
 
+;修正前 優先度中 歓声（お～みたいなやつか拍手）の効果音追加
 #
 美寿花の声と観客の歓声が重なる。[p]
 そのまま、大ジャンプを決めたイルカたちは着水する…その時だった。[p]
 
+;修正前 優先度中 水しぶきの効果音追加
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-4/white.jpg"]
 [trans layer="0" time="0" method="fadeIn"]
@@ -465,7 +473,7 @@
 
 #雪翔
 ≪‥‥‥[r]
-！？！？！？！？！？！？≫[p]
+_　！？！？！？！？！？！？≫[p]
 
 #
 状況を理解する。[p]
@@ -477,7 +485,7 @@
 [wt]
 [voice2 vf2="mizuka/mizuka3-4_30.ogg"]
 #美寿花
-「ねぇねぇ！見た！？ちゃんと全員届いてたよね！！」[p]
+「ねぇねぇ！見た！？　ちゃんと全員届いてたよね！！」[p]
 ;表情 手を前
 
 [voicestop]
@@ -496,16 +504,16 @@
 [wt]
 [voice2 vf2="mizuka/mizuka3-4_31.ogg"]
 #美寿花
-「…ん？どうしたの？なんか顔赤いけど…」[p]
+「…ん？　どうしたの？　なんか顔赤いけど…」[p]
 ;表情 雪翔君の方を見る きょとん顔？
 
 [voicestop]
 
 #雪翔
-≪へっ！？あ、いやっ！別に何でもないけど！？≫[p]
+≪へっ！？　あ、いやっ！　別に何でもないけど！？≫[p]
 
 #
-ダメだこっち見るな！視線が！どうしてもそっちに行ってしまう！[p]
+ダメだこっち見るな！[r]視線が！どうしてもそっちに行ってしまう！[p]
 
 [voice2 vf2="mizuka/mizuka3-4_32.ogg"]
 #美寿花
@@ -518,7 +526,7 @@
 
 [voice2 vf2="mizuka/mizuka3-4_33.ogg"]
 #美寿花
-「そう？それならいいんだけど…というか、さっきからどこ見て…」[p]
+「そう？　それならいいんだけど…というか、さっきからどこ見て…」[p]
 ;表情 雪翔君の方を見る きょとん顔？
 
 [voicestop]

@@ -4,7 +4,7 @@
 ;背景　売店
 [bg storage="baiten.png"]
 
-[chara_show name="mizuka" face="doya" top="20" time="500"]
+[chara_show name="mizuka" face="egao_2" top="20" time="0"]
 
 [afterjumpmaskNormal]
 
