@@ -11,7 +11,9 @@
 8月31日、夏休み最後の日という事で一部の学生は憂鬱な気分に包まれることだろう。[p]
 #雪翔
 （…まぁ、俺にはあまり関係ないけど。）[p]
+#
 というわけで、今日も変わらず作業する…はずだったのだが、[p]
+
 
 ;雪翔の部屋
 [bgchangemask]
@@ -20,11 +22,12 @@
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
 
 [bgchangemask_off]
+
 ;マウスの音
 ;タイピング音で代用中
-[voice1 vf1="se/typing_1.ogg"]
-[wait time="2000"]
-[stopse]
+;修正前 マウスクリックの音に変える
+[playbgm storage="click_1.ogg" volume="80" ]
+
 
 [voicestop]
 
@@ -43,25 +46,29 @@
 #美寿花:r_kangae_2
 「‥‥‥‥‥‥」[p]
 ;表情 関心→r_kangae_2
-;素材きたら
 
 #雪翔
 ≪‥‥‥‥‥‥≫[p]
 
+[fadeoutbgm time=500]
+
 #
 …なんだこの空間。[p]
-俺はパソコンに向かって作業中。もちろん、日課である楽曲制作だ。[p]
+俺はパソコンに向かって作業中。[r]
+もちろん、日課である楽曲制作だ。[p]
 一方、美寿花はその様子をジッと観察している。[p]
 #雪翔
 （…落ち着かない…）[p]
 #
 そうはいっても、かれこれ数時間はこの状態。[p]
 
-;いすが軋む音
-;[voice2 vf2="se/椅子"]
+;修正前　いすが軋む音
+[playse_chair]
 
 #
 流石に休憩入れるか…と立ち上がる。[p]
+
+[playbgm storage="Asa_no_otozure.mp3" volume="30" ]
 
 [voice2 vf2="mizuka/mizuka2-1_1.ogg"]
 #美寿花:r_kyoton
@@ -69,6 +76,7 @@
 ;表情 きょとん
 
 [voicestop]
+[chara_mod name="mizuka" face="r_bishou" cross="false"] 
 #
 そう言いながら、やっぱり同じ体勢じゃ辛かったのか、[r]
 大きく伸びをして僕の肩に手を伸ばす。[p]
@@ -86,7 +94,7 @@
 ;能力発動音
 [playse_ability_on]
 [voice2 vf2="mizuka/mizuka2-1_2.ogg"]
-#美寿花:r_kangae
+#美寿花:r_kangae_2
 「さっきの部分、結構時間かかってたね。どうしたの？」[p]
 ;表情 考え
 
@@ -97,7 +105,7 @@
 
 [voice2 vf2="mizuka/mizuka2-1_3.ogg"]
 #美寿花:r_kyoton
-「暇だったからかな？」[p]
+「ん～…暇だった…からかな？」[p]
 ;表情 きょとん
 
 [voicestop]
@@ -135,17 +143,18 @@
 [voicestop]
 ;ドアを開ける音
 ;修正済み 音量を下げる
-[voice2 vf2="se/dooropen_1.ogg"]
+[playse_dooropen_1]
 ;リビング
 
 [bgchangemask]
 
 [bg storage="living.png" time="0"]
+[chara_mod name="mizuka" face="r_kyoton"]
 
 [bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-1_6.ogg"]
-#美寿花:r_kyoton
+#美寿花
 「あれ、どこ行くの？」[p]
 ;表情 きょとん
 
@@ -198,7 +207,8 @@
 
 [voice2 vf2="mizuka/mizuka2-1_10.ogg"]
 #美寿花:r_jitome
-「…いや、変な意地張ってないで素直に来なよ。私も相手の声聞けた方が話しやすいし」[p]
+「…いや、変な意地張ってないで素直に来なよ。[r]
+_　私も相手の声聞けた方が話しやすいし」[p]
 ;表情 ジト目
 
 [voicestop]
@@ -228,7 +238,7 @@
 「……」[p]
 ;表情　kyoton
 
-;間抜けな音
+;修正前　間抜けな音
 ;[voice2 vf2=""]
 ;[playse storage=se/間抜け loop=false]
 
@@ -254,7 +264,11 @@
 
 [voicestop]
 #
-そこまで言って、あ、と何か閃いたように目が輝きだす。[p]
+そこまで言って、あ、
+[chara_mod name="mizuka" face="r_harikiri" time="500" wait="false" cross="false" ]
+と何か閃いたように目が輝きだす。[p]
+
+
 同時に、そこはかとなく嫌な予感。[p]
 
 [voice2 vf2="mizuka/mizuka2-1_15.ogg"]
@@ -270,7 +284,7 @@
 
 [voice2 vf2="mizuka/mizuka2-1_16.ogg"]
 #美寿花:r_kangae
-「それはどうかな？多分、雪翔君の目標の一歩にはなると思うよ？」[p]
+「それはどうかな？　多分、雪翔君の目標の一歩にはなると思うよ？」[p]
 ;表情 考え
 
 [voicestop]
@@ -283,7 +297,7 @@
 ;表情 驚き2 あとで２にする
 
 [voice2 vf2="mizuka/mizuka2-1_18.ogg"]
-#美寿花:r_odoroki_2
+#美寿花:r_kangae_2
 「雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
 ;表情 驚き2 あとで２にする
 
@@ -310,7 +324,7 @@
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_21.ogg"]
 #美寿花:r_bishou
-「それでも、行ってみない？学校。」[p]
+「それでも、行ってみない？ 学校。」[p]
 ;表情 優しい笑み
 
 [voicestop]
@@ -326,7 +340,7 @@
 [voice2 vf2="mizuka/mizuka2-1_23.ogg"]
 #美寿花:r_odoroki
 「…ってもうこんな時間！？[r]
-作業ちょっとだけ見たら買い物しようと思ってたのに…」[p]
+_　作業ちょっとだけ見たら買い物しようと思ってたのに…」[p]
 ;表情 驚き
 
 [voicestop]
@@ -348,21 +362,23 @@
 #美寿花
 「待ってて！ちょっと色々買ってくるから！」[p]
 ;表情 慌て
+
 #
 [chara_hide name="mizuka" time="2000"]
 
 [voicestop]
 
 ;玄関のドアが開く音
-[voice2 vf2="se/dooropen_1.ogg"]
+[playse_dooropen_1]
 
 [wait time="1000"]
 
 ;玄関のドアが閉まる音
-[voice2 vf2="se/doorclose_1.ogg"]
+[playse_doorclose_1]
 
 #
 …行ってしまった。[p]
+
 #雪翔
 ≪‥‥‥≫[p]
 
@@ -370,14 +386,16 @@
 …作業、戻るか。[p]
 ここで待っていても仕方ないので、自分の部屋に戻る。[p]
 
-[mask effect="fadeInRightBig" time="1000"]
+[fadeoutbgm time=2000]
 
+[bgchangemask]
+
+;雪翔の部屋
 [bg storage="myroom.png" time=0]
 ;部屋のドアを閉める音
 [voice2 vf2="se/doorclose_1.ogg"]
 
-[mask_off ]
-;雪翔の部屋
+[bgchangemask_off]
 
 #雪翔
 ≪…大学…か≫[p]
@@ -413,7 +431,7 @@
 #雪翔
 ≪…ロズか≫[p]
 
-[chara_show name="RozLaz" top="-16" face="roz_neutral" wait="true"]
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_neutral" wait="true"]
 
 #
 まぁ、勿論ラズもいるんだろうが。[p]
@@ -473,11 +491,11 @@
 
 [voice2 vf2="roz/Roz2-1_5.ogg"]
 #ロズ
-「せや。まだマスターは決めてへんけど…まぁ、多分時間の問題やろな。」[p]
+「せや。まだマスターは決めてないけど…まぁ、多分時間の問題やろな。」[p]
 
 [voice2 vf2="laz/Laz2-1_2.ogg"]
 #ラズ
-「よろしいのではないですか？
+「よろしいのではないですか？[r]
 _　むしろ良い方向に転がっているように見えますが…」[p]
 
 [voice2 vf2="roz/Roz2-1_6.ogg"]
@@ -506,4 +524,4 @@ _　むしろ良い方向に転がっているように見えますが…」[p]
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc="title.ks"]
+[scenejumpNormal sc="2-2.ks"]

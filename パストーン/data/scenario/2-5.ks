@@ -4,9 +4,12 @@
 ;背景 空 夕方
 [bg storage="road_evening.png" time="0"]
 
-[chara_show name="mizuka" top="20" storage="chara/mizuka/egao.png" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/fuan.png" wait="true"]
 
 [afterjumpmaskNormal]
+
+[playbgm storage="nc67412.mp3" volume="80" ]
+
 [voice1 vf1="mizuka/mizuka2-5_1.ogg"]
 #美寿花
 「ほんとうにごめん…」[p]
@@ -21,9 +24,9 @@
 帰り道、何度目かの謝罪を美寿花は口にする。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_2.ogg"]
-#美寿花
-「確かにあの時は強烈な睡魔に襲われてたのは事実だけど、[l]
-まさか本当に寝ちゃうとは自分でも思わなかったというか…」[p]
+#美寿花:tereawate
+「確かにあの時は強烈な睡魔に襲われてたのは事実だけど、[r]
+_　まさか本当に寝ちゃうとは自分でも思わなかったというか…」[p]
 ;表情 照れ慌て
 
 [voice2 vf2="mizuka/mizuka2-5_3.ogg"]
@@ -37,15 +40,17 @@
 …いや、うん。膝枕のことも覚えてるのはこっちとしても恥ずかしいんだが…[p]
 
 #雪翔
-（もうちょっと他にやりようあったんじゃないのか！？床に寝かせるのがダメだとしても、あそこまですることはなかっただろ…）[p]
+（もうちょっと他にやりようあったんじゃないのか！？）[p]
+（床に寝かせるのがダメだとしても、あそこまですることはなかっただろ…）[p]
 
 #
 自分以上に慌ててる美寿花を見て、俺も冷静になって昼の行動を振り返ってしまう。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_4.ogg"]
-#美寿花:teremesorashi
+#美寿花:teremesorashi_2
 「それに…」[p]
 [voice2 vf2="mizuka/mizuka2-5_5.ogg"]
+#美寿花:teremesorashi
 「その、なにより…聞いちゃいけないことがもしかしたら聞こえちゃったりとかも…」[p]
 ;表情 照れ目逸らし
 
@@ -58,6 +63,7 @@
 「い、いや。何でもないです…」[p]
 ;表情 混乱
 
+[chara_mod name="mizuka" face="tereakire" cross="false" ]
 [voicestop]
 #
 あまりにも申し訳なかったのか、小声だったのでよく聞き取れなかった。[p]
@@ -81,7 +87,7 @@
 ;表情 lookaway
 
 [voice2 vf2="mizuka/mizuka2-5_9.ogg"]
-#美寿花:please
+#美寿花:uwame
 「雪翔君の行きたいとこ、一緒に行ってみたいなぁーって…」[p]
 ;表情 please
 
@@ -94,7 +100,7 @@
 
 [voice2 vf2="mizuka/mizuka2-5_10.ogg"]
 #美寿花:egao_2
-「うん。全然問題なし！だから遠慮しなくてもいいよ？」[p]
+「うん。全然問題なし！ だから遠慮しなくてもいいよ？」[p]
 ;表情 egao_2
 
 [voicestop]
@@ -103,7 +109,8 @@
 
 [voice2 vf2="mizuka/mizuka2-5_11.ogg"]
 #美寿花:bishou
-「ほら、なんていうか…一人じゃ行きにくいところってあるでしょ？雪翔君の場合は声の事もあるだろうしさ。」[p]
+「ほら、なんていうか…一人じゃ行きにくいところってあるでしょ？[r]
+_　雪翔君の場合は声の事もあるだろうしさ。」[p]
 ;表情 bishou
 
 [voice2 vf2="mizuka/mizuka2-5_12.ogg"]
@@ -116,19 +123,21 @@
 …まぁ、美寿花の言ってる事も一理あるが…これといって思いつく場所はない。[p]
 
 #雪翔
-≪あー…じゃあ、美寿花はないのか？行きたい場所≫[p]
+≪あー…じゃあ、美寿花はないのか？　行きたい場所≫[p]
 
 #
 参考がてら聞いてみると、美寿花は首を捻る。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_13.ogg"]
 #美寿花:kangae
-「私？私は〜…確かに、すぐ思いつかないねこれ。」[p]
+「私？　私は〜[r]
+_　…確かに、すぐ思いつかないねこれ。」[p]
 ;表情 kangae
 
 [voice2 vf2="mizuka/mizuka2-5_14.ogg"]
 #美寿花:harikiri
-「…強いて言うなら、近くにある水族館かな？あれも一人じゃ中々ね…」[p]
+「…強いて言うなら、近くにある水族館かな？[r]
+_　あれも一人じゃ中々ね…」[p]
 ;表情 （上がり眉、きらきら目、大きい口）　張り切り
 
 [voicestop]
@@ -136,9 +145,12 @@
 ≪…なるほど…でも放課後に行くような場所じゃないな≫[p]
 
 [voice2 vf2="mizuka/mizuka2-5_15.ogg"]
-#美寿花:uneasy
-「そうだねぇ…って、今は雪翔君だよ。まぁ何もないなら無理に言わなくてもいいけど…」[p]
+#美寿花:bishou
+「そうだねぇ…って、今は雪翔君だよ。[r]
+_　まぁ何もないなら無理に言わなくてもいいけど…」[p]
 ;表情 uneasy
+
+;修正済み 美寿花の表情をやわらかいものに変更
 
 [voicestop]
 #雪翔
@@ -176,7 +188,8 @@
 
 [voice2 vf2="mizuka/mizuka2-5_19.ogg"]
 #美寿花:harikiri
-「気にしない気にしない。…あ、でも流石に私一人で歌うのもあれだし…そうだ！」[p]
+「気にしない気にしない。[r]
+_　…あ、でも流石に私一人で歌うのもあれだし…そうだ！」[p]
 ;表情 harikiri
 
 [voicestop]
@@ -191,19 +204,24 @@
 [voicestop]
 #
 そう言いながら、携帯を操作し耳に当てた。[p]
+
+[fadeoutbgm time=2000]
 ;背景 黒
 …数十分後。[p]
 
 [bgchangemask]
 
 ;背景 カラオケ
-[bg storage="karaoke&nightsky.png" time=0]
+[bg storage="karaoke.png" time=0]
 
-[camera x="640" y="360"]
+;[camera x="640" y="360"]
 
 [chara_mod name="mizuka" face="egao"]
 
 [bgchangemask_off]
+
+;修正前 カラオケのBGM
+;[playbgm storage=""]
 
 [voice2 vf2="mizuka/mizuka2-5_21.ogg"]
 #美寿花
@@ -219,7 +237,7 @@
 いや、店内の写真も何回か見たことはあるし、そこまで驚きはしないんだが…[p]
 …俺が人とこんなところに遊びに来ている。という状況に圧倒されていた。[p]
 …あと、何より気になるのが…[p]
-・・・・[p]
+‥‥‥[p]
 
 [voice2 vf2="mizuka/mizuka2-5_22.ogg"]
 #美寿花:kyoton
@@ -235,8 +253,8 @@
 ;表情　呆れ
 
 [voice2 vf2="ayana/ayana2-5_2.ogg"]
-#文永
-「家出したはずの姉に突然来いって言われてさ、何かと思ったらカラオケに連れていかれたらさ。」[p]
+#文永:tameiki
+「家出したはずの姉に突然来いって言われて、何かと思えばカラオケに連れていかれたらさ。」[p]
 ;表情　溜息
 
 [voicestop]
@@ -244,12 +262,12 @@
 俺の隣…さっき美寿花が電話で呼んでいた相手が、恨めしそうに睨む。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_23.ogg"]
-#美寿花
+#美寿花:kushou
 「ごめんごめん。文永もそういえば歌うの好きだったなーって思い出して…」[p]
 ;表情　kushou
 
 [voice2 vf2="ayana/ayana2-5_3.ogg"]
-#文永
+#文永:jitome
 「つまり数合わせで呼んだ、と…」[p]
 ;表情　ジト目
 
@@ -286,7 +304,8 @@
 
 [voice2 vf2="ayana/ayana2-5_5.ogg"]
 #文永:kushou
-「あ、すいません。いきなり名前で呼んでしまって…薄谷さんと区別がつかなくなるのでつい…」[p]
+「あ、すいません。いきなり名前で呼んでしまって…[r]
+_　薄谷さんと区別がつかなくなるのでつい…」[p]
 ;表情　慌て
 
 [voicestop]
@@ -316,7 +335,7 @@
 
 [voice2 vf2="mizuka/mizuka2-5_27.ogg"]
 #美寿花:egao
-「そうだよ？というか、そのために呼んだんだから」[p]
+「そうだよ？　というか、そのために呼んだんだから」[p]
 ;表情　egao
 
 [voice2 vf2="ayana/ayana2-5_7.ogg"]
@@ -334,7 +353,7 @@
 そう言って、美寿花は俺に選曲用のタッチパネルを渡す。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_29.ogg"]
-#美寿花
+#美寿花:egao
 「さて少年君、何から歌う？」[p]
 ;表情　
 
@@ -351,46 +370,51 @@
 …しかし、美寿花は引かなかった。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_30.ogg"]
-#美寿花
-「練習だよ、君の…『自分の声で歌いたい』って目標のための。[p]
-…って言っても、流石に一人で歌うのは難しそうだから…」[p]
+#美寿花:bishou
+「練習だよ、君の…『自分の声で歌いたい』って目標のための。」[p]
+
+[voice2 vf2="mizuka/mizuka2-5_31.ogg"]
+#美寿花:itazura
+「…って言っても、流石に一人で歌うのは難しそうだから…」[p]
 ;表情　
 
 [voicestop]
 #
 そう言って、俺の肩に触れる美寿花。[p]
 
-[voice2 vf2="mizuka/mizuka2-5_31.ogg"]
-#美寿花
+[voice2 vf2="mizuka/mizuka2-5_32.ogg"]
+#美寿花:egao_2
 「『一緒に』歌お？それなら、私に届くから」[p]
 ;表情　
 
 [voicestop]
 #雪翔
-≪……[p]
-…分かったよ≫[p]
+≪……≫[p]
+≪…分かったよ≫[p]
 
 #
 美寿花の言葉の意味を、ようやく理解する。[p]
 …『ちょうどいい』ってこういうことか…[p]
 
 [voice2 vf2="ayana/ayana2-5_8.ogg"]
-#文永:kyoton
+#文永:jitome
 「…お姉ちゃんが男とイチャイチャしてる…」[p]
+;修正済み 表情をジト目に変更
 ;表情　きょとん
 
 
-[voice2 vf2="mizuka/mizuka2-5_32.ogg"]
-#美寿花
-「してないよ！？どこをどう見たらそうなるのさ！？」[p]
-;表情　
+[voice2 vf2="mizuka/mizuka2-5_33.ogg"]
+#美寿花:odoroki_正面
+「してないよ！？[r]
+_　どこをどう見たらそうなるのさ！？」[p]
+;修正済み 表情を驚いてる感じの物に変更
 
 [voice2 vf2="ayana/ayana2-5_9.ogg"]
 #文永:konwaku
 「やっぱり私、来なかった方がよかったんじゃ…」[p]
 ;表情　困り顔 
 
-[voice2 vf2="mizuka/mizuka2-5_33.ogg"]
+[voice2 vf2="mizuka/mizuka2-5_34.ogg"]
 #美寿花:kushou
 「待って帰ろうとしないで！文永とも一緒に歌うから～！！」[p]
 ;表情　落ち込み？苦笑？
@@ -399,6 +423,7 @@
 ;上にフェード
 
 [voicestop]
+[stopbgm]
 
 [layopt layer="0" visible="true"]
 [image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/2-5/nightsky.png" time="1000"]
