@@ -77,6 +77,7 @@
 [chara_face name="mizuka" face="tereawate" storage="chara/mizuka/tereawate.png"]
 [chara_face name="mizuka" face="terejitome" storage="chara/mizuka/terejitome.png"]
 [chara_face name="mizuka" face="terejitome_2" storage="chara/mizuka/terejitome_2.png"]
+[chara_face name="mizuka" face="teretere" storage="chara/mizuka/teretere.png"]
 [chara_face name="mizuka" face="teremesorashi" storage="chara/mizuka/teremesorashi.png"]
 [chara_face name="mizuka" face="teremesorashi_2" storage="chara/mizuka/teremesorashi_2.png"]
 [chara_face name="mizuka" face="tsukare" storage="chara/mizuka/tsukare.png"]

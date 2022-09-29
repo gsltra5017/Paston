@@ -4,8 +4,8 @@
 ;背景 空 夕方
 [bg storage="road_evening.png" time="0"]
 
-[chara_show name="mizuka" top="20" storage="chara/mizuka/fuan.png" wait="true"]
-
+[chara_show name="mizuka" top="20" storage="chara/mizuka/akire.png" wait="true"]
+;修正済み　表情呆れに変更(添田)
 [afterjumpmaskNormal]
 
 [playbgm storage="nc67412.mp3" volume="80" ]
@@ -24,10 +24,11 @@
 帰り道、何度目かの謝罪を美寿花は口にする。[p]
 
 [voice2 vf2="mizuka/mizuka2-5_2.ogg"]
-#美寿花:tereawate
+#美寿花:teretere
 「確かにあの時は強烈な睡魔に襲われてたのは事実だけど、[r]
 _　まさか本当に寝ちゃうとは自分でも思わなかったというか…」[p]
 ;表情 照れ慌て
+;修正済み　表情照れ照れに変更(添田)
 
 [voice2 vf2="mizuka/mizuka2-5_3.ogg"]
 #美寿花:tereakire
@@ -149,8 +150,7 @@ _　あれも一人じゃ中々ね…」[p]
 「そうだねぇ…って、今は雪翔君だよ。[r]
 _　まぁ何もないなら無理に言わなくてもいいけど…」[p]
 ;表情 uneasy
-
-;修正済み 美寿花の表情をやわらかいものに変更
+;修正済み 美寿花の表情をやわらかいものに変更(添田)
 
 [voicestop]
 #雪翔
@@ -407,7 +407,7 @@ _　薄谷さんと区別がつかなくなるのでつい…」[p]
 #美寿花:odoroki_正面
 「してないよ！？[r]
 _　どこをどう見たらそうなるのさ！？」[p]
-;修正済み 表情を驚いてる感じの物に変更
+;修正済み 表情を驚いてる感じの物に変更(添田)
 
 [voice2 vf2="ayana/ayana2-5_9.ogg"]
 #文永:konwaku
