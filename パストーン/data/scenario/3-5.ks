@@ -160,6 +160,8 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 ;[chara_hide_all time="0"]
 
+#
+
 [layopt layer="0" visible="true"]
 [image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/baiten_past.png" time="1000"]
 
@@ -262,12 +264,16 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 「‥‥‥」[p]
 ;表情
 
+#
+
 [voicestop]
 
-;修正前 優先度低 画面をぼかす
+;修正済み（担当辻） 優先度低 画面をぼかす
 
-;[filter layer="base" blur="10" time="500" wait="false"]
-;[filter layer="0" blur="10" time="5000" wait="true"]
+;[layermode name="opacity_on_1" graphic="singlepic/3-5/3-5フィルター.png" opacity="100" time="" folder="fgimage"]
+
+[layopt layer="0" visible="true"]
+[image name="3-5filter" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/3-5フィルター.png" time="1000"]
 
 #
 …もし、[p]
@@ -279,9 +285,9 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 なら、どうしてここまでの既視感を覚える？[p]
 …確かめてみるか。[p]
 
-;修正前 優先度低 画面ぼかし解除
+;修正済み（担当辻） 優先度低 画面ぼかし解除
 
-[free_filter time="5000"]
+[free layer="0" name="3-5filter" time="500"]
 
 #yukito
 ≪美寿花って…≫[p]
