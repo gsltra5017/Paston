@@ -229,3 +229,8 @@
 	[playse storage="se/door_knock.ogg" loop="false" clear="true" volume="70"]
 	[wse]
 [endmacro]
+
+[macro name="playse_hakushu"]
+	[playse storage="se/hakushu.mp3" loop="false" clear="true" volume="100"]
+	[wse]
+[endmacro]
