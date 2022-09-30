@@ -252,7 +252,7 @@ EL社の社長について[p]
 [chara_show name="mizuka" face="egao" top="20" time="500"]
 #美寿花
 『えーと、名前は常葉美寿花。大学1年生だよ』[p]
-
+#
 [chara_hide_all time="500"]
 
 ;背景 雪翔の自室
@@ -275,6 +275,8 @@ EL社の社長について[p]
 
 ;効果音 通知音 ☆
 ;[playse storage=通知音]
+[playse_phone]
+
 
 #雪翔
 ≪うおびっくりした…≫[p]

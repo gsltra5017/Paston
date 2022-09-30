@@ -234,3 +234,23 @@
 	[playse storage="se/hakushu.mp3" loop="false" clear="true" volume="100"]
 	[wse]
 [endmacro]
+
+[macro name="playse_mizushibuki"]
+	[playse storage="se/mizushibuki.mp3" loop="false" clear="true" volume="80"]
+	[wse]
+[endmacro]
+
+[macro name="playse_phone"]
+	[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35" loop="false" clear="true"]
+	[wse]
+[endmacro]
+
+[macro name="playse_tsuntsun"]
+	[playse storage="se/tsuntsun.mp3" volume="80"]
+	[wse]
+[endmacro]
+
+[macro name="playse_tsukkomi"]
+	[playse storage="se/tsukkomi.mp3" volume="50"]
+	[wse]
+[endmacro]
