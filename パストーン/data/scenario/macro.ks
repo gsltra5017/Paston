@@ -239,3 +239,8 @@
 	[playse storage="se/mizushibuki.mp3" loop="false" clear="true" volume="80"]
 	[wse]
 [endmacro]
+
+[macro name="playse_phone"]
+	[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35"]
+	[wse]
+[endmacro]
