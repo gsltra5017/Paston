@@ -249,3 +249,8 @@
 	[playse storage="se/tsuntsun.mp3" volume="80"]
 	[wse]
 [endmacro]
+
+[macro name="playse_tsukkomi"]
+	[playse storage="se/tsukkomi.mp3" volume="50"]
+	[wse]
+[endmacro]
