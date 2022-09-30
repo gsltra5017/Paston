@@ -202,4 +202,5 @@
 [chara_face name="RozLaz" face="roz_tokuige" storage="chara/RozLaz/roz_tokuige.png"]
 [chara_face name="RozLaz" face="roz_tokuikge" storage="chara/RozLaz/roz_tokuikge.png"]
 [chara_face name="RozLaz" face="roz_x" storage="chara/RozLaz/roz_x.png"]
+[chara_face name="RozLaz" face="roz_kushou" storage="chara/RozLaz/roz_kushou.png"]
 
