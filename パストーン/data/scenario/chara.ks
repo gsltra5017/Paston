@@ -68,6 +68,7 @@
 [chara_face name="mizuka" face="r_kushou" storage="chara/mizuka/r_kushou.png"]
 [chara_face name="mizuka" face="r_kyoton" storage="chara/mizuka/r_kyoton.png"]
 [chara_face name="mizuka" face="r_kyoton_2" storage="chara/mizuka/r_kyoton_2.png"]
+[chara_face name="mizuka" face="r_kyoton_3" storage="chara/mizuka/r_kyoton_3.png"]
 [chara_face name="mizuka" face="r_odoroki" storage="chara/mizuka/r_odoroki.png"]
 [chara_face name="mizuka" face="r_odoroki_2" storage="chara/mizuka/r_odoroki_2.png"]
 [chara_face name="mizuka" face="r_shinken" storage="chara/mizuka/r_shinken.png"]
@@ -99,6 +100,10 @@
 [chara_face name="mizuka" face="yaruki" storage="chara/mizuka/yaruki.png"]
 [chara_face name="mizuka" face="yaruki_2" storage="chara/mizuka/yaruki_2.png"]
 [chara_face name="mizuka" face="×" storage="chara/mizuka/×.png"]
+[chara_face name="mizuka" face="namidaegao" storage="chara/mizuka/namidaegao.png"] 
+[chara_face name="mizuka" face="namidame" storage="chara/mizuka/namidame.png"] 
+[chara_face name="mizuka" face="shinpai_n" storage="chara/mizuka/shinpai_n.png"]
+[chara_face name="mizuka" face="teremoji" storage="chara/mizuka/teremoji.png"]
 
 [chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
 [chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
@@ -202,4 +207,5 @@
 [chara_face name="RozLaz" face="roz_tokuige" storage="chara/RozLaz/roz_tokuige.png"]
 [chara_face name="RozLaz" face="roz_tokuikge" storage="chara/RozLaz/roz_tokuikge.png"]
 [chara_face name="RozLaz" face="roz_x" storage="chara/RozLaz/roz_x.png"]
+[chara_face name="RozLaz" face="roz_kushou" storage="chara/RozLaz/roz_kushou.png"]
 

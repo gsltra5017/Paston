@@ -208,11 +208,13 @@
 …といっても『この機能誰が使うんだ？』的なものが多く[r]
 時間がかかるのも相まって、めんどくさいのが正直なところである。[p]
 
-[chara_hide_all]
+
 
 [bgchangemask]
 
-;修正前 背景変更、校門前（素材待ち）☆
+[chara_hide_all time="0"]
+;修正済み 背景変更、校門前（素材待ち）☆
+[bg storage="学校外観（加工後）の加工後.png" time="0"]
 
 [bgchangemask_off]
 
