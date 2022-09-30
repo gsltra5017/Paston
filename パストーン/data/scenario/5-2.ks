@@ -8,6 +8,7 @@
 [afterjumpmaskNormal]
 
 [playbgm storage="Yurari_kurari.mp3" volume="80" ]
+;[jump target="*debug"]
 
 #雪翔
 （…誰だ…？この時間に…）[p]
@@ -737,7 +738,8 @@
 ;CG フェード
 ;背景 リビング
 
-[camera layer="base" x="0" y="0" zoom="1.00" time="3000" wait="false"]
+;[camera layer="base" x="0" y="0" zoom="1.00" time="3000" wait="false"]
+[reset_camera layer="base" wait="3000" wait="false"]
 [bg storage="living.png" time="0"]
 [free name="1" layer="0" time="0" wait="false"]
 [free name="2" layer="0" time="0" wait="false"]
@@ -794,7 +796,8 @@
 [voicestop]
 #
 [chara_hide_all time="1000"]
-[camera layer="0" x="0" y="0" zoom="1.00" time="0" wait="false"]
+;[camera layer="0" x="0" y="0" zoom="1.00" time="0" wait="false"]
+[reset_camera layer="0" wait="false"]
 
 
 止めてくれ…[p]
@@ -1288,6 +1291,8 @@
 #
 そう返した美寿花の表情はいつも通りの…いや、いつも以上に優しい、笑みだった。[p]
 
+;*debug
+
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png" zindex="20"]
 [trans layer="0" time="1200" method="fadeIn"]
@@ -1346,13 +1351,13 @@
 [free name="1" layer="0" time="0" wait="false"]
 [free name="2" layer="0" time="2000" wait="true"]
 
-
 ふと、天井を仰ぎ、独り言のように呟く。[p]
 永寿郎の顔には、後悔や、諦め…それに、どこか安堵のようなものが感じられた。[p]
 その時、初めて彼は解放されたのかもしれない。[p]
 事故で娘をなくした…大きすぎる呪縛から。[p]
 
 [bg storage="living.png" time="2000" cross="false" method="fadeIn"]
+;method="fadeIn"
 
 [voice2 vf2="eijurou/eijurou5-3_23.ogg"]
 #永寿郎
