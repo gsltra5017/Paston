@@ -104,7 +104,7 @@
 
 #雪翔
 ≪はぁっ…はぁっ…！！≫[p]
-[playbgm storage="Long_Bygone.mp3" volume="70"]
+[playbgm storage="Long_Bygone.mp3" volume="50"]
 
 #
 飛び起きる。[p]
@@ -323,7 +323,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 
 ;修正前 優先度低 1-1のみずかをフラッシュバックさせる（ボイスも再生するな加工した方がいいかも？）
 [backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-1/(ここを書き換える).png"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-1/flashback.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
 #
@@ -383,7 +383,8 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 でも、止めたくなかった。[p]
 俺は…これを、聞かなきゃいけない。[p]
 
-;修正前 優先度低い BGMをここで変えたい、もう少し希望がありそうなやつに
+;修正後 優先度低い BGMをここで変えたい、もう少し希望がありそうなやつに
+[fadeoutbgm time=2000]
 
 [voice2 vf2="kouki/kouki5-1_22.ogg"]
 #黄樹
@@ -401,6 +402,8 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 
 #雪翔
 ≪…え？≫[p]
+
+[playbgm storage="piano.mp3" volume="50"]
 
 #
 予想していた内容とは違い、思わず声が漏れる。[p]
@@ -510,13 +513,15 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 …こんな時すら、俺は一人で踏み出せない弱い男だけど。[p]
 …その弱さも、愚かさも、全部ぶつけて…美寿花と精一杯話そう。[p]
 
+[fadeoutbgm time=2000]
+
 [bgchangemask]
-[bg storage="makkuro.jpg" time="0"]
+[bg storage="living_dark.png" time="0"]
 
 ;薄暗いリビング素材あったほうがいいかも？
 
 [bgchangemask_off]
-
+[fadeoutbgm time=2000]
 #
 階段から降りて、初めに目に入ったのは、薄暗いリビングだった。[p]
 
@@ -524,7 +529,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 
 そのソファーの上に、美寿花は眠っている。[p]
 …疲れているかもしれないが…しょうがない。[p]
-少し迷ったが、電気をつけた。[p]
+少し迷ったが、をつけた。[p]
 
 ;もともと薄暗いリビングにしてたら明るくする
 

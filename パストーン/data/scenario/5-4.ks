@@ -168,6 +168,7 @@
 「…だ、大丈夫…だけど？」[p]
 
 [chara_show name="mizuka" top="20" face="aseganizindaegao" time="500"]
+[playbgm storage="mizuka.ogg" volume="70" ]
 
 #
 朝の事を思い出し、何故か俺もキョドりながらも何とか返事をする。[p]
@@ -406,6 +407,8 @@
 #
 何せ（絶対呼ばないけど）ロズとラズもさっきの口ぶりからして知っているのだ。認めるほかない。[p]
 
+[fadeoutbgm time="2000"]
+
 [voice2 vf2="mizuka/mizuka5-4_19.ogg"]
 #美寿花:terejitome_2
 「…ふ～ん…」[p]
@@ -427,6 +430,7 @@
 [trans layer="0" time="1500" method="fadeIn"]
 [wt]
 
+[playbgm storage="nc162068.mp3" volume="80"]
 [voice2 vf2="mizuka/mizuka5-4_21.ogg"]
 #美寿花
 「…お願いがあるんだけど、さ」[p]
@@ -562,6 +566,7 @@
 
 [chara_hide_all]
 
+[fadeoutbgm time="5000"]
 [mask time="5000" effect="fadeIn" color="0xFFFFFF" wait="true"]
 [free layer="0" name="1" time="0"]
 [wt]

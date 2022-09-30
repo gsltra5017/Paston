@@ -872,6 +872,7 @@
 #雪翔
 ≪‥‥‥≫[p]
 
+[playbgm storage="wasurenagusa.mp3" volume="20"]
 #
 あぁ…俺はいつも、誰かに背を押されて、生きている。[p]
 ;背景 4-1の一枚絵
@@ -922,7 +923,8 @@
 #
 一片の、勇気を…！！[p]
 
-;修正前 優先度高 なんか盛り上がりそうなBGM！（自分で探すつもりだけど何かいいのがあったら）
+;修正後 優先度高 なんか盛り上がりそうなBGM！（自分で探すつもりだけど何かいいのがあったら）つぶ
+
 
 #雪翔
 「はぁ…はぁ…けほっ…！」[p]
@@ -1238,6 +1240,7 @@
 [voicestop]
 #
 [chara_hide_all]
+[fadeoutbgm time="2000"]
 
 [voice2 vf2="eijurou/eijurou5-3_14.ogg"]
 #永寿郎
@@ -1257,6 +1260,7 @@
 #
 深く、永寿郎は崩れ落ちた。[p]
 
+[playbgm storage="namida.mp3" volume="50" ]
 [voice2 vf2="eijurou/eijurou5-3_16.ogg"]
 #永寿郎
 「…いつから、だろうな…」[p]
@@ -1406,6 +1410,7 @@
 
 
 #
+
 そんな会話をしながら、父さんたちの声は遠くなっていく。[p]
 
 #雪翔
@@ -1489,5 +1494,6 @@
 [voicestop]
 #
 …気分だけは、最高だった。[p]
+[fadeoutbgm time="2000"]
 
 [scenejumpNormal sc="5-4.ks"]
