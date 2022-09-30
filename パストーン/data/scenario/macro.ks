@@ -241,6 +241,11 @@
 [endmacro]
 
 [macro name="playse_phone"]
-	[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35"]
+	[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35" loop="false" clear="true"]
+	[wse]
+[endmacro]
+
+[macro name="playse_tsuntsun"]
+	[playse storage="se/tsuntsun.mp3" volume="80"]
 	[wse]
 [endmacro]

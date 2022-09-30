@@ -145,10 +145,13 @@
 
 ;修正前 効果音 ツンッ
 
+[playse_tsuntsun]
 ツンッ[p]
 …[p]
 
 ;修正前 効果音 ツンッ×２
+[playse_tsuntsun]
+[playse_tsuntsun]
 
 ツンツンッ[p]
 …んん…？[p]
