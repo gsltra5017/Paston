@@ -1,4 +1,5 @@
 ;一番最初に呼び出されるファイル
+[plugin name="slider_ui"]
 
 [title name="ティラノスクリプト解説"]
 
@@ -18,7 +19,7 @@
 @call storage="chara.ks"
 
 ;メッセージボックスは非表示
-@layopt layer="message" visible=false
+@layopt layer="message" visible="false"
 
 ;最初は右下のメニューボタンを非表示にする
 [hidemenubutton]

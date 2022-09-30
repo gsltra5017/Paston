@@ -219,3 +219,13 @@
 
 	[chara_config  talk_focus="none"]
 [endmacro]
+
+[macro name="playse_car"]
+	[playse storage="se/car.mp3" loop="false" clear="true" volume="70"]
+	[wse]
+[endmacro]
+
+[macro name="playse_door_knock"]
+	[playse storage="se/door_knock.ogg" loop="false" clear="true" volume="70"]
+	[wse]
+[endmacro]
