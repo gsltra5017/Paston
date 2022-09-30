@@ -37,6 +37,7 @@
 「ねぇねぇ」[p]
 [voicestop]
 
+#
 ;背景 一枚絵
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_n.png"]
@@ -48,6 +49,7 @@
 ;（昔）
 「少年君、随分難しそうな本読んでるね。」[p]
 
+#
 ;背景 一枚絵
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_kangaeru.png"]
 [trans layer="0" time="500" method="fadeIn"]
@@ -60,13 +62,16 @@
 [voice2 vf2="mizuka/mizuka4-1_a2.ogg"]
 「お母さんの行きたいところに連れていくとかどう？」[p]
 
+#
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_omoituita!.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
+
+#美寿花
 [voice2 vf2="mizuka/mizuka4-1_a3.ogg"]
 「例えば…そう！水族館とか！」[p]
 
-
+#
 ;背景 一枚絵
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1/penguin.png"]
@@ -77,6 +82,7 @@
 ;（昔）
 「あ、ほら見て見て！ペンギン！可愛いよねぇ…」[p]
 
+#
 ;修正済み 美寿花の立ち絵を半透明の黒背景の上に表示する（添田）
 [chara_hide name="mizuka" time="500"]
 ;背景 一枚絵or白黒夕空（まぁ青空の使いまわしでいい気もするけど）
@@ -90,6 +96,7 @@
 ;（昔）
 「じゃ、約束ね！またペンギンを一緒に見るって」[p]
 
+#
 ;背景 黒
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
@@ -101,6 +108,7 @@
 ;（昔）
 「後ろ！危ない！！」[p]
 
+#
 ;背景 一枚絵
 [backlay layer="1"]
 [image layer="1" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1事故/4-1事故.png"]
@@ -116,20 +124,21 @@
 ;（昔）
 「ご…めん…ね…」[p]
 
+#
 ;背景黒
-[chara_hide_all time=0]
-[bg storage="makkuro.jpg" time=0]
-[fadeoutbgm time="2000"]
+[chara_hide_all time="0" wait="false"]
+[bg storage="makkuro.jpg" time="0" wait="false"]
+[fadeoutbgm time="2000" wait="false"]
 [freeimage layer="0" time="0" wait="false"]
 [freeimage layer="1" time="1000" wait="true"]
 
 [voice2 vf2="mizuka/mizuka4-1_9.ogg"]
 
 #美寿花
-「雪翔…君…」[p]
+「雪翔…君…」[wse][p]
 
 [voicestop]
-
+#
 ;背景 天井（病院の天井素材って…というか、病院の素材ってあったっけ…？）
 [bg storage="roof_byoushitsu.png"]
 
