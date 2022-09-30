@@ -412,7 +412,7 @@ _　さっきの歌詞、すっごいよかったし」[p]
 
 ;修正前 メッセージボックスがフェードアウトしてほしい（黒を上からフェードインすれば行ける？）
 #
-@layopt layer="message0" visible="false"
+;@layopt layer="message0" visible="false"
 
 [voicestop]
 
