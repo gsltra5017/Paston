@@ -11,6 +11,7 @@
 
 ;修正前 優先度高 BGM、ポジティブで落ち着いた曲（最悪Bonyari_Hitsujiもあり）
 
+[playbgm storage="Ready_to_jump.mp3" volume="30" ]
 [voice1 vf1="mizuka/mizuka3-5_1.ogg"]
 #mizuka
 「う～ん…これとか、どう！？」[p]
@@ -157,8 +158,11 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 #yukito
 ≪それぐらいの時間はあると--≫[p]
+#
 
 ;[chara_hide_all time="0"]
+
+#
 
 [layopt layer="0" visible="true"]
 [image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/baiten_past.png" time="1000"]
@@ -167,7 +171,9 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 --じゃ、約束ね！また一緒にペンギン見るって[p]
 
 ;背景　売店
-[bg storage="baiten.png" time="500"]
+[bg storage="baiten.png" time="0"]
+
+[free layer="0" name="makkuro" time="500"]
 
 #yukito
 ≪……おも…う…≫[p]
@@ -212,6 +218,8 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 #
 自分の中で何が起こってるのか分からない俺には、そう答えるだけで精一杯だった。[p]
+
+[fadeoutbgm time="2000"]
 
 [bgchangemask]
 [chara_hide_all time="0" ]
@@ -260,9 +268,16 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 「‥‥‥」[p]
 ;表情
 
+#
+
 [voicestop]
 
-;修正前 優先度低 画面をぼかす
+;修正済み（担当辻） 優先度低 画面をぼかす
+
+;[layermode name="opacity_on_1" graphic="singlepic/3-5/3-5フィルター.png" opacity="100" time="" folder="fgimage"]
+
+[layopt layer="0" visible="true"]
+[image name="3-5filter" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/3-5フィルター.png" time="1000"]
 
 #
 …もし、[p]
@@ -274,7 +289,9 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 なら、どうしてここまでの既視感を覚える？[p]
 …確かめてみるか。[p]
 
-;修正前 優先度低 画面ぼかし解除
+;修正済み（担当辻） 優先度低 画面ぼかし解除
+
+[free layer="0" name="3-5filter" time="500"]
 
 #yukito
 ≪美寿花って…≫[p]
@@ -335,7 +352,6 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 [layopt layer="0" visible="true"]
 [image name="past" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/past.png" time="1000"]
-
 
 [voice2 vf2="mizuka/mizuka3-5_27.ogg"]
 #mizuka
@@ -476,7 +492,10 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 [voicestop]
 
-;修正前 優先度高 画面を揺らす
+;修正済み（担当辻） 優先度高 画面を揺らす
+
+[quake count="2" time="500" hmax="10" ]
+
 #yukito
 ≪ッ！？≫[p]
 #

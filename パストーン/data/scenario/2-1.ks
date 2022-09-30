@@ -68,7 +68,7 @@
 #
 流石に休憩入れるか…と立ち上がる。[p]
 
-[playbgm storage="Asa_no_otozure.mp3" volume="30" ]
+[playbgm storage="OuchiDay.mp3" volume="25"]
 
 [voice2 vf2="mizuka/mizuka2-1_1.ogg"]
 #美寿花:r_kyoton
@@ -238,9 +238,6 @@ _　私も相手の声聞けた方が話しやすいし」[p]
 「……」[p]
 ;表情　kyoton
 
-;修正前　間抜けな音
-;[voice2 vf2=""]
-;[playse storage=se/間抜け loop=false]
 
 [voice2 vf2="mizuka/mizuka2-1_12.ogg"]
 #美寿花:r_kyoton
@@ -248,8 +245,9 @@ _　私も相手の声聞けた方が話しやすいし」[p]
 ;表情　きょとん
 
 [voicestop]
+
 #雪翔
-「その通りだけどその表現は止めてくれるかな！？」[p]
+「その通りだけどその表現は止めてくれるかな！？」[playse_tsukkomi][p]
 
 [voice2 vf2="mizuka/mizuka2-1_13.ogg"]
 ;辻は苦笑のほうがいい気がします

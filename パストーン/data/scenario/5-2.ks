@@ -3,9 +3,12 @@
 
 [bg storage="living.png" time="0"]
 
-[chara_show name="mizuka" top="20" face="aseri" time="0"]
+[chara_show name="mizuka" top="20" face="odoroki_3" time="0"]
 
 [afterjumpmaskNormal]
+
+[playbgm storage="Yurari_kurari.mp3" volume="80" ]
+;[jump target="*debug"]
 
 #雪翔
 （…誰だ…？この時間に…）[p]
@@ -37,11 +40,12 @@
 #雪翔
 ≪…いや、大丈夫。…ラズ、頼めるか？≫[p]
 
-[chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal_2" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal" wait="true" pos_mode="true"]
 #
 俺は首を横に振ってから、スマホでラズを呼びだす。[p]
 
 [voice2 vf2="laz/laz5-2_1.ogg"]
+[chara_mod name="RozLaz" face="laz_normal"]
 #ラズ
 「…よろしいのですか？」[p]
 ;表情 normal_2
@@ -51,7 +55,7 @@
 #雪翔
 ≪…一応、美寿花の父親って可能性もあるが…少しでも怪しかったら切っていい≫[p]
 
-[chara_mod name="RozLaz" face="laz_ozigi"]
+[chara_mod name="RozLaz" face="laz_bow"]
 [voice2 vf2="laz/laz5-2_2.ogg"]
 #ラズ
 「承知いたしました。では…」[p]
@@ -65,8 +69,9 @@
 [voicestop]
 
 #
-[chara_show name="kouki" face="straight" top="-50" time="1000"]
 [chara_hide name="RozLaz" time="500"]
+[chara_show name="kouki" face="straight" top="-50" time="1000"]
+
 
 
 
@@ -84,7 +89,7 @@
 
 [voice2 vf2="kouki/kouki5-2_2.ogg"]
 #黄樹:normal
-「偶然休みが取れてね。状況が状況だし、部屋から出てくるつもりはなかったんだけど…」[p]
+「偶然休みが取れてね。[r]　状況が状況だし、部屋から出てくるつもりはなかったんだけど…」[p]
 ;表情 normal
 
 [voicestop]
@@ -143,6 +148,7 @@
 [voice2 vf2="eijurou/eijurou5-2_1.ogg"]
 #???
 「すまないね………いきなり……しまって」[p]
+[chara_mod name="mizuka" face="odoroki_3" cross="false" ]
 
 [voicestop]
 
@@ -152,7 +158,7 @@
 
 [voice2 vf2="kouki/kouki5-2_5.ogg"]
 #黄樹
-「いえいえ、それよりどうしたんです？貴方のような人が何故こんな所まで…」[p]
+「いえいえ、それよりどうしたんです？[r]　貴方のような人が何故こんな所まで…」[p]
 ;表情 なし
 
 [voice2 vf2="eijurou/eijurou5-2_2.ogg"]
@@ -192,6 +198,7 @@
 決まってる。美寿花に触れて、今の状況を伝える。[p]
 それだけで、済む話なんだ。[p]
 
+#
 [chara_hide_all time="500" wait="false"]
 [bg storage="makkuro.jpg" time="500"]
 
@@ -212,6 +219,8 @@
 「…雪翔君…？」[p]
 ;表情 shinpai
 
+#
+
 [voicestop]
 
 [bg storage="living.png" time="500" wait="false"]
@@ -224,7 +233,9 @@
 
 [voice2 vf2="eijurou/eijurou5-2_4.ogg"]
 #永寿郎
-「…すまないが、上がってもいいかね？あの子と話がしたいんだ」[p]
+「…すまないが、上がってもいいかね？　あの子と話がしたいんだ」[p]
+
+#
 
 [voicestop]
 
@@ -234,6 +245,7 @@
 ;表情　なし
 
 [voicestop]
+#
 
 [chara_show name="kouki" face="straight" top="-50" time="1000"]
 
@@ -246,19 +258,21 @@
 #美寿花
 「…お父…さん…？」[p]
 ;表情
+#
+;[backlay layer="0"]
+;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
+;[trans layer="0" time="500" method="fadeIn"]
+;[wt]
+;[bg storage="makkuro.jpg" time="0" wait="false"]
+[chara_hide_all time="2000" wait="true"]
+;[bg storage="living.png" time="0"]
+;[freeimage layer="0" time="500" wait="true"]
 
-[backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
-[trans layer="0" time="500" method="fadeIn"]
-[wt]
-[bg storage="makkuro.jpg" time="0" wait="false"]
-[chara_hide_all time="0" wait="false"]
-[bg storage="living.png" time="0"]
-[freeimage layer="0" time="500" wait="true"]
+;修正前 暗転をなくす
 
-;修正前 暗転 キャラを全員画面から消す
-;修正前 透明な画像ファイルを永寿郎として描画するのもあり
+;修正前 永寿郎の立ち絵表示
 
+;[chara_show name="eijyurou" time="2000" top="20"]
 [voice2 vf2="eijurou/eijurou5-2_5.ogg"]
 #永寿郎
 「久しぶりだね。美寿花」[p]
@@ -289,7 +303,7 @@
 
 [voice2 vf2="eijurou/eijurou5-2_8.ogg"]
 #永寿郎
-「君には君の事情があるというのに、部外者が安易に立ち入ってしまった。この子は私が責任を持って家に連れて帰るよ」[p]
+「君には君の事情があるというのに、部外者が安易に立ち入ってしまった。[r]　この子は私が責任を持って家に連れて帰るよ」[p]
 
 [voicestop]
 
@@ -298,7 +312,7 @@
 
 [voice2 vf2="eijurou/eijurou5-2_9.ogg"]
 #永寿郎
-「君の事は薄谷教授から聞いているよ。何でも声を失ってしまったとか。今まで大変だっただろう？」[p]
+「君の事は薄谷教授から聞いているよ。[r]　何でも声を失ってしまったとか。今まで大変だっただろう？」[p]
 
 [voicestop]
 
@@ -308,7 +322,7 @@
 
 [voice2 vf2="kouki/kouki5-2_8.ogg"]
 #黄樹:shinpai
-「大変なのは貴方も同じでしょう？あんな大きな会社の社長なんですから」[p]
+「大変なのは貴方も同じでしょう？[r]　あんな大きな会社の社長なんですから」[p]
 ;表情 shinpai
 
 [voicestop]
@@ -318,19 +332,19 @@
 
 [voice2 vf2="eijurou/eijurou5-2_10.ogg"]
 #永寿郎
-「いやいや、私は自分のするべき事をしただけだよ。確かに大変だが、その分やりがいも感じられる。」[p]
+「いやいや、私は自分のするべき事をしただけだよ。[r]　確かに大変だが、その分やりがいも感じられる。」[p]
 
 [voicestop]
 
 [voice2 vf2="eijurou/eijurou5-2_11.ogg"]
 #永寿郎
-「どうだい？また私と働くというのは…」[p]
+「どうだい？　また私と働くというのは…」[p]
 
 [voicestop]
 
 [voice2 vf2="kouki/kouki5-2_9.ogg"]
 #黄樹:kushou
-「ありがたいお誘いですが、遠慮しておきます。私も今の仕事にやりがいを感じているので」[p]
+「ありがたいお誘いですが、遠慮しておきます。[r]　私も今の仕事にやりがいを感じているので」[p]
 ;表情 kushou
 
 [voice2 vf2="eijurou/eijurou5-2_12.ogg"]
@@ -347,7 +361,7 @@
 
 [voice2 vf2="eijurou/eijurou5-2_13.ogg"]
 #永寿郎
-「…それにしても、まさか美寿花と『同い年』とは…ね。これからも仲良くしてくれたら嬉しいよ」[p]
+「…それにしても、まさか美寿花と『同い年』とは…ね。[r]　これからも仲良くしてくれたら嬉しいよ」[p]
 
 [voicestop]
 
@@ -356,7 +370,8 @@
 
 #
 違う。[p]
-この人の笑顔は…美寿花と違う。確かに顔は笑っているが…目は、全く笑っていない。[p]
+この人の笑顔は…美寿花と違う。確かに顔は笑っているが…[r]
+目は、全く笑っていない。[p]
 それに、今の発言…[p]
 
 #雪翔
@@ -393,10 +408,11 @@
 #
 スマホからの声に、周囲の空気が凍る。[p]
 
-[chara_show name="RozLaz" top="200" width="523" height="552.51" face="roz_okori_2" wait="true" pos_mode="true"]
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_okori_2" wait="true" pos_mode="true" zindex="10"]
+
 [voice2 vf2="roz/roz5-2_2.ogg"]
 #ロズ
-「それ、本当に親のやることなん？」[p]
+「それ、ほんまに親のやることなん？」[p]
 ;表情 okori_2
 
 [voicestop]
@@ -404,33 +420,33 @@
 #
 しまった…放っておいたらやばい奴らがまだいた…[p]
 
-[chara_mod name="RozLaz" face="laz_okori"]
+[chara_mod name="RozLaz" face="laz_okori" cross="false"]
 [voice2 vf2="laz/laz5-2_3.ogg"]
 #ラズ
 「…はぁ…貴方は少し様子を見るということが出来ないんですの？」[p]
 ;表情 okori
 
-[chara_mod name="RozLaz" face="roz_fuman_2"]
+[chara_mod name="RozLaz" face="roz_fuman_2" cross="false"]
 [voice2 vf2="roz/roz5-2_3.ogg"]
 #ロズ
-「別にええやん！さっき呼ばれたんラズだけやったし、次はウチに喋らせてーな」[p]
+「別にええやん！[r]　さっき呼ばれたんラズだけやったし、次ウチに喋らせてーな」[p]
 ;表情 fuman_2
 
 [voice2 vf2="eijurou/eijurou5-2_16.ogg"]
 #永寿郎
-「おや…これはうちのAIかな？しかも2体も…こんなところでも使われているとは、嬉しいね。」[p]
+「おや…これはうちのAIかな？[r]　しかも2体も…こんなところでも使われているとは、嬉しいね。」[p]
 
 [voice2 vf2="eijurou/eijurou5-2_17.ogg"]
 #永寿郎
 「それで…どういう事かな？」[p]
 
-[chara_mod name="RozLaz" face="roz_fuman"]
+[chara_mod name="RozLaz" face="roz_fuman" cross="false"]
 [voice2 vf2="roz/roz5-2_4.ogg"]
 #ロズ
-「そのまんまの意味や。さっきから口を開けばうちの美寿花、うちの美寿花って…」[p]
+「そのまんまの意味や。[r]　さっきから口を開けばうちの美寿花、うちの美寿花って…」[p]
 ;表情 fuman
 
-[chara_mod name="RozLaz" face="roz_okori_3"]
+[chara_mod name="RozLaz" face="roz_okori_3" cross="false"]
 [voice2 vf2="roz/roz5-2_5.ogg"]
 #ロズ
 「別に美寿花はあんたのもんとちゃうやろ。勝手に所有物にせんといてや」[p]
@@ -438,8 +454,11 @@
 
 [voicestop]
 
+;修正前 優先度中 暗転or4-3文永のフラッシュバック
 #
-──見つかって…捕まれば、恐らくお姉ちゃんの記憶も消されて、永遠にあの人の人形になってしまいます…[p]
+──私が雪翔さんに話したと知られれば…[r]
+　　もう、お姉ちゃんを貴方に会わせる事はないでしょうね…[p]
+──記憶を消して…また、『作り直す』…そういう人なんです。あの父親は[p]
 
 #雪翔
 ≪…ッ≫[p]
@@ -452,25 +471,26 @@
 
 [voice2 vf2="eijurou/eijurou5-2_18.ogg"]
 #永寿郎
-「ちょ、ちょっと被害妄想が過ぎないかい？私はそんな…」[p]
+「ちょ、ちょっと被害妄想が過ぎないかい？　私はそんな…」[p]
 
 [voicestop]
 
-[chara_mod name="RozLaz" face="laz_utagai"]
+[chara_mod name="RozLaz" face="laz_utagai" cross="false" ]
 [voice2 vf2="laz/laz5-2_4.ogg"]
 #ラズ
-「…なら、どうしてそう美寿花を執拗に自分の元に置こうとするのでしょうか？それも本人の意見も聞かずに」[p]
+「…なら、どうしてそう美寿花を執拗に自分の元に置こうとするの[r]　でしょうか？　それも本人の意見も聞かずに」[p]
+
 ;表情 utagai
 
 [voice2 vf2="eijurou/eijurou5-2_19.ogg"]
 #永寿郎
-「ハッ…文永の話だと、雪翔君とはあまり上手くいってないらしいじゃないか。…そうなんだろう？美寿花」[p]
+「ハッ…文永の話だと、雪翔君とはあまり上手くいってないらしいじゃないか。…そうなんだろう？　美寿花」[p]
 
+[chara_show name="mizuka" face="fushime" top="20" zindex="0"]
 [voice2 vf2="mizuka/mizuka5-2_8.ogg"]
-#美寿花:uneasy
+#美寿花
 「……そう、です…」[p]
 ;表情 uneasy
-
 [voicestop]
 
 #
@@ -482,20 +502,26 @@
 
 [voicestop]
 
+#
+
 [chara_mod name="RozLaz" face="roz_ge"]
 [voice2 vf2="roz/roz5-2_6.ogg"]
 #ロズ
 「ぐっ…」[p]
 ;表情
-
-[voicestop]
-
 #
+[voicestop]
+[chara_hide name="RozLaz"] 
+
 実際、俺が混乱したがためにすれ違ったことは間違いはなく、これに関しては永寿郎が正しいように見える。[p]
 …でも…それはあくまで『事実』であり、『意志』じゃない。[p]
 
+[camera layer="base" x="0" y="0" zoom="1.25" time="2000" wait="false"]
+[camera layer="0" x="0" y="0" zoom="1.25" time="2000" wait="true"]
+
 #雪翔
 ≪…お前は…どうしたいんだよ…！美寿花…！！≫[p]
+
 
 #
 絞り出した声は、音にはならずに散っていく。[p]
@@ -503,6 +529,7 @@
 でも、まだ…希望は、ある。[p]
 要は、美寿花が鍵なのだ。[p]
 美寿花が帰る事を拒めば…まだ…！！[p]
+
 
 
 [voice2 vf2="mizuka/mizuka5-2_9.ogg"]
@@ -517,17 +544,19 @@
 こんな時でも、君は胸が痛くなるほどに笑ってみせる。[p]
 
 [voice2 vf2="mizuka/mizuka5-2_10.ogg"]
-#美寿花
-「…皆にいっぱい優しくしてもらったし、ちゃんと自分のことを知れた。…それだけで、私はもう十分。…だから…」[p]
-;表情
+#美寿花:kushou_3
+「…皆にいっぱい優しくしてもらったし、ちゃんと自分のことを知れた。[r]　…それだけで、私はもう十分。…だから…」[p]
+
+[fadeoutbgm time="1000"]
 
 [voice2 vf2="mizuka/mizuka5-2_11.ogg"]
-#美寿花
+#美寿花:jichou
 「…帰るよ。お父さんと」[p]
 ;表情
 
 [voicestop]
 ;ここから５－３のシナリオ
+*5-3
 
 #
 …希望は、あっという間に崩れ去った。[p]
@@ -535,7 +564,7 @@
 
 
 [voice2 vf2="mizuka/mizuka5-3_1.ogg"]
-#美寿花
+#美寿花:shinpai
 「…雪翔君」[p]
 
 [voicestop]
@@ -547,19 +576,25 @@
 
 [voicestop]
 
+[playbgm storage="nc162068.mp3" volume="80"]
+
 ;仮のCG
-[layopt layer="0" visible="true"]
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/5-1/5-1過去回想仮.png" time="1000"]
-[chara_hide_all]
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/katari.png"]
+[trans layer="0" time="2000" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_2.ogg"]
 #美寿花
-「…こんな形で、お別れになると思ってなかったけど…私は、君に出会えて…本当に良かったと思ってる」[p]
+「…こんな形で、お別れになると思ってなかったけど…[r]　私は、君に出会えて…本当に良かったと思ってる」[p]
 
 [voicestop]
 
 #
 また、一歩。[p]
-
+[backlay layer="0"]
+[image name="2" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/teinen.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_3.ogg"]
 #美寿花
 「私と出会ってくれて、ありがとう」[p]
@@ -569,6 +604,10 @@
 #
 また、一歩。[p]
 
+[backlay layer="0"]
+[image name="3" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/sabishi.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_4.ogg"]
 #美寿花
 「私と話をしてくれて、ありがとう」[p]
@@ -577,7 +616,10 @@
 
 #
 そして…[p]
-
+[backlay layer="0"]
+[image name="4" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/egao.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_5.ogg"]
 #美寿花
 「…『また』私と仲良くなってくれて…本当に、ありがとう」[p]
@@ -592,6 +634,11 @@
 すぐ目の前に、君がいる。[p]
 手を伸ばせば、触れられる距離に。[p]
 
+[backlay layer="0"]
+[image name="5" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/komari.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
+[chara_hide_all time="0"]
 [voice2 vf2="mizuka/mizuka5-3_6.ogg"]
 #美寿花
 「…少年君は、泣き虫だね」[p]
@@ -606,6 +653,10 @@
 気づけば、視界がぼやけていた。[p]
 …自分が泣いているなんて、思いもしなかった。[p]
 
+[backlay layer="0"]
+[image name="6" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_7.ogg"]
 #美寿花
 「…ねぇ、私が来た日の事…覚えてる？」[p]
@@ -619,16 +670,32 @@
 泣いてると自覚した瞬間、一層涙が溢れそうになる。[p]
 でも、今だけは…泣くより、美寿花と話がしたかった。[p]
 
+[backlay layer="0"]
+[image name="7" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/katari.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_8.ogg"]
 #美寿花
-「…君はあの日、自分で作った歌を自分で歌ってみたいって…夢を、私に教えてくれた」[p]
+「…君はあの日、自分で作った歌を自分で歌ってみたいって…[r]　夢を、私に教えてくれた」[p]
 ;一枚絵 真剣な顔
 
+#
+
+[backlay layer="0"]
+[image name="8" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/teinen.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_9.ogg"]
 #美寿花
 「ちょっとだけ、欲を言っちゃうんだけど…」[p]
 ;一枚絵 真剣な顔
 
+#
+
+[backlay layer="0"]
+[image name="9" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/naki.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_10.ogg"]
 #美寿花
 「…一番最初に、君の隣でそれを…聴きたかった…な…」[p]
@@ -643,6 +710,10 @@
 …泣いていたのは、俺だけではなかった。[p]
 別れを告げるはずの美寿花の声が…震えている。[p]
 
+[backlay layer="0"]
+[image name="10" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/komari_n.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_11.ogg"]
 #美寿花
 「…あれ…おかしいな…」[p]
@@ -654,11 +725,21 @@
 いつも笑っていた美寿花が見せた…初めての、涙。[p]
 それでも、彼女は無理やり笑う。[p]
 
+[backlay layer="0"]
+[image name="11" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/hohoemi_n.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_12.ogg"]
 #美寿花
 「…こんな別れになっちゃって…ごめんね」[p]
 ;差分 涙がにじんだ笑顔
 
+#
+
+[backlay layer="0"]
+[image name="12" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/nakiwarai.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_13.ogg"]
 #美寿花
 「…さよなら」[p]
@@ -671,7 +752,21 @@
 ;CG フェード
 ;背景 リビング
 
-[freeimage layer="0" time="500"]
+;[camera layer="base" x="0" y="0" zoom="1.00" time="3000" wait="false"]
+[reset_camera layer="base" wait="3000" wait="false"]
+[bg storage="living.png" time="0"]
+[free name="1" layer="0" time="0" wait="false"]
+[free name="2" layer="0" time="0" wait="false"]
+[free name="3" layer="0" time="0" wait="false"]
+[free name="4" layer="0" time="0" wait="false"]
+[free name="5" layer="0" time="0" wait="false"]
+[free name="6" layer="0" time="0" wait="false"]
+[free name="7" layer="0" time="0" wait="false"]
+[free name="8" layer="0" time="0" wait="false"]
+[free name="9" layer="0" time="0" wait="false"]
+[free name="10" layer="0" time="0" wait="false"]
+[free name="11" layer="0" time="0" wait="false"]
+[free name="12" layer="0" time="2000" wait="true"]
 
 #
 ‥‥‥‥[p]
@@ -694,17 +789,19 @@
 ;表情
 
 [voicestop]
-
 #
 やめてくれ…[p]
 
+[chara_show name="RozLaz" top="100" width="523" height="552.51" face="roz_komari" wait="true" pos_mode="true"]
 [voice2 vf2="roz/roz5-3_1.ogg"]
 #ロズ
 「美寿花…」[p]
+
+#
 ;表情表情 悲しい
 ;画面右（下？）に立ち絵表示
 
-
+[chara_mod name="RozLaz" face="laz_zannen" cross="false"]
 [voice2 vf2="laz/laz5-3_1.ogg"]
 #ラズ
 「…駄目、でしたか」[p]
@@ -712,6 +809,10 @@
 ;画面右（下？）に立ち絵表示
 
 [voicestop]
+#
+[chara_hide_all time="1000"]
+;[camera layer="0" x="0" y="0" zoom="1.00" time="0" wait="false"]
+[reset_camera layer="0" wait="false"]
 
 #
 止めてくれ…[p]
@@ -720,6 +821,7 @@
 #永寿郎
 「それでは、改めて…」[p]
 
+[fadeoutbgm time="1000" ]
 [voice2 vf2="eijurou/eijurou5-3_3.ogg"]
 #永寿郎
 「私の娘が、お世話になりました」[p]
@@ -729,9 +831,11 @@
 #
 …誰か…ッ…！！[p]
 
+
+[chara_show name="kouki" top="-50" storage="chara/kouki/straight.png" wait="true"]
 [voice2 vf2="kouki/kouki5-3_1.ogg"]
 #黄樹
-「本当にいいのか？これで」[p]
+「本当にいいのか？ これで」[p]
 ;表情画面左寄りに立ち絵表示、表情真剣
 
 [voicestop]
@@ -740,7 +844,7 @@
 後ろで、父さんに声をかけられる。[p]
 
 [voice2 vf2="kouki/kouki5-3_2.ogg"]
-#黄樹
+#黄樹:normal
 「正直な話…僕はこの結果でも構わないとは思っている」[p]
 ;表情
 
@@ -756,11 +860,11 @@
 
 [voice2 vf2="kouki/kouki5-3_4.ogg"]
 #黄樹
-「その種から生まれた芽が、思い通りのものではなくとも…それを受け入れなくてはいけない…が」[p]
+「その種から生まれた芽が、思い通りのものではなくとも…[r]　それを受け入れなくてはいけない…が」[p]
 ;表情
 
 [voice2 vf2="kouki/kouki5-3_5.ogg"]
-#黄樹
+#黄樹:straight
 「…それは、『雪翔』が納得できる結果という前提だ」[p]
 ;表情
 
@@ -770,7 +874,7 @@
 ≪ッ…≫[p]
 
 [voice2 vf2="kouki/kouki5-3_6.ogg"]
-#黄樹
+#黄樹:bishou
 「…納得できない…その気持ちはよく分かる。お前の顔みたらな」[p]
 ;表情
 
@@ -780,18 +884,32 @@
 ;表情
 
 [voicestop]
+#
+[chara_hide_all]
 
 #雪翔
 ≪‥‥‥≫[p]
 
+[playbgm storage="wasurenagusa.mp3" volume="20"]
 #
 あぁ…俺はいつも、誰かに背を押されて、生きている。[p]
 ;背景 4-1の一枚絵
 
+
+
+[backlay layer="0"]
+[image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1yuugu/4-1.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 あの時も、[p]
 ;背景 1-4の一枚絵
-
+[backlay layer="0"]
+[image name="2" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/1-4.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 あの時も、[p]
+[free name="1" layer="0" time="0" wait="false"]
+[free name="2" layer="0" time="2000" wait="true"]
 …そして、今も。[p]
 
 #雪翔
@@ -825,9 +943,13 @@
 #
 一片の、勇気を…！！[p]
 
+;修正後 優先度高 なんか盛り上がりそうなBGM！（自分で探すつもりだけど何かいいのがあったら）つぶ
+
+
 #雪翔
 「はぁ…はぁ…けほっ…！」[p]
 
+[chara_show name="mizuka" top="20" face="odoroki" time="1000"]
 [voice2 vf2="mizuka/mizuka5-3_16.ogg"]
 #美寿花
 「雪翔君…今…っ！」[p]
@@ -847,6 +969,7 @@
 
 #雪翔
 「お前は…うっ…」[p]
+[chara_mod name="mizuka"  face="shinpai_3" cross="false"]
 
 #
 久しぶりに出した声に、喉が悲鳴を上げている。[p]
@@ -860,6 +983,7 @@
 「…常葉美寿花…じゃない！！」[p]
 
 [voice2 vf2="mizuka/mizuka5-3_17.ogg"]
+[chara_mod name="mizuka"  face="odoroki_3" cross="false"]
 #美寿花
 「‥‥‥」[p]
 ;表情
@@ -879,10 +1003,10 @@
 「どこをどう見れば、この子が美寿花じゃないと言うんだね…？」[p]
 
 [voice2 vf2="mizuka/mizuka5-3_18.ogg"]
+[chara_mod name="mizuka"  face="shitsui" cross="false"]
 #美寿花
 「…ごめん。雪翔君…私は…」[p]
 ;表情
-
 [voicestop]
 
 #雪翔
@@ -891,35 +1015,42 @@
 #雪翔
 「お前は…今、生きてるだろ…！！」[p]
 
-#雪翔
-「『あの』常葉美寿花は、5年前の事故で死んだ…俺の目の前で死んだんだ…」[p]
+[chara_mod name="mizuka"  face="odoroki_3" cross="false" wait="false"]
 
 #雪翔
-「手を伸ばしても、触れるのは冷たい体だけ…声をかけても、何も反応しなかった…」[p]
+「『あの』常葉美寿花は、5年前の事故で死んだ…[r]　俺の目の前で死んだんだ…」[p]
+
+#雪翔
+「手を伸ばしても、触れるのは冷たい体だけ…声をかけても、[r]　何も反応しなかった…」[p]
+
+[chara_mod name="mizuka"  face="shinpai_3" cross="false" wait="false"]
 
 #雪翔
 「…でも、お前は違うだろ…」[p]
 
 #雪翔
-「触れればいつも温かかった…俺の声に…反応して、返事をしてくれた…！！」[p]
+「触れればいつも温かかった…俺の声に…反応して、[r]　返事をしてくれた…！！」[p]
 
 #雪翔
 「…そんな『美寿花』が…俺は大好きだった！」[p]
 
+[chara_mod name="mizuka"  face="aseri" cross="false" wait="false"]
+
 #雪翔
-「確かに、お前は『常葉美寿花』って名前かもしれないけど…でも、『あの美寿花』とは絶対に違う！！」[p]
+「確かに、お前は『常葉美寿花』って名前かもしれないけど…でも、[r]　『あの美寿花』とは絶対に違う！！」[p]
 
 #雪翔
 「…もう…代わりにならなくていいんだよ…美寿花…」[p]
 
 [voice2 vf2="mizuka/mizuka5-3_19.ogg"]
+[chara_mod name="mizuka"  face="shinpai_3" cross="false" wait="false"]
 #美寿花
 「雪、翔君…」[p]
 ;表情
 
 [voice2 vf2="eijurou/eijurou5-3_6.ogg"]
 #永寿郎
-「フ、フンッ！知ったような口を...！帰るぞ美寿花」[p]
+「知ったような口を...！帰るぞ美寿花」[p]
 
 [voice2 vf2="mizuka/mizuka5-3_20.ogg"]
 #美寿花
@@ -929,7 +1060,19 @@
 [voice2 vf2="eijurou/eijurou5-3_7.ogg"]
 #永寿郎
 「美寿花！」[p]
+[voicestop]
+#
 
+#
+
+[chara_hide_all wait="false" ]
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/naki_2.png" zindex="20"]
+[trans layer="0" time="1000" method="fadeIn"]
+[wt]
+[chara_hide_all time="0"]
+[chara_show name="mizuka"  top="20" face="namidame" time="0" wait="true" zindex="0" ]
+[chara_show name="kouki" top="-50" storage="chara/kouki/straight.png" time="0" wait="true" zindex="0" ]
 [voice2 vf2="mizuka/mizuka5-3_21.ogg"]
 #美寿花
 「…やっぱり…私………帰りたくない…！！」[p]
@@ -947,15 +1090,27 @@
 [voice2 vf2="eijurou/eijurou5-3_9.ogg"]
 #永寿郎
 「な、何を言って…」[p]
+[voicestop]
+#
 
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/toji_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_22.ogg"]
 #美寿花
 「…ごめんなさい。お父さん」[p]
 ;表情
 
+#
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/shinken_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_23.ogg"]
 #美寿花
-「…違和感は、感じてた。この力のことだったり…直近以外の記憶が、何故か曖昧だったり…ね」[p]
+「…違和感は、感じてた。この力のことだったり…直近以外の記憶が、[r]　何故か曖昧だったり…ね」[p]
 ;表情
 
 [voice2 vf2="eijurou/eijurou5-3_10.ogg"]
@@ -969,29 +1124,53 @@
 自分のしてきた事からも、逃げるように。[p]
 …それでも、美寿花は構わず続けた。[p]
 
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/hohoemi_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_24.ogg"]
 #美寿花
-「…でも、言えなかった。それが人離れしているっていうことは分かっていたから」[p]
+「…でも、言えなかった。[r]　それが人離れしているっていうことは分かっていたから」[p]
 ;表情
 
+#
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/toji_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_25.ogg"]
 #美寿花
-「…だから、最初に私がアンドロイドだって分かった時…ショックより、ただひたすら、哀しくなったの。」[p]
+「…だから、最初に私がアンドロイドだって分かった時…[r]　ショックより、ただひたすら、哀しくなったの。」[p]
 ;表情
 
+#
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/komari_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_26.ogg"]
 #美寿花
-「『ああ、今まで皆は私じゃなくて、死んだ常葉美寿花と話してたんだ』…って」[p]
+「『ああ、今まで皆は私じゃなくて、死んだ常葉美寿花と話してたんだ』[r]　…って」[p]
 ;表情
 
 [voice2 vf2="eijurou/eijurou5-3_11.ogg"]
 #永寿郎
 「そ、そんな事はない！私たちはいつも…」[p]
 
+#
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/shinken_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_27.ogg"]
 #美寿花
 「じゃあ…どうして私を…『常葉美寿花』として作ったの？」[p]
 ;表情
+
+#
 
 [voice2 vf2="eijurou/eijurou5-3_12.ogg"]
 #永寿郎
@@ -1004,28 +1183,49 @@
 普通のアンドロイドを製造するなら、わざわざ死んだ娘の姿にする必要なんてない。[p]
 …永寿郎は代わり…いや、それどころか美寿花そのものを作り出そうとしたのだ。[p]
 
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/yasuraka_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_28.ogg"]
 #美寿花
-「…別にね、記憶を消されても良かったんだ。それでも、『私』はお父さんの糧になれたから…」[p]
+「…別にね、記憶を消されても良かったんだ。[r]　それでも、『私』はお父さんの糧になれたから…」[p]
 ;表情
 
+#
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_29.ogg"]
 #美寿花
 「…さっきまでは、ね」[p]
 ;表情
 
 [voicestop]
+#
 
 そこまで言って、美寿花は俺を見る。[p]
 
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/kouchou_n.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_30.ogg"]
 #美寿花
 「…でも、雪翔君は違った…私を…必要としてくれた…！」[p]
 ;表情
 
+#
+
+[backlay layer="0"]
+[image name="2"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/naki_3.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_31.ogg"]
 #美寿花
-「…だから…私は、雪翔君の隣にいたい。…二度と会えなくなるなんて、嫌だよ…」[p]
+「…だから…私は、雪翔君の隣にいたい。[r]　…二度と会えなくなるなんて、嫌だよ…」[p]
 ;表情
 
 [voicestop]
@@ -1039,13 +1239,17 @@
 
 [voice2 vf2="kouki/kouki5-3_8.ogg"]
 #黄樹
-「もういいでしょう。永寿郎さん」[p]
+「もういいでしょう。常盤社長」[p]
 ;表情
 
 [voicestop]
 
 #雪翔
 「…え…？」[p]
+
+
+[free name="1" layer="0" time="0" wait="false"]
+[free name="2" layer="0" time="2000" wait="true"]
 
 #
 気づけば、父さんがすぐ横に立っていた。[p]
@@ -1057,18 +1261,22 @@
 
 [voice2 vf2="kouki/kouki5-3_10.ogg"]
 #黄樹
-「…だが…」[p]
+「…ですが…」[p]
 ;表情
 
 [voice2 vf2="kouki/kouki5-3_11.ogg"]
-#黄樹
+#黄樹:normal
 「…親というのは、子供の意志をしっかり受け止め、それを支えるものだと、私は思っています」[p]
 ;表情
 
 [voice2 vf2="kouki/kouki5-3_12.ogg"]
-#黄樹
-「…彼らは十分自分の意志を見せてくれました…今度は我々がその意志を受け止めるべきではないでしょうか…？」
+#黄樹:bishou
+「…彼らは十分自分の意志を見せてくれました…今度は我々がその意志を受け止めるべきではないでしょうか…？」[p]
 ;表情
+[voicestop]
+#
+[chara_hide_all]
+[fadeoutbgm time="2000"]
 
 [voice2 vf2="eijurou/eijurou5-3_14.ogg"]
 #永寿郎
@@ -1088,17 +1296,19 @@
 #
 深く、永寿郎は崩れ落ちた。[p]
 
+[playbgm storage="namida.mp3" volume="50" ]
 [voice2 vf2="eijurou/eijurou5-3_16.ogg"]
 #永寿郎
 「…いつから、だろうな…」[p]
 
 [voice2 vf2="eijurou/eijurou5-3_17.ogg"]
 #永寿郎
-「…いや…分かってるんだ。全てはあの事故で…私の娘が、死んだと聞いたあの時から…私は、狂ってしまった」[p]
+「…いや…分かってるんだ。全てはあの事故で…私の娘が、[r]　死んだと聞いたあの時から…私は、狂ってしまった」[p]
 
 [voice2 vf2="eijurou/eijurou5-3_18.ogg"]
 #永寿郎
-「…『娘を取り戻したい』という思いが…そんな、意味もない願いが…お前を、作り出してしまったんだ…」[p]
+「…『娘を取り戻したい』という思いが…[r]　そんな、意味もない願いが…お前を、作り出してしまったんだ…」[p]
+
 
 [voice2 vf2="mizuka/mizuka5-3_32.ogg"]
 #美寿花
@@ -1114,45 +1324,90 @@
 #
 そう返した美寿花の表情はいつも通りの…いや、いつも以上に優しい、笑みだった。[p]
 
+;*debug
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_33.ogg"]
 #美寿花
-「…そのおかげで、本来生まれなかったはずの私が生まれた」
+「…そのおかげで、本来生まれなかったはずの私が生まれた」[p]
 ;表情
 
+#
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_34.ogg"]
 #美寿花
-「そのおかげで…雪翔君にも会えた。…死んだ美寿花を曲がりなりにも大切に想っていた心が…私を産んだんだよ」[p]
+「そのおかげで…雪翔君にも会えた。…死んだ美寿花を曲がりなりにも大切[r]　に想っていた心が…私を産んだんだよ」[p]
 ;表情
 
+#
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/egao.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_35.ogg"]
 #美寿花
 「だから…意味がないなんて、言わないでよ」[p]
 ;表情
 
+
+#
+
 [voice2 vf2="eijurou/eijurou5-3_20.ogg"]
 #永寿郎
-「…そうか…」
+「…そうか…」[p]
 
+#
+
+[backlay layer="0"]
+[image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
 [voice2 vf2="eijurou/eijurou5-3_21.ogg"]
 #永寿郎
 「‥‥‥‥‥」[p]
+
+#
 
 [voice2 vf2="eijurou/eijurou5-3_22.ogg"]
 #永寿郎
 「…もう、年貢の納め時なのかもしれないな」[p]
 
+#
+
+[backlay layer="0"]
+[image name="2"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/katari.png" zindex="20"]
+[trans layer="0" time="1200" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_36.ogg"]
 #美寿花
-「…お父さん？」
+「…お父さん？」[p]
 ;表情
-
 [voicestop]
-
 #
+
+[bg storage="daysky.png" time="0" ]
+[free name="1" layer="0" time="0" wait="false"]
+[free name="2" layer="0" time="2000" wait="true"]
+
+[layopt layer="0" visible="true"]
+[image layer="0" name="daysky" x="0" y="0" width="1280" height="720" storage="singlepic/5-3/daysky.png" time="1000"]
+
 ふと、天井を仰ぎ、独り言のように呟く。[p]
 永寿郎の顔には、後悔や、諦め…それに、どこか安堵のようなものが感じられた。[p]
 その時、初めて彼は解放されたのかもしれない。[p]
 事故で娘をなくした…大きすぎる呪縛から。[p]
+
+[bg storage="living.png" time="0" cross="false" method="fadeIn"]
+[free layer="0" name="daysky" time="2000"]
+
+;method="fadeIn"
 
 [voice2 vf2="eijurou/eijurou5-3_23.ogg"]
 #永寿郎
@@ -1203,22 +1458,28 @@
 
 [voice2 vf2="kouki/kouki5-3_13.ogg"]
 #黄樹
-「途中まで、送りますよ。久々にお会いしたんですし、色々話したいことが…」[p]
+「途中まで、送りますよ。久々にお会いしたんですし、[r]　色々話したいことが…」[p]
 ;表情
 
 [voicestop]
 
+
 #
-数分後。[p]
+
 そんな会話をしながら、父さんたちの声は遠くなっていく。[p]
 
 #雪翔
 「…終わった…」[p]
+#
+
+[chara_show name="mizuka"  top="20" face="odoroki" time="1000" wait="true" zindex="0" ]
 
 [voice2 vf2="mizuka/mizuka5-3_37.ogg"]
 #美寿花
-「…だ、大丈夫…？というか、そう！声！出せるようになったの！？」[p]
+「…だ、大丈夫…？　というか、そう！声！出せるようになったの！？」[p]
 ;表情
+
+[chara_mod name="mizuka" face="shinpai_3" cross="false" wait="false" ]
 
 [voicestop]
 
@@ -1235,19 +1496,22 @@
 #
 喉元を軽くさすりながら、俺は伸びをしてずっと固まっていた体をほぐす。[p]
 
+[chara_mod name="mizuka" face="teremoji" cross="false" ]
 [voice2 vf2="mizuka/mizuka5-3_38.ogg"]
 #美寿花
 「…あ～…それと…さ？さっき雪翔君が言ってたのって…ってうわ！？」[p]
+
 ;表情
 
 [voicestop]
-
 #
+[chara_mod name="mizuka" face="odoroki" cross="false" ]
 …と、同時に後ろのソファーに倒れかかった。[p]
 
 #雪翔
 「…あ…悪い。なんか言ったか…？ゲホッ…」[p]
 
+[chara_mod name="mizuka" face="shinpai" cross="false" ]
 [voice2 vf2="mizuka/mizuka5-3_39.ogg"]
 #美寿花
 「いや…ううん何でもない！というか、本当に大丈夫！？」[p]
@@ -1258,6 +1522,7 @@
 #
 美寿花が慌てて俺の額に手を当ててくる。[p]
 
+[chara_mod name="mizuka" face="konwaku" cross="false" ]
 [voice2 vf2="mizuka/mizuka5-3_40.ogg"]
 #美寿花
 「熱は…なさそうだけど…」[p]
@@ -1274,13 +1539,16 @@
 #雪翔
 「…本当に…よかった…」[p]
 
+
+[chara_mod name="mizuka" face="namidaegao" cross="false" ]
 [voice2 vf2="mizuka/mizuka5-3_41.ogg"]
 #美寿花
 「…ありがとうね。私を、必要としてくれて」[p]
 ;表情
 
 [voicestop]
-
+#
 …気分だけは、最高だった。[p]
+[fadeoutbgm time="2000"]
 
 [scenejumpNormal sc="5-4.ks"]

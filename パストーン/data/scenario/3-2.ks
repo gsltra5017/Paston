@@ -10,6 +10,8 @@
 
 [bg storage="road_evening.png"]
 
+[playbgm storage="nc67412.mp3" volume="40" ]
+
 [chara_show name="mizuka" face="shinpai" top="20"]
 #美寿花
 [voice2 vf2="mizuka/mizuka3-2_1.ogg"]
@@ -48,6 +50,8 @@
 #
 一方、俺はまた別のことで頭を悩ませていた。[p]
 
+[fadeoutbgm time="2000"]
+
 [bgchangemask]
 
 [chara_hide_all time="500"]
@@ -59,7 +63,7 @@
 
 [bgchangemask_off]
 ;修正済み（担当辻） ロズラズの表示位置 ☆
-;修正前 BGMわからん ☆
+[playbgm storage="RozLaz.mp3" volume="30" ]
 
 #ロズ
 [voice2 vf2="roz/Roz3-2_1.ogg"]
@@ -137,8 +141,7 @@
 
 #
 AIとはいえ、一応性別は女性だ。[p]
-もしかしたら参考になるかもしれない。[r]
-と藁にも縋る思いで聞いてみる、が…[p]
+もしかしたら参考になるかもしれない。と藁にも縋る思いで聞いてみる、が…[p]
 
 [chara_mod name="RozLaz" face="laz_akire"]
 #ラズ
@@ -169,6 +172,7 @@ AIとはいえ、一応性別は女性だ。[p]
 ;shinpai
 
 [chara_mod name="RozLaz" face="roz_shinpai_2"]
+[chara_mod name="RozLaz" face="roz_kushou"]
 #ロズ
 ;[voice2 vf2="roz/Roz3-2_5.ogg"]
 「‥‥‥」[p]
@@ -178,7 +182,7 @@ AIとはいえ、一応性別は女性だ。[p]
 #ラズ
 [voice2 vf2="laz/Laz3-2_5.ogg"]
 「…まぁ、それはそれとして、まず更新終わらせません？」[p]
-
+#
 [voicestop]
 
 #雪翔
@@ -202,10 +206,13 @@ AIとはいえ、一応性別は女性だ。[p]
 #ラズ
 「いつでもよろしいですわ」[p]
 
+#
 [voicestop]
 
 ;効果音 クリック
 [playse_click_1]
+
+[fadeoutbgm time="2000"]
 
 ;AI更新中の表情
 [wait time="100"]
@@ -250,7 +257,7 @@ EL社の社長について[p]
 [chara_show name="mizuka" face="egao" top="20" time="500"]
 #美寿花
 『えーと、名前は常葉美寿花。大学1年生だよ』[p]
-
+#
 [chara_hide_all time="500"]
 
 ;背景 雪翔の自室
@@ -270,9 +277,12 @@ EL社の社長について[p]
 
 #雪翔
 ≪‥‥‥≫[p]
+#
 
 ;効果音 通知音 ☆
 ;[playse storage=通知音]
+[playse_phone]
+
 
 #雪翔
 ≪うおびっくりした…≫[p]
@@ -287,6 +297,7 @@ EL社の社長について[p]
 画面を見ると、そこにはTwineの新規メッセージが。[p]
 
 ;修正前 チャット用CG ☆
+;修正済み（担当辻） チャット用CG ☆
 
 [layopt layer="0" visible="true"]
 [image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-2/チャット画面01.png" time="1000"]
@@ -299,6 +310,10 @@ EL社の社長について[p]
 夕方の話…？[p]
 不思議に思っている間に、もう一個届く。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面02.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #文永
 『お姉ちゃんの誕生日プレゼント、どうするんですか？』[p]
 
@@ -312,6 +327,10 @@ EL社の社長について[p]
 #
 少し考えて、俺はメッセージを送る。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面03.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #雪翔
 『まだ全然決まってない…というか、めっちゃ悩んでる』[p]
 
@@ -323,14 +342,27 @@ EL社の社長について[p]
 家族以外の人と初めてのTwineでの会話に緊張し、[r]
 余計な心配が出てくる。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面04.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #雪翔
 『文永は、なにか知ってるか？　美寿花の好きなもの』[p]
 
 #
 続けてそう送る。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面05.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #文永
 『好きなもの、ですか？』[p]
+
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面06.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 『そうですね…動物とか結構好きだったと思いますよ』[p]
 
 #雪翔
@@ -339,10 +371,18 @@ EL社の社長について[p]
 #
 …確かに好きそうだが…プレゼントには向いてないな…[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面07.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #文永
 『あ、じゃあ水族館とかどうです？[r]
 _　ほら、前に言ってたじゃないですか』[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面08.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #雪翔
 『…なるほど。その手があったか』[p]
 
@@ -350,29 +390,55 @@ _　ほら、前に言ってたじゃないですか』[p]
 そういえばカラオケの時、確かに水族館に行ってみたいと言っていた。[p]
 …そっか。プレゼントと言っても何か物を送るだけじゃないのか。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面09.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #文永
 『チケット、こっちで取っておいた方がいいですか？』[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面10.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #雪翔
 『そうしてくれると助かる。あ、お金は次会った時に払うから』[p]
+
 #
 何から何まで気を回してくれて、本当に感謝でしかない。[p]
 …お礼に何か…あ、そうだ。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面11.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #雪翔
 『文永は木曜空いてる？』[p]
 
 #
 せっかく行くなら3人で、と思ったのだが…[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面12.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #文永
 『いや、私行く必要ないでしょ…』[p]
+
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面14.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 『今日も言いましたけど、二人で行って来たらいいじゃないですか。[r]
 _　雪翔さんが、お姉ちゃんにあげるプレゼントなんですから』[p]
 
 #雪翔
 ≪…それもそうか≫[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面15.png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #
 文永に『そうする』と送り、ベッドに倒れる。[p]
 水族館かぁ…俺も行ったことないし、楽しみだ。[p]
@@ -382,4 +448,5 @@ _　雪翔さんが、お姉ちゃんにあげるプレゼントなんですか�
 #雪翔
 ≪…どう誘えばいいんだ？　これ…≫[p]
 
+#
 [scenejumpNormal sc="3-3.ks"]

@@ -18,15 +18,14 @@
 
 ;効果音 チャイム
 [playse_schoolchaimu]
-[playbgm storage="Bonyari_Hitsuji.mp3" volume="70" ]
+
 
 #雪翔
 ≪…終わった…≫[p]
-
-;学校のテーマ
-;[playbgm storage=""]
-
 #
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="70" ]
+
+
 授業終了のチャイムが鳴り、重い瞼をこする。[p]
 …最近は授業の終わりまで起きられるようになったけど…[r]
 それでも眠いものは眠い。[p]
@@ -39,6 +38,7 @@
 #ロズ
 [voice2 vf2="roz/Roz3-1_1.ogg"]
 「マスター、ちょい待った」[p]
+#
 ;立ち絵なし
 
 [voicestop]
@@ -50,12 +50,14 @@
 
 #雪翔
 ≪…なんだ、ロズか…どうした？≫[p]
+#
 
 ;修正済み（担当辻） ロズラズの表示位置の修正
 [chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_shinpai"]
 #ロズ
 [voice2 vf2="roz/Roz3-1_2.ogg"]
 「いや、全然気づいてへんみたいやから…」[p]
+#
 ;表情 shinpai
 
 [chara_mod name="RozLaz" face="roz_neutral"]
@@ -77,6 +79,7 @@
 #ロズ
 [voice2 vf2="roz/Roz3-1_4.ogg"]
 「マスター、言われんかったらそのまま帰るつもりやったやろ？」[p]
+#
 ;表情 okori_2
 
 [voicestop]
@@ -96,18 +99,20 @@
 #美寿花
 [voice2 vf2="mizuka/Mizuka3-1_1.ogg"]
 『一人で大丈夫？しらない人について行かないでよ？』[p]
+#
 ;表情 worry_3
 
 [voicestop]
 
 [free name="img" layer="0" time="500" wait="true"]
 
-#
+
 …と、美寿花に何だか子供みたいな心配をされたが…[p]
 
 #雪翔
 （…まぁ、そもそも声を掛けられる知り合いすらいないからな…）[p]
 ≪助かったよ。ありがとう≫[p]
+#
 
 ;[chara_show name="RozLaz" top="-70" face="roz_akire"]
 #ロズ
@@ -208,11 +213,13 @@
 …といっても『この機能誰が使うんだ？』的なものが多く[r]
 時間がかかるのも相まって、めんどくさいのが正直なところである。[p]
 
-[chara_hide_all]
+
 
 [bgchangemask]
 
-;修正前 背景変更、校門前（素材待ち）☆
+[chara_hide_all time="0"]
+;修正済み 背景変更、校門前（素材待ち）☆
+[bg storage="学校外観（加工後）の加工後.png" time="0"]
 
 [bgchangemask_off]
 

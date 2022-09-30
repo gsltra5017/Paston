@@ -20,6 +20,7 @@
 ;	前景レイヤの中身をすべて空に
 	[iscript]
 	$(".layer_camera").empty();
+	$("#bgmovie").remove();
 	[endscript]
 
 ;	メニューボタン非表示
@@ -53,8 +54,8 @@
 	tf.img_path = '../image/config/';
 
 	/* 画像類のパス（ボタン） */
-	tf.btn_path_off = tf.img_path + '砂時計_通常.png';
-	tf.btn_path_on  = tf.img_path + '砂時計_色あり.png';
+	tf.btn_path_off = tf.img_path + 'c_btn.gif';
+	tf.btn_path_on  = tf.img_path + 'c_set.png';
 
 	// ボタン画像の幅と高さ
 	tf.btn_w  = 46; // 幅
@@ -92,7 +93,7 @@
 
 
 ;	画面右上の「Back」ボタン
-	[button fix="true" graphic="&tf.img_path + '戻る_通常形態.png'" enterimg="&tf.img_path + '戻る_変形！.png'" target="*backtitle" width="100" height="100" x="1160" y="20"]
+	[button fix="true" graphic="&tf.img_path + 'c_btn_back.png'" enterimg="&tf.img_path + 'c_btn_back2.png'" target="*backtitle" x="1160" y="20"]
 
 [jump target="*config_page"]
 
@@ -176,13 +177,13 @@
 
 	[iscript]
 
-	$(".bgmvol_"+tf.current_bgm_vol).attr("src","data/image/config/砂時計_色あり.png");
+	$(".bgmvol_"+tf.current_bgm_vol).attr("src","data/image/config/c_set.png");
 
-	$(".sevol_"+tf.current_se_vol).attr("src","data/image/config/砂時計_色あり.png");
+	$(".sevol_"+tf.current_se_vol).attr("src","data/image/config/c_set.png");
 
-	$(".ch_"+tf.current_ch_speed).attr("src","data/image/config/砂時計_色あり.png");
+	$(".ch_"+tf.current_ch_speed).attr("src","data/image/config/c_set.png");
 
-	$(".auto_"+tf.current_auto_speed).attr("src","data/image/config/砂時計_色あり.png");
+	$(".auto_"+tf.current_auto_speed).attr("src","data/image/config/c_set.png");
 
 	if(tf.text_skip == 'OFF'){
 		$(".unread_off").attr("src","./data/image/config/c_skipoff.png");
@@ -229,8 +230,8 @@
 *vol_bgm_change
 
 [iscript]
-	$(".bgmvol").attr("src","data/image/config/砂時計_通常.png");
-	$(".bgmvol_"+tf.current_bgm_vol).attr("src","data/image/config/砂時計_色あり.png");
+	$(".bgmvol").attr("src","data/image/config/c_btn.png");
+	$(".bgmvol_"+tf.current_bgm_vol).attr("src","data/image/config/c_set.png");
 [endscript]
 
 [bgmopt volume="&tf.current_bgm_vol"]
@@ -243,8 +244,8 @@
 *vol_se_change
 
 [iscript]
-	$(".sevol").attr("src","data/image/config/砂時計_通常.png");
-	$(".sevol_"+tf.current_se_vol).attr("src","data/image/config/砂時計_色あり.png");
+	$(".sevol").attr("src","data/image/config/c_btn.png");
+	$(".sevol_"+tf.current_se_vol).attr("src","data/image/config/c_set.png");
 [endscript]
 
 [seopt volume="&tf.current_se_vol"]
@@ -258,8 +259,8 @@
 
 	[iscript]
 
-	$(".ch").attr("src","data/image/config/砂時計_通常.png");
-	$(".ch_"+tf.set_ch_speed).attr("src","data/image/config/砂時計_色あり.png");
+	$(".ch").attr("src","data/image/config/c_btn.png");
+	$(".ch_"+tf.set_ch_speed).attr("src","data/image/config/c_set.png");
 	tf.current_ch_speed = tf.set_ch_speed;
 
 	[endscript]
@@ -295,8 +296,8 @@
 
 	[iscript]
 
-	$(".auto").attr("src","data/image/config/砂時計_通常.png");
-	$(".auto_"+tf.set_auto_speed).attr("src","data/image/config/砂時計_色あり.png");
+	$(".auto").attr("src","data/image/config/c_btn.png");
+	$(".auto_"+tf.set_auto_speed).attr("src","data/image/config/c_set.png");
 
 	[endscript]
 	[autoconfig speed="&tf.set_auto_speed"]
@@ -339,7 +340,9 @@
 
 ;================================================================================
 ;--------------------------------------------------------------------------------
+
 ; BGM更新
+
 ;--------------------------------------------------------------------------------
 *icon_bgm
 

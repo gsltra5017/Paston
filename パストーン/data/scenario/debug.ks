@@ -1,6 +1,5 @@
 *start
 @layopt layer="message" visible="true"
-[showmenubutton]
 [nowait]
 [link storage="1-1.ks"]1-1　[endlink]
 [link storage="1-2.ks"]1-2　[endlink]
@@ -26,6 +25,16 @@
 
 [link storage="5-1.ks"]5-1　[endlink]
 [link storage="5-2.ks"]5-2　[endlink]
-[link storage="5-3.ks"]5-3　[endlink]
+[link target=*go]5-3　[endlink]
 [link storage="5-4.ks"]5-4　[endlink][r]
+
+[link storage="title.ks"]title　[endlink][r]
 [endnowait]
+
+[s]
+
+*go
+[startoption]
+
+@jump storage=5-2.ks target=*5-3
+

@@ -14,6 +14,8 @@
 #
 机に突っ伏しながら、俺はため息をつく。[p]
 
+[playbgm storage="Ready_to_jump.mp3" volume="30" ]
+
 [voice1 vf1="mizuka/mizuka2-3_1.ogg"]
 #美寿花:kushou
 「ほんとに危なかったね…講義室入った時点で3分前だったし…」[p]
@@ -95,6 +97,7 @@
 ドアが開き、教授らしき人物が入ってきた。[p]
 
 [chara_hide name="mizuka"]
+[fadeoutbgm time="2000"]
 
 #
 …そして、程なくして1時限目の講義が始まる。[p]
@@ -143,12 +146,15 @@
 ……[p]
 ………[p]
 
-;修正前 効果音 ツンッ
+;修正後（担当辻） 効果音 ツンッ
 
+[playse_tsuntsun]
 ツンッ[p]
 …[p]
 
-;修正前 効果音 ツンッ×２
+;修正後（担当辻） 効果音 ツンッ×２
+[playse_tsuntsun]
+[playse_tsuntsun]
 
 ツンツンッ[p]
 …んん…？[p]

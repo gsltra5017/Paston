@@ -113,9 +113,9 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 少し前の自分なら、考えられないような状況。[p]
 でも、それになんの抵抗もなく…いや、むしろ安らぎすら感じている自分もいることに…少し、笑ってしまった。[p]
 
-[fadeoutbgm time=2000]
+[fadeoutbgm time="2000"]
 [mask time="1300" effect="slideInLeft" wait="true"]
-[bg storage="classroom.png"]
+[bg storage="classroom_cloud.png"]
 [chara_mod name="mizuka" face="onemu"]
 [mask_off effect="slideOutRight" time="1300"]
 
@@ -124,11 +124,15 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 ;問題　背景が曇っていない問題
 
 ;修正後 美寿花の表情を喋っていない間にも徐々に変えていきたい 151行でonemuにしてみた
+
+[playbgm storage="rain.mp3" volume="70"]
+
 [voice2 vf2="laz/Laz2-4_1.ogg"]
 #ラズ
 「お食事中、申し訳ないのですが…」[p]
 ;立ち絵なし
 [voicestop]
+
 
 #
 少し時間が経過し、完食までのこりわずかとなった時。[p]
@@ -144,9 +148,9 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 [voice2 vf2="laz/Laz2-4_2.ogg"]
 #ラズ
-「その雨が降り出してまして…」[p]
+「その、雨が降り出してまして…」[p]
 ;表情 shinpai
-;未修正　テキスト変わってるから、あとでやる
+;修正済み　テキスト変わってるから、あとでやる
 
 [voicestop]
 
