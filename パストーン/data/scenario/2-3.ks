@@ -143,13 +143,13 @@
 ……[p]
 ………[p]
 
-;修正前 効果音 ツンッ
+;修正後（担当辻） 効果音 ツンッ
 
 [playse_tsuntsun]
 ツンッ[p]
 …[p]
 
-;修正前 効果音 ツンッ×２
+;修正後（担当辻） 効果音 ツンッ×２
 [playse_tsuntsun]
 [playse_tsuntsun]
 
