@@ -146,7 +146,8 @@
 #雪翔
 「は？ それって…」[p]
 
-;修正前 優先度高 ノックの音
+;修正済み（担当辻） 優先度高 ノックの音
+[playse_door_knock]
 
 #
 すると、2回のノックが聞こえ、ドアが開く。[p]
@@ -223,7 +224,9 @@
 
 [voice2 vf2="mizuka/mizuka5-4_7.ogg"]
 #美寿花:egao_2
-「ふふっ、あはははは」[p]
+「ふふ……あははっ！」[p]
+
+[voicestop]
 
 #
 僕の言葉に、美寿花は笑ってくれる。[p]
@@ -373,9 +376,9 @@
 #
 非情の追撃である。[p]
 
-;修正前 優先度高 itazuraに照れを付けたやつに表情変更
+;修正済み（担当辻） 優先度高 itazuraに照れを付けたやつに表情変更
 [voice2 vf2="mizuka/mizuka5-4_17.ogg"]
-#美寿花
+#美寿花:itazuratere
 「だって、そうなんでしょ？[r]　あんな流れでスッと言っちゃうくらい想ってたんでしょ？」[p]
 ;terejitome
 
@@ -559,8 +562,8 @@
 
 [chara_hide_all]
 
-[mask time="5000" effect="fadeIn" color="0xFFFFFF"]
+[mask time="5000" effect="fadeIn" color="0xFFFFFF" wait="true"]
+[free layer="0" name="1" time="0"]
 [wt]
 [resetdelay]
-[s]
 @jump storage="title.ks"
