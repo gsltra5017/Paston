@@ -224,7 +224,9 @@
 
 [voice2 vf2="mizuka/mizuka5-4_7.ogg"]
 #美寿花:egao_2
-「ふふっ、あはははは」[p]
+「ふふ……あははっ！」[p]
+
+[voicestop]
 
 #
 僕の言葉に、美寿花は笑ってくれる。[p]
@@ -560,8 +562,8 @@
 
 [chara_hide_all]
 
-[mask time="5000" effect="fadeIn" color="0xFFFFFF"]
+[mask time="5000" effect="fadeIn" color="0xFFFFFF" wait="true"]
+[free layer="0" name="1" time="0"]
 [wt]
 [resetdelay]
-[s]
 @jump storage="title.ks"
