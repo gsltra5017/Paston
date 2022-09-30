@@ -115,7 +115,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 [fadeoutbgm time=2000]
 [mask time="1300" effect="slideInLeft" wait="true"]
-[bg storage="classroom.png"]
+[bg storage="classroom_cloud.png"]
 [chara_mod name="mizuka" face="onemu"]
 [mask_off effect="slideOutRight" time="1300"]
 
@@ -144,7 +144,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 [voice2 vf2="laz/Laz2-4_2.ogg"]
 #ラズ
-「その雨が降り出してまして…」[p]
+「その、雨が降り出してまして…」[p]
 ;表情 shinpai
 ;未修正　テキスト変わってるから、あとでやる
 
