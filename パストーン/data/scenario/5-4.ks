@@ -417,9 +417,12 @@
 
 #雪翔
 「…何だよ」[p]
-
-;修正前 優先度高 ベッドのCG表示
-;ベッドに座る二人のCG（顔が映らないので差分はなし）
+#
+;修正後 優先度高 ベッドのCG表示
+[backlay layer="0"]
+[image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-4/bed.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 
 [voice2 vf2="mizuka/mizuka5-4_21.ogg"]
 #美寿花
@@ -501,18 +504,26 @@
 #雪翔
 「…あのな、言わせたのはそっちなんだから何とか言ったら───」[p]
 
+[backlay layer="0"]
+[image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-4/kiss.png"]
+[trans layer="0" time="1000" method="fadeIn"]
+[wt]
 ;修正前 優先度高 キスCG表示、フェード時間はたっぷり2000msぐらいとって（ドライブのイラスト→一枚絵に入ってます）
 #
 …？[p]
 ;キスCG
 
-;
 #
 瞬間、何故か頭が真っ白になった。[p]
 何が起こったのか…全く分からなかった。[p]
 ;美寿花の顔アップCG
 
-;修正前 優先度高 美寿花の照れ顔アップのCG表示（ドライブのイラスト→一枚絵に入ってます）
+;修正後 優先度高 美寿花の照れ顔アップのCG表示（ドライブのイラスト→一枚絵に入ってます）
+
+[backlay layer="0"]
+[image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-4/tere.png"]
+[trans layer="0" time="2000" method="fadeIn"]
+[wt]
 #
 我に返ると、目の前の美寿花の顔はやけに紅潮していて…[p]
 ;差分照れ照れ
@@ -533,14 +544,23 @@
 
 ;修正前 優先度高 CG差分に変更
 
+[backlay layer="0"]
+[image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-4/egao.png"]
+[trans layer="0" time="1200" method="fadeIn"]
 [voice2 vf2="mizuka/mizuka5-4_27.ogg"]
-;差分満面の笑み
+[wt]
 #美寿花
 「私も、大好きだよ…！雪翔！！」[p]
 
 ;修正前 優先度高 5秒くらいかけて明転
 [voicestop]
+@layopt layer="message0" visible="false"
+#
 
 [chara_hide_all]
 
-[scenejumpNormal sc="title.ks"]
+[mask time="5000" effect="fadeIn" color="0xFFFFFF"]
+[wt]
+[resetdelay]
+[s]
+@jump storage="title.ks"
