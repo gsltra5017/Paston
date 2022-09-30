@@ -5,6 +5,8 @@
 
 [afterjumpmaskNormal]
 
+;[jump target="*debug"]
+
 [voice1 vf1="mizuka/mizuka5-1_1.ogg"]
 #？？？
 「なるほどね…」[p]
@@ -14,6 +16,7 @@
 「それで、君とお母さんが喧嘩してしまった…と」[p]
 
 ;修正前 優先度中 BGM（過去美寿花）もしくはなにかオルゴール調の物？
+;[playbgm storage=""]
 
 [voicestop]
 
@@ -178,11 +181,13 @@
 #雪翔
 ≪………≫[p]
 
+
 #
 …あれ？[p]
 再生ボタンを押すが、何故か無音。[p]
 
-;修正前 優先後高 ボイスメッセージ用動画を背景で再生
+;修正済み 優先後高 ボイスメッセージ用動画を背景で再生（添田）
+[bgmovie storage="5-1_koukiVoice.mp4" time=1000]
 
 [voice2 vf2="kouki/kouki5-1_1.ogg"]
 #黄樹
@@ -304,7 +309,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 
 [voice2 vf2="kouki/kouki5-1_15.ogg"]
 #黄樹
-「…もし、彼女がお前と関係あるのなら…お前の声を、取り戻すことができる[r]　かもしれない…」[p]
+「…もし、彼女がお前と関係あるのなら…お前の声を、取り戻すことができ[r]　るかもしれない…」[p]
 
 [voice2 vf2="kouki/kouki5-1_16.ogg"]
 #黄樹
@@ -317,8 +322,13 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 [voicestop]
 
 ;修正前 優先度低 1-1のみずかをフラッシュバックさせる（ボイスも再生するな加工した方がいいかも？）
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-1/(ここを書き換える).png"]
+[trans layer="0" time="500" method="fadeIn"]
+[wt]
 #
 『私がここにお邪魔させてもらった理由なんだけど…[r]　ちょっと、親と喧嘩しちゃって…』[p]
+[freeimage layer="0" time=500]
 
 #
 …あれは、建前だったのか…[p]
@@ -436,6 +446,7 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 #
 そこまで言って、声は途切れた。[p]
 
+[stop_bgmovie time=500]
 #雪翔
 ≪…っ…≫[p]
 
@@ -493,8 +504,8 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 [voicestop]
 [chara_hide_all time="500" wait="false"]
 ;[bg storage="makkuro.jpg" time="500"]
-#
 
+#
 背中を押される。[p]
 …こんな時すら、俺は一人で踏み出せない弱い男だけど。[p]
 …その弱さも、愚かさも、全部ぶつけて…美寿花と精一杯話そう。[p]
