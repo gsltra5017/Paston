@@ -27,6 +27,8 @@
 [link storage="5-2.ks"]5-2　[endlink]
 [link target=*go]5-3　[endlink]
 [link storage="5-4.ks"]5-4　[endlink][r]
+
+[link storage="title.ks"]title　[endlink][r]
 [endnowait]
 
 [s]
