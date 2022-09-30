@@ -29,6 +29,7 @@
 
 ;背景 白黒の青空
 [bg storage="sky_mono.png" time="500"]
+[playbgm storage="wop.wav" volume="40"]
 
 [voice1 vf1="mizuka/mizuka4-1_1.ogg"]
 #美寿花
@@ -78,12 +79,11 @@
 
 ;修正済み 美寿花の立ち絵を半透明の黒背景の上に表示する（添田）
 [chara_hide name="mizuka" time="500"]
-[bg storage="sky_mono.png" time=500]
 ;背景 一枚絵or白黒夕空（まぁ青空の使いまわしでいい気もするけど）
 ;[chara_show name="mizuka" top=20  face="egao_2" time=500]
-[backlay layer="1"]
-[image layer="1" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1/mizuka_haikeikurohan.png"]
-[trans layer="1" time="500" method="fadeIn"]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1/yakusoku.png"]
+[trans layer="0" time="500" method="fadeIn"]
 [wt]
 [voice2 vf2="mizuka/mizuka4-1_5.ogg"]
 #美寿花
@@ -102,9 +102,9 @@
 「後ろ！危ない！！」[p]
 
 ;背景 一枚絵
-[backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1事故/4-1事故.png"]
-[trans layer="0" time="1000" method="fadeIn"]
+[backlay layer="1"]
+[image layer="1" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1事故/4-1事故.png"]
+[trans layer="1" time="1000" method="fadeIn"]
 [wt]
 [voice2 vf2="mizuka/mizuka4-1_7.ogg"]
 #美寿花
@@ -119,16 +119,19 @@
 ;背景黒
 [chara_hide_all time=0]
 [bg storage="makkuro.jpg" time=0]
-[freeimage layer="0" time="1000" wait=true]
+[fadeoutbgm time="2000"]
+[freeimage layer="0" time="0" wait="false"]
+[freeimage layer="1" time="1000" wait="true"]
 
 [voice2 vf2="mizuka/mizuka4-1_9.ogg"]
+
 #美寿花
-;（昔＆今）
 「雪翔…君…」[p]
+
 [voicestop]
 
 ;背景 天井（病院の天井素材って…というか、病院の素材ってあったっけ…？）
-[bg storage ="病院天井（仮）.jpg"]
+[bg storage="roof_byoushitsu.png"]
 
 #雪翔
 ≪―――っ！？≫[p]
@@ -150,7 +153,9 @@
 そこでようやく目に入っているのが見慣れない天井だと気づき、[r]俺は体を起こす。[p]
 
 ;背景 病院
-[bg storage="病室（仮）.jpg" time="1000" wait="true"]
+[bg storage="byoushitsu.png" time="1000" wait="true"]
+
+[playbgm storage="Long_Bygone.mp3" volume="70" ]
 
 #雪翔
 ≪…病院の、ベッド…？≫[p]
@@ -318,6 +323,7 @@ _　まだ万全じゃないだろうし、食べるのは元気になってか�
 ;修正済み 美寿花の立ち絵を拡大 （添田）
 [kanim name="mizuka" keyframe="chikazuku" time=1000]
 [wa]
+[fadeoutbgm time="2000"]
 そう思った時には、美寿花の手はすぐそこまで迫って…[p]
 
 [voice2 vf2="mizuka/mizuka4-1_18.ogg"]

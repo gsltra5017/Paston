@@ -64,6 +64,7 @@
 ;立ち絵表示なし
 ;[voicestop]
 
+[playbgm storage="wop.wav" volume="40" ]
 #雪翔
 ≪‥‥‥≫[p]
 
@@ -317,6 +318,7 @@
 彼女は、俺を離したりしなかった。[p]
 逃げる俺の手を…掴んだ。[p]
 
+[fadeoutbgm time="1000"]
 ;立ち絵表示
 [chara_show name="mizuka" face="shinpai" top="20" time="1000"]
 そして…[p]
