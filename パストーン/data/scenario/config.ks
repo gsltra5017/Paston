@@ -88,7 +88,8 @@
 [cm]
 
 ;	コンフィグ用の背景を読み込んでトランジション
-	[bg storage="&tf.img_path +'white.png'" time="100"]
+	[bg storage="&tf.img_path +'bgconfig.png'" time="100"]
+
 
 ;	画面右上の「Back」ボタン
 	[button fix="true" graphic="&tf.img_path + '戻る_通常形態.png'" enterimg="&tf.img_path + '戻る_変形！.png'" target="*backtitle" width="100" height="100" x="1160" y="20"]
@@ -164,10 +165,10 @@
 ;------------------------------------------------------------------------------------------------------
 
 ;	未読スキップ-OFF
-	[button name="unread_off" fix="true" target="*skip_off" graphic="&tf.btn_path_off" width="170" height="45" x="400" y="470"]
+;	[button name="unread_off" fix="true" target="*skip_off" graphic="&tf.btn_path_off" width="170" height="45" x="400" y="470"]
 
 ;	未読スキップ-ON
-	[button name="unread_on"  fix="true" target="*skip_on"  graphic="&tf.btn_path_off" width="170" height="45" x="580" y="470"]
+;	[button name="unread_on"  fix="true" target="*skip_on"  graphic="&tf.btn_path_off" width="170" height="45" x="580" y="470"]
 
 ;------------------------------------------------------------------------------------------------------
 ; コンフィグ起動時の画面更新
