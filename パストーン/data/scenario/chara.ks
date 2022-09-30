@@ -94,6 +94,10 @@
 [chara_face name="mizuka" face="jichou" storage="chara/mizuka/jichou.png"]
 [chara_face name="mizuka" face="shitsui" storage="chara/mizuka/shitsui.png"]
 [chara_face name="mizuka" face="rape" storage="chara/mizuka/rape.png"] 
+[chara_face name="mizuka" face="namidaegao" storage="chara/mizuka/namidaegao.png"] 
+[chara_face name="mizuka" face="namidame" storage="chara/mizuka/namidame.png"] 
+[chara_face name="mizuka" face="shinpai_n" storage="chara/mizuka/shinpai_n.png"]
+[chara_face name="mizuka" face="teremoji" storage="chara/mizuka/teremoji.png"] 
 
 [chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
 [chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
