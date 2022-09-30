@@ -179,16 +179,13 @@ _　…母さんのことは、仕方ない≫[p]
 ;修正済み（担当辻） 優先度中 薄く黒を上に乗せる
 #
 
-[layermode graphic="makkuro.jpg" folder="bgimage" opacity="155" time="500"]
+[layermode name="makkuro" graphic="makkuro.jpg" folder="bgimage" opacity="155" time="500"]
 
 ;[layopt layer="0" visible="false"]
 ;[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/makkuro.jpg" time="0" wait="false"]
 ;[filter opacity="60" name="makkuro" time="0"]
 ;[layopt layer="0" visible="true" time="100000"]
 ;[filter opacity="60" name="makkuro" time="500"]
-
-
-
 
 #
 …本当に？[p]
@@ -198,9 +195,10 @@ _　…母さんのことは、仕方ない≫[p]
 ちゃんと…別れを告げることができた…そのはずなのに。[p]
 …俺は…何に囚われている？[p]
 
-[bg storage="aquarium.png" time="0"]
-[free name="makkuro" layer="0" time="500" wait="false"]
+;[bg storage="aquarium.png" time="0"]
+;[free name="makkuro" layer="0" time="500" wait="false"]
 
+[free_layermode name="makkuro" time="500" wait="true"]
 
 [voice2 vf2="mizuka/mizuka3-4_14.ogg"]
 #美寿花:egao
@@ -438,8 +436,10 @@ _　…母さんのことは、仕方ない≫[p]
 ;表情 キラキラ目
 
 [voicestop]
+#
 
 ;修正前 優先度中 歓声（お～みたいなやつか拍手）の効果音追加
+[playse_hakushu]
 #
 美寿花の声と観客の歓声が重なる。[p]
 そのまま、大ジャンプを決めたイルカたちは着水する…その時だった。[p]
