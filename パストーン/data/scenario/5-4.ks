@@ -104,11 +104,15 @@
 #
 訳を話すが…話終わる頃には何故か二人とも呆れ気味な表情を浮かべていた。[p]
 
+
+
 [chara_mod name="RozLaz" face="roz_akire_2"]
 [voice2 vf2="roz/roz5-4_5.ogg"]
 #ロズ
 「…いや、マスター…それは…」[p]
 ;表情 akire_2
+
+
 
 [chara_mod name="RozLaz" face="laz_tokuige"]
 [voice2 vf2="laz/laz5-4_3.ogg"]
@@ -121,11 +125,15 @@
 #雪翔
 「…？　お前らの言ってる意味がよく分からないんだが…」[p]
 
+
+
 [chara_mod name="RozLaz" face="laz_egao"]
 [voice2 vf2="laz/laz5-4_4.ogg"]
 #ラズ
 「大丈夫です。今は分からなくて良いんですのよ」[p]
 ;表情 egao
+
+
 
 [chara_mod name="RozLaz" face="laz_bow"]
 [voice2 vf2="laz/laz5-4_5.ogg"]
@@ -138,8 +146,7 @@
 #雪翔
 「は？ それって…」[p]
 
-;修正済み（担当辻） 優先度高 ノックの音
-[playse_door_knock]
+;修正前 優先度高 ノックの音
 
 #
 すると、2回のノックが聞こえ、ドアが開く。[p]
@@ -165,7 +172,7 @@
 朝の事を思い出し、何故か俺もキョドりながらも何とか返事をする。[p]
 
 [voice2 vf2="mizuka/mizuka5-4_2.ogg"]
-#美寿花:aseganizindaegao
+#美寿花
 「そっか、よかった～。ちょっと話したい事があって…」[p]
 ;表情　汗がにじんだ笑顔
 
@@ -366,9 +373,9 @@
 #
 非情の追撃である。[p]
 
-;修正済み（担当辻） 優先度高 itazuraに照れを付けたやつに表情変更
+;修正前 優先度高 itazuraに照れを付けたやつに表情変更
 [voice2 vf2="mizuka/mizuka5-4_17.ogg"]
-#美寿花:itazuratere
+#美寿花
 「だって、そうなんでしょ？[r]　あんな流れでスッと言っちゃうくらい想ってたんでしょ？」[p]
 ;terejitome
 
@@ -413,8 +420,6 @@
 
 ;修正前 優先度高 ベッドのCG表示
 ;ベッドに座る二人のCG（顔が映らないので差分はなし）
-[layopt layer="0" visible="true"]
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/5-4/5-4legs.png" time="1000"]
 
 [voice2 vf2="mizuka/mizuka5-4_21.ogg"]
 #美寿花
@@ -497,11 +502,6 @@
 「…あのな、言わせたのはそっちなんだから何とか言ったら───」[p]
 
 ;修正前 優先度高 キスCG表示、フェード時間はたっぷり2000msぐらいとって（ドライブのイラスト→一枚絵に入ってます）
-[backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-4/5-4kiss.png"]
-[trans layer="0" time="2000" method="fadeIn"]
-[wt]
-
 #
 …？[p]
 ;キスCG
