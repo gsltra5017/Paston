@@ -125,7 +125,7 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 ;修正後 美寿花の表情を喋っていない間にも徐々に変えていきたい 151行でonemuにしてみた
 
-[playbgm storage="rain.mp3" volume="70"]
+[playbgm storage="rain.mp3" volume="90"]
 
 [voice2 vf2="laz/Laz2-4_1.ogg"]
 #ラズ
@@ -214,10 +214,13 @@ _　逆にどのあたりが不安なのかわからんぐらい≫[p]
 
 ;*debug
 
+[fadeoutbgm time="2000"]
+
 #雪翔
 ≪…美寿花？≫[p]
 
 #
+[playbgm storage="mizuka.ogg" volume="40" ]
 
 ;修正後（担当辻）ロズラズの立ち絵を消して、美寿花だけをアップにする（背景も拡大）
 [chara_hide name="RozLaz" time="500" wait="false"]

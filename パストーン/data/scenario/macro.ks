@@ -19,7 +19,8 @@
 
 	[stopse]
 	[resetdelay]
-
+	[reset_camera layer="0" time="0" ]
+	[reset_camera layer="base" time="0" ]
 	[chara_hide_all time="0"]
 
     @jump storage="&mp.sc"

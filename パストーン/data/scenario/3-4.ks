@@ -11,7 +11,7 @@
 #
 そして、ついに迎えた木曜日。[p]
 
-;修正前 優先度高 BGM、楽しげなやつがいいかな？
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="70"]
 
 ;[bg storage="aquarium.png" time=0]
 
@@ -301,6 +301,8 @@ _　…母さんのことは、仕方ない≫[p]
 彼女へのプレゼントと言っておきながら、何だかんだ楽しんでいる自分もいて。[p]
 そんな自分が、少し可笑しくもあるのだった。[p]
 
+[fadeoutbgm time="2000"]
+
 [voicestop]
 
 [bgchangemask]
@@ -317,7 +319,7 @@ _　…母さんのことは、仕方ない≫[p]
 [voicestop]
 
 #
-[playbgm storage="nc282335.mp3" volume="70"]
+[playbgm storage="nc282335.mp3" volume="35"]
 
 ;一枚絵 （イルカショー）
 [layopt layer="0" visible="true"]

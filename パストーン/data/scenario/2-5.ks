@@ -223,7 +223,7 @@ _　…あ、でも流石に私一人で歌うのもあれだし…そうだ！�
 [bgchangemask_off]
 
 ;修正前 カラオケのBGM
-;[playbgm storage=""]
+[playbgm storage="mellow_bell.mp3" volume="40" ]
 
 [voice2 vf2="mizuka/mizuka2-5_21.ogg"]
 #美寿花
