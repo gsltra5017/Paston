@@ -21,6 +21,8 @@
 #雪翔
 ≪だ、大丈夫大丈夫…≫[p]
 
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="70"]
+
 #
 美寿花の言葉に、頷きで返す。[p]
 …正直、侮っていた。[p]
@@ -70,6 +72,7 @@ _　やっぱり戻る？　まだ時間に余裕あるし…」[p]
 ≪…参ったな…≫[p]
 
 #
+[fadeoutbgm time="2000"]
 本音を言うと、今すぐにでも家に帰りたい。[p]
 …だが、[p]
 
@@ -113,6 +116,8 @@ _　誰が喋ってるの！？」[p]
 スマホを取り出し、その画面を美寿花に見せる。[p]
 
 [chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal" wait="true"]
+
+[playbgm storage="RozLaz.mp3" volume="30" ]
 
 [voice2 vf2="laz/Laz2-2_3.ogg"]
 #ラズ
@@ -369,6 +374,7 @@ _　私たちが出てきてから随分時間が経っていますが…」[p]
 
 ;背景 青空
 #
+[fadeoutbgm time="2000"]
 ;…そんなこんなで。[p]
 
 [mask effect="fadeInLeftBig" ]

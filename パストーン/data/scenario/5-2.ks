@@ -568,7 +568,7 @@
 
 [voicestop]
 
-[playbgm storage="nc162068.mp3" volume="80"]
+[playbgm storage="nc162068.mp3" volume="65"]
 
 ;仮のCG
 [backlay layer="0"]

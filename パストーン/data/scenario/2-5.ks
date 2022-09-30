@@ -8,7 +8,7 @@
 ;修正済み　表情呆れに変更(添田)
 [afterjumpmaskNormal]
 
-[playbgm storage="nc67412.mp3" volume="80" ]
+[playbgm storage="nc67412.mp3" volume="40" ]
 
 [voice1 vf1="mizuka/mizuka2-5_1.ogg"]
 #美寿花
