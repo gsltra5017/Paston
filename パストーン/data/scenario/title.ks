@@ -1,12 +1,13 @@
 [cm]
 
+*start 
+
 @clearstack
 @bg storage="title.png" time="100"
 @wait time="200"
 @layopt layer="message0" visible="false"
 [hidemenubutton]
 
-*start 
 
 ;リリースするときには消す
 [iscript]
