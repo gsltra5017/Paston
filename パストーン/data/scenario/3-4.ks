@@ -444,6 +444,7 @@ _　…母さんのことは、仕方ない≫[p]
 美寿花の声と観客の歓声が重なる。[p]
 そのまま、大ジャンプを決めたイルカたちは着水する…その時だった。[p]
 
+[playse_mizushibuki]
 ;修正前 優先度中 水しぶきの効果音追加
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-4/white.jpg"]
