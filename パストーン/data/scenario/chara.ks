@@ -166,6 +166,7 @@
 [chara_face name="RozLaz" face="laz_tokuige" storage="chara/RozLaz/laz_tokuige.png"]
 [chara_face name="RozLaz" face="laz_utagai" storage="chara/RozLaz/laz_utagai.png"]
 [chara_face name="RozLaz" face="laz_x" storage="chara/RozLaz/laz_x.png"]
+[chara_face name="RozLaz" face="laz_zannen" storage="chara/RozLaz/laz_zannen.png"]
 [chara_face name="RozLaz" face="normal" storage="chara/RozLaz/normal.png"]
 [chara_face name="RozLaz" face="rozlaz" storage="chara/RozLaz/rozlaz.png"]
 [chara_face name="RozLaz" face="roz_akire" storage="chara/RozLaz/roz_akire.png"]
