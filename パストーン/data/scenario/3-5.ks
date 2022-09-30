@@ -11,7 +11,7 @@
 
 ;修正前 優先度高 BGM、ポジティブで落ち着いた曲（最悪Bonyari_Hitsujiもあり）
 
-[playbgm storage="Ready_to_jump.mp3" volume="30" ]
+[playbgm storage="Ready_to_jump.mp3" volume="25" ]
 [voice1 vf1="mizuka/mizuka3-5_1.ogg"]
 #mizuka
 「う～ん…これとか、どう！？」[p]

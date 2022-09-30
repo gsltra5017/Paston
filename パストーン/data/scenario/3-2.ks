@@ -261,7 +261,7 @@ EL社の社長について[p]
 [chara_hide_all time="500"]
 
 ;背景 雪翔の自室
-[bg storage="myroom.png" time="500"]
+[bg storage="myroom_night.png" time="500"]
 
 #雪翔
 ≪…あっ！！≫[p]
@@ -289,6 +289,8 @@ EL社の社長について[p]
 
 #
 突然スマホの通知音が鳴り、考え込んでいた頭が現実に戻される。[p]
+
+[playbgm storage="OuchiDay.mp3" volume="25"]
 
 #雪翔
 ≪…あれ、文永からだ…≫[p]

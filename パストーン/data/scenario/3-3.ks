@@ -7,6 +7,8 @@
 
 [afterjumpmaskNormal]
 
+[playbgm storage="Ready_to_jump.mp3" volume="20" ]
+
 ;修正済み（担当辻） 背景ぼかし
 #
 翌朝、またいつものように大学で講義を受ける。[p]
@@ -118,7 +120,7 @@
 ≪別に深い意味はないけど…うん。大丈夫…≫[p]
 
 #
-
+[fadeoutbgm time="2000"]
 [bgchangemask]
 [chara_hide_all time="0"]
 [wait time="500"]
@@ -138,6 +140,8 @@
 #ラズ
 「むしろどちらかというと『大ピンチ』のようですが…」[p]
 ;shinpai
+
+[playbgm storage="RozLaz.mp3" volume="30" ]
 
 [voicestop]
 

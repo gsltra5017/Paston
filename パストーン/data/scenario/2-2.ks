@@ -117,7 +117,7 @@ _　誰が喋ってるの！？」[p]
 
 [chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal" wait="true"]
 
-[playbgm storage="RozLaz.mp3" volume="30" ]
+[playbgm storage="RozLaz.mp3" volume="20" ]
 
 [voice2 vf2="laz/Laz2-2_3.ogg"]
 #ラズ
