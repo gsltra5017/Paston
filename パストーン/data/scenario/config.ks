@@ -89,7 +89,7 @@
 [cm]
 
 ;	コンフィグ用の背景を読み込んでトランジション
-	[bg storage="&tf.img_path +'bgconfig.png'" time="100"]
+	[bg storage="&tf.img_path +'bg_config.png'" time="100"]
 
 
 ;	画面右上の「Back」ボタン
