@@ -567,10 +567,14 @@
 
 [voicestop]
 
+[playbgm storage="nc162068.mp3" volume="80"]
+
 ;仮のCG
-[layopt layer="0" visible="true"]
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/5-1/5-1過去回想仮.png" time="1000"]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/katari.png"]
+[trans layer="0" time="2000" method="fadeIn"]
 [chara_hide_all]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_2.ogg"]
 #美寿花
 「…こんな形で、お別れになると思ってなかったけど…[r]　私は、君に出会えて…本当に良かったと思ってる」[p]
@@ -579,7 +583,10 @@
 
 #
 また、一歩。[p]
-
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/teinen.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_3.ogg"]
 #美寿花
 「私と出会ってくれて、ありがとう」[p]
@@ -589,6 +596,10 @@
 #
 また、一歩。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/sabishi.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_4.ogg"]
 #美寿花
 「私と話をしてくれて、ありがとう」[p]
@@ -597,7 +608,10 @@
 
 #
 そして…[p]
-
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/egao.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_5.ogg"]
 #美寿花
 「…『また』私と仲良くなってくれて…本当に、ありがとう」[p]
@@ -612,6 +626,10 @@
 すぐ目の前に、君がいる。[p]
 手を伸ばせば、触れられる距離に。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/komari.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_6.ogg"]
 #美寿花
 「…少年君は、泣き虫だね」[p]
@@ -626,6 +644,10 @@
 気づけば、視界がぼやけていた。[p]
 …自分が泣いているなんて、思いもしなかった。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_7.ogg"]
 #美寿花
 「…ねぇ、私が来た日の事…覚えてる？」[p]
@@ -639,16 +661,28 @@
 泣いてると自覚した瞬間、一層涙が溢れそうになる。[p]
 でも、今だけは…泣くより、美寿花と話がしたかった。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/katari.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_8.ogg"]
 #美寿花
-「…君はあの日、自分で作った歌を自分で歌ってみたいって…夢を、私に教えてくれた」[p]
+「…君はあの日、自分で作った歌を自分で歌ってみたいって…[r]　夢を、私に教えてくれた」[p]
 ;一枚絵 真剣な顔
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/teinen.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_9.ogg"]
 #美寿花
 「ちょっとだけ、欲を言っちゃうんだけど…」[p]
 ;一枚絵 真剣な顔
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/naki.png"]
+[trans layer="0" time="1500" method="fadeIn"]
+[wt]
 [voice2 vf2="mizuka/mizuka5-3_10.ogg"]
 #美寿花
 「…一番最初に、君の隣でそれを…聴きたかった…な…」[p]
@@ -663,6 +697,9 @@
 …泣いていたのは、俺だけではなかった。[p]
 別れを告げるはずの美寿花の声が…震えている。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/komari_n.png"]
+[trans layer="0" time="1500" method="fadeIn"]
 [voice2 vf2="mizuka/mizuka5-3_11.ogg"]
 #美寿花
 「…あれ…おかしいな…」[p]
@@ -674,11 +711,17 @@
 いつも笑っていた美寿花が見せた…初めての、涙。[p]
 それでも、彼女は無理やり笑う。[p]
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/hohoemi_n.png"]
+[trans layer="0" time="1500" method="fadeIn"]
 [voice2 vf2="mizuka/mizuka5-3_12.ogg"]
 #美寿花
 「…こんな別れになっちゃって…ごめんね」[p]
 ;差分 涙がにじんだ笑顔
 
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/nakiwarai.png"]
+[trans layer="0" time="1500" method="fadeIn"]
 [voice2 vf2="mizuka/mizuka5-3_13.ogg"]
 #美寿花
 「…さよなら」[p]
@@ -691,7 +734,10 @@
 ;CG フェード
 ;背景 リビング
 
-[freeimage layer="0" time="500"]
+[mask graphic="" ]
+[backlay layer="0"]
+[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg" time="2000" ]
+[freeimage layer="0" time="0"]
 
 #
 ‥‥‥‥[p]
