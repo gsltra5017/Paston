@@ -234,3 +234,8 @@
 	[playse storage="se/hakushu.mp3" loop="false" clear="true" volume="100"]
 	[wse]
 [endmacro]
+
+[macro name="playse_mizushibuki"]
+	[playse storage="se/mizushibuki.mp3" loop="false" clear="true" volume="80"]
+	[wse]
+[endmacro]
