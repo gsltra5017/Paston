@@ -11,6 +11,7 @@
 
 ;修正前 優先度高 BGM、ポジティブで落ち着いた曲（最悪Bonyari_Hitsujiもあり）
 
+[playbgm storage="Ready_to_jump.mp3" volume="30" ]
 [voice1 vf1="mizuka/mizuka3-5_1.ogg"]
 #mizuka
 「う～ん…これとか、どう！？」[p]
@@ -157,6 +158,7 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 #yukito
 ≪それぐらいの時間はあると--≫[p]
+#
 
 ;[chara_hide_all time="0"]
 
@@ -216,6 +218,8 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 #
 自分の中で何が起こってるのか分からない俺には、そう答えるだけで精一杯だった。[p]
+
+[fadeoutbgm time="2000"]
 
 [bgchangemask]
 [chara_hide_all time="0" ]
@@ -348,7 +352,6 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 
 [layopt layer="0" visible="true"]
 [image name="past" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/past.png" time="1000"]
-
 
 [voice2 vf2="mizuka/mizuka3-5_27.ogg"]
 #mizuka

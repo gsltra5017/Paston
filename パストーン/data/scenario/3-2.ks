@@ -10,6 +10,8 @@
 
 [bg storage="road_evening.png"]
 
+[playbgm storage="nc67412.mp3" volume="40" ]
+
 [chara_show name="mizuka" face="shinpai" top="20"]
 #美寿花
 [voice2 vf2="mizuka/mizuka3-2_1.ogg"]
@@ -48,6 +50,8 @@
 #
 一方、俺はまた別のことで頭を悩ませていた。[p]
 
+[fadeoutbgm time="2000"]
+
 [bgchangemask]
 
 [chara_hide_all time="500"]
@@ -59,7 +63,7 @@
 
 [bgchangemask_off]
 ;修正済み（担当辻） ロズラズの表示位置 ☆
-;修正前 BGMわからん ☆
+[playbgm storage="RozLaz.mp3" volume="30" ]
 
 #ロズ
 [voice2 vf2="roz/Roz3-2_1.ogg"]
@@ -137,8 +141,7 @@
 
 #
 AIとはいえ、一応性別は女性だ。[p]
-もしかしたら参考になるかもしれない。[r]
-と藁にも縋る思いで聞いてみる、が…[p]
+もしかしたら参考になるかもしれない。と藁にも縋る思いで聞いてみる、が…[p]
 
 [chara_mod name="RozLaz" face="laz_akire"]
 #ラズ
@@ -179,7 +182,7 @@ AIとはいえ、一応性別は女性だ。[p]
 #ラズ
 [voice2 vf2="laz/Laz3-2_5.ogg"]
 「…まぁ、それはそれとして、まず更新終わらせません？」[p]
-
+#
 [voicestop]
 
 #雪翔
@@ -208,6 +211,8 @@ AIとはいえ、一応性別は女性だ。[p]
 
 ;効果音 クリック
 [playse_click_1]
+
+[fadeoutbgm time="2000"]
 
 ;AI更新中の表情
 [wait time="100"]
@@ -272,6 +277,7 @@ EL社の社長について[p]
 
 #雪翔
 ≪‥‥‥≫[p]
+#
 
 ;効果音 通知音 ☆
 ;[playse storage=通知音]
