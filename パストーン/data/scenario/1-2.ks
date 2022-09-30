@@ -106,7 +106,7 @@ _　材料費とかはまた後で払うから、心配しなくていいよ。�
 ;動画の最後のフレームをフェードアウト
 [freeimage layer="0" time="1000"]
 
-[playbgm storage="mizuka.ogg" volume="70" ]
+[playbgm storage="mizuka.ogg" volume="40" ]
 
 ;みずかの立ち絵を大きめに表示
 [chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]

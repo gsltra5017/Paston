@@ -2,9 +2,9 @@
 
 [startoption]
 
-[bg storage="living.png" ]
-[chara_show name="mizuka" face="bishou" top="20"]
-[chara_show name="kouki" face="straight" top="-50" ]
+[bg storage="living.png" time="0" ]
+[chara_show name="mizuka" face="bishou" top="20" time="0"]
+[chara_show name="kouki" face="straight" top="-50" time="0" ]
 
 [camera layer="base" zoom="1.2" x="0" y="0" time="0" wait="false"]
 
@@ -20,6 +20,8 @@
 ;表情 真剣
 
 ;修正前 優先度高 何かしらの日常BGM？
+[playbgm storage="OuchiDay.mp3" volume="25"]
+
 
 [voice2 vf2="kouki/kouki1-3_2.ogg"]
 #黄樹:bishou
@@ -248,6 +250,7 @@ _　じゃ、頼んだよ！」[p]
 美寿花が居心地悪そうにキョロキョロしている一方で、[r]
 俺はそんなことを考え、一人悶々とするのであった…。[p]
 
+[fadeoutbgm time="2000"]
 [chara_hide_all time="1000" wait="true"]
 [bg storage="daysky.png" time="1000"]
 ;背景を空に変更（つぶ）

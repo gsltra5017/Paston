@@ -63,7 +63,7 @@
 背後から声を掛けられ、反射的に振り向く。[p]
 
 ;BGM（美寿花のテーマ）
-[playbgm storage="mizuka.ogg" volume="70" ]
+[playbgm storage="mizuka.ogg" volume="40" ]
 
 ;美寿花立ち絵表示 きょとん顔
 [chara_show name="mizuka" top="-20" width="1041" height="1472" storage="chara/mizuka/r_egao.png" wait="true"]
