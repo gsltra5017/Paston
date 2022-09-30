@@ -8,6 +8,7 @@
 [afterjumpmaskNormal]
 
 [playbgm storage="Yurari_kurari.mp3" volume="80" ]
+;[jump target="*debug"]
 
 #雪翔
 （…誰だ…？この時間に…）[p]
@@ -197,6 +198,7 @@
 決まってる。美寿花に触れて、今の状況を伝える。[p]
 それだけで、済む話なんだ。[p]
 
+#
 [chara_hide_all time="500" wait="false"]
 [bg storage="makkuro.jpg" time="500"]
 
@@ -217,6 +219,8 @@
 「…雪翔君…？」[p]
 ;表情 shinpai
 
+#
+
 [voicestop]
 
 [bg storage="living.png" time="500" wait="false"]
@@ -231,6 +235,8 @@
 #永寿郎
 「…すまないが、上がってもいいかね？　あの子と話がしたいんだ」[p]
 
+#
+
 [voicestop]
 
 [voice2 vf2="kouki/kouki5-2_7.ogg"]
@@ -239,6 +245,7 @@
 ;表情　なし
 
 [voicestop]
+#
 
 [chara_show name="kouki" face="straight" top="-50" time="1000"]
 
@@ -495,6 +502,8 @@
 
 [voicestop]
 
+#
+
 [chara_mod name="RozLaz" face="roz_ge"]
 [voice2 vf2="roz/roz5-2_6.ogg"]
 #ロズ
@@ -670,6 +679,8 @@
 「…君はあの日、自分で作った歌を自分で歌ってみたいって…[r]　夢を、私に教えてくれた」[p]
 ;一枚絵 真剣な顔
 
+#
+
 [backlay layer="0"]
 [image name="8" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/teinen.png"]
 [trans layer="0" time="1500" method="fadeIn"]
@@ -678,6 +689,8 @@
 #美寿花
 「ちょっとだけ、欲を言っちゃうんだけど…」[p]
 ;一枚絵 真剣な顔
+
+#
 
 [backlay layer="0"]
 [image name="9" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/naki.png"]
@@ -721,6 +734,8 @@
 「…こんな別れになっちゃって…ごめんね」[p]
 ;差分 涙がにじんだ笑顔
 
+#
+
 [backlay layer="0"]
 [image name="12" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/nakiwarai.png"]
 [trans layer="0" time="1500" method="fadeIn"]
@@ -737,7 +752,8 @@
 ;CG フェード
 ;背景 リビング
 
-[camera layer="base" x="0" y="0" zoom="1.00" time="3000" wait="false"]
+;[camera layer="base" x="0" y="0" zoom="1.00" time="3000" wait="false"]
+[reset_camera layer="base" wait="3000" wait="false"]
 [bg storage="living.png" time="0"]
 [free name="1" layer="0" time="0" wait="false"]
 [free name="2" layer="0" time="0" wait="false"]
@@ -780,6 +796,7 @@
 [voice2 vf2="roz/roz5-3_1.ogg"]
 #ロズ
 「美寿花…」[p]
+
 #
 ;表情表情 悲しい
 ;画面右（下？）に立ち絵表示
@@ -794,9 +811,10 @@
 [voicestop]
 #
 [chara_hide_all time="1000"]
-[camera layer="0" x="0" y="0" zoom="1.00" time="0" wait="false"]
+;[camera layer="0" x="0" y="0" zoom="1.00" time="0" wait="false"]
+[reset_camera layer="0" wait="false"]
 
-
+#
 止めてくれ…[p]
 
 [voice2 vf2="eijurou/eijurou5-3_2.ogg"]
@@ -876,6 +894,8 @@
 #
 あぁ…俺はいつも、誰かに背を押されて、生きている。[p]
 ;背景 4-1の一枚絵
+
+
 
 [backlay layer="0"]
 [image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1yuugu/4-1.png"]
@@ -1043,6 +1063,8 @@
 [voicestop]
 #
 
+#
+
 [chara_hide_all wait="false" ]
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/naki_2.png" zindex="20"]
@@ -1080,6 +1102,8 @@
 「…ごめんなさい。お父さん」[p]
 ;表情
 
+#
+
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/shinken_n.png" zindex="20"]
 [trans layer="0" time="1200" method="fadeIn"]
@@ -1109,6 +1133,8 @@
 「…でも、言えなかった。[r]　それが人離れしているっていうことは分かっていたから」[p]
 ;表情
 
+#
+
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/toji_n.png" zindex="20"]
 [trans layer="0" time="1200" method="fadeIn"]
@@ -1117,6 +1143,8 @@
 #美寿花
 「…だから、最初に私がアンドロイドだって分かった時…[r]　ショックより、ただひたすら、哀しくなったの。」[p]
 ;表情
+
+#
 
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/komari_n.png" zindex="20"]
@@ -1131,6 +1159,8 @@
 #永寿郎
 「そ、そんな事はない！私たちはいつも…」[p]
 
+#
+
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/shinken_n.png" zindex="20"]
 [trans layer="0" time="1200" method="fadeIn"]
@@ -1139,6 +1169,8 @@
 #美寿花
 「じゃあ…どうして私を…『常葉美寿花』として作ったの？」[p]
 ;表情
+
+#
 
 [voice2 vf2="eijurou/eijurou5-3_12.ogg"]
 #永寿郎
@@ -1159,6 +1191,8 @@
 #美寿花
 「…別にね、記憶を消されても良かったんだ。[r]　それでも、『私』はお父さんの糧になれたから…」[p]
 ;表情
+
+#
 
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka_n.png" zindex="20"]
@@ -1182,6 +1216,8 @@
 #美寿花
 「…でも、雪翔君は違った…私を…必要としてくれた…！」[p]
 ;表情
+
+#
 
 [backlay layer="0"]
 [image name="2"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/naki_3.png" zindex="20"]
@@ -1288,6 +1324,8 @@
 #
 そう返した美寿花の表情はいつも通りの…いや、いつも以上に優しい、笑みだった。[p]
 
+;*debug
+
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png" zindex="20"]
 [trans layer="0" time="1200" method="fadeIn"]
@@ -1297,6 +1335,8 @@
 「…そのおかげで、本来生まれなかったはずの私が生まれた」[p]
 ;表情
 
+#
+
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png" zindex="20"]
 [trans layer="0" time="1200" method="fadeIn"]
@@ -1305,6 +1345,8 @@
 #美寿花
 「そのおかげで…雪翔君にも会えた。…死んだ美寿花を曲がりなりにも大切[r]　に想っていた心が…私を産んだんだよ」[p]
 ;表情
+
+#
 
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/egao.png" zindex="20"]
@@ -1316,9 +1358,13 @@
 ;表情
 
 
+#
+
 [voice2 vf2="eijurou/eijurou5-3_20.ogg"]
 #永寿郎
 「…そうか…」[p]
+
+#
 
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/odayaka.png" zindex="20"]
@@ -1327,9 +1373,13 @@
 #永寿郎
 「‥‥‥‥‥」[p]
 
+#
+
 [voice2 vf2="eijurou/eijurou5-3_22.ogg"]
 #永寿郎
 「…もう、年貢の納め時なのかもしれないな」[p]
+
+#
 
 [backlay layer="0"]
 [image name="2"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/katari.png" zindex="20"]
@@ -1346,13 +1396,18 @@
 [free name="1" layer="0" time="0" wait="false"]
 [free name="2" layer="0" time="2000" wait="true"]
 
+[layopt layer="0" visible="true"]
+[image layer="0" name="daysky" x="0" y="0" width="1280" height="720" storage="singlepic/5-3/daysky.png" time="1000"]
 
 ふと、天井を仰ぎ、独り言のように呟く。[p]
 永寿郎の顔には、後悔や、諦め…それに、どこか安堵のようなものが感じられた。[p]
 その時、初めて彼は解放されたのかもしれない。[p]
 事故で娘をなくした…大きすぎる呪縛から。[p]
 
-[bg storage="living.png" time="2000" cross="false" method="fadeIn"]
+[bg storage="living.png" time="0" cross="false" method="fadeIn"]
+[free layer="0" name="daysky" time="2000"]
+
+;method="fadeIn"
 
 [voice2 vf2="eijurou/eijurou5-3_23.ogg"]
 #永寿郎
