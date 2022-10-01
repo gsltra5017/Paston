@@ -592,7 +592,7 @@ _　！？！？！？！？！？！？≫[p]
 
 [voicestop]
 #
-[fadeoutbgm time="300"]
+[fadeoutbgm time="2000"]
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
 [trans layer="0" time="1000" method="fadeIn"]

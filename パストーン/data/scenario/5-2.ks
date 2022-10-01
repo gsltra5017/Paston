@@ -7,7 +7,7 @@
 
 [afterjumpmaskNormal]
 
-[playbgm storage="Yurari_kurari.mp3" volume="80" ]
+[playbgm storage="Yurari_kurari.mp3" volume="40" ]
 ;[jump target="*debug"]
 
 #雪翔
@@ -576,7 +576,7 @@
 
 [voicestop]
 
-[playbgm storage="nc162068.mp3" volume="80"]
+[playbgm storage="nc162068.mp3" volume="65"]
 
 ;仮のCG
 [backlay layer="0"]
@@ -812,7 +812,7 @@
 #
 [chara_hide_all time="1000"]
 ;[camera layer="0" x="0" y="0" zoom="1.00" time="0" wait="false"]
-[reset_camera layer="0" wait="false"]
+[reset_camera layer="0" wait="false" time="0"]
 
 #
 止めてくれ…[p]

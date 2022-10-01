@@ -68,7 +68,7 @@
 #
 流石に休憩入れるか…と立ち上がる。[p]
 
-[playbgm storage="OuchiDay.mp3" volume="30"]
+[playbgm storage="low.mp3" volume="50"]
 
 [voice2 vf2="mizuka/mizuka2-1_1.ogg"]
 #美寿花:r_kyoton

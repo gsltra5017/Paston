@@ -7,7 +7,7 @@
 
 [afterjumpmaskNormal]
 
-[playbgm storage="Ready_to_jump.mp3" volume="20" ]
+[playbgm storage="Ready_to_jump.mp3" volume="25" ]
 
 ;修正済み（担当辻） 背景ぼかし
 #
@@ -267,6 +267,8 @@
 
 [voicestop]
 
+[fadeoutbgm time=1000]
+
 #雪翔
 ≪…だな。まだ時間がないわけではないし、何とか…≫[p]
 
@@ -305,6 +307,7 @@
 というか、この前もそうだったけど気配薄すぎだろこの人…[p]
 しかし、まだ不運は止まらない。[p]
 
+[playbgm storage="mizuka.ogg" volume="40" ]
 
 [chara_mod name="RozLaz" face="inai" time="500" cross="false" ]
 ;修正済み（担当辻） 美寿花を左側に表示 ☆
@@ -438,5 +441,7 @@ _　何で雪翔君がそれ持ってるの！？」[p]
 
 #
 本当に嬉しそうに話す美寿花に、俺は内心ほっとする。[p]
+
+[fadeoutbgm time=2000]
 
 [scenejumpNormal sc="3-4.ks"]

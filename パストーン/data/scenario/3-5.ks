@@ -242,6 +242,8 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 日が暮れかけ、オレンジがかった帰り道を揃って歩く。[p]
 
 ;修正前 優先度高 bgm、夕焼けに合うもの？
+[playbgm storage="nc67412.mp3" volume="40" ]
+
 
 [voice2 vf2="mizuka/mizuka3-5_20.ogg"]
 #mizuka:kangae
@@ -345,6 +347,8 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 #yukito
 ≪いや、別に…≫[p]
 
+[fadeoutbgm time=1000]
+
 [chara_hide_all time="0"]
 
 ;背景　一枚絵 （公園の美寿花） ☆
@@ -425,6 +429,8 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 #yukito
 ≪…ぇ…≫[p]
 
+[playbgm storage="seishishitauchu.mp3" volume="40"]
+
 #
 俺の体が、温もりに包まれた。[r]
 というか、抱きしめられていた。[p]
@@ -485,6 +491,8 @@ _　単純にお土産を買うような人が大学にいないってだけ」[
 美寿花と話していると、その優しさに救われる。[p]
 …いや、それだけじゃない。[r]
 …俺は、美寿花のことを…[p]
+
+[fadeoutbgm time=500]
 
 [voice2 vf2="mizuka/mizuka3-5_36.ogg"]
 #mizuka:odoroki

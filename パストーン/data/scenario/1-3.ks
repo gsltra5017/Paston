@@ -20,7 +20,7 @@
 ;表情 真剣
 
 ;修正前 優先度高 何かしらの日常BGM？
-[playbgm storage="OuchiDay.mp3" volume="25"]
+[playbgm storage="Ready_to_jump.mp3" volume="25" ]
 
 
 [voice2 vf2="kouki/kouki1-3_2.ogg"]

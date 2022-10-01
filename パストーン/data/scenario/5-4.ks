@@ -430,7 +430,7 @@
 [trans layer="0" time="1500" method="fadeIn"]
 [wt]
 
-[playbgm storage="nc162068.mp3" volume="80"]
+[playbgm storage="nc162068.mp3" volume="65"]
 [voice2 vf2="mizuka/mizuka5-4_21.ogg"]
 #美寿花
 「…お願いがあるんだけど、さ」[p]
@@ -510,12 +510,13 @@
 
 #雪翔
 「…あのな、言わせたのはそっちなんだから何とか言ったら───」[p]
+#
 
 [backlay layer="0"]
 [image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-4/kiss.png"]
 [trans layer="0" time="1000" method="fadeIn"]
 [wt]
-;修正前 優先度高 キスCG表示、フェード時間はたっぷり2000msぐらいとって（ドライブのイラスト→一枚絵に入ってます）
+;修正後 優先度高 キスCG表示、フェード時間はたっぷり2000msぐらいとって（ドライブのイラスト→一枚絵に入ってます）
 #
 …？[p]
 ;キスCG

@@ -7,7 +7,7 @@
 
 その翌日。[p]
 ;修正前 優先度低 BGMを別なものに変えたい（雰囲気はおんなじ感じ）
-[playbgm storage="seishishitauchu.wav" volume="40"]
+[playbgm storage="seishishitauchu.mp3" volume="40"]
 
 幸か不幸か体調に問題はなく、[r]すぐに退院でき、日常に戻ってこられた。[p]
 …戻ってきて、しまった。[p]

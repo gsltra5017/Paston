@@ -10,9 +10,9 @@
 
 
 ;リリースするときには消す
-[iscript]
-localStorage.clear();
-[endscript]
+;[iscript]
+;localStorage.clear();
+;[endscript]
 ;ここまで
 
 [afterjumpmaskNormal]
