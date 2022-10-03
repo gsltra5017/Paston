@@ -14,7 +14,7 @@
 #
 机に突っ伏しながら、俺はため息をつく。[p]
 
-[playbgm storage="Ready_to_jump.mp3" volume="30" ]
+[playbgm storage="Ready_to_jump.mp3" volume="25" ]
 
 [voice1 vf1="mizuka/mizuka2-3_1.ogg"]
 #美寿花:kushou
