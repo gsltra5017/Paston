@@ -1,7 +1,7 @@
 ;一番最初に呼び出されるファイル
 [plugin name="slider_ui"]
 
-[title name="ティラノスクリプト解説"]
+[title name="パストーン"]
 
 [stop_keyconfig]
 
@@ -30,9 +30,9 @@
 [plugin name="manpu"]
 
 ;タイトル画面へ移動
-@jump storage="title.ks"
+;@jump storage="title.ks"
 
 ;debug画面へ移動
-;@jump storage="debug.ks"
+@jump storage="debug.ks"
 
 [s]
