@@ -105,22 +105,24 @@ _　あれを何回も見せられるのはつらいな…≫[p]
 #yukito
 ≪…自殺なんかに、他人の命を巻き込むんじゃねぇよ。≫[p]
 
-[playse storage="se/cloth_1.ogg" loop="false" ]
 #
+
+[playse storage="se/cloth_1.ogg" loop="false" ]
 何度吐いたか分からない呪いを吐き捨て、俺はベッドから起きる。[p]
 
-#
 …その時だった。[p]
 
 [voice1 vf1="roz/Roz1-1_1.ogg"]
 #???
 「なぁなぁ、もう８時やで？[r]
 _　早う起きた方がええんやないの？」[p]
+#
 
 [voice2 vf2="laz/Laz1-1_1.ogg"]
 #???
 「いいじゃありませんかロズ。[r]
 _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[p]
+#
 
 [voicestop]
 #yukito
@@ -136,6 +138,7 @@ _　今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[
 #ロズ
 「そうやってラズが甘やかすから、[r]
 _　どんどんマスターの生活リズムが崩れていくんやで？」[p]
+#
 
 [chara_mod name="RozLaz" face="laz_kushou" wait="false"]
 [voice2 vf2="laz/Laz1-1_2.wav"]
@@ -143,6 +146,7 @@ _　どんどんマスターの生活リズムが崩れていくんやで？」[
 「あらあら、それならあなただって[r]
 _　どうして深夜まで頑張って作業しているご主人様を止めませんの？[r]
 _　元はといえばロズのせいだと言えますが」[p]
+#
 
 [free_filter]
 [voicestop]
@@ -154,11 +158,15 @@ _　元はといえばロズのせいだと言えますが」[p]
 #ロズ
 「どうやら、今日こそ決着つけなあかんみたいやな。」[p]
 
+#
+
 [chara_mod name="RozLaz" face="laz_confident" wait="false"]
 [voice2 vf2="laz/Laz1-1_3.wav"]
 #ラズ
 「勝てるとお思いで？[r]
 _　私、貴方に負けたことないでしょう？」[p]
+
+#
 
 ;[kanim name = "roz" time = "300" keyframe = "pyonpyon"] 
 [chara_mod name="RozLaz" face="roz_okori_3" wait="false"]
@@ -167,10 +175,11 @@ _　私、貴方に負けたことないでしょう？」[p]
 「当たりまえやろ毎回引き分けなんやから！！[r]
 _　とにかく、覚悟…」[p]
 
+#
+
 [chara_hide_all time="500" wait="true"]
 [voicestop]
 
-#
 何やら決闘が始まりそうなので、[r]
 これ以上うるさくならないうちに音量をゼロに。[p]
 
@@ -185,4 +194,4 @@ _　とにかく、覚悟…」[p]
 
 [chara_hide_all time="0" ]
 
-[scenejumpNormal sc = "1-2.ks"]
+[scenejumpNormal sc="1-2.ks"]
