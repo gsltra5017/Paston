@@ -414,7 +414,7 @@ _　作業ちょっとだけ見たら買い物しようと思ってたのに…�
 自分から勝手に閉じこもっておいて、そんなものに縋ってしまう傲慢さに。[p]
 
 
-[voice2 vf2="roz/Roz2-1_1.ogg"]
+[voice2 vf2="roz/roz2-1_1.ogg"]
 #ロズ
 「随分楽しそうやね。マスター」[p]
 ;なし
@@ -436,7 +436,7 @@ _　作業ちょっとだけ見たら買い物しようと思ってたのに…�
 …というか、[p]
 
 [chara_mod name="RozLaz" face="roz_okori"]
-[voice2 vf2="roz/Roz2-1_2.ogg"]
+[voice2 vf2="roz/roz2-1_2.ogg"]
 #ロズ
 「…む～…」[p]
 ;表情 不満　あとで
@@ -454,7 +454,7 @@ _　作業ちょっとだけ見たら買い物しようと思ってたのに…�
 スマホでそう文字を打ち込み、謝罪の念を伝える。[p]
 
 [chara_mod name="RozLaz" face="roz_akire"]
-[voice2 vf2="roz/Roz2-1_3.ogg"]
+[voice2 vf2="roz/roz2-1_3.ogg"]
 #ロズ
 「…まぁ、それに関してはもういいんやけどさ…」[p]
 ;表情 呆れ
@@ -464,7 +464,7 @@ _　作業ちょっとだけ見たら買い物しようと思ってたのに…�
 ≪ラズにも伝えといてくれ。あの子怒らせるのが一番怖い≫[p]
 
 [chara_mod name="RozLaz" face="roz_itome"]
-[voice2 vf2="roz/Roz2-1_4.ogg"]
+[voice2 vf2="roz/roz2-1_4.ogg"]
 #ロズ
 「はいは～い」[p]
 #
@@ -483,36 +483,36 @@ _　作業ちょっとだけ見たら買い物しようと思ってたのに…�
 [bg storage="black.jpg" time=1000]
 [mask_off effect="fadeOut" time="2000"]
 
-[voice2 vf2="laz/Laz2-1_1.ogg"]
+[voice2 vf2="laz/laz2-1_1.ogg"]
 #ラズ
 「ふむ…ご主人様を大学に？」[p]
 
-[voice2 vf2="roz/Roz2-1_5.ogg"]
+[voice2 vf2="roz/roz2-1_5.ogg"]
 #ロズ
 「せや。まだマスターは決めてないけど…まぁ、多分時間の問題やろな。」[p]
 
-[voice2 vf2="laz/Laz2-1_2.ogg"]
+[voice2 vf2="laz/laz2-1_2.ogg"]
 #ラズ
 「よろしいのではないですか？[r]
 _　むしろ良い方向に転がっているように見えますが…」[p]
 
-[voice2 vf2="roz/Roz2-1_6.ogg"]
+[voice2 vf2="roz/roz2-1_6.ogg"]
 #ロズ
 「いや、それだけやなくてな…」[p]
 
-[voice2 vf2="laz/Laz2-1_3.ogg"]
+[voice2 vf2="laz/laz2-1_3.ogg"]
 #ラズ
 「…何です？」[p]
 
-[voice2 vf2="roz/Roz2-1_7.ogg"]
+[voice2 vf2="roz/roz2-1_7.ogg"]
 #ロズ
 「マスター、デレデレしとった」[p]
 
-[voice2 vf2="laz/Laz2-1_4.ogg"]
+[voice2 vf2="laz/laz2-1_4.ogg"]
 #ラズ
 「…なるほど。」[p]
 
-[voice2 vf2="laz/Laz2-1_5.ogg"]
+[voice2 vf2="laz/laz2-1_5.ogg"]
 #ラズ
 「少々、見極める必要がありますわね…常葉、美寿花…」[p]
 #
