@@ -52,11 +52,13 @@
 	;@showmenubutton
 
 	;システムボタン
-	[button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png"  width="71" height="30" x="50" y="680"]
+;	[button name="skip" role="skip" graphic="button/skip.png" enterimg="button/skip2.png"  width="71" height="30" x="50" y="680"]
+	[button name="skip" role="skip" graphic="skip.png" width="71" height="30" x="50" y="680"]	
 	[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png"  width="90" height="30" x="250" y="680"]
 	[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png"  width="90" height="30" x="450" y="680"]
-	[button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png"  width="96" height="30" x="650" y="680"]
-	[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png"  width="112" height="30" x="850" y="680"]
+;	[button name="auto" role="auto" graphic="button/auto.png" enterimg="button/auto2.png"  width="96" height="30" x="650" y="680"]
+	[button name="auto" role="auto" graphic="auto.png" width="96" height="30" x="650" y="680"]
+	[button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png"  width="73" height="30" x="855" y="680"]
 	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
 
 	;メッセージウィンドウの設定
@@ -194,12 +196,15 @@
 	;@showmenubutton
 
 	;システムボタン
-	[button name="role_button" role="skip" graphic="button/skip.png" enterimg="button/skip2.png"  width="71" height="30" x="50" y="680"]
+;	[button name="skip" role="skip" graphic="button/skip.png" enterimg="button/skip2.png"  width="71" height="30" x="50" y="680"]
+	[button name="skip" graphic="skip.png" role="skip" width="71" height="30" x="50" y="680"]	
 	[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png"  width="90" height="30" x="250" y="680"]
 	[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png"  width="90" height="30" x="450" y="680"]
-	[button name="role_button" role="auto" graphic="button/auto.png" enterimg="button/auto2.png"  width="96" height="30" x="650" y="680"]
-	[button name="role_button" role="title" graphic="button/title.png" enterimg="button/title2.png"  width="112" height="30" x="850" y="680"]
+;	[button name="auto" role="auto" graphic="button/auto.png" enterimg="button/auto2.png"  width="96" height="30" x="650" y="680"]
+	[button name="auto" width="96" graphic="auto.png" height="30" x="650" y="680"]
+	[button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png"  width="73" height="30" x="855" y="680"]
 	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
+	
 
 	;メッセージウィンドウの設定
 	[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
@@ -232,12 +237,12 @@
 [endmacro]
 
 [macro name="playse_hakushu"]
-	[playse storage="se/hakushu.mp3" loop="false" clear="true" volume="100"]
+	[playse storage="se/hakushu.mp3" loop="false" clear="true" volume="70"]
 	[wse]
 [endmacro]
 
 [macro name="playse_mizushibuki"]
-	[playse storage="se/mizushibuki.mp3" loop="false" clear="true" volume="80"]
+	[playse storage="se/mizushibuki.mp3" loop="false" clear="true" volume="60"]
 	[wse]
 [endmacro]
 

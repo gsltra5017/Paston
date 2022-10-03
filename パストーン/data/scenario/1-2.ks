@@ -1,8 +1,9 @@
 *start
+;rタグ整理、？と！の後のスペース追加、名前表示残留修正済み（つぶ）
 ;修正済み 黄樹の立ち絵を美寿花とバランスがとれるようにサイズを大きく調整
 [startoption]
 
-[bg storage="living.png"]
+[bg storage="living.png" time="0" ]
 ;修正後 背景をリビングの左側の壁にズームしたものにする
 
 [camera zoom="2" x="-300" y="0" time="0" wait="true"]
@@ -22,7 +23,7 @@
 （…父さん…だよな。さっきの）[p]
 
 #
-そもそも、朝のこの時間にいること自体珍しいが…[r]
+そもそも、朝のこの時間にいること自体珍しいが…[p]
 それよりも。[p]
 
 #yukito
@@ -44,8 +45,7 @@
 「なるほど、では昼や夜は私が作るってことでいいんですよね？」[p]
 
 [voice2 vf2="kouki/kouki1-2_3.ogg"]
-「うん、そうしてもらえると助かるかな。[r]
-_　材料費とかはまた後で払うから、心配しなくていいよ。」[p]
+「うん、そうしてもらえると助かるかな。材料費とかはまた後で払うから、心配しなくていいよ。」[p]
 
 [voicestop]
 #
@@ -63,11 +63,13 @@ _　材料費とかはまた後で払うから、心配しなくていいよ。�
 [voice2 vf2="kouki/kouki1-2_4.ogg"]
 #kouki
 「お、やっと起きた。」[p]
+#
 ;表情　微笑
 
 [voice2 vf2="kouki/kouki1-2_5.ogg"]
 #kouki:egao
 「中々降りてこなかったから体調でも悪いのかと思ったんだが…」[p]
+#
 
 [voicestop]
 #yukito
@@ -79,6 +81,7 @@ _　材料費とかはまた後で払うから、心配しなくていいよ。�
 
 @layopt layer="message0" visible="false"
 [chara_hide name="kouki"]
+[layopt layer="fix" visible="false"]
 
 ;BGMイントロと美寿花初登場演出の動画再生
 [bgmovie storage="mizuka_first_2.mp4" loop="false" skip="false"]
@@ -91,6 +94,7 @@ _　材料費とかはまた後で払うから、心配しなくていいよ。�
 ;ムービーをフェードアウトさせる
 [stop_bgmovie time="1000" wait="true"]
 @layopt layer="message0" visible="true"
+[layopt layer="fix" visible="true"]
 
 /*
 ;テーブルにズーム
@@ -141,8 +145,7 @@ _　材料費とかはまた後で払うから、心配しなくていいよ。�
 [voicestop]
 #
 俺の間抜けな姿に、父さんは不思議そうに席に着くよう促す。[p]
-そりゃするだろ。[r]
-なんだよこの状況。[p]
+そりゃするだろ。なんだよこの状況。[p]
 そんな念を込めた視線を送ると、ああ、と納得したように笑う。[p]
 
 
@@ -166,12 +169,13 @@ _　材料費とかはまた後で払うから、心配しなくていいよ。�
 
 [voice2 vf2="kouki/kouki1-2_9.ogg"]
 #kouki
-「僕か。なんだなんだ？[r]
-_　ちゃんとやることは事前に伝えていたはずだが…」[p]
+「僕か。なんだなんだ？　ちゃんとやることは事前に伝えていたはずだが…」[p]
+#
 
 [voice2 vf2="kouki/kouki1-2_10.ogg"]
 #kouki:kushou
 「すまん。ちょっと出てくるから、二人でゆっくりしていてくれ」[p]
+#
 
 [voicestop]
 #yukito
@@ -185,36 +189,38 @@ _　ちゃんとやることは事前に伝えていたはずだが…」[p]
 [playse_dooropen_1]
 [playse_doorclose_1]
 
-#
+
 それだけ言い残して、父さんの姿は書斎の奥へと消えていく。[p]
 
 [voice2 vf2="mizuka/mizuka1-2_3.ogg"]
 #mizuka:kushou
 「あ～…」[p]
+#
 
 [voicestop]
 #yukito
 ≪……≫[p]
 
 #
-女性は気まずそうに苦笑。[r]
-俺も何だか居心地悪くてその場でフリーズ。[p]
+女性は気まずそうに苦笑。俺も何だか居心地悪くてその場でフリーズ。[p]
 …だが、いつまでもそうしているわけにもいかず、諦めて席につく。[p]
 
 #yukito
 ≪……≫[p]
+#
 
 [voice2 vf2="mizuka/mizuka1-2_4.ogg"]
 #mizuka:odoroki
 「…あ、まず自己紹介から、だよね！」[p]
+#
 
 [voicestop]
-#
+
 このまま沈黙が続くとまずいと感じたのか、半ば無理やり自己紹介を始める女性。[p]
 
 [voice2 vf2="mizuka/mizuka1-2_5.ogg"]
 #mizuka:egao
-「…えーと、名前は[ruby text = "ときわ"]常葉美[ruby text = "みずか"]寿花。希み野大学の1年生。」[p]
+「…えーと、名前は[ruby text = "  ときわ"]常葉美[ruby text = "みずか"]寿花。希み野大学の1年生。」[p]
 
 [voicestop]
 #
@@ -227,10 +233,9 @@ _　ちゃんとやることは事前に伝えていたはずだが…」[p]
 
 #
 何故か、彼女の名前で引っかかる。[p]
-どこかで会ったのかとも思ったが…[r]
-俺の記憶に、こんな美人はいない。[p]
+どこかで会ったのかとも思ったが…俺の記憶に、こんな美人はいない。[p]
 [fadeoutbgm time=2000]
-俺の思い違いか…と、思っていると[p]
+俺の思い違いか…と、思っていると…[p]
 
 [voice2 vf2="mizuka/mizuka1-2_6.ogg"]
 #mizuka
@@ -246,11 +251,5 @@ _　ちゃんとやることは事前に伝えていたはずだが…」[p]
 
 #
 …その発言が、爆弾の如く俺の思考を吹っ飛ばしていった。[p]
-
-[mask effect="fadeInLeftBig" ]
-
-[chara_hide_all time="0"]
-
-[reset_camera]
 
 [scenejumpNormal sc="1-3.ks"]

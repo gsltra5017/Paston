@@ -1,4 +1,5 @@
 *start
+;rタグ整理、？と！の後のスペース追加、名前表示残留修正済み（つぶ）
 [startoption]
 
 [bg storage="myroom.png" time="0"]
@@ -38,6 +39,7 @@
 [voice1 vf1="roz/roz5-4_1.ogg"]
 #ロズ
 「…ドアの前で何しとるん？ マスター？」[p]
+#
 ;立ち絵表示なし
 
 [voicestop]
@@ -64,7 +66,8 @@
 [chara_mod name="RozLaz" face="laz_kushou"]
 [voice2 vf2="laz/laz5-4_1.ogg"]
 #ラズ
-「…私たちとしては、[r]　ご主人様が自らの声でお話しになってる事こそ慣れませんが…」[p]
+「…私たちとしては、ご主人様が自らの声でお話しになってる事こそ慣れませんが…」[p]
+#
 ;表情 kushou
 
 [voicestop]
@@ -74,12 +77,14 @@
 
 #雪翔
 「…ああ、そういえばお前らとこうやって話すのは初めてか」[p]
+#
 
 
 [chara_mod name="RozLaz" face="laz_bishou"]
 [voice2 vf2="laz/laz5-4_2.ogg"]
 #ラズ
 「ですね。何せ昨日はお疲れの様でしたから…」[p]
+#
 ;表情 bishou
 
 
@@ -87,6 +92,7 @@
 [voice2 vf2="roz/roz5-4_3.ogg"]
 #ロズ
 「せやなぁ…」[p]
+#
 ;表情 itome
 
 
@@ -94,6 +100,7 @@
 [voice2 vf2="roz/roz5-4_4.ogg"]
 #ロズ
 「って、そうやなくて、どうしたん？　下行くんやと思うてたけど」[p]
+#
 ;表情 neutral
 
 [voicestop]
@@ -110,6 +117,7 @@
 [voice2 vf2="roz/roz5-4_5.ogg"]
 #ロズ
 「…いや、マスター…それは…」[p]
+#
 ;表情 akire_2
 
 
@@ -117,13 +125,15 @@
 [chara_mod name="RozLaz" face="laz_tokuige"]
 [voice2 vf2="laz/laz5-4_3.ogg"]
 #ラズ
-「こら、辞めておきましょうロズ。[r]　ここで変に口を挟むのは野暮というものですわ」[p]
+「こら、辞めておきましょうロズ。ここで変に口を挟むのは野暮というものですわ」[p]
+#
 ;表情 tokuige
 
 [voicestop]
 
 #雪翔
 「…？　お前らの言ってる意味がよく分からないんだが…」[p]
+#
 
 
 
@@ -131,6 +141,7 @@
 [voice2 vf2="laz/laz5-4_4.ogg"]
 #ラズ
 「大丈夫です。今は分からなくて良いんですのよ」[p]
+#
 ;表情 egao
 
 
@@ -138,18 +149,19 @@
 [chara_mod name="RozLaz" face="laz_bow"]
 [voice2 vf2="laz/laz5-4_5.ogg"]
 #ラズ
-「…ですが、どうしても聞きたいのであれば…その答えは本人から、[r]　ということで」[p]
+「…ですが、どうしても聞きたいのであれば…その答えは本人から、ということで」[p]
+#
 ;表情 ojigi
 
 [voicestop]
 
 #雪翔
 「は？ それって…」[p]
+#
 
 ;修正済み（担当辻） 優先度高 ノックの音
 [playse_door_knock]
 
-#
 すると、2回のノックが聞こえ、ドアが開く。[p]
 
 [chara_hide name="RozLaz" time="500" wait="true"]
@@ -157,79 +169,87 @@
 [voice2 vf2="mizuka/mizuka5-4_1.ogg"]
 #美寿花
 「ごめん、今大丈夫？」[p]
+#
 ;表情 
 
 [voicestop]
 
-#
 声の主は勿論、噂の美寿花である。[p]
 
 #雪翔
 「…だ、大丈夫…だけど？」[p]
+#
 
 [chara_show name="mizuka" top="20" face="aseganizindaegao" time="500"]
 [playbgm storage="mizuka.ogg" volume="70" ]
 
-#
 朝の事を思い出し、何故か俺もキョドりながらも何とか返事をする。[p]
 
 [voice2 vf2="mizuka/mizuka5-4_2.ogg"]
 #美寿花
 「そっか、よかった～。ちょっと話したい事があって…」[p]
+#
 ;表情　汗がにじんだ笑顔
 
 [voicestop]
 
-#
 そう言って美寿花は部屋に入ると、何かに気づいたのか、起動しっぱなしのパソコンの画面を覗く。[p]
 
 [voice2 vf2="mizuka/mizuka5-4_3.ogg"]
 #美寿花:harikiri
 「あ、これ…この前作ってた曲の続き？」[p]
+#
 ;表情
 
 [voicestop]
 
 #雪翔
 「そう…だね。もう少しで完成すると思う」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_4.ogg"]
 #美寿花:egao_2
 「ほんと！？　じゃあ一緒に歌えるね！」[p]
+#
 ;表情 egao_2
 
 [voicestop]
 
 #雪翔
 「そ、それはまだ先になると思うけど…歌詞とかもついてないしね」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_5.ogg"]
 #美寿花:kyoton_2
 「あれ？　歌詞ついてなかったっけ？」[p]
+#
 ;表情 kyoton_2
 
 [voicestop]
 
 #雪翔
 「あれは流石に没…もうちょっと考えさせて…」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_6.ogg"]
 #美寿花:kanshin
 「ふ～ん…あれはあれでいいと思ったんだけどなぁ…」[p]
+#
 ;表情 kanshin
 
 [voicestop]
 
 #雪翔
 「あのまま行けば、絶対黒歴史直行だぞあんなの…」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_7.ogg"]
 #美寿花:egao_2
 「ふふ……あははっ！」[p]
+#
 
 [voicestop]
 
-#
 僕の言葉に、美寿花は笑ってくれる。[p]
 その表情を見て、ああ、届いているんだ。と実感した。[p]
 あの時手を伸ばしたから、今の笑顔はあるんだ…と。[p]
@@ -237,45 +257,49 @@
 [voice2 vf2="mizuka/mizuka5-4_8.ogg"]
 #美寿花:egao_2
 「あ～笑った笑った」[p]
+#
 ;表情 egao_2
 
 [voicestop]
 
-#
 ひとしきり笑った後、美寿花は俺のベッドにボスッと座る。[p]
 
 [voice2 vf2="mizuka/mizuka5-4_9.ogg"]
 #美寿花:bishou
 「…何か、変な感じだね。私が触れなくても、雪翔君はちゃんと喋れてる」[p]
+#
 ;表情
 
 [voicestop]
 
-#
 手招きされて、俺も彼女の隣に座ると、そんな事を言った。[p]
 
 #雪翔
 「…似たようなこと、ラズとロズにも言われたよ…まぁ分かるけどさ」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_10.ogg"]
 #美寿花:uneasy
 「…そっか…じゃあもう君の『声』としての役割は終了だね」[p]
+#
 ;表情 困り眉、悲しい目、微笑口
 
 [voicestop]
 
 #
 見ると、美寿花の表情は…複雑なものだった。[p]
-俺の声が戻ったのを喜んでくれているのは確かだろうが…[r]
+俺の声が戻ったのを喜んでくれているのは確かだろうが…[p]
 それは、美寿花の力を借りることはもうない、という意味でもある。[p]
 …でも…[p]
 
 #雪翔
 「そう…だけど…俺は…」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_11.ogg"]
 #美寿花:straight
 「『俺は』…何？」[p]
+#
 ;表情 straight
 
 [voicestop]
@@ -288,13 +312,16 @@
 
 #雪翔
 「………えっと…」[p]
+#
 
 #雪翔
 「…あの、さ」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_12.ogg"]
 #美寿花:bishou
-「…雪翔君、お父さんに連れられそうになった私に何て言ったか…[r]　覚えてる？」[p]
+「…雪翔君、お父さんに連れられそうになった私に何て言ったか…覚えてる？」[p]
+#
 ;表情
 
 [voicestop]
@@ -311,15 +338,18 @@
 [voice2 vf2="mizuka/mizuka5-4_13.ogg"]
 #美寿花:teremesorashi
 「…私の事……その…『大好き』って…」[p]
+#
 ;表情 teremesorashi 
 
 [voicestop]
 
 #雪翔
 「‥‥‥‥‥」[p]
+#
 
 #雪翔
 「‥‥‥‥‥‥‥‥」[p]
+#
 
 #雪翔
 「‥‥‥‥‥‥‥‥‥‥‥‥！？！？！？！？！？！？！？！？！？！？！？？！？！？」[p]
@@ -349,10 +379,12 @@
 
 #雪翔
 「しまった…やっちまった…」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_15.ogg"]
 #美寿花:egao_2
-「というか雪翔君、あれだね。喋れなかった期間が長すぎて、[r]　自分の思ってることが自然に口から出ちゃうんだろうね」[p]
+「というか雪翔君、あれだね。喋れなかった期間が長すぎて、自分の思ってることが自然に口から出ちゃうんだろうね」[p]
+#
 ;表情 egao_2
 
 [voicestop]
@@ -367,6 +399,7 @@
 [voice2 vf2="mizuka/mizuka5-4_16.ogg"]
 #美寿花:terejitome_2
 「そっかぁ…少年君、『大』が付いちゃうほど私の事好きだったのかぁ～」[p]
+#
 ;choiterewarai
 
 [voicestop]
@@ -380,7 +413,7 @@
 ;修正済み（担当辻） 優先度高 itazuraに照れを付けたやつに表情変更
 [voice2 vf2="mizuka/mizuka5-4_17.ogg"]
 #美寿花:itazuratere
-「だって、そうなんでしょ？[r]　あんな流れでスッと言っちゃうくらい想ってたんでしょ？」[p]
+「だって、そうなんでしょ？　あんな流れでスッと言っちゃうくらい想ってたんでしょ？」[p]
 ;terejitome
 
 [voicestop]
@@ -393,10 +426,12 @@
 
 #雪翔
 「…そうだよ…悪いかよ…」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_18.ogg"]
 #美寿花:odoroki_3
 「あれ、意外と素直に認めたね」[p]
+#
 ;表情
 
 [voicestop]
@@ -412,11 +447,13 @@
 [voice2 vf2="mizuka/mizuka5-4_19.ogg"]
 #美寿花:terejitome_2
 「…ふ～ん…」[p]
+#
 ;表情 terejitome_2
 
 [voice2 vf2="mizuka/mizuka5-4_20.ogg"]
 #美寿花:uneasy
 「‥‥‥」[p]
+#
 ;表情
 
 [voicestop]
@@ -434,10 +471,12 @@
 [voice2 vf2="mizuka/mizuka5-4_21.ogg"]
 #美寿花
 「…お願いがあるんだけど、さ」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_22.ogg"]
 #美寿花
 「…もう一回、言ってほしいな…君の声で」[p]
+#
 
 [voicestop]
 
@@ -458,15 +497,18 @@
 
 #雪翔
 「俺は…美寿花が好きだ」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_23.ogg"]
 #美寿花
 「…ただの『好き』？」[p]
+#
 
 [voicestop]
 
 #雪翔
 「‥‥‥‥」[p]
+#
 
 #雪翔
 「俺は！美寿花が！大好きだ！！…………これで満足だろ！！」[p]
@@ -497,6 +539,7 @@
 
 #雪翔
 「…美寿花？」[p]
+#
 
 [voice2 vf2="mizuka/mizuka5-4_26.ogg"]
 #美寿花
@@ -542,6 +585,7 @@
 
 #雪翔
 （…もしかして…今のって…）[p]
+#
 
 #雪翔
 「…その…美寿花？」[p]
@@ -559,11 +603,11 @@
 [wt]
 #美寿花
 「私も、大好きだよ…！雪翔！！」[p]
+#
 
 ;修正後 優先度高 5秒くらいかけて明転
 [voicestop]
 @layopt layer="message0" visible="false"
-#
 
 [chara_hide_all]
 
