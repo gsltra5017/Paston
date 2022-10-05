@@ -305,6 +305,7 @@
 「それにめんどくさいし。」[p]
 
 
+
 [voice2 vf2="mizuka/mizuka2-1_16.ogg"]
 #美寿花:r_kangae
 「それはどうかな？　多分、雪翔君の目標の一歩にはなると思うよ？」[p]
@@ -316,6 +317,7 @@
 「…というと？」[p]
 #
 
+
 [voice2 vf2="mizuka/mizuka2-1_17.ogg"]
 #美寿花:r_odoroki
 「考えたんだけどさ」[p]
@@ -323,12 +325,12 @@
 ;表情 驚き2 あとで２にする
 
 
+
 [voice2 vf2="mizuka/mizuka2-1_18.ogg"]
-;こことまった(辻)
+
 #美寿花:r_kangae_2
 「雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
-;r_kangae_2
-
+;[chara_mod name="mizuka" face="r_kangae_2" wait="false"]
 #
 ;表情 驚き2 あとで２にする
 
@@ -357,7 +359,6 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_21.ogg"]
-;こことまった(辻)
 #美寿花:r_bishou
 「それでも、行ってみない？ 学校。」[p]
 #
@@ -368,6 +369,9 @@
 「…って言われてもなぁ…」[p]
 #
 
+
+
+
 [voice2 vf2="mizuka/mizuka2-1_22.ogg"]
 #美寿花:r_egao
 「まぁ、考えといてよ。といっても、学校明日からだけどね。」[p]
@@ -376,8 +380,7 @@
 
 [voicestop]
 [voice2 vf2="mizuka/mizuka2-1_23.ogg"]
-;こことまった(辻)
-#美寿花:r_odoroki_2
+#美寿花:r_odoroki
 「…ってもうこんな時間！？　作業ちょっとだけ見たら買い物しようと思ってたのに…」[p]
 #
 ;表情 驚き
