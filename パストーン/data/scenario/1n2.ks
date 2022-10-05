@@ -110,7 +110,7 @@
 ;動画の最後のフレームをフェードアウト
 [freeimage layer="0" time="1000"]
 
-[playbgm storage="mizuka.ogg" volume="40" ]
+[bgm_mizuka]
 
 ;みずかの立ち絵を大きめに表示
 [chara_show name="mizuka" top="20" width="1003" height="1418" storage="chara/mizuka/egao.png" wait="true"]

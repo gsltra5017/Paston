@@ -1,13 +1,23 @@
+;------------------------------------------------------------------------------------------------------
+; キャラ名定義
+;------------------------------------------------------------------------------------------------------
+
 [chara_new  name="otoko" storage="chara/yukito/dansei_15.png" jname="男"  ]
 [chara_new  name="yukito" storage="chara/yukito/dansei_15.png" jname="雪翔"  ]
 [chara_new  name="mizuka" storage="chara/mizuka/kushou.png" width="868" height="1227" jname="美寿花"]
 [chara_new  name="kouki" storage="chara/kouki/bishou.png" width="1003" height="1418" jname="黄樹"]
-;[chara_new  name="roz" storage="chara/roz/normal.png" width="694" height="982" jname="ロズ"  ]
-;[chara_new  name="laz" storage="chara/laz/normal.png" width="694" height="982" jname="ラズ"  ]
+[chara_new  name="roz" storage="chara/RozLaz/roz_neutral.png" jname="ロズ" ]
+[chara_new  name="laz" storage="chara/RozLaz/laz_normal.png" jname="ラズ" ]
 [chara_new  name="ayana" storage="chara/ayana/normal.png" width="868" height="1227" jname="文永"  ]
 [chara_new  name="RozLaz" storage="chara/RozLaz/normal.png" width="523" height="552.51" jname="ロズラズ"  ]
 [chara_new  name="eijyurou" storage="chara/eijyurou.png" width="320" height="720" jname="永寿郎"  ]
 
+
+;------------------------------------------------------------------------------------------------------
+; キャラ表情定義
+;------------------------------------------------------------------------------------------------------
+
+;美寿花
 [chara_face name="mizuka" face="akire" storage="chara/mizuka/akire.png"]
 [chara_face name="mizuka" face="aseganizindaegao" storage="chara/mizuka/aseganizindaegao.png"]
 [chara_face name="mizuka" face="aseri" storage="chara/mizuka/aseri.png"]
@@ -105,6 +115,7 @@
 [chara_face name="mizuka" face="shinpai_n" storage="chara/mizuka/shinpai_n.png"]
 [chara_face name="mizuka" face="teremoji" storage="chara/mizuka/teremoji.png"]
 
+;黄樹
 [chara_face name="kouki" face="bishou" storage="chara/kouki/bishou.png"]
 [chara_face name="kouki" face="egao" storage="chara/kouki/egao.png"]
 [chara_face name="kouki" face="egao_2" storage="chara/kouki/egao_2.png"]
@@ -117,6 +128,7 @@
 [chara_face name="kouki" face="shinpai" storage="chara/kouki/shinpai.png"]
 [chara_face name="kouki" face="straight" storage="chara/kouki/straight.png"]
 
+;文永
 [chara_face name="ayana" face="akire" storage="chara/ayana/akire.png"]
 [chara_face name="ayana" face="akire_2" storage="chara/ayana/akire_2.png"]
 [chara_face name="ayana" face="ando" storage="chara/ayana/ando.png"]
@@ -159,6 +171,7 @@
 [chara_face name="ayana" face="uttae_2" storage="chara/ayana/uttae_2.png"]
 [chara_face name="ayana" face="worry" storage="chara/ayana/worry.png"]
 
+;ロズラズ
 [chara_face name="RozLaz" face="inai" storage="chara/RozLaz/inai.png"]
 [chara_face name="RozLaz" face="laz_akire" storage="chara/RozLaz/laz_akire.png"]
 [chara_face name="RozLaz" face="laz_bishou" storage="chara/RozLaz/laz_bishou.png"]
@@ -209,3 +222,35 @@
 [chara_face name="RozLaz" face="roz_x" storage="chara/RozLaz/roz_x.png"]
 [chara_face name="RozLaz" face="roz_kushou" storage="chara/RozLaz/roz_kushou.png"]
 
+;------------------------------------------------------------------------------------------------------
+; 立ち絵登場
+;------------------------------------------------------------------------------------------------------
+
+;美寿花表示
+[macro name="show_mizuka"]
+    ;美寿花の立ち絵を表示します [show_mizuka f="ここに表情名を記述"] というように記述してください
+    [chara_show name="mizuka" top="20" width="1003" height="1418" face="&mp.f" wait="true"]
+[endmacro]
+
+;ロズラズ表示大
+[macro name="show_RozLaz"]
+    [chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="&mp.f" wait="true"]
+[endmacro]
+
+;ロズラズ表示小
+[macro name="show_RozLaz_s"]
+    [chara_show name="RozLaz" top="200" width="523" height="552.51" face="&mp.f" wait="true"]
+[endmacro]
+
+
+;------------------------------------------------------------------------------------------------------
+; 表情変更
+;------------------------------------------------------------------------------------------------------
+
+[macro name="mizuka" ]
+    [chara_mod name="mizuka" face="&mp.f" cross="false"]
+[endmacro]
+
+[macro name="RozLaz" ]
+    [chara_mod name="RozLaz" face="&mp.f" wait="false" cross="false"]
+[endmacro]
