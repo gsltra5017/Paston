@@ -170,7 +170,7 @@
 [chara_mod name="RozLaz" face="rozlaz"]
 #ロズ＆ラズ
 [voice2 vf2="laz/laz3-1_3.ogg"]
-「じゃれあったりなんかしてません！」[r]
+_　「じゃれあったりなんかしてません！」[r]
 「じゃれあったりなんかしてへん！」[np]
 ;表情 ラズ＆ロズ okori ☆
 

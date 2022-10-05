@@ -212,7 +212,7 @@
 
 [chara_mod name="RozLaz" face="rozlaz"]
 ;[playse storage="laz/laz2-2_9.ogg" buf="0"]
-[playse storage="roz/roz2-2_4.ogg" buf="1"]
+[playse storage="roz/roz2-2_4.ogg" buf="2"]
 #ロズ＆ラズ
 「マスターは黙っとって！！」[r]
 「ご主人様は黙っててくださいまし！！」[np]

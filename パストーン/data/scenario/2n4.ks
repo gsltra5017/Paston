@@ -5,6 +5,7 @@
 
 ;↓暗転中に画像など準備
 [bg storage="classroom.png" time="0"]
+[filter layer="base" blur="5" ]
 [chara_show name="mizuka" top="20" storage="chara/mizuka/kyoton.png" time="0" wait="true"]
 ;背景 空き教室
 
@@ -408,7 +409,6 @@
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
 [trans layer="0" time="1000" method="fadeIn"]
-[free_filter]
 [wait time="2000"]
 
 [scenejumpNormal sc="2n5.ks"]

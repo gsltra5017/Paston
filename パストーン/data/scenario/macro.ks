@@ -41,6 +41,7 @@
 	[font shadow="0x333333"]
 
 	[chara_config  talk_focus="none"]
+	#
 [endmacro]
 
 ;ラベルをまたいだ時最初に宣言するマクロ
@@ -88,6 +89,15 @@
 	[p]
 	#
 	[stopse buf=2]
+[endmacro]
+
+[macro name="better_wait"]
+	[iscript]
+	tf.is_skip = TG.stat.is_skip;
+	[endscript]
+	[if exp="tf.is_skip!=true"]
+	[wait time=%time]
+	[endif]
 [endmacro]
 
 

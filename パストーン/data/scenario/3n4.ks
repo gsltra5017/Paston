@@ -418,11 +418,12 @@
 美寿花の声と観客の歓声が重なる。[np]
 そのまま、大ジャンプを決めたイルカたちは着水する…その時だった。[np]
 
-[playse_mizushibuki]
+
 ;修正前 優先度中 水しぶきの効果音追加
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-4/white.jpg"]
-[trans layer="0" time="0" method="fadeIn"]
+[trans layer="0" time="500" method="fadeIn"]
+[playse_mizushibuki]
 [wt]
 [voice2 vf2="mizuka/mizuka3-4_28.ogg"]
 #美寿花
