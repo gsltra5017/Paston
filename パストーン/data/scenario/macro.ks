@@ -25,7 +25,9 @@
 
     @jump storage="&mp.sc"
 
-    [s]
+    [endlink]
+	[cm]
+	
 [endmacro]
 
 [macro name="afterjumpmaskNormal"]

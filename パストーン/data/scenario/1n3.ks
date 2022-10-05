@@ -296,8 +296,4 @@ _　じゃ、僕は大学に行ってくる」[p]
 控え目に言って子供がギャン泣きする出来に仕上がっており、[r]
 それを二人で頑張って完食するのは、また別の話である。[p]
 
-[mask effect="fadeInLeftBig" ]
-
-[chara_hide_all]
-
-[scenejumpNormal sc = "1-4.ks"]
+[scenejumpNormal sc="1n4.ks"]

@@ -491,4 +491,4 @@
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc="3-1.ks"]
+[scenejumpNormal sc="3n1.ks"]

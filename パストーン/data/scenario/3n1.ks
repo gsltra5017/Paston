@@ -45,7 +45,9 @@
 
 #雪翔
 ≪…ん？≫[p]
+#
 小さめの声で呼び止められ、その声の主をポケットから出す。[p]
+
 
 
 #雪翔
@@ -55,7 +57,7 @@
 ;修正済み（担当辻） ロズラズの表示位置の修正
 [chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_shinpai"]
 #ロズ
-[voice2 vf2="roz/Roz3-1_2.ogg"]
+[voice2 vf2="roz/roz3-1_2.ogg"]
 「いや、全然気づいてへんみたいやから…」[p]
 #
 ;表情 shinpai
@@ -584,4 +586,4 @@
 
 [fadeoutbgm time=2000]
 
-[scenejumpNormal sc="3-2.ks"]
+[scenejumpNormal sc="3n2.ks"]

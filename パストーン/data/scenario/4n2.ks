@@ -305,6 +305,6 @@
 そこには、こう書かれていた。[p]
 
 『次の週末、公園に来てもらえませんか？』[p]
-[scenejumpNormal sc="4-3.ks"]
+[scenejumpNormal sc="4n3.ks"]
 
 

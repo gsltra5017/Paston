@@ -569,4 +569,4 @@
 
 [chara_hide_all time="0"]
 
-[scenejumpNormal sc="2-2.ks"]
+[scenejumpNormal sc="2n2.ks"]

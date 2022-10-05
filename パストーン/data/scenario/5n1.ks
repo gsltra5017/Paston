@@ -628,4 +628,4 @@ EL社…ロズとラズの元となったAIが作られた会社だ…[p]
 
 来客を知らせるチャイムが、部屋に響いた。[p]
 
-[scenejumpNormal sc="5-2.ks"]
+[scenejumpNormal sc="5n2.ks"]

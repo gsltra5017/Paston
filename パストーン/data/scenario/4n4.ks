@@ -362,4 +362,4 @@
 #
 その手を振り払ってから、俺はまた走り出した。[p]
 
-[scenejumpNormal sc="5-1.ks"]
+[scenejumpNormal sc="5n1.ks"]

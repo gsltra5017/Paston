@@ -252,4 +252,4 @@
 #
 …その発言が、爆弾の如く俺の思考を吹っ飛ばしていった。[p]
 
-[scenejumpNormal sc="1-3.ks"]
+[scenejumpNormal sc="1n3.ks"]

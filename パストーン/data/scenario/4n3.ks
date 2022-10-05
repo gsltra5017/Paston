@@ -418,6 +418,6 @@
 
 [mask time="3000" effect="fadeIn" wait="true" graphic="eveningsky.png"]
 
-@jump storage="4-4.ks"
+@jump storage="4n4.ks"
 
 [s]

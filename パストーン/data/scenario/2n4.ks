@@ -463,4 +463,4 @@
 [free_filter]
 [wait time="2000"]
 
-[scenejumpNormal sc="2-5.ks"]
+[scenejumpNormal sc="2n5.ks"]
