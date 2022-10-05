@@ -505,5 +505,5 @@
 
 [voicestop]
 
-[scenejumpNormal sc="2-1.ks"]
+[scenejumpNormal sc="2n1.ks"]
 
