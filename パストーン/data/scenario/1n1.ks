@@ -6,7 +6,7 @@
 [voconfig sebuf=2 name="laz" vostorage="laz/laz1-1_{number}.wav" number=2 ]
 [vostart]
 
-[bg storage="makkuro.jpg" time="0"]
+[bg storage="makkuro.jpg" time="10"]
 
 『やめてくれ』[np]
 目の前が、鮮血で染まっていく。[np]
@@ -45,9 +45,9 @@
 [stopse]
 
 [mask time="400"]
-[bg storage="myroom.png" time="0"]
-[camera zoom="1.7" x="-70" y="-50" time="0" wait="false"]
-[wait time="400"]
+[bg storage="myroom.png" time="10"]
+[camera zoom="1.7" x="-70" y="-50" time="10" wait="true"]
+[better_wait time="400"]
 [mask_off time="400" wait="true"]
 
 #yukito
@@ -93,7 +93,7 @@
 …そして、[np]
 …その事故で俺は、母親を失うことになった。[np]
 
-[bg storage="myroom.png" time="400" wait="false"]
+[bg storage="myroom.png" time="400" wait="true"]
 
 #yukito
 ≪…自殺なんかに、他人の命を巻き込むんじゃねぇよ。≫[np]
@@ -117,7 +117,8 @@
 
 
 ;[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_taunt" wait="true" pos_mode="true"]
-[show_RozLaz f="roz_taunt"]
+[RozLaz f="roz_taunt"]
+[show_RozLaz]
 ;[voice2 vf2="roz/Roz1-1_2.wav"]
 #roz
 「そうやってラズが甘やかすから、どんどんマスターの生活リズムが崩れていくんやで？」[np]
@@ -127,12 +128,13 @@
 ;[voice2 vf2="laz/Laz1-1_2.wav"]
 #ラズ
 「あらあら、それならあなただってどうして深夜まで頑張って作業しているご主人様を止めませんの？ 元はといえばロズのせいだと言えますが」[np]
-
+[chara_hide_all time="500" wait="true"]
 
 俺の言葉を無視し、携帯からの声達はどんどん険悪な雰囲気になっていく。[np]
 
 ;[chara_mod name="RozLaz" face="roz_okori_2" wait="false"]
 [RozLaz f="roz_okori_2"]
+[show_RozLaz]
 ;[voice2 vf2="roz/Roz1-1_3.wav"]
 #roz
 「どうやら、今日こそ決着つけなあかんみたいやな。」[np]
@@ -152,9 +154,7 @@
 #roz
 「当たりまえやろ毎回引き分けなんやから！！　とにかく、覚悟…」[np]
 
-
 [chara_hide_all time="500" wait="true"]
-[vostop]
 
 何やら決闘が始まりそうなので、
 これ以上うるさくならないうちに音量をゼロに。[np]
@@ -167,6 +167,5 @@
 
 どうしようもない、と言った風に俺はドアを開け、階下へ降りる。[np]
 
-[chara_hide_all time="0" ]
-
+[vostop]
 [scenejumpNormal sc="1n2.ks"]

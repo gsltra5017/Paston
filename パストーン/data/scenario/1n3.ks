@@ -7,11 +7,11 @@
 [chara_show name="mizuka" face="bishou" top="20" time="0"]
 [chara_show name="kouki" face="straight" top="-50" time="0" ]
 
-[camera layer="base" zoom="1.2" x="0" y="0" time="0" wait="false"]
+[camera layer="base" zoom="1.2" x="0" y="0" time="10" wait="true]
 
 [afterjumpmaskNormal]
 
-[wait time="500"]
+[better_wait time="500"]
 
 ;背景 リビング
 ;画面に美寿花、黄樹の立ち絵表示

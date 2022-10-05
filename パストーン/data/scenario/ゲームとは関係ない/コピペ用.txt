@@ -40,6 +40,15 @@ https://plugin.tyrano.jp/item/5027
 [startoption]
 [wait time="0"]
 
+;スキップ時の時短用
+
+[is_skip]
+[if exp="tf.is_skip != true"]
+
+[else]
+
+[endif]
+
 
 
 

@@ -114,10 +114,12 @@
 でも、それになんの抵抗もなく…いや、むしろ安らぎすら感じている自分もいることに…少し、笑ってしまった。[np]
 
 [fadeoutbgm time="2000"]
-[mask time="1300" effect="slideInLeft" wait="true"]
-[bg storage="classroom_cloud.png"]
-[chara_mod name="mizuka" face="onemu"]
+[mask time="1300" effect="slideInLeft"]
+[bg storage="classroom_cloud.png" time="10"]
+[chara_mod name="mizuka" face="onemu" time="10" ]
+[wait time="20" ]
 [mask_off effect="slideOutRight" time="1300"]
+[wait time="100" ]
 
 ;修正後 暗転
 ;背景 空き教室
@@ -215,9 +217,16 @@
 [playbgm storage="mizuka.ogg" volume="40" ]
 
 ;修正後（担当辻）ロズラズの立ち絵を消して、美寿花だけをアップにする（背景も拡大）
-[chara_hide name="RozLaz" time="500" wait="false"]
-[camera layer="base" x="0" y="0" zoom="1.25" time="3000" wait="false"]
-[camera layer="0" x="0" y="0" zoom="1.25" time="3000" wait="true"]
+[is_skip]
+[if exp="tf.is_skip != true"]
+    [chara_hide name="RozLaz" time="500" wait="true"]
+    [camera layer="base" x="0" y="0" zoom="1.25" time="3000" wait="false"]
+    [camera layer="0" x="0" y="0" zoom="1.25" time="3000" wait="true"]
+[else]
+    [chara_hide name="RozLaz" time="10" wait="true"]
+    [camera layer="base" x="0" y="0" zoom="1.25" time="10" wait="true"]
+    [camera layer="0" x="0" y="0" zoom="1.25" time="10" wait="true"]
+[endif]
 
 [voice2 vf2="mizuka/mizuka2-4_9.ogg"]
 #美寿花:aseganizindaegao
@@ -356,7 +365,7 @@
 
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4.png"]
-[trans layer="0" time="500" method="fadeIn"]
+[trans layer="0" time="1000" method="fadeIn"]
 [wt]
 
 [voice2 vf2="mizuka/mizuka2-4_16.ogg"]
@@ -389,16 +398,16 @@
 #雪翔
 ≪…ありがとな、美寿花≫[np]
 
-[backlay layer="0"]
-[trans layer="0" time="500" method="fadeIn"]
-[wt]
+;[backlay layer="0"]
+;[trans layer="0" time="500" method="fadeIn"]
+;[wt]
 
 そんな、短い一言。[np]
 まだ面と向かっては言えない一言。[np]
 
-[backlay layer="0"]
-[trans layer="0" time="1000" method="fadeIn"]
-[wt]
+;[backlay layer="0"]
+;[trans layer="0" time="1000" method="fadeIn"]
+;[wt]
 
 意味はないかもしれないが、それでも…今はこれでいい。[np]
 そう思いながら、彼女が起きるまでしばらくそのままでいたのだった。[np]
@@ -406,9 +415,17 @@
 ;一枚絵 美寿花アップ
 ;一枚絵 美寿花アップ（顔赤らめる）
 
-[backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
-[trans layer="0" time="1000" method="fadeIn"]
-[wait time="2000"]
+[CG d="singlepic/2-4/2-4てれ.png" t="1000"]
+;[is_skip]
+;[if exp="tf.is_skip != true"]
+    ;[backlay layer="0"]
+    ;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
+    ;[trans layer="0" time="1000" method="fadeIn"] 
+;[else]
+    ;[backlay layer="0"]
+    ;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
+    ;[trans layer="0" time="10" method="fadeIn"] 
+;[endif]
+[better_wait time="2000"]
 
 [scenejumpNormal sc="2n5.ks"]

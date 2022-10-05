@@ -2,7 +2,7 @@
 ;rタグ整理、？と！の後のスペース追加、名前表示残留修正済み（つぶ）
 [startoption]
 
-[bg storage="myroom.png" time="0"]
+[bg storage="myroom.png" time="10"]
 
 [afterjumpmaskNormal]
 

@@ -228,18 +228,17 @@
 
 ;美寿花表示
 [macro name="show_mizuka"]
-    ;美寿花の立ち絵を表示します [show_mizuka f="ここに表情名を記述"] というように記述してください
-    [chara_show name="mizuka" top="20" width="1003" height="1418" face="&mp.f" wait="true"]
+    [chara_show name="mizuka" top="20" width="1003" height="1418" wait="true" time="%t|1000"]
 [endmacro]
 
 ;ロズラズ表示大
 [macro name="show_RozLaz"]
-    [chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="&mp.f" wait="true"]
+    [chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" wait="true" time="%t|1000" ]
 [endmacro]
 
 ;ロズラズ表示小
 [macro name="show_RozLaz_s"]
-    [chara_show name="RozLaz" top="200" width="523" height="552.51" face="&mp.f" wait="true"]
+    [chara_show name="RozLaz" top="200" width="523" height="552.51" wait="true" time="%t|1000"]
 [endmacro]
 
 
@@ -248,9 +247,9 @@
 ;------------------------------------------------------------------------------------------------------
 
 [macro name="mizuka" ]
-    [chara_mod name="mizuka" face="&mp.f" cross="false"]
+    [chara_mod name="mizuka" face="&mp.f" cross="false" time="%t|600"]
 [endmacro]
 
 [macro name="RozLaz" ]
-    [chara_mod name="RozLaz" face="&mp.f" wait="false" cross="false"]
+    [chara_mod name="RozLaz" face="&mp.f" wait="false" cross="false" time="%t|600"]
 [endmacro]

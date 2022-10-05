@@ -4,7 +4,7 @@
 [startoption]
 ;2-5のボイス音でかいです。
 ;背景 空 夕方
-[bg storage="road_evening.png" time="0"]
+[bg storage="road_evening.png" time="10"]
 
 [chara_show name="mizuka" top="20" storage="chara/mizuka/akire.png" wait="true"]
 ;修正済み　表情呆れに変更(添田)
@@ -416,6 +416,6 @@
 
 [mask effect="fadeInLeftBig"]
 
-[chara_hide_all time="0"]
+[chara_hide_all time="10"]
 
 [scenejumpNormal sc="3n1.ks"]

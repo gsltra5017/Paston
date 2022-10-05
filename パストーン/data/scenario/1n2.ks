@@ -3,10 +3,10 @@
 ;修正済み 黄樹の立ち絵を美寿花とバランスがとれるようにサイズを大きく調整
 [startoption]
 
-[bg storage="living.png" time="0" ]
+[bg storage="living.png" time="10" ]
 ;修正後 背景をリビングの左側の壁にズームしたものにする
 
-[camera zoom="2" x="-300" y="0" time="0" wait="true"]
+[camera zoom="2" x="-300" y="0" time="10" wait="true"]
 
 [afterjumpmaskNormal]
 
@@ -72,15 +72,15 @@
 俺の意識は、キッチンに立つ父さんではなく…[np]
 
 @layopt layer="message0" visible="false"
-[chara_hide name="kouki"]
 [layopt layer="fix" visible="false"]
+[chara_hide name="kouki"]
 
 ;BGMイントロと美寿花初登場演出の動画再生
 [bgmovie storage="mizuka_first_2.mp4" loop="false" skip="false"]
 
-[wait time="9000"]
+[better_wait time="9000"]
 ;テーブルにズーム
-[camera layer="base" zoom="1.3" x="140" y="-70" time="0" wait="false"]
+[camera layer="base" zoom="1.3" x="140" y="-70" time="10" wait="true"]
 ;背景ぼかし
 [filter layer="base" blur="5"]
 ;ムービーをフェードアウトさせる
@@ -123,9 +123,9 @@
 
 いや、そうでなければただの不審者なのだが…と、自分の考えに自分で突っ込む。[np]
 
-[reset_camera time="1000" wait="false" layer="base"]
-[filter layer="base" blur="0" wait="false" time="1000"]
-[chara_config pos_change_time="1000"]
+[reset_camera time="1000" wait="true" layer="base"]
+[filter layer="base" blur="0" wait="true" time="1000"]
+;[chara_config pos_change_time="1000"]
 [chara_show name="kouki" face="kyoton" top="-50" time="1000"]
 [voice2 vf2="kouki/kouki1-2_6.ogg"]
 #kouki
@@ -142,9 +142,7 @@
 #kouki:egao
 「そうか。そういえばまだ説明してなかったな。彼女は…」[np]
 
-[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35"]
-[wse]
-;修正後 携帯のバイブ音の音量を下げてほしい
+[playse_phone]
 
 [voice2 vf2="kouki/kouki1-2_8.ogg"]
 #kouki:shinpai

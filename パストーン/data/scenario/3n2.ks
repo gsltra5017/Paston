@@ -53,12 +53,12 @@
 
 [bgchangemask]
 
-[chara_hide_all time="0"]
+[chara_hide_all time="10"]
 
 ;背景 雪翔の自室
 [bg storage="myroom_night.png"]
 
-[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_kyoton" time="0"]
+[chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_kyoton" time="10"]
 
 [bgchangemask_off]
 ;修正済み（担当辻） ロズラズの表示位置 ☆

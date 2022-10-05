@@ -10,8 +10,13 @@
 [afterjumpmaskNormal]
 
 ;修正後 メッセージウィンドウをフェード表示
-[anim layer="message0" time="2000" opacity="255"]
-[wait time="2000"]
+[if exp="tf.is_skip != true"]
+    [anim layer="message0" time="2000" opacity="255"]
+[else]
+    [anim layer="message0" time="10" opacity="255"]
+[endif]
+
+[better_wait time="2000"]
 
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
 #美寿花
@@ -34,7 +39,7 @@
 ;[bgchangemask]
 ;背景 道路
 [bg storage="city.png" time="1000"]
-[chara_show name="mizuka" top="20" storage="chara/mizuka/panic_2.png" wait="false"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/panic_2.png" wait="true" time="1000" ]
 ;[bgchangemask_off]
 
 [voice2 vf2="mizuka/mizuka2-2_2.ogg"]

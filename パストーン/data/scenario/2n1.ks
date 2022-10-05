@@ -3,7 +3,7 @@
 [startoption]
 
 ;青空
-[bg storage="daysky.png" time="0"]
+[bg storage="daysky.png" time="10"]
 
 [afterjumpmaskNormal]
 
@@ -17,7 +17,7 @@
 ;雪翔の部屋
 [bgchangemask]
 
-[bg storage="myroom.png" time="0"]
+[bg storage="myroom.png" time="10"]
 [chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
 
 [bgchangemask_off]
@@ -138,7 +138,7 @@
 
 [bgchangemask]
 
-[bg storage="living.png" time="0"]
+[bg storage="living.png" time="10"]
 [chara_mod name="mizuka" face="r_kyoton"]
 
 [bgchangemask_off]
@@ -207,7 +207,7 @@
 ;能力発動音
 [playse_ability_on]
 #雪翔
-「…学校、ずっと行ってないんだ」[np]
+≪…学校、ずっと行ってないんだ≫[np]
 
 
 [voice2 vf2="mizuka/mizuka2-1_11.ogg"]
@@ -217,7 +217,7 @@
 
 
 #雪翔
-「ああ、ずっと」[np]
+≪ああ、ずっと≫[np]
 
 #美寿花:r_kyoton
 「……」[np]
@@ -232,7 +232,7 @@
 
 
 #雪翔
-「その通りだけどその表現は止めてくれるかな！？」[playse_tsukkomi][np]
+≪その通りだけどその表現は止めてくれるかな！？≫[playse_tsukkomi][np]
 
 [voice2 vf2="mizuka/mizuka2-1_13.ogg"]
 ;辻は苦笑のほうがいい気がします
@@ -247,7 +247,7 @@
 
 
 そこまで言って、あ、
-[chara_mod name="mizuka" face="r_harikiri" time="500" wait="false" cross="false" ]
+[chara_mod name="mizuka" face="r_harikiri" time="500" wait="true" cross="false" ]
 と何か閃いたように目が輝きだす。[np]
 
 
@@ -260,9 +260,11 @@
 
 
 #雪翔
-「何となくそう言うと思った…」[np]
-「…何て言ったらいいか分からないけど…今更学校に行ったって仕方ないだろ。」[np]
-「それにめんどくさいし。」[np]
+≪何となくそう言うと思った…≫[np]
+#雪翔
+≪…何て言ったらいいか分からないけど…今更学校に行ったって仕方ないだろ。≫[np]
+#雪翔
+≪それにめんどくさいし。≫[np]
 
 
 [voice2 vf2="mizuka/mizuka2-1_16.ogg"]
@@ -272,7 +274,7 @@
 
 
 #雪翔
-「…というと？」[np]
+≪…というと？≫[np]
 
 [voice2 vf2="mizuka/mizuka2-1_17.ogg"]
 #美寿花:r_odoroki
@@ -280,13 +282,13 @@
 ;表情 驚き2 あとで２にする
 
 [voice2 vf2="mizuka/mizuka2-1_18.ogg"]
-#美寿花:r_kangae_2
+;#美寿花:r_kangae_2
 「雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[np]
 ;表情 驚き2 あとで２にする
 
 
 #雪翔
-「‥‥‥」[np]
+≪‥‥‥≫[np]
 
 
 心当たりは、ないことはない。[np]
@@ -312,7 +314,7 @@
 
 
 #雪翔
-「…って言われてもなぁ…」[np]
+≪…って言われてもなぁ…≫[np]
 
 [voice2 vf2="mizuka/mizuka2-1_22.ogg"]
 #美寿花:r_egao
@@ -350,7 +352,7 @@
 ;玄関のドアが開く音
 [playse_dooropen_1]
 
-[wait time="1000"]
+[better_wait time="1000"]
 
 ;玄関のドアが閉まる音
 [playse_doorclose_1]
@@ -450,12 +452,21 @@
 ちょっと不満げだが、それ以降は声が聞こえなくなる。[np]
 …そういえばあいつら…なんで美寿花の前に出てこないんだ…？[np]
 
-[mask effect="fadeIn" time="2000"]
-;修正済み 完全に暗転してから黒背景に移る
-;背景 黒
-[chara_hide_all time=1000 wait="false"]
-[bg storage="black.jpg" time=1000]
-[mask_off effect="fadeOut" time="2000"]
+[iscript]
+   tf.is_skip = TG.stat.is_skip;
+[endscript]
+
+[if exp="tf.is_skip != true"]
+    [mask effect="fadeIn" time="2000"]
+    [chara_hide_all time=10 wait="true"]
+    [bg storage="black.jpg" time=10]
+    [mask_off effect="fadeOut" time="2000"]
+[else]
+    [mask effect="fadeIn" time="10"]
+    [chara_hide_all time=10 wait="true"]
+    [bg storage="black.jpg" time=10]
+    [mask_off effect="fadeOut" time="10"]
+[endif]
 
 [voice2 vf2="laz/laz2-1_1.ogg"]
 #ラズ
@@ -492,6 +503,6 @@
 [stopse]
 [mask effect="fadeInLeftBig" ]
 
-[chara_hide_all time="0"]
+[chara_hide_all time="10"]
 
 [scenejumpNormal sc="2n2.ks"]

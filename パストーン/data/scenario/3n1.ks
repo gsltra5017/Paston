@@ -197,9 +197,9 @@ _　「じゃれあったりなんかしてません！」[r]
 
 [bgchangemask]
 
-[chara_hide_all time="0"]
+[chara_hide_all time="10"]
 ;修正済み 背景変更、校門前（素材待ち）☆
-[bg storage="学校外観（加工後）の加工後.png" time="0"]
+[bg storage="学校外観（加工後）の加工後.png" time="10"]
 
 [bgchangemask_off]
 

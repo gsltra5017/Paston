@@ -6,8 +6,8 @@
 [bg storage="classroom.png" time="0"]
 [filter layer="base" blur="5" ]
 [chara_show name="mizuka" top="50" storage="chara/mizuka/kushou.png" time="0" wait="true"]
-[camera layer="base" zoom="1.5" x="0" y="0" time="0" wait="false"]
-[camera layer="0" zoom="1.5" x="0" y="0" time="0" wait="false"]
+[camera layer="base" zoom="1.5" x="0" y="0" time="10" wait="true"]
+[camera layer="0" zoom="1.5" x="0" y="0" time="10" wait="true"]
 [afterjumpmaskNormal]
 #雪翔
 ≪…危なかった…≫[np]
@@ -80,16 +80,21 @@
 ;[chara_show name="kouki" face="straight"]
 
 
-;[reset_camera layer="base" time="1500" wait="false"]
+;[reset_camera layer="base" time="1500" wait="true"]
 ;[reset_camera layer="0" time="1500"]
 
+[if exp="tf.is_skip != true"]
+    [camera layer="base" zoom="1.05" x="0" y="0" time="1500" wait="false"]
+    [camera layer="0" zoom="1.05" x="0" y="0" time="1500" wait="true"]
+[else]
+    [camera layer="base" zoom="1.05" x="0" y="0" time="10" wait="false"]
+    [camera layer="0" zoom="1.05" x="0" y="0" time="10" wait="true"]
+[endif]
 
-[camera layer="base" zoom="1.05" x="0" y="0" time="1500" wait="false"]
-[camera layer="0" zoom="1.05" x="0" y="0" time="1500" wait="false"]
 
 ドアが開き、教授らしき人物が入ってきた。[np]
 
-[chara_hide name="mizuka"]
+[chara_hide_all]
 [fadeoutbgm time="2000"]
 
 …そして、程なくして1時限目の講義が始まる。[np]

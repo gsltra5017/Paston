@@ -75,7 +75,7 @@
 [trans layer="0" time="1500" method="fadeIn"]
 [wt]
 あの時も、[np]
-[free name="1" layer="0" time="0" wait="false"]
+[free name="1" layer="0" time="10" wait="true"]
 [free name="2" layer="0" time="2000" wait="true"]
 …そして、今も。[np]
 
@@ -175,7 +175,7 @@
 #雪翔
 「お前は…今、生きてるだろ…！！」[np]
 
-[chara_mod name="mizuka"  face="odoroki_3" cross="false" wait="false"]
+[chara_mod name="mizuka"  face="odoroki_3" cross="false"]
 
 #雪翔
 「『あの』常葉美寿花は、5年前の事故で死んだ…俺の目の前で死んだんだ…」[np]
@@ -183,7 +183,7 @@
 #雪翔
 「手を伸ばしても、触れるのは冷たい体だけ…声をかけても、何も反応しなかった…」[np]
 
-[chara_mod name="mizuka"  face="shinpai_3" cross="false" wait="false"]
+[chara_mod name="mizuka"  face="shinpai_3" cross="false"]
 
 #雪翔
 「…でも、お前は違うだろ…」[np]
@@ -194,7 +194,7 @@
 #雪翔
 「…そんな『美寿花』が…俺は大好きだった！」[np]
 
-[chara_mod name="mizuka"  face="aseri" cross="false" wait="false"]
+[chara_mod name="mizuka"  face="aseri" cross="false" ]
 
 #雪翔
 「確かに、お前は『常葉美寿花』って名前かもしれないけど…でも、『あの美寿花』とは絶対に違う！！」[np]
@@ -203,7 +203,7 @@
 「…もう…代わりにならなくていいんだよ…美寿花…」[np]
 
 [voice2 vf2="mizuka/mizuka5-3_19.ogg"]
-[chara_mod name="mizuka"  face="shinpai_3" cross="false" wait="false"]
+[chara_mod name="mizuka"  face="shinpai_3" cross="false" ]
 #美寿花
 「雪、翔君…」[np]
 ;表情
@@ -221,16 +221,11 @@
 #永寿郎
 「美寿花！」[np]
 
-
-
-[chara_hide_all wait="false" ]
 [backlay layer="0"]
 [image name="1"  layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/5-3/naki_2.png" zindex="20"]
 [trans layer="0" time="1000" method="fadeIn"]
 [wt]
-[chara_hide_all time="0"]
-[chara_show name="mizuka"  top="20" face="namidame" time="0" wait="true" zindex="0" ]
-[chara_show name="kouki" top="-50" storage="chara/kouki/straight.png" time="0" wait="true" zindex="0" ]
+[chara_hide_all time="10"]
 [voice2 vf2="mizuka/mizuka5-3_21.ogg"]
 #美寿花
 「…やっぱり…私………帰りたくない…！！」[np]
@@ -393,8 +388,9 @@
 #雪翔
 「…え…？」[np]
 
-
-[free name="1" layer="0" time="0" wait="false"]
+[chara_show name="mizuka"  top="20" face="namidame" time="10" wait="true" zindex="0" ]
+[chara_show name="kouki" top="-50" storage="chara/kouki/straight.png" time="10" wait="true" zindex="0" ]
+[free name="1" layer="0" time="10" wait="true"]
 [free name="2" layer="0" time="2000" wait="true"]
 
 気づけば、父さんがすぐ横に立っていた。[np]
@@ -527,7 +523,7 @@
 
 
 [bg storage="daysky.png" time="0" ]
-[free name="1" layer="0" time="0" wait="false"]
+[free name="1" layer="0" time="10" wait="true"]
 [free name="2" layer="0" time="2000" wait="true"]
 
 [layopt layer="0" visible="true"]
@@ -606,7 +602,7 @@
 「…だ、大丈夫…？　というか、そう！声！出せるようになったの！？」[np]
 ;表情
 
-[chara_mod name="mizuka" face="shinpai_3" cross="false" wait="false" ]
+[chara_mod name="mizuka" face="shinpai_3" cross="false"]
 
 
 
@@ -641,8 +637,6 @@
 「いや…ううん何でもない！というか、本当に大丈夫！？」[np]
 ;表情
 
-
-
 美寿花が慌てて俺の額に手を当ててくる。[np]
 
 [chara_mod name="mizuka" face="konwaku" cross="false" ]
@@ -650,8 +644,6 @@
 #美寿花
 「熱は…なさそうだけど…」[np]
 ;表情
-
-
 
 #雪翔
 「…美寿花が無事だって思ったら…ちょっと力抜けた…」[np]

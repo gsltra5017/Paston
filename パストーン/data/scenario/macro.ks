@@ -2,6 +2,29 @@
 ; システム関係
 ;------------------------------------------------------------------------------------------------------
 
+;skip判定用
+[macro name="is_skip"]
+	[iscript]
+   		tf.is_skip = TG.stat.is_skip;
+	[endscript]
+[endmacro]
+
+;numに代入した数字に対応するセーブデータを消去(0~19)
+;[data_delete num=""]←コピペ用
+[macro name="data_delete"]
+  [iscript]
+    var array_save = TG.menu.getSaveData();    //セーブデータを取得
+    array_save.data[mp.num] = {                //num番目のデータを初期化。以下初期化項目
+      title : $.lang("not_saved"),             //セーブタイトル
+      current_order_index : 0,                 //現在の命令実行インデックス
+      save_date : "",                          //セーブ日時
+      img_data : "",                           //セーブサムネイル
+      stat : {}                                //セーブ時の各種情報
+    };
+    $.setStorage(TG.config.projectID + "_tyrano_data", array_save, TG.config.configSave);  //セーブし直す
+  [endscript]
+[endmacro]
+
 ;シナリオの一番最初に宣言する設定
 [macro name="startoption"]
 	[fadeoutbgm time="300"]
@@ -38,9 +61,11 @@
 	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 	[chara_config ptext="chara_name_area"]
 
-	[font shadow="0x333333"]
+	[font shadow="0x222222"]
 
 	[chara_config  talk_focus="none"]
+
+	[is_skip]
 	#
 [endmacro]
 
@@ -79,9 +104,13 @@
 	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 	[chara_config ptext="chara_name_area"]
 
-	[font shadow="0x333333"]
+	[font shadow="0x222222"]
 
 	[chara_config  talk_focus="none"]
+
+	[is_skip]
+
+	#
 [endmacro]
 
 ;改行用
@@ -91,12 +120,13 @@
 	[stopse buf=2]
 [endmacro]
 
+;スキップ対応waitタグ
 [macro name="better_wait"]
-	[iscript]
-	tf.is_skip = TG.stat.is_skip;
-	[endscript]
+	[is_skip]
 	[if exp="tf.is_skip!=true"]
-	[wait time=%time]
+		[wait time="%time"]
+	[else]
+		[wait time="10"]
 	[endif]
 [endmacro]
 
@@ -107,15 +137,16 @@
 
 ;シーンジャンプ用マクロ
 [macro name="scenejumpNormal"]
-    [mask time="1200" effect="slideInLeft" wait="true"]
+    [mask time="1200" effect="slideInLeft"]
 
 	[stopse]
 	[resetdelay]
 	[free_filter]
-	[reset_camera layer="0" time="0" ]
-	[reset_camera layer="base" time="0" ]
-	[chara_hide_all time="0"]
-
+	[reset_camera layer="0" time="10" ]
+	[reset_camera layer="base" time="10" ]
+	[chara_hide_all time="10"]
+	[wait time="100"]
+	
     @jump storage="&mp.sc"
 
     [endlink]
@@ -125,6 +156,7 @@
 
 [macro name="afterjumpmaskNormal"]
     [mask_off effect="slideOutRight" time="1200"]
+	[wait time="100"]
 [endmacro]
 
 ;背景が変わるときに使うマスクのマクロ
@@ -166,25 +198,55 @@
 	;[resetdelay]
 ;[endmacro]
 
-;numに代入した数字に対応するセーブデータを消去(0~19)
-;[data_delete num=""]←コピペ用
-[macro name="data_delete"]
-  [iscript]
-    var array_save = TG.menu.getSaveData();    //セーブデータを取得
-    array_save.data[mp.num] = {                //num番目のデータを初期化。以下初期化項目
-      title : $.lang("not_saved"),             //セーブタイトル
-      current_order_index : 0,                 //現在の命令実行インデックス
-      save_date : "",                          //セーブ日時
-      img_data : "",                           //セーブサムネイル
-      stat : {}                                //セーブ時の各種情報
-    };
-    $.setStorage(TG.config.projectID + "_tyrano_data", array_save, TG.config.configSave);  //セーブし直す
-  [endscript]
+;------------------------------------------------------------------------------------------------------
+; 演出関係
+;------------------------------------------------------------------------------------------------------
+
+;CG表示
+;d="ファイルパス" t="フェードイン時間"（デフォルト1000ms）
+[macro name="CG"]
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[layopt layer="0" visible="true"]
+		[image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="%d" zindex="0"]
+		[trans layer="0" time="%t|1000" method="fadeIn"]
+		[wt]
+	[else]
+		[layopt layer="0" visible="true"]
+		[image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="%d" time="10" zindex="0"]
+		[trans layer="0" time="10" method="fadeIn"]
+		[wait time="20" ]
+	[endif]
 [endmacro]
 
-;------------------------------------------------------------------------------------------------------
-; 動き関係
-;------------------------------------------------------------------------------------------------------
+;最後のCG表示
+;d="ファイルパス" t="フェードイン時間"（デフォルト1000ms）
+[macro name="CG_last"]
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[layopt layer="0" visible="true"]
+		[image name="2" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="%d" zindex="20"]
+		[trans layer="0" time="%t|1000" method="fadeIn"]
+		[wt]
+	[else]
+		[layopt layer="0" visible="true"]
+		[image name="2" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="%d" time="10" zindex="20"]
+		[trans layer="0" time="10" method="fadeIn"]
+		[wait time="10" ]
+	[endif]
+[endmacro]
+
+;CG消去 t="フェードアウト時間"（デフォルト1000ms）
+[macro name="free_CG" ]
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[free name="1" layer="0" time="10" wait="true"]
+		[free name="2" layer="0" time="%t|1000" wait="true"]
+	[else]
+		[free name="1" layer="0" time="10" wait="true"]
+		[free name="2" layer="0" time="10" wait="true"]	
+	[endif]
+[endmacro]
 
 ;頷き風
 [keyframe name="un"]
@@ -208,45 +270,95 @@
 ; SE設定
 ;------------------------------------------------------------------------------------------------------
 
+
 ;能力発動音
 [macro name="playse_ability_on"]
-	[playse storage="se/ability_on.ogg" loop="false" clear="true" volume="30"]
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[playse storage="se/ability_on.ogg" loop="false" clear="true" volume="30"]
 	[wse]
+	[else]
+		[playse storage="se/ability_on.ogg" loop="false" clear="true" volume="30"]
+		[wait time="10" ]
+		[stopse]
+	[endif]
+	
 [endmacro]
 
 ;ドアが開くときの音
 [macro name="playse_dooropen_1"]
-	[playse storage="se/dooropen_1.ogg" loop="false" clear="true" volume="20"]
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[playse storage="se/dooropen_1.ogg" loop="false" clear="true" volume="20"]
 	[wse]
+	[else]
+		[playse storage="se/dooropen_1.ogg" loop="false" clear="true" volume="20"]
+		[wait time="10" ]
+		[stopse]
+	[endif]
 [endmacro]
 
 [macro name="playse_doorclose_1"]
-	[playse storage="se/doorclose_1.ogg" loop="false" clear="true" volume="50"]
-	[wse]
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[playse storage="se/doorclose_1.ogg" loop="false" clear="true" volume="50"]
+		[wse]
+	[else]
+		[playse storage="se/doorclose_1.ogg" loop="false" clear="true" volume="50"]
+		[wait time="10" ]
+		[stopse]
+	[endif]
 [endmacro]
 
 ;1-1救急車
-[macro name="playse_ambulance"]
-	[fadeinse storage="se/ambulance.ogg" loop="true" sprite_time="2000-93000" time="5000" volume="20"]
-	[wait time="300"]
+[macro name="playse_ambulance"]	
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[fadeinse storage="se/ambulance.ogg" loop="true" sprite_time="2000-93000" time="5000" volume="20"]
+		[wait time="300"]
+	[else]
+		[fadeinse storage="se/ambulance.ogg" loop="true" sprite_time="2000-93000" time="5000" volume="20"]
+		[wait time="10" ]
+	[endif]
 [endmacro]
 
 ;布擦れの音
 [macro name="playse_cloth_1"]
-	[playse storage="se/cloth_1.ogg" loop="false" volume="70"]
-	[wse]
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[playse storage="se/cloth_1.ogg" loop="false" volume="70"]
+		[wse]
+	[else]
+		[playse storage="se/cloth_1.ogg" loop="false" volume="70"]
+		[wait time="10" ]
+	[endif]
 [endmacro]
 
 ;ドアスライド
 [macro name="playse_slidedoor_open"]
-	[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
-	[wse]
+	[is_skip]
+	[if exp="tf.is_skip != true"]
+		[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
+		[wse]
+	[else]
+		[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
+		[wait time="10" ]
+[endif]
+
+
 [endmacro]
 
 ;チャイム、インターホン
 [macro name="playse_chaimu"]
-	[playse storage="se/chaimu.ogg" loop="false" volume="50"]
-	[wse]
+[is_skip]
+	[if exp="tf.is_skip != true"]
+		[playse storage="se/chaimu.ogg" loop="false" volume="50"]
+		[wse]
+	[else]
+		[playse storage="se/chaimu.ogg" loop="false" volume="50"]
+		[wait time="10" ]
+[endif]
+
 [endmacro]
 
 ;学校のチャイム
@@ -299,8 +411,14 @@
 
 ;電話の通知音
 [macro name="playse_phone"]
-	[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35" loop="false" clear="true"]
-	[wse]
+[is_skip]
+	[if exp="tf.is_skip != true"]
+		[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35" loop="false" clear="true"]
+		[wse]
+	[else]
+		[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35" loop="false" clear="true"]
+		[wait time="10"]
+	[endif]
 [endmacro]
 
 ;つんつんしてる時の効果音
