@@ -253,4 +253,4 @@
 …[p]
 …そして、次に意識が戻ったのは1時限目終了後だったのは言うまでもない。[p]
 
-[scenejumpNormal sc="2-4.ks"]
+[scenejumpNormal sc="2n4.ks"]

@@ -482,4 +482,4 @@
 
 [fadeoutbgm time=2000]
 
-[scenejumpNormal sc="3-4.ks"]
+[scenejumpNormal sc="3n4.ks"]

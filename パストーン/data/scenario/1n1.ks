@@ -186,4 +186,4 @@
 
 [chara_hide_all time="0" ]
 
-[scenejumpNormal sc="1-2.ks"]
+[scenejumpNormal sc="1n2.ks"]

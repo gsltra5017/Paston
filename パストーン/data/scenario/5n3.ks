@@ -773,4 +773,4 @@
 #
 [fadeoutbgm time="2000"]
 
-[scenejumpNormal sc="5-4.ks"]
+[scenejumpNormal sc="5n4.ks"]

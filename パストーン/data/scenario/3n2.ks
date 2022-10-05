@@ -470,4 +470,4 @@ EL社の社長について[p]
 ≪…どう誘えばいいんだ？　これ…≫[p]
 #
 
-[scenejumpNormal sc="3-3.ks"]
+[scenejumpNormal sc="3n3.ks"]

@@ -577,7 +577,7 @@
 でも、それだけ。他は何も…聞こえない。[p]
 
 [layopt layer="0" visible="true"]
-[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-1/cg.png" time="500"]
+[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/1-1/CG.png" time="500"]
 [chara_hide_all time="0" ]
 
 ──危ない！後ろ！！[p]
@@ -596,4 +596,4 @@
 
 [bg storage="makkuro.jpg" time="0"]
 
-[scenejumpNormal sc="4-1.ks"]
+[scenejumpNormal sc="4n1.ks"]

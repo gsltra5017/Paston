@@ -391,4 +391,4 @@
 聞かれたくなかった。知られたくなかった。[p]
 俺が、目の前にいる美寿花という存在自体を…疑っていることを。[p]
 
-[scenejumpNormal sc="4-2.ks"]
+[scenejumpNormal sc="4n2.ks"]
