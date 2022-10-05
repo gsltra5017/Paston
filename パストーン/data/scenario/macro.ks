@@ -150,11 +150,11 @@
 
 ;ボイスのマクロを作成3
 ;ボイスを止めたいときに宣言
-[macro name="voicestop"]
+;[macro name="voicestop"]
 	;鳴ってるボイスをキャンセル
-	[stopse]
-	[resetdelay]
-[endmacro]
+	;[stopse]
+	;[resetdelay]
+;[endmacro]
 
 ;numに代入した数字に対応するセーブデータを消去(0~19)
 ;[data_delete num=""]←コピペ用
