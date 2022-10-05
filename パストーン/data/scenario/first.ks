@@ -1,7 +1,7 @@
 ;一番最初に呼び出されるファイル
-[plugin name="slider_ui"]
 
-[title name="ティラノスクリプト解説"]
+
+[title name="パストーン"]
 
 [stop_keyconfig]
 
@@ -28,11 +28,15 @@
 [chara_config talk_focus="brightness"]
 [plugin name="textbox_ex"]
 [plugin name="manpu"]
+[plugin name="slider_ui"]
+[plugin name="auto_indent"]
+[plugin name="autoskip_ex" auto_button_name="auto" auto_button_normal="auto.png" auto_button_active="auto2.png" skip_button_name="skip" skip_button_normal="skip.png" skip_button_active="skip2.png" ]
+[plugin name=tsex]
 
 ;タイトル画面へ移動
 @jump storage="title.ks"
 
 ;debug画面へ移動
-;@jump storage="dubug.ks"
+;@jump storage="debug.ks"
 
 [s]

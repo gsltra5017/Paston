@@ -5,6 +5,8 @@
 ;
 ;
 [manpu_reset]
+;オート・スキップ機能拡張プラグイン
+[autoskip_restore]
 ;make.ks はロード時にcallとして呼ばれるため、return必須です。
 [return]
 

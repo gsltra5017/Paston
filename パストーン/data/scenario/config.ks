@@ -165,11 +165,11 @@
 ; 未読スキップ
 ;------------------------------------------------------------------------------------------------------
 
-;	未読スキップ-OFF
-;	[button name="unread_off" fix="true" target="*skip_off" graphic="&tf.btn_path_off" width="170" height="45" x="400" y="470"]
+	未読スキップ-OFF
+	[button name="unread_off" fix="true" target="*skip_off" graphic="&tf.btn_path_off" width="170" height="45" x="400" y="470"]
 
-;	未読スキップ-ON
-;	[button name="unread_on"  fix="true" target="*skip_on"  graphic="&tf.btn_path_off" width="170" height="45" x="580" y="470"]
+	未読スキップ-ON
+	[button name="unread_on"  fix="true" target="*skip_on"  graphic="&tf.btn_path_off" width="170" height="45" x="580" y="470"]
 
 ;------------------------------------------------------------------------------------------------------
 ; コンフィグ起動時の画面更新
