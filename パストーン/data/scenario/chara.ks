@@ -76,6 +76,7 @@
 [chara_face name="mizuka" face="r_kangae_2" storage="chara/mizuka/r_kangae_2.png"]
 [chara_face name="mizuka" face="r_kanshin" storage="chara/mizuka/r_kanshin.png"]
 [chara_face name="mizuka" face="r_kushou" storage="chara/mizuka/r_kushou.png"]
+[chara_face name="mizuka" face="r_kushou_2" storage="chara/mizuka/r_kushou_2.png"]
 [chara_face name="mizuka" face="r_kyoton" storage="chara/mizuka/r_kyoton.png"]
 [chara_face name="mizuka" face="r_kyoton_2" storage="chara/mizuka/r_kyoton_2.png"]
 [chara_face name="mizuka" face="r_kyoton_3" storage="chara/mizuka/r_kyoton_3.png"]
@@ -226,10 +227,6 @@
 ; 立ち絵登場
 ;------------------------------------------------------------------------------------------------------
 
-;美寿花表示
-[macro name="show_mizuka"]
-    [chara_show name="mizuka" top="20" width="1003" height="1418" wait="true" time="%t|1000"]
-[endmacro]
 
 ;ロズラズ表示大
 [macro name="show_RozLaz"]
@@ -247,7 +244,8 @@
 ;------------------------------------------------------------------------------------------------------
 
 [macro name="mizuka" ]
-    [chara_mod name="mizuka" face="&mp.f" cross="false" time="%t|600"]
+    [chara_mod name="mizuka" face="&mp.f" wait="false" cross="false" time="%t|600"]
+    [chara_show name="mizuka" time="%t|600" top="20"]
 [endmacro]
 
 [macro name="RozLaz" ]

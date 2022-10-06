@@ -18,7 +18,7 @@
 [bgchangemask]
 
 [bg storage="myroom.png" time="10"]
-[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
+[mizuka f="r_kangae_2"]
 
 [bgchangemask_off]
 
@@ -31,7 +31,6 @@
 
 
 ;表情 関心→r_kangae2
-[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
 #美寿花
 「‥‥‥」[np]
 
@@ -42,7 +41,7 @@
 部屋に、キーボードとマウスのクリック音が響く。[np]
 …というか、そんな小さな音が目立つぐらい、静かである。[np]
 
-#美寿花:r_kangae_2
+#美寿花
 「‥‥‥‥‥‥」[np]
 ;表情 関心→r_kangae_2
 
@@ -68,13 +67,14 @@
 
 [playbgm storage="low.mp3" volume="50"]
 
+[mizuka f="r_kyoton"]
 [voice2 vf2="mizuka/mizuka2-1_1.ogg"]
-#美寿花:r_kyoton
+#美寿花
 「お。お疲れ様～…っと」[np]
 ;表情 きょとん
 
 
-[chara_mod name="mizuka" face="r_bishou" cross="false"] 
+[mizuka f="r_bishou"]
 
 そう言いながら、やっぱり同じ体勢じゃ辛かったのか、大きく伸びをして僕の肩に手を伸ばす。[np]
 
@@ -87,8 +87,9 @@
 
 ;能力発動音
 [playse_ability_on]
+[mizuka f="r_kangae"]
 [voice2 vf2="mizuka/mizuka2-1_2.ogg"]
-#美寿花:r_kangae_2
+#美寿花
 「さっきの部分、結構時間かかってたね。どうしたの？」[np]
 ;表情 考え
 
@@ -97,8 +98,9 @@
 ≪あ～、なんか納得いかなくて…≫[np]
 ≪いやそうじゃなくて、何でいるの。ここに≫[np]
 
+[mizuka f="r_kyoton"]
 [voice2 vf2="mizuka/mizuka2-1_3.ogg"]
-#美寿花:r_kyoton
+#美寿花
 「ん～…暇だった…からかな？」[np]
 ;表情 きょとん
 
@@ -108,14 +110,15 @@
 
 我が家に一つだけある空き部屋。クーラーもあるので空調面で問題はないはずだが…[np]
 
+[mizuka f="r_kushou_2"]
 [voice2 vf2="mizuka/mizuka2-1_4.ogg"]
-#美寿花:r_kushou
+#美寿花
 「一人でいるの苦手なんだよね～。結局、昨日はあの後すぐ寝ちゃったし。」[np]
 ;表情 苦笑い
 
-
+[mizuka f="r_egao"]
 [voice2 vf2="mizuka/mizuka2-1_5.ogg"]
-#美寿花:r_egao
+#美寿花
 「結構面白いね。人が何かしてるのを見るのって。」[np]
 ;表情 笑み
 
@@ -139,7 +142,7 @@
 [bgchangemask]
 
 [bg storage="living.png" time="10"]
-[chara_mod name="mizuka" face="r_kyoton"]
+[mizuka f="r_kyoton"]
 
 [bgchangemask_off]
 
@@ -154,18 +157,18 @@
 
 少し迷った結果、冷蔵庫を指さす。[np]
 
+[mizuka f="r_egao_2"]
 [voice2 vf2="mizuka/mizuka2-1_7.ogg"]
-#美寿花:r_egao_2
+#美寿花
 「ああ、休憩ね。了解了解。」[np]
-
-;表情 慌て　
 
 
 …やっぱり、触れてないと伝わらないのか…[np]
 改めて、喋れないことの不便さが浮き彫りになる。[np]
 
+[mizuka f="r_shinpai"]
 [voice2 vf2="mizuka/mizuka2-1_8.ogg"]
-#美寿花:r_shinpai
+#美寿花
 「…そういえばさ、君って学校どうしてるの？」[np]
 ;表情 心配
 
@@ -174,12 +177,13 @@
 ≪…学校？≫[np]
 
 
-[chara_mod name="mizuka" storage="chara/mizuka/r_kyoton_2.png"]
+[mizuka f="r_kyoton_2"]
 俺が首を傾げると、美寿花も『あれ？』と同じことをする。[np]
 ;表情 きょとん2
 
+[mizuka f="r_kangae_2"]
 [voice2 vf2="mizuka/mizuka2-1_9.ogg"]
-#美寿花:r_kangae_2
+#美寿花
 「大学だよ大学。声が出ないんじゃ、色々と大変じゃないかな～って」[np]
 ;表情 考え2 
 
@@ -192,8 +196,9 @@
 どうやって伝えようか、と辺りを見回す。[np]
 何かに書いて…と思ったが、取りに行くのもなんだか面倒くさい。[np]
 
+[mizuka f="r_jitome"]
 [voice2 vf2="mizuka/mizuka2-1_10.ogg"]
-#美寿花:r_jitome
+#美寿花
 「…いや、変な意地張ってないで素直に来なよ。私も相手の声聞けた方が話しやすいし」[np]
 ;表情 ジト目
 
@@ -209,9 +214,9 @@
 #雪翔
 ≪…学校、ずっと行ってないんだ≫[np]
 
-
+[mizuka f="r_odoroki"]
 [voice2 vf2="mizuka/mizuka2-1_11.ogg"]
-#美寿花:r_odoroki
+#美寿花
 「…ずっと？」[np]
 ;表情 驚き
 
@@ -219,13 +224,14 @@
 #雪翔
 ≪ああ、ずっと≫[np]
 
-#美寿花:r_kyoton
+[mizuka f="r_kyoton"]
+#美寿花
 「……」[np]
 ;表情　kyoton
 
 
 [voice2 vf2="mizuka/mizuka2-1_12.ogg"]
-#美寿花:r_kyoton
+#美寿花
 「…ニート…ってこと…？」[np]
 ;表情　きょとん
 
@@ -234,14 +240,15 @@
 #雪翔
 ≪その通りだけどその表現は止めてくれるかな！？≫[playse_tsukkomi][np]
 
+[mizuka f="r_kushou"]
 [voice2 vf2="mizuka/mizuka2-1_13.ogg"]
 ;辻は苦笑のほうがいい気がします
-#美寿花:r_kushou
+#美寿花
 「ああごめんごめん。」[np]
 
-
+[mizuka f="r_fuan"]
 [voice2 vf2="mizuka/mizuka2-1_14.ogg"]
-#美寿花:r_fuan
+#美寿花
 「…でもそっか。学校行けてないのか…」[np]
 ;表情 不安
 
@@ -253,8 +260,9 @@
 
 同時に、そこはかとなく嫌な予感。[np]
 
+[mizuka f="r_yaruki"]
 [voice2 vf2="mizuka/mizuka2-1_15.ogg"]
-#美寿花:r_yaruki
+#美寿花
 「じゃあ、一緒に学校行こうよ！」[np]
 ;表情 やる気　
 
@@ -266,9 +274,9 @@
 #雪翔
 ≪それにめんどくさいし。≫[np]
 
-
+[mizuka f="r_kangae"]
 [voice2 vf2="mizuka/mizuka2-1_16.ogg"]
-#美寿花:r_kangae
+#美寿花
 「それはどうかな？　多分、雪翔君の目標の一歩にはなると思うよ？」[np]
 ;表情 考え
 
@@ -276,15 +284,17 @@
 #雪翔
 ≪…というと？≫[np]
 
+[mizuka f="r_odoroki"]
 [voice2 vf2="mizuka/mizuka2-1_17.ogg"]
-#美寿花:r_odoroki
+#美寿花
 「考えたんだけどさ」[np]
 ;表情 驚き2 あとで２にする
 
+[mizuka f="r_kangae_2"]
 [voice2 vf2="mizuka/mizuka2-1_18.ogg"]
-;#美寿花:r_kangae_2
+#美寿花
 「雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[np]
-;表情 驚き2 あとで２にする
+;表情 
 
 
 #雪翔
@@ -295,20 +305,21 @@
 実際、美寿花が来るまでは人に会うとしても父さんぐらい。[np]
 しかも、頻度は3日に一度ぐらいなわけで…[np]
 
+[mizuka f="r_shinken"]
 [voice2 vf2="mizuka/mizuka2-1_19.ogg"]
-#美寿花:r_shinken
+#美寿花
 「前までは、人に何か伝えることが大変だったかもしれないけど…今は私っていう『声』もいる。」[np]
 ;表情 真剣
 
-
+[mizuka f="r_fuan"]
 [voice2 vf2="mizuka/mizuka2-1_20.ogg"]
-#美寿花:r_fuan
+#美寿花
 「めんどくさいのは…私じゃどうにもできないかもしれないけど…」[np]
 ;表情 不安
 
-
+[mizuka f="r_bishou"]
 [voice2 vf2="mizuka/mizuka2-1_21.ogg"]
-#美寿花:r_bishou
+#美寿花
 「それでも、行ってみない？ 学校。」[np]
 ;表情 優しい笑み
 
@@ -316,14 +327,15 @@
 #雪翔
 ≪…って言われてもなぁ…≫[np]
 
+[mizuka f="r_bishou"]
 [voice2 vf2="mizuka/mizuka2-1_22.ogg"]
-#美寿花:r_egao
+#美寿花
 「まぁ、考えといてよ。といっても、学校明日からだけどね。」[np]
 ;表情　笑顔
 
-
+[mizuka f="r_odoroki"]
 [voice2 vf2="mizuka/mizuka2-1_23.ogg"]
-#美寿花:r_odoroki
+#美寿花
 「…ってもうこんな時間！？　作業ちょっとだけ見たら買い物しようと思ってたのに…」[np]
 ;表情 驚き
 
