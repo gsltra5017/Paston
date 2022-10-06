@@ -3,7 +3,7 @@
 [startoption]
 
 ;青空
-[bg storage="daysky.png" time="0"]
+[bg storage="daysky.png" time="1"]
 
 [afterjumpmaskNormal]
 
@@ -19,8 +19,8 @@
 ;雪翔の部屋
 [bgchangemask]
 
-[bg storage="myroom.png" time="0"]
-[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
+[bg storage="myroom.png" time="1"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true" time="1"]
 
 [bgchangemask_off]
 
@@ -33,7 +33,7 @@
 [voicestop]
 
 ;表情 関心→r_kangae2
-[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/r_kangae_2.png" wait="true" time="1"]
 #美寿花
 「‥‥‥」[p]
 #
@@ -157,8 +157,8 @@
 
 [bgchangemask]
 
-[bg storage="living.png" time="0"]
-[chara_mod name="mizuka" face="r_kyoton"]
+[bg storage="living.png" time="1"]
+[chara_mod name="mizuka" face="r_kyoton" time="1"]
 
 [bgchangemask_off]
 
@@ -198,7 +198,7 @@
 #
 
 
-[chara_mod name="mizuka" storage="chara/mizuka/r_kyoton_2.png"]
+[chara_mod name="mizuka" storage="chara/mizuka/r_kyoton_2.png" ]
 俺が首を傾げると、美寿花も『あれ？』と同じことをする。[p]
 ;表情 きょとん2
 
@@ -300,6 +300,7 @@
 [voicestop]
 #雪翔
 「何となくそう言うと思った…」[p]
+
 #
 「…何て言ったらいいか分からないけど…今更学校に行ったって仕方ないだろ。」[p]
 「それにめんどくさいし。」[p]
@@ -317,17 +318,14 @@
 「…というと？」[p]
 #
 
-
 [voice2 vf2="mizuka/mizuka2-1_17.ogg"]
 #美寿花:r_odoroki
 「考えたんだけどさ」[p]
+
 #
 ;表情 驚き2 あとで２にする
 
-
-
 [voice2 vf2="mizuka/mizuka2-1_18.ogg"]
-
 #美寿花:r_kangae_2
 「雪翔君が声を出せないのって『喋る必要性がない生活』のせいなんじゃないかな～って」[p]
 ;[chara_mod name="mizuka" face="r_kangae_2" wait="false"]

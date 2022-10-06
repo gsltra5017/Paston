@@ -3,7 +3,7 @@
 ;[voice1 vf1=""]←コピペ用
 [macro name="voice1"]
 	;ただ再生するだけ
-	[playse storage="&mp.vf1" loop="false"]
+	[playse storage="&mp.vf1" loop="false" buf="1"]
 [endmacro]
 
 ;ボイスのマクロを作成2
@@ -11,17 +11,19 @@
 ;[voice2 vf2=""]←コピペ用
 [macro name="voice2"]
 	;次のセリフに行くたびに鳴ってるボイスをキャンセル
-    [playse storage="&mp.vf2" loop="false" clear="true"]
+    [playse storage="&mp.vf2" loop="false" clear="true" buf="1"]
 [endmacro]
 
 [macro name="scenejumpNormal"]
+
     [mask time="1200" effect="slideInLeft" wait="true"]
 
-	[stopse]
-	[resetdelay]
-	[reset_camera layer="0" time="0" ]
-	[reset_camera layer="base" time="0" ]
-	[chara_hide_all time="0"]
+	[stopse time="1"]
+	[resetdelay time="1"]
+	[reset_camera layer="0" time="1" ]
+	[reset_camera layer="base" time="1" ]
+	[chara_hide_all time="1"]
+
 
     @jump storage="&mp.sc"
 
@@ -40,6 +42,7 @@
 	;鳴ってるボイスをキャンセル
 	[stopse]
 	[resetdelay]
+	[wait time="1"]
 [endmacro]
 
 ;シナリオの一番最初に宣言する設定

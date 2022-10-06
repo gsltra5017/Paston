@@ -1,6 +1,6 @@
 import os
 
-chara_list = ["mizuka"]
+chara_list = ["RozLaz"]
 
 #25行目のpathはそれぞれ端末によって書き換える
 #使い方はここのchara_list[]のインデックスを変えるだけ
@@ -13,11 +13,15 @@ def split_exp():
         base_filename.append(split_str[0])
 
 def output_faces():
-    for i in range(len(base_filename)):
-        string = "#美寿花:" + str(base_filename[i])
-        print(string)
-        print("「‥‥‥" + str(i) + "」[p]")
-        print()
+    count=147
+    #count = 270
+    for j in range(3):
+        for i in range(len(base_filename)):
+            count += 1
+            string = "#ロズラズ:" + str(base_filename[i])
+            print(string)
+            print("「" + str(count) + ":" + str(base_filename[i]) + "」[p]")
+            print()
 
 for i in range(len(chara_list)):
     chara = chara_list[i]
