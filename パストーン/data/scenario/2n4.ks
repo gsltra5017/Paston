@@ -218,7 +218,7 @@
 
 ;修正後（担当辻）ロズラズの立ち絵を消して、美寿花だけをアップにする（背景も拡大）
 [is_skip]
-[if exp="tf.is_skip != true"]
+[if exp="tf.is_skip !== true"]
     [chara_hide name="RozLaz" time="500" wait="true"]
     [camera layer="base" x="0" y="0" zoom="1.25" time="3000" wait="false"]
     [camera layer="0" x="0" y="0" zoom="1.25" time="3000" wait="true"]
@@ -415,17 +415,18 @@
 ;一枚絵 美寿花アップ
 ;一枚絵 美寿花アップ（顔赤らめる）
 
-[CG d="singlepic/2-4/2-4てれ.png" t="1000"]
+;[CG d="singlepic/2-4/2-4てれ.png" t="1000"]
 ;[is_skip]
 ;[if exp="tf.is_skip != true"]
-    ;[backlay layer="0"]
-    ;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
-    ;[trans layer="0" time="1000" method="fadeIn"] 
+    [backlay layer="0"]
+    [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
+    [trans layer="0" time="1000" method="fadeIn"] 
 ;[else]
     ;[backlay layer="0"]
     ;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
     ;[trans layer="0" time="10" method="fadeIn"] 
 ;[endif]
-[better_wait time="2000"]
+
+;[better_wait time="2000"]
 
 [scenejumpNormal sc="2n5.ks"]

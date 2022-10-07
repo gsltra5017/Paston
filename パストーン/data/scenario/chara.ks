@@ -11,6 +11,7 @@
 [chara_new  name="ayana" storage="chara/ayana/normal.png" width="868" height="1227" jname="文永"  ]
 [chara_new  name="RozLaz" storage="chara/RozLaz/normal.png" width="523" height="552.51" jname="ロズラズ"  ]
 [chara_new  name="eijyurou" storage="chara/eijyurou.png" width="320" height="720" jname="永寿郎"  ]
+[chara_new  name="CG" storage="singlepic/1_4/bishou.png" width="1280" height="720" jname="一枚絵"  ]
 
 
 ;------------------------------------------------------------------------------------------------------
@@ -223,6 +224,9 @@
 [chara_face name="RozLaz" face="roz_x" storage="chara/RozLaz/roz_x.png"]
 [chara_face name="RozLaz" face="roz_kushou" storage="chara/RozLaz/roz_kushou.png"]
 
+[chara_face name="CG" face="1_egao" storage="singlepic/1-4/1-4笑顔.png" ]
+[chara_face name="CG" face="1_egao" storage="singlepic/1-4/1-4微笑.png" ]
+
 ;------------------------------------------------------------------------------------------------------
 ; 立ち絵登場
 ;------------------------------------------------------------------------------------------------------
@@ -244,10 +248,10 @@
 ;------------------------------------------------------------------------------------------------------
 
 [macro name="mizuka" ]
-    [chara_mod name="mizuka" face="&mp.f" wait="false" cross="false" time="%t|600"]
+    [chara_mod name="mizuka" face="&mp.f" wait="true" cross="false" time="%t|600"]
     [chara_show name="mizuka" time="%t|600" top="20"]
 [endmacro]
 
 [macro name="RozLaz" ]
-    [chara_mod name="RozLaz" face="&mp.f" wait="false" cross="false" time="%t|600"]
+    [chara_mod name="RozLaz" face="&mp.f" wait="true" cross="false" time="%t|600"]
 [endmacro]

@@ -200,7 +200,7 @@
 [bgchangemask]
 
 ;背景 カラオケ
-[bg storage="karaoke.png" time=0]
+[bg storage="karaoke.png" time="10"]
 
 ;[camera x="640" y="360"]
 
@@ -208,7 +208,6 @@
 
 [bgchangemask_off]
 
-;修正前 カラオケのBGM
 [playbgm storage="mellow_bell.mp3" volume="40" ]
 
 [voice2 vf2="mizuka/mizuka2-5_21.ogg"]

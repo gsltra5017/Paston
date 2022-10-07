@@ -2,8 +2,6 @@
 
 *start 
 
-;タイトル画面でconfigを押してからゲームをStartボタンからスタートし、その後config画面を開くと進行不能になってしまうバグが見つかったため、タイトル画面のconfigボタンを削除しました。（つぶ）
-
 @clearstack
 @bg storage="title.png" time="100"
 @wait time="200"

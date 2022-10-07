@@ -47,24 +47,25 @@
 	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
 
 	;メッセージウィンドウの設定
-	[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
+	;[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
 
 	;文字が表示される領域を調整
-	[position layer="message0" page="fore" frame="textbox.png" width="1280" height="240" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
+	;[position layer="message0" page="fore" frame="textbox.png" width="1280" height="240" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
 
 	;メッセージウィンドウの表示
 	@layopt layer="message0" visible="true"
 
 	;キャラクターの名前が表示される文字領域
-	[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size="28" bold="true" x="140" y="505"]
+	;[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size="28" bold="true" x="140" y="505"]
+	;[ptext name="chara_name_area" layer="message0" size="28" bold="true" x="140" y="505"]
 
 	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
-	[chara_config ptext="chara_name_area"]
+	;[chara_config ptext="chara_name_area"]
 
-	[font shadow="0x222222"]
+	;[font shadow="0x222222"]
 
 	[chara_config  talk_focus="none"]
-
+	
 	[is_skip]
 	#
 [endmacro]
@@ -87,26 +88,25 @@
 	[button name="auto" width="96" graphic="auto.png" height="30" x="650" y="680"]
 	[button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png"  width="73" height="30" x="855" y="680"]
 	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
-	
 
 	;メッセージウィンドウの設定
-	[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
+	;[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
 
 	;文字が表示される領域を調整
-	[position layer="message0" page="fore" frame="textbox.png" width="1280" height="240" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
+	;[position layer="message0" page="fore" frame="textbox.png" width="1280" height="240" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
 
 	;メッセージウィンドウの表示
 	@layopt layer="message0" visible="true"
 
 	;キャラクターの名前が表示される文字領域
-	[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size="28" bold="true" x="140" y="505"]
+	;[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size="28" bold="true" x="140" y="505"]
 
 	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
-	[chara_config ptext="chara_name_area"]
+	;[chara_config ptext="chara_name_area"]
 
-	[font shadow="0x222222"]
+	;[font shadow="0x222222"]
 
-	[chara_config  talk_focus="none"]
+	;[chara_config  talk_focus="none"]
 
 	[is_skip]
 
@@ -123,7 +123,7 @@
 ;スキップ対応waitタグ
 [macro name="better_wait"]
 	[is_skip]
-	[if exp="tf.is_skip!=true"]
+	[if exp="tf.is_skip!==true"]
 		[wait time="%time"]
 	[else]
 		[wait time="10"]
@@ -145,7 +145,6 @@
 	[reset_camera layer="0" time="10" ]
 	[reset_camera layer="base" time="10" ]
 	[chara_hide_all time="10"]
-	[wait time="100"]
 	
     @jump storage="&mp.sc"
 
@@ -154,9 +153,9 @@
 
 [endmacro]
 
+;シーンジャンプ後のマクロ
 [macro name="afterjumpmaskNormal"]
     [mask_off effect="slideOutRight" time="1200"]
-	[wait time="100"]
 [endmacro]
 
 ;背景が変わるときに使うマスクのマクロ
@@ -206,7 +205,7 @@
 ;d="ファイルパス" t="フェードイン時間"（デフォルト1000ms）
 [macro name="CG"]
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[layopt layer="0" visible="true"]
 		[image name="1" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="%d" zindex="0"]
 		[trans layer="0" time="%t|1000" method="fadeIn"]
@@ -223,7 +222,7 @@
 ;d="ファイルパス" t="フェードイン時間"（デフォルト1000ms）
 [macro name="CG_last"]
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[layopt layer="0" visible="true"]
 		[image name="2" layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="%d" zindex="20"]
 		[trans layer="0" time="%t|1000" method="fadeIn"]
@@ -239,7 +238,7 @@
 ;CG消去 t="フェードアウト時間"（デフォルト1000ms）
 [macro name="free_CG" ]
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[free name="1" layer="0" time="10" wait="true"]
 		[free name="2" layer="0" time="%t|1000" wait="true"]
 	[else]
@@ -274,7 +273,7 @@
 ;能力発動音
 [macro name="playse_ability_on"]
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[playse storage="se/ability_on.ogg" loop="false" clear="true" volume="30"]
 	[wse]
 	[else]
@@ -288,7 +287,7 @@
 ;ドアが開くときの音
 [macro name="playse_dooropen_1"]
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[playse storage="se/dooropen_1.ogg" loop="false" clear="true" volume="20"]
 	[wse]
 	[else]
@@ -300,7 +299,7 @@
 
 [macro name="playse_doorclose_1"]
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[playse storage="se/doorclose_1.ogg" loop="false" clear="true" volume="50"]
 		[wse]
 	[else]
@@ -313,7 +312,7 @@
 ;1-1救急車
 [macro name="playse_ambulance"]	
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[fadeinse storage="se/ambulance.ogg" loop="true" sprite_time="2000-93000" time="5000" volume="20"]
 		[wait time="300"]
 	[else]
@@ -325,7 +324,7 @@
 ;布擦れの音
 [macro name="playse_cloth_1"]
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[playse storage="se/cloth_1.ogg" loop="false" volume="70"]
 		[wse]
 	[else]
@@ -337,7 +336,7 @@
 ;ドアスライド
 [macro name="playse_slidedoor_open"]
 	[is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
 		[wse]
 	[else]
@@ -351,7 +350,7 @@
 ;チャイム、インターホン
 [macro name="playse_chaimu"]
 [is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[playse storage="se/chaimu.ogg" loop="false" volume="50"]
 		[wse]
 	[else]
@@ -412,7 +411,7 @@
 ;電話の通知音
 [macro name="playse_phone"]
 [is_skip]
-	[if exp="tf.is_skip != true"]
+	[if exp="tf.is_skip !== true"]
 		[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35" loop="false" clear="true"]
 		[wse]
 	[else]
