@@ -1,18 +1,18 @@
 *start
-;rタグ整理、？と！の後のスペース追加、名前表示残留修正済み（つぶ）
 
-[startoption]
-[voconfig sebuf=2 name="mizuka" vostorage="mizuka/mizuka_{number}.ogg" number=1 ]
-[voconfig sebuf=2 name="roz" vostorage="roz/roz_{number}.ogg" number=1 ]
-[voconfig sebuf=2 name="laz" vostorage="laz/laz_{number}.ogg" number=1 ]
+[is_skip]
+;[voconfig sebuf=2 name="mizuka" vostorage="mizuka/mizuka_{number}.ogg" number=1 ]
+;[voconfig sebuf=2 name="roz" vostorage="roz/roz_{number}.ogg" number=1 ]
+;[voconfig sebuf=2 name="laz" vostorage="laz/laz_{number}.ogg" number=1 ]
 [voconfig sebuf=2 name="kouki" vostorage="kouki/kouki_{number}.ogg" number=1 ]
-[voconfig sebuf=2 name="ayana" vostorage="ayana/ayana_{number}.ogg" number=1 ]
+;[voconfig sebuf=2 name="ayana" vostorage="ayana/ayana_{number}.ogg" number=1 ]
 [voconfig sebuf=2 name="???" vostorage="others/{number}.ogg" number=1 ]
-[voconfig sebuf=2 name="eijurou" vostorage="ayana/ayana_{number}.ogg" number=1 ]
-[voconfig sebuf=2 name="RozLaz" vostorage="others/rozlaz_{number}.ogg" number=1 ]
+;[voconfig sebuf=2 name="eijurou" vostorage="ayana/ayana_{number}.ogg" number=1 ]
+;[voconfig sebuf=2 name="RozLaz" vostorage="others/rozlaz_{number}.ogg" number=1 ]
 [vostart]
 
-[bg storage="makkuro.jpg" time="2000"]
+[bg storage="makkuro.jpg" time="10"]
+[mask_off time="2000" ]
 
 『やめてくれ』[np]
 目の前が、鮮血で染まっていく。[np]
@@ -111,11 +111,9 @@
 
 …その時だった。[np]
 
-[voice1 vf1="roz/Roz1-1_1.ogg"]
 #???
 「なぁなぁ、もう８時やで？  はよ起きた方がええんやないの？」[np]
 
-[voice2 vf2="laz/Laz1-1_1.ogg"]
 #???
 「いいじゃありませんかロズ。今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[np]
 
@@ -136,14 +134,12 @@
 俺の言葉を無視し、携帯からの声達はどんどん険悪な雰囲気になっていく。[np]
 
 [RozLaz f="roz_okori_2"]
-[show_RozLaz]
 #ロズ
 「どうやら、今日こそ決着つけなあかんみたいやな。」[np]
 
 [RozLaz f="laz_confident"]
 #ラズ
 「勝てるとお思いで？　私、貴方に負けたことないでしょう？」[np]
-
 
 [RozLaz f="roz_okori_3"]
 #ロズ
@@ -170,7 +166,7 @@
 [afterjumpmaskNormal]
 
 [voice1 vf1="kouki/kouki1-2_1.ogg"]
-#黄樹
+#???
 「───あと、食材はここにあるから、後で…」[np]
 
 
@@ -199,7 +195,6 @@
 #???
 「なるほど、では昼や夜は私が作るってことでいいんですよね？」[np]
 
-[voice2 vf2="kouki/kouki1-2_3.ogg"]
 #黄樹
 「うん、そうしてもらえると助かるかな。材料費とかはまた後で払うから、心配しなくていいよ。」[np]
 
@@ -213,14 +208,11 @@
 心の中で結論にもなっていない結論を出し、俺はそうっと階段を下りる。[np]
 
 [reset_camera]
-[chara_show name="kouki" top="-50" storage="chara/kouki/bishou.png" wait="true"]
-
-[voice2 vf2="kouki/kouki1-2_4.ogg"]
+[kouki f=bishou]
 #kouki
 「お、やっと起きた。」[np]
 ;表情　微笑
 
-[voice2 vf2="kouki/kouki1-2_5.ogg"]
 [kouki f="egao"]
 #kouki:egao
 「中々降りてこなかったから体調でも悪いのかと思ったんだが…」[np]
@@ -297,34 +289,35 @@
 そりゃするだろ。なんだよこの状況。[np]
 そんな念を込めた視線を送ると、ああ、と納得したように笑う。[np]
 
-
+[kouki f=egao]
 [voice2 vf2="kouki/kouki1-2_7.ogg"]
-#kouki:egao
+#kouki
 「そうか。そういえばまだ説明してなかったな。彼女は…」[np]
 
 [playse_phone]
 
+[kouki f=shinpai]
 [voice2 vf2="kouki/kouki1-2_8.ogg"]
-#kouki:shinpai
+#kouki
 「…んん？」[np]
 
 
 
 タイミング悪く、どこからか聞こえてくる着信音。[np]
 
+
 [voice2 vf2="kouki/kouki1-2_9.ogg"]
 #kouki
 「僕か。なんだなんだ？　ちゃんとやることは事前に伝えていたはずだが…」[np]
 
+[kouki f=kushou]
 [voice2 vf2="kouki/kouki1-2_10.ogg"]
-#kouki:kushou
+#kouki
 「すまん。ちょっと出てくるから、二人でゆっくりしていてくれ」[np]
 
 
 #yukito
 ≪え、ちょっと待っ…≫[np]
-
-
 
 [chara_hide name="kouki"]
 

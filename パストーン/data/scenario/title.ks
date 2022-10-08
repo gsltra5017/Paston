@@ -34,5 +34,23 @@
 
 *gamestart
 
+[mask time="2000" color="0xffffff" ]
+[fadeoutbgm time="300"]
+[freeimage layer="0"]
+[cm]
+[clearfix]
+[start_keyconfig]
+
+[button name="skip" role="skip" graphic="skip.png" width="71" height="30" x="50" y="680"]	
+[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png"  width="90" height="30" x="250" y="680"]
+[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png"  width="90" height="30" x="450" y="680"]
+[button name="auto" role="auto" graphic="auto.png" width="96" height="30" x="650" y="680"]
+[button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png"  width="73" height="30" x="855" y="680"]
+[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
+
+@layopt layer="message0" visible="true"
+
+[chara_config  talk_focus="none"]
+
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="1n1.ks"
+@jump storage="1.ks"

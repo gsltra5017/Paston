@@ -6,7 +6,7 @@
 [macro name="is_skip"]
 	[iscript]
    		tf.is_skip = TG.stat.is_skip;
-	[endscript]
+	[endscript stop="true" ]
 [endmacro]
 
 ;numに代入した数字に対応するセーブデータを消去(0~19)
