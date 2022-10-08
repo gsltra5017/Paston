@@ -6,6 +6,9 @@
 ;背景 空 夕方
 [bg storage="road_evening.png" time="10"]
 
+[anim layer="message0" time="1000" opacity="255"]
+[anim layer="fix" time="1000" opacity="255"]
+
 [chara_show name="mizuka" top="20" storage="chara/mizuka/akire.png" wait="true"]
 ;修正済み　表情呆れに変更(添田)
 [afterjumpmaskNormal]

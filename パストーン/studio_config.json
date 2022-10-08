@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-{"project_dir":"","view":{"checkDebugPreview":{"type":"checkbox","val":true},"selectDebugPos":{"type":"select","val":"bottom"}},"map_watch":{},"pobj":{"path":"C:\\Users\\souta\\Documents\\GitHub\\Paston\\パストーン","project_id":"202259_92350","title":"main","type":"tyrano"},"rules":[]}
-=======
-{"project_dir":"","view":{"checkDebugPreview":{"type":"checkbox","val":true},"selectDebugPos":{"type":"select","val":"right"}},"map_watch":{},"pobj":{"path":"D:\\ドキュメント\\GitHub\\Paston\\パストーン","project_id":"202259_92350","title":"main","type":"tyrano"},"rules":[]}
->>>>>>> Stashed changes
+{"project_dir":"","view":{"checkDebugPreview":{"type":"checkbox","val":true},"selectDebugPos":{"type":"select","val":"right"}},"map_watch":{},"pobj":{},"rules":[]}

@@ -203,7 +203,7 @@
 
 ;CG表示
 ;d="ファイルパス" t="フェードイン時間"（デフォルト1000ms）
-[macro name="CG"]
+[macro name="CG_image"]
 	[is_skip]
 	[if exp="tf.is_skip !== true"]
 		[layopt layer="0" visible="true"]

@@ -117,9 +117,9 @@
 [mask time="1300" effect="slideInLeft"]
 [bg storage="classroom_cloud.png" time="10"]
 [chara_mod name="mizuka" face="onemu" time="10" ]
-[wait time="20" ]
+;[wait time="20" ]
 [mask_off effect="slideOutRight" time="1300"]
-[wait time="100" ]
+;[wait time="100" ]
 
 ;修正後 暗転
 ;背景 空き教室
@@ -335,9 +335,11 @@
 ;一枚絵
 
 [chara_hide_all]
+[chara_config pos_mode="false" ]
 
-[layopt layer="0" visible="true"]
-[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/2-4/2-4.png" time="1000"]
+;[layopt layer="0" visible="true"]
+;[image layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/2_4/n.png" time="1000"]
+[CG f="2_4_n"]
 
 #雪翔
 ≪…どういう状況だよこれ…≫[np]
@@ -347,10 +349,11 @@
 …いや完全に膝枕だなこれ。[np]
 さっきまでの異常な距離感に比べればまだマシだが…[np]
 
-[backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4しかめ.png"]
-[trans layer="0" time="500" method="fadeIn"]
-[wt]
+;[backlay layer="0"]
+;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2_4/shikame.png"]
+;[trans layer="0" time="500" method="fadeIn"]
+;[wt]
+[CG f="2_4_shikame"]
 
 [voice2 vf2="mizuka/mizuka2-4_15.ogg"]
 #美寿花
@@ -363,10 +366,11 @@
 
 少し動いた美寿花を落とさないように、体勢を調整する。[np]
 
-[backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4.png"]
-[trans layer="0" time="1000" method="fadeIn"]
-[wt]
+;[backlay layer="0"]
+;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2_4/n.png"]
+;[trans layer="0" time="1000" method="fadeIn"]
+;[wt]
+[CG f="2_4_n"]
 
 [voice2 vf2="mizuka/mizuka2-4_16.ogg"]
 #美寿花
@@ -415,18 +419,24 @@
 ;一枚絵 美寿花アップ
 ;一枚絵 美寿花アップ（顔赤らめる）
 
-;[CG d="singlepic/2-4/2-4てれ.png" t="1000"]
+;[CG d="singlepic/2_4/2-4てれ.png" t="1000"]
 ;[is_skip]
 ;[if exp="tf.is_skip != true"]
-    [backlay layer="0"]
-    [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
-    [trans layer="0" time="1000" method="fadeIn"] 
+    ;[backlay layer="0"]
+    ;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2_4/tere.png"]
+    ;[trans layer="0" time="1000" method="fadeIn"] 
 ;[else]
     ;[backlay layer="0"]
-    ;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2-4/2-4てれ.png"]
+    ;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/2_4/2-4てれ.png"]
     ;[trans layer="0" time="10" method="fadeIn"] 
 ;[endif]
 
-;[better_wait time="2000"]
+[layopt layer="fix" time="1000" opacity="0" ]
+[anim layer="message0" time="1000" opacity="0"]
+
+[CG f="2_4_tere" t="1000"]
+[better_wait time="2000"]
+
+[chara_config pos_mode="true" ]
 
 [scenejumpNormal sc="2n5.ks"]

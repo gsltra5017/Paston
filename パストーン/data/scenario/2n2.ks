@@ -3,7 +3,7 @@
 [startoption]
 
 
-[anim layer="message0" time="0" opacity="0"]
+[anim layer="message0" time="10" opacity="0"]
 ;背景 青空
 [bg storage="daysky.png" time="0"]
 

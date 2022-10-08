@@ -224,8 +224,15 @@
 [chara_face name="RozLaz" face="roz_x" storage="chara/RozLaz/roz_x.png"]
 [chara_face name="RozLaz" face="roz_kushou" storage="chara/RozLaz/roz_kushou.png"]
 
-[chara_face name="CG" face="1_egao" storage="singlepic/1-4/1-4笑顔.png" ]
-[chara_face name="CG" face="1_egao" storage="singlepic/1-4/1-4微笑.png" ]
+;CG
+[chara_face name="CG" face="1_4_egao" storage="singlepic/1_4/egao.png" ]
+[chara_face name="CG" face="1_4_bishou" storage="singlepic/1_4/bishou.png" ]
+[chara_face name="CG" face="1_4_kanashi" storage="singlepic/1_4/kanashi.png" ]
+[chara_face name="CG" face="1_4_kyoton" storage="singlepic/1_4/kyoton.png" ]
+[chara_face name="CG" face="1_4_magao" storage="singlepic/1_4/magao.png" ]
+[chara_face name="CG" face="2_4_n" storage="singlepic/2_4/n.png" ]
+[chara_face name="CG" face="2_4_shikame" storage="singlepic/2_4/shikame.png" ]
+[chara_face name="CG" face="2_4_tere" storage="singlepic/2_4/tere.png" ]
 
 ;------------------------------------------------------------------------------------------------------
 ; 立ち絵登場
@@ -254,4 +261,9 @@
 
 [macro name="RozLaz" ]
     [chara_mod name="RozLaz" face="&mp.f" wait="true" cross="false" time="%t|600"]
+[endmacro]
+
+[macro name="CG"]
+    [chara_mod name="CG" face="&mp.f" wait="true" cross="false" time="%t|600"]
+    [chara_show name="CG" width="1280" height="720" wait="true" time="%t|1000"]
 [endmacro]
