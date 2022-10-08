@@ -9,9 +9,11 @@
 [chara_new  name="roz" storage="chara/RozLaz/roz_neutral.png" jname="ロズ" ]
 [chara_new  name="laz" storage="chara/RozLaz/laz_normal.png" jname="ラズ" ]
 [chara_new  name="ayana" storage="chara/ayana/normal.png" width="868" height="1227" jname="文永"  ]
-[chara_new  name="RozLaz" storage="chara/RozLaz/normal.png" width="523" height="552.51" jname="ロズラズ"  ]
-[chara_new  name="eijyurou" storage="chara/eijyurou.png" width="320" height="720" jname="永寿郎"  ]
+[chara_new  name="RozLaz" storage="chara/RozLaz/normal.png" width="523" height="552.51" jname="ロズ＆ラズ"  ]
+[chara_new  name="eijyurou" storage="chara/null.png" width="320" height="720" jname="永寿郎"  ]
 [chara_new  name="CG" storage="singlepic/1_4/bishou.png" width="1280" height="720" jname="一枚絵"  ]
+[chara_new  name="???" storage="chara/null.png" width="320" height="720" jname="ロズ＆ラズ"  ]
+[chara_new  name="others" storage="chara/null.png" width="320" height="720" jname="飼育員"  ]
 
 
 ;------------------------------------------------------------------------------------------------------
@@ -256,14 +258,19 @@
 
 [macro name="mizuka" ]
     [chara_mod name="mizuka" face="&mp.f" wait="true" cross="false" time="%t|600"]
-    [chara_show name="mizuka" time="%t|600" top="20"]
+    [chara_show name="mizuka" time="%t|1000" top="20"]
 [endmacro]
 
 [macro name="RozLaz" ]
     [chara_mod name="RozLaz" face="&mp.f" wait="true" cross="false" time="%t|600"]
 [endmacro]
 
+[macro name="kouki" ]
+    [chara_mod name="kouki" face="&mp.f" wait="true" cross="false" time="%t|600"]
+    [chara_show name="kouki" time="%t|1000" top="-50"]
+[endmacro]
+
 [macro name="CG"]
-    [chara_mod name="CG" face="&mp.f" wait="true" cross="false" time="%t|600"]
-    [chara_show name="CG" width="1280" height="720" wait="true" time="%t|1000"]
+    [chara_mod name="CG" face="&mp.f" wait="true" cross="false" time="%t|1200"]
+    [chara_show name="CG" width="1280" height="720" wait="true" time="%t|1200"]
 [endmacro]
