@@ -4,9 +4,9 @@
 [startoption]
 
 ;↓暗転中に画像など準備
-[bg storage="classroom.png" time="0"]
+[bg storage="classroom.png" time="10"]
 [filter layer="base" blur="5" ]
-[chara_show name="mizuka" top="20" storage="chara/mizuka/kyoton.png" time="0" wait="true"]
+[chara_show name="mizuka" top="20" storage="chara/mizuka/kyoton.png" time="10" wait="true"]
 ;背景 空き教室
 
 [afterjumpmaskNormal]

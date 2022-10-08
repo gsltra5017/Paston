@@ -381,9 +381,8 @@
 
 ;ここまで一枚絵
 [fadeoutbgm time=2000]
-[chara_config pos_mode="false" ]
 
-[if exp="tf.is_skip != true"]
+[if exp="tf.is_skip !== true"]
     [bg storage="makkuro.jpg" time="10" ]
     [chara_hide_all time="1000" wait="true"]
     ;[backlay layer="0"]
@@ -420,6 +419,7 @@
 ;修正前 メッセージボックスがフェードアウトしてほしい（黒を上からフェードインすれば行ける？）
 ;@layopt layer="message0" visible="false"
 
+[chara_config pos_mode="true" ]
 [vostop]
 [scenejumpNormal sc="2n1.ks"]
 

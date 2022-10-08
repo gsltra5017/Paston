@@ -2,7 +2,7 @@
 ;rタグ整理、？と！の後のスペース追加、名前表示残留修正済み（つぶ）
 [startoption]
 
-
+@layopt layer="fix" visible="false"  
 [anim layer="message0" time="10" opacity="0"]
 ;背景 青空
 [bg storage="daysky.png" time="0"]
@@ -10,13 +10,10 @@
 [afterjumpmaskNormal]
 
 ;修正後 メッセージウィンドウをフェード表示
-[if exp="tf.is_skip != true"]
-    [anim layer="message0" time="2000" opacity="255"]
-[else]
-    [anim layer="message0" time="10" opacity="255"]
-[endif]
 
+[anim layer="message0" time="2000" opacity="255"]
 [better_wait time="2000"]
+@layopt layer="fix" visible="true"  
 
 [voice1 vf1="mizuka/mizuka2-2_1.ogg"]
 #美寿花

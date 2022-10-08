@@ -526,6 +526,7 @@
 ;修正後 優先度高 5秒くらいかけて明転
 
 @layopt layer="message0" visible="false"
+@layopt layer="fix" visible="false"
 
 [chara_hide_all]
 
