@@ -1,3 +1,5 @@
+*start
+
 [startoption]
 
 [bg storage="living.png" time="0"]

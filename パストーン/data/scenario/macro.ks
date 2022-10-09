@@ -6,7 +6,7 @@
 [macro name="is_skip"]
 	[iscript]
    		tf.is_skip = TG.stat.is_skip;
-	[endscript stop="true" ]
+	[endscript]
 [endmacro]
 
 ;numに代入した数字に対応するセーブデータを消去(0~19)
@@ -66,7 +66,7 @@
 
 	[chara_config  talk_focus="none"]
 	
-	[is_skip]
+	
 	#
 [endmacro]
 
@@ -108,7 +108,7 @@
 
 	;[chara_config  talk_focus="none"]
 
-	[is_skip]
+	
 
 	#
 [endmacro]
@@ -123,7 +123,7 @@
 ;スキップ対応waitタグ
 [macro name="better_wait"]
 	[is_skip]
-	[if exp="tf.is_skip!==true"]
+	[if exp="tf.is_skip !== true"]
 		[wait time="%time"]
 	[else]
 		[wait time="10"]
@@ -342,22 +342,19 @@
 	[else]
 		[playse storage="se/slidedoor_open.ogg" loop="false" volume="70"]
 		[wait time="10" ]
-[endif]
-
-
+	[endif]
 [endmacro]
 
 ;チャイム、インターホン
 [macro name="playse_chaimu"]
-[is_skip]
+	[is_skip]
 	[if exp="tf.is_skip !== true"]
 		[playse storage="se/chaimu.ogg" loop="false" volume="50"]
 		[wse]
 	[else]
 		[playse storage="se/chaimu.ogg" loop="false" volume="50"]
 		[wait time="10" ]
-[endif]
-
+	[endif]
 [endmacro]
 
 ;学校のチャイム
@@ -410,7 +407,7 @@
 
 ;電話の通知音
 [macro name="playse_phone"]
-[is_skip]
+	[is_skip]
 	[if exp="tf.is_skip !== true"]
 		[playse storage="se/phone.ogg" sprite_time="0000-2000" volume="35" loop="false" clear="true"]
 		[wse]
@@ -422,8 +419,15 @@
 
 ;つんつんしてる時の効果音
 [macro name="playse_tsuntsun"]
-	[playse storage="se/tsuntsun.mp3" volume="80"]
-	[wse]
+	[is_skip]
+	[if exp="tf.is_skip !== true"]
+		[playse storage="se/tsuntsun.mp3" volume="80"]
+		[wse]
+	[else]
+		[playse storage="se/tsuntsun.mp3" volume="80"]
+		[wait time="10" ]
+	[endif]
+
 [endmacro]
 
 ;ツッコミの音

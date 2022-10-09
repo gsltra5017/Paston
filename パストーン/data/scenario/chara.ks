@@ -11,7 +11,7 @@
 [chara_new  name="ayana" storage="chara/ayana/normal.png" width="868" height="1227" jname="文永"  ]
 [chara_new  name="RozLaz" storage="chara/RozLaz/normal.png" width="523" height="552.51" jname="ロズ＆ラズ"  ]
 [chara_new  name="eijyurou" storage="chara/null.png" width="320" height="720" jname="永寿郎"  ]
-[chara_new  name="CG" storage="singlepic/1_4/bishou.png" width="1280" height="720" jname="一枚絵"  ]
+[chara_new  name="CG" storage="bg/daysky.png" width="1280" height="720" jname="一枚絵"  ]
 [chara_new  name="???" storage="chara/null.png" width="320" height="720" jname="？？？"  ]
 [chara_new  name="others" storage="chara/null.png" width="320" height="720" jname="飼育員"  ]
 
@@ -235,6 +235,7 @@
 [chara_face name="CG" face="2_4_n" storage="singlepic/2_4/n.png" ]
 [chara_face name="CG" face="2_4_shikame" storage="singlepic/2_4/shikame.png" ]
 [chara_face name="CG" face="2_4_tere" storage="singlepic/2_4/tere.png" ]
+[chara_face name="CG" face="bg_sky" storage="bg/daysky.png" ]
 
 ;------------------------------------------------------------------------------------------------------
 ; 立ち絵登場
