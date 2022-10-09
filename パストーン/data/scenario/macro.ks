@@ -440,3 +440,8 @@
 [macro name="bgm_mizuka"]
 	[playbgm storage="mizuka.ogg" volume="40"]
 [endmacro]
+
+;Ready to jump
+[macro name="bgm_ready_to_jump" ]
+	[playbgm storage="Ready_to_jump.mp3" volume="25" ]
+[endmacro]
