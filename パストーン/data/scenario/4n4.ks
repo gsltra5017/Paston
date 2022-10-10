@@ -60,9 +60,8 @@
 #美寿花
 「…随分、暗い顔してるね」[np]
 ;立ち絵表示なし
-;
 
-[playbgm storage="wop.wav" volume="40" ]
+[playbgm storage="wop.wav" volume="30" ]
 #雪翔
 ≪‥‥‥≫[np]
 
@@ -98,7 +97,7 @@
 
 [voice2 vf2=mizuka/mizuka4-4_4.ogg]
 #美寿花:egao
-「夕ご飯の材料、足りなくてさ。ちょうど買いに行ってたんだ。」[np]
+「夕ご飯の材料、足りなくてさ。ちょうど買いに行ってたんだ」[np]
 #美寿花:egao
 [voice2 vf2=mizuka/mizuka4-4_5.ogg]
 「最近寒くなってきたし、何か温かいもの作りたいな～って」[np]
@@ -157,15 +156,17 @@
 [chara_mod name="mizuka" face="neutral_2" cross="false"]
 その声は届かず、美寿花は何故か辺りを見回す。[np]
 しばらくして、[np]
+[chara_hide_all]
 
 [voice2 vf2=mizuka/mizuka4-4_12.ogg]
 #美寿花
 「…っと…」[np]
 ;一枚絵表示
-[backlay layer="0"]
-[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_yasasii_egao.png"]
-[trans layer="0" time="1000" method="fadeIn"]
-[wt]
+;[backlay layer="0"]
+;[image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_yasasii_egao.png"]
+;[trans layer="0" time="1000" method="fadeIn"]
+;[wt]
+[bg storage="4-4_egao.png" ]
 
 [voice2 vf2=mizuka/mizuka4-4_13.ogg]
 #美寿花
@@ -175,11 +176,16 @@
 あの、シーソーに座った。[np]
 あくまでも軽く、何でもないことのように。[np]
 
+
 [voice2 vf2=mizuka/mizuka4-4_14.ogg]
+/*
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_kuraikao.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
+*/
+[bg storage="4-4.png" time="1200" ]
+
 #美寿花
 「…今まで、私は事故のことを知らずに生きていた…君はその事故で…私のせいで大きな枷を背負ってしまったのに」[np]
 ;差分 目を伏せた顔
@@ -189,11 +195,15 @@
 「…そんなの、あまりにも不公平すぎる。…ごめんね」[np]
 ;差分 目を伏せた顔
 
+
 [voice2 vf2=mizuka/mizuka4-4_16.ogg]
+/*
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_sinken.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
+*/
+[bg storage="4-4_shinken.png" time="1200" ]
 #美寿花
 「あの事故で、生前の私は死んじゃって…アンドロイドになっちゃったけど…君の枷が消えたわけじゃない」[np]
 ;差分 真剣な顔
@@ -203,11 +213,15 @@
 「…私は、常葉美寿花として…生きていかなきゃいけない」[np]
 ;差分 真剣な顔
 
+
 [voice2 vf2=mizuka/mizuka4-4_18.ogg]
+/*
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_yasasii_egao.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
+*/
+[bg storage="4-4_egao.png" time="1200" ]
 #美寿花
 「だから、私にも背負わせて？」[np]
 ;差分 はかない笑顔
@@ -216,15 +230,21 @@
 そう言って、また笑う。[np]
 心からの笑顔ではない、それは勿論…分かっている。[np]
 でも…[np]
+/*
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_omoituita!.png"]
 [trans layer="0" time="1000" method="fadeIn"]
 [wt]
+*/
+[bg storage="4-4_past.png" time="1000" ]
 『例えば…あ、そう！水族館とか！』[np]
+/*
 [backlay layer="0"]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/4-1_遊具に座る/4-1_yoru_yasasii_egao.png"]
 [trans layer="0" time="400" method="fadeIn"]
 [wt]
+*/
+[bg storage="4-4_egao.png" time="400" ]
 重なってしまう。[np]
 公園で、まだ中学生だった俺の話を聞いてくれた…あの美寿花と。[np]
 哀しい程に、想ってしまう。[np]
@@ -280,10 +300,10 @@
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" folder="bgimage" storage="makkuro.jpg"]
 [trans layer="1" time="500" method="slideInRight"]
 [wt]
-[chara_hide_all time=0]
+[chara_hide_all time=10]
 
 ;夜の公園の画像がなかったので代替
-[bg storage="park_night.png" time=0]
+[bg storage="park_night.png" time=10]
 
 [freeimage layer="0" time="0"]
 [freeimage layer="1" time="500"]
@@ -319,6 +339,7 @@
 
 #雪翔
 ≪‥‥‥‥‥‥‥≫[np]
+#雪翔
 ≪‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥放してくれ≫[np]
 
 その手を振り払ってから、俺はまた走り出した。[np]

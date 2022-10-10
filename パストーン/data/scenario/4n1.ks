@@ -30,7 +30,7 @@
 
 ;背景 白黒の青空
 [bg storage="sky_mono.png" time="500"]
-[playbgm storage="wop.wav" volume="40"]
+[playbgm storage="wop.wav" volume="30"]
 
 [voice1 vf1="mizuka/mizuka4-1_1.ogg"]
 #美寿花
@@ -47,7 +47,7 @@
 [voice2 vf2="mizuka/mizuka4-1_2.ogg"]
 #美寿花
 ;（昔）
-「少年君、随分難しそうな本読んでるね。」[np]
+「少年君、随分難しそうな本読んでるね」[np]
 
 
 ;背景 一枚絵
@@ -155,7 +155,7 @@
 ;背景 病院
 [bg storage="byoushitsu.png" time="1000" wait="true"]
 
-[playbgm storage="Long_Bygone.mp3" volume="70" ]
+[playbgm storage="Long_Bygone.mp3" volume="40" ]
 
 #雪翔
 ≪…病院の、ベッド…？≫[np]

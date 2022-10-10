@@ -6,14 +6,14 @@
 ;背景 空 夕方
 [bg storage="road_evening.png" time="10"]
 
-[anim layer="message0" time="1000" opacity="255"]
-[anim layer="fix" time="1000" opacity="255"]
+[anim layer="message0" time="10" opacity="255"]
+[layopt layer="fix" time="10" opacity="255" ]
 
 [chara_show name="mizuka" top="20" storage="chara/mizuka/akire.png" wait="true"]
 ;修正済み　表情呆れに変更(添田)
 [afterjumpmaskNormal]
 
-[playbgm storage="nc67412.mp3" volume="40" ]
+[playbgm storage="nc67412.mp3" volume="30" ]
 
 [voice1 vf1="mizuka/mizuka2-5_1.ogg"]
 #美寿花
@@ -28,7 +28,7 @@
 帰り道、何度目かの謝罪を美寿花は口にする。[np]
 
 [voice2 vf2="mizuka/mizuka2-5_2.ogg"]
-#美寿花:teretere
+#美寿花:tereawate
 「確かにあの時は強烈な睡魔に襲われてたのは事実だけど、まさか本当に寝ちゃうとは自分でも思わなかったというか…」[np]
 ;表情 照れ慌て
 ;修正済み　表情照れ照れに変更(添田)
@@ -44,6 +44,7 @@
 
 #雪翔
 （もうちょっと他にやりようあったんじゃないのか！？）[np]
+#雪翔
 （床に寝かせるのがダメだとしても、あそこまですることはなかっただろ…）[np]
 
 自分以上に慌ててる美寿花を見て、俺も冷静になって昼の行動を振り返ってしまう。[np]
@@ -108,7 +109,7 @@
 
 [voice2 vf2="mizuka/mizuka2-5_11.ogg"]
 #美寿花:bishou
-「ほら、なんていうか…一人じゃ行きにくいところってあるでしょ？　雪翔君の場合は声の事もあるだろうしさ。」[np]
+「ほら、なんていうか…一人じゃ行きにくいところってあるでしょ？　雪翔君の場合は声の事もあるだろうしさ」[np]
 ;表情 bishou
 
 [voice2 vf2="mizuka/mizuka2-5_12.ogg"]
@@ -127,7 +128,7 @@
 [voice2 vf2="mizuka/mizuka2-5_13.ogg"]
 #美寿花:kangae
 「私？　私は〜[r]
-…確かに、すぐ思いつかないねこれ。」[np]
+…確かに、すぐ思いつかないねこれ」[np]
 ;表情 kangae
 
 [voice2 vf2="mizuka/mizuka2-5_14.ogg"]
@@ -169,7 +170,7 @@
 
 [voice2 vf2="mizuka/mizuka2-5_17.ogg"]
 #美寿花:straight
-「歌、かぁ…うん。」[np]
+「歌、かぁ…うん」[np]
 ;表情 straight
 
 [voice2 vf2="mizuka/mizuka2-5_18.ogg"]
@@ -211,7 +212,7 @@
 
 [bgchangemask_off]
 
-[playbgm storage="mellow_bell.mp3" volume="40" ]
+[playbgm storage="mellow_bell.mp3" volume="35" ]
 
 [voice2 vf2="mizuka/mizuka2-5_21.ogg"]
 #美寿花
@@ -230,7 +231,7 @@
 
 [voice2 vf2="mizuka/mizuka2-5_22.ogg"]
 #美寿花:kyoton
-「二人とも、なんでそこでボーっとしてるの？」[np]
+「[ruby text="・"]二[ruby text="・"]人[ruby text="・"]と[ruby text="・"]も、なんでそこでボーっとしてるの？」[np]
 ;表情　kyoton
 
 
@@ -238,12 +239,12 @@
 
 [voice2 vf2="ayana/ayana2-5_1.ogg"]
 #文永
-「…そりゃ呆気にもとられるよ。」[np]
+「…そりゃ呆気にもとられるよ」[np]
 ;表情　呆れ
 
 [voice2 vf2="ayana/ayana2-5_2.ogg"]
 #文永:tameiki
-「家出したはずの姉に突然来いって言われて、何かと思えばカラオケに連れていかれたらさ。」[np]
+「家出したはずの姉に突然来いって言われて、何かと思えばカラオケに連れていかれたらさ」[np]
 ;表情　溜息
 
 
@@ -262,7 +263,7 @@
 
 [voice2 vf2="mizuka/mizuka2-5_24.ogg"]
 #美寿花:egao_2
-「…って、この子の事、まだ紹介してなかったよね。」[np]
+「…って、この子の事、まだ紹介してなかったよね」[np]
 ;表情　egao_2
 
 [voice2 vf2="mizuka/mizuka2-5_25.ogg"]
@@ -345,14 +346,14 @@
 言葉の意味が一瞬よく分からなかった。[np]
 
 #雪翔
-≪…あの、美寿花？俺は歌えないって…≫[np]
+≪…あの、美寿花？　俺は歌えないって…≫[np]
 
 声が出ないやつが歌っても意味がないだろうし、と俺は首を横に振る。[np]
 …しかし、美寿花は引かなかった。[np]
 
 [voice2 vf2="mizuka/mizuka2-5_30.ogg"]
 #美寿花:bishou
-「練習だよ、君の…『自分の声で歌いたい』って目標のための。」[np]
+「練習だよ、君の…『自分の声で歌いたい』って目標のための」[np]
 
 [voice2 vf2="mizuka/mizuka2-5_31.ogg"]
 #美寿花:itazura
@@ -370,6 +371,7 @@
 
 #雪翔
 ≪……≫[np]
+#雪翔
 ≪…分かったよ≫[np]
 
 美寿花の言葉の意味を、ようやく理解する。[np]

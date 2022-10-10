@@ -9,7 +9,7 @@
 ;文永に表情を指定する
 ;雪翔くんのセリフの前に名前がないのは演出？
 
-[playbgm storage="Long_Bygone.mp3" volume="70" ]
+[playbgm storage="Long_Bygone.mp3" volume="40" ]
 
 …外に出ると虫の合唱が、嫌でも耳に入る。[np]
 ここに来るまでに、紅葉の木の葉が所々赤や黄に染まっていて、残暑もすっかり過ぎ去り、街の秋の訪れを肌で感じられた。[np]
@@ -179,9 +179,10 @@
 
 #雪翔
 ≪‥‥‥≫[np]
+#雪翔
 ≪‥‥‥‥‥‥ぇ？≫[np]
 
-コノヨ、ヲサリマシタ。[np]
+コノヨヲ、サリマシタ。[np]
 …しんで、いた？[np]
 理解できなかった。[np]
 淡々と告げられた事実から、目を背けたくて。[np]
@@ -239,7 +240,7 @@
 
 [voice2 vf2="ayana/ayana4-3_21.ogg"]
 #文永:shinken
-「薄谷家にお邪魔しているのも…あの父の手から逃れるため。」[np]
+「薄谷家にお邪魔しているのも…あの父の手から逃れるため」[np]
 ;修正 表情shinkenに変更（つぶ）
 [voice2 vf2="ayana/ayana4-3_22.ogg"]
 #文永:kanashimi_3
@@ -299,7 +300,7 @@
 
 [voice2 vf2="ayana/ayana4-3_30.ogg"]
 #文永:naki
-「でも…ダメでした。」[np]
+「でも…ダメでした」[np]
 ;修正
 
 [voice2 vf2="ayana/ayana4-3_31.ogg"]
@@ -313,7 +314,7 @@
 
 [voice2 vf2="ayana/ayana4-3_32.ogg"]
 #文永:uttae
-「…だけど、あなたは違う。」[np]
+「…だけど、あなたは違う」[np]
 ;修正
 
 [voice2 vf2="ayana/ayana4-3_33.ogg"]

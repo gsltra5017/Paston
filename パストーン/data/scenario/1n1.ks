@@ -35,7 +35,6 @@
 …『言葉』だけを、ただ、紡いでいく。[np]
 
 [bg storage="black.jpg" time="2000"]
-#yukito
 『やめてくれ』[np]
 『止めてくれ』[np]
 『誰か…助けてくれ』[np]
@@ -45,9 +44,9 @@
 [stopse]
 
 [mask time="400"]
-[bg storage="myroom.png" time="10"]
 [camera zoom="1.7" x="-70" y="-50" time="10" wait="true"]
 [better_wait time="400"]
+[bg storage="myroom.png" time="10"]
 [mask_off time="400" wait="true"]
 
 #yukito
@@ -66,7 +65,7 @@
 …妙に冷たい。しかもなんだか湿っている。[np]
 
 #yukito
-≪…これに関しては久しぶりだな。≫[np]
+≪…これに関しては久しぶりだな≫[np]
 
 起き上がると、案の定シーツの上に地図が描かれている。[np]
 勿論、大学生になってお漏らしをした、というわけではなく…[np]
@@ -87,7 +86,7 @@
 起こしたのは、飲酒をし、しかも無免許で運転していた大学生。[np]
 
 #男
-「事故を起こした後、死のうと思っていた。」[np]
+「事故を起こした後、死のうと思っていた」[np]
 
 警察の取り調べで、男が吐いた言葉は自殺の意志。[np]
 …そして、[np]
@@ -96,7 +95,7 @@
 [bg storage="myroom.png" time="400" wait="true"]
 
 #yukito
-≪…自殺なんかに、他人の命を巻き込むんじゃねぇよ。≫[np]
+≪…自殺なんかに、他人の命を巻き込むんじゃねぇよ≫[np]
 
 
 [playse storage="se/cloth_1.ogg" loop="false" ]
@@ -137,7 +136,7 @@
 [show_RozLaz]
 ;[voice2 vf2="roz/Roz1-1_3.wav"]
 #roz
-「どうやら、今日こそ決着つけなあかんみたいやな。」[np]
+「どうやら、今日こそ決着つけなあかんみたいやな」[np]
 
 
 ;[chara_mod name="RozLaz" face="laz_confident" wait="false"]

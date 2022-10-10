@@ -1,15 +1,15 @@
 *start
 ;rタグ整理、？と！の後のスペース追加、名前表示残留修正済み（つぶ）
+/*
 [startoption]
-
+[chara_show name="mizuka" top="20" face="odoroki_3" time="0"]
 [bg storage="living.png" time="0"]
 
-[chara_show name="mizuka" top="20" face="odoroki_3" time="0"]
 
-[afterjumpmaskNormal]
+
+;[afterjumpmaskNormal]
 
 [playbgm storage="Yurari_kurari.mp3" volume="40" ]
-;[jump target="*debug"]
 
 #雪翔
 （…誰だ…？この時間に…）[np]
@@ -186,8 +186,12 @@
 [chara_hide_all time="500" wait="false"]
 [bg storage="makkuro.jpg" time="500"]
 
+*/
+
 #雪翔
 ≪お前は…美寿花じゃ…ないっ…！！！≫[np]
+
+[bg storage="makkuro.jpg" time="500"]
 
 #雪翔
 ≪──ッ≫[np]
@@ -287,7 +291,7 @@
 
 [voice2 vf2="eijurou/eijurou5-2_9.ogg"]
 #永寿郎
-「君の事は薄谷教授から聞いているよ。何でも声を失ってしまったとか。今まで大変だっただろう？」[np]
+「君の事は薄谷教授から聞いているよ。何でも声を失ってしまったとか。[r]今まで大変だっただろう？」[np]
 
 
 
@@ -305,7 +309,7 @@
 
 [voice2 vf2="eijurou/eijurou5-2_10.ogg"]
 #永寿郎
-「いやいや、私は自分のするべき事をしただけだよ。確かに大変だが、その分やりがいも感じられる。」[np]
+「いやいや、私は自分のするべき事をしただけだよ。確かに大変だが、その分やりがいも感じられる」[np]
 
 
 
@@ -401,7 +405,7 @@
 
 [voice2 vf2="eijurou/eijurou5-2_16.ogg"]
 #永寿郎
-「おや…これはうちのAIかな？　しかも2体も…こんなところでも使われているとは、嬉しいね。」[np]
+「おや…これはうちのAIかな？　しかも2体も…こんなところでも使われているとは、嬉しいね」[np]
 
 [voice2 vf2="eijurou/eijurou5-2_17.ogg"]
 #永寿郎
@@ -410,7 +414,7 @@
 [chara_mod name="RozLaz" face="roz_fuman" cross="false"]
 [voice2 vf2="roz/roz5-2_4.ogg"]
 #ロズ
-「そのまんまの意味や。　さっきから口を開けばうちの美寿花、うちの美寿花って…」[np]
+「そのまんまの意味や。さっきから口を開けばうちの美寿花、うちの美寿花って…」[np]
 ;表情 fuman
 
 [chara_mod name="RozLaz" face="roz_okori_3" cross="false"]
@@ -504,7 +508,8 @@
 
 [voice2 vf2="mizuka/mizuka5-2_10.ogg"]
 #美寿花:kushou_3
-「…皆にいっぱい優しくしてもらったし、ちゃんと自分のことを知れた。[r]　…それだけで、私はもう十分。…だから…」[np]
+「…皆にいっぱい優しくしてもらったし、ちゃんと自分のことを知れた。[r]
+…それだけで、私はもう十分。…だから…」[np]
 
 [fadeoutbgm time="1000"]
 

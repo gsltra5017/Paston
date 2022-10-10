@@ -11,7 +11,7 @@
 
 [bg storage="road_evening.png"]
 
-[playbgm storage="nc67412.mp3" volume="40" ]
+[playbgm storage="nc67412.mp3" volume="30" ]
 
 [chara_show name="mizuka" face="shinpai" top="20"]
 [chara_show name="ayana" face="akire" top="40"]
@@ -56,13 +56,13 @@
 [chara_hide_all time="10"]
 
 ;背景 雪翔の自室
-[bg storage="myroom_night.png"]
+[bg storage="myroom_night.png" time="10" ]
 
 [chara_show name="RozLaz" top="10" left="200" width="753.12" height="795.614" face="roz_kyoton" time="10"]
 
 [bgchangemask_off]
 ;修正済み（担当辻） ロズラズの表示位置 ☆
-[playbgm storage="RozLaz.mp3" volume="30" ]
+[playbgm storage="RozLaz.mp3" volume="15" ]
 
 #ロズ
 [voice2 vf2="roz/roz3-2_1.ogg"]
@@ -164,7 +164,7 @@ AIとはいえ、一応性別は女性だ。[np]
 「‥‥‥」[np]
 ;shinpai
 
-[chara_mod name="RozLaz" face="roz_shinpai_2"]
+;[chara_mod name="RozLaz" face="roz_shinpai_2"]
 [chara_mod name="RozLaz" face="roz_kushou"]
 #ロズ
 ;[voice2 vf2="roz/roz3-2_5.ogg"]
@@ -184,7 +184,7 @@ AIとはいえ、一応性別は女性だ。[np]
 さっさと更新の準備を進めていく。[np]
 
 #雪翔
-≪じゃ、始めるぞ～≫[np]
+≪じゃ、始めるぞ≫[np]
 
 [chara_mod name="RozLaz" face="roz_egao"]
 [voice2 vf2="roz/roz3-2_5.ogg"]
@@ -236,7 +236,6 @@ EL社の社長について[np]
 
 #雪翔
 ≪常葉永寿郎…常葉？≫[np]
-
 [bg storage="living.png" time="500"]
 
 [chara_show name="mizuka" face="egao" top="20" time="500"]
@@ -250,7 +249,7 @@ EL社の社長について[np]
 #雪翔
 ≪…あっ！！≫[np]
 
-そうだ！確か美寿花の上の名前、『常葉』じゃなかったか！？[np]
+そうだ！　確か美寿花の上の名前、『常葉』じゃなかったか！？[np]
 
 #雪翔
 （…偶然？）[np]
@@ -270,7 +269,7 @@ EL社の社長について[np]
 
 突然スマホの通知音が鳴り、考え込んでいた頭が現実に戻される。[np]
 
-[playbgm storage="OuchiDay.mp3" volume="35"]
+[playbgm storage="OuchiDay.mp3" volume="20"]
 
 #雪翔
 ≪…あれ、文永からだ…≫[np]
@@ -336,6 +335,7 @@ EL社の社長について[np]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面06.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
+#文永
 『そうですね…動物とか結構好きだったと思いますよ』[np]
 
 #雪翔
@@ -397,6 +397,7 @@ EL社の社長について[np]
 [image layer="0" x="0" y="0" width="1280" height="720" page="back" visible="true" storage="singlepic/3-2/チャット画面14.png"]
 [trans layer="0" time="500" method="fadeIn"]
 [wt]
+#文永
 『今日も言いましたけど、二人で行って来たらいいじゃないですか。雪翔さんが、お姉ちゃんにあげるプレゼントなんですから』[np]
 
 #雪翔

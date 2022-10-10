@@ -24,7 +24,7 @@
 #雪翔
 ≪だ、大丈夫大丈夫…≫[np]
 
-[playbgm storage="Bonyari_Hitsuji.mp3" volume="70"]
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="55"]
 
 
 美寿花の言葉に、頷きで返す。[np]
@@ -41,7 +41,7 @@
 
 [voice2 vf2="mizuka/mizuka2-2_2.ogg"]
 #美寿花
-「…ちょ、一旦休憩。水飲もう水。」[np]
+「…ちょ、一旦休憩。水飲もう水」[np]
 ;表情 慌て あとで
 
 
@@ -115,7 +115,7 @@
 
 [chara_show name="RozLaz" top="200" width="523" height="552.51" face="laz_normal" wait="true"]
 
-[playbgm storage="RozLaz.mp3" volume="20" ]
+[playbgm storage="RozLaz.mp3" volume="15" ]
 
 [voice2 vf2="laz/laz2-2_3.ogg"]
 #ラズ
@@ -160,7 +160,7 @@
 [chara_mod name="RozLaz" face="roz_okori"]
 [voice2 vf2="roz/roz2-2_1.ogg"]
 #ロズ
-「あっずるっ！！　二人で驚かせようって話やったやん！！　何で一人で話してんの！？」[np]
+「あっずるっ！！　二人で驚かせよういう話やったやん！！　何で一人で話してんの！？」[np]
 ;表情　okori
 
 
@@ -216,7 +216,7 @@
 ;[playse storage="laz/laz2-2_9.ogg" buf="0"]
 [playse storage="roz/roz2-2_4.ogg" buf="2"]
 #ロズ＆ラズ
-「マスターは黙っとって！！」[r]
+_　「マスターは黙っとって！！」[r]
 「ご主人様は黙っててくださいまし！！」[np]
 
 
@@ -255,7 +255,7 @@
 
 [voice2 vf2="mizuka/mizuka2-2_11.ogg"]
 #美寿花:jitome
-「…説明、よろしく。」[np]
+「…説明、よろしく」[np]
 ;表情 ジト目　あとで
 
 
@@ -291,7 +291,7 @@
 
 [voice2 vf2="mizuka/mizuka2-2_13.ogg"]
 #美寿花:kushou
-「あはは…それはそうかも。」[np]
+「あはは…それはそうかも」[np]
 ;表情 kushou
 
 [voice2 vf2="mizuka/mizuka2-2_14.ogg"]

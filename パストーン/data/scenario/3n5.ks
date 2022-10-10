@@ -12,7 +12,7 @@
 
 ;修正前 優先度高 BGM、ポジティブで落ち着いた曲（最悪Bonyari_Hitsujiもあり）
 
-[playbgm storage="Ready_to_jump.mp3" volume="25" ]
+[playbgm storage="Ready_to_jump.mp3" volume="15" ]
 [voice1 vf1="mizuka/mizuka3-5_1.ogg"]
 #mizuka
 「う～ん…これとか、どう！？」[np]
@@ -80,7 +80,7 @@
 
 [voice2 vf2="mizuka/mizuka3-5_8.ogg"]
 #mizuka:kyoton_2
-教授って、何か普段身につけてる物ってある？[np]
+「教授って、何か普段身につけてる物ってある？」[np]
 ;表情 kyoton_2
 
 
@@ -142,24 +142,24 @@
 
 
 #yukito
-≪…まだあった？何か見たいもの≫[np]
+≪…まだあった？　何か見たいもの≫[np]
 
 [voice2 vf2="mizuka/mizuka3-5_15.ogg"]
 #mizuka:mesorashi
-「へ？あ～…まぁ、あと一回はペンギン、見たかったなーって」[np]
+「へ？　あ～…まぁ、あと一回はペンギン、見たかったなーって」[np]
 ;表情 目逸らし
 
 
 
 #yukito
-≪それぐらいの時間はあると--≫[np]
+≪それぐらいの時間はあると──≫[np]
 
 ;[chara_hide_all time="0"]
 
 [layopt layer="0" visible="true"]
 [image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-5/baiten_past.png" time="1000"]
 
---じゃ、約束ね！　また一緒にペンギン見るって[np]
+──じゃ、約束ね！　また一緒にペンギン見るって[np]
 
 ;背景　売店
 [bg storage="baiten.png" time="0"]
@@ -230,7 +230,7 @@
 日が暮れかけ、オレンジがかった帰り道を揃って歩く。[np]
 
 ;修正前 優先度高 bgm、夕焼けに合うもの？
-[playbgm storage="nc67412.mp3" volume="40" ]
+[playbgm storage="nc67412.mp3" volume="30" ]
 
 
 [voice2 vf2="mizuka/mizuka3-5_20.ogg"]
@@ -295,7 +295,7 @@
 
 [voice2 vf2="mizuka/mizuka3-5_24.ogg"]
 #mizuka:kangae
-「水族館？え～…どうだろう…行ったことはない、かなぁ…」[np]
+「水族館？　え～…どうだろう…行ったことはない、かなぁ…」[np]
 ;表情 
 
 
@@ -389,7 +389,7 @@
 
 [voice2 vf2="mizuka/mizuka3-5_29.ogg"]
 #mizuka:shinpai
-「だ、だもんね…どう考えても様子変だもん…」[np]
+「だ、だよね…どう考えても様子変だもん…」[np]
 
 
 

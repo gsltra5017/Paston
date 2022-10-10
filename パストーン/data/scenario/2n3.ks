@@ -4,7 +4,7 @@
 
 ;背景 講義室
 [bg storage="classroom.png" time="0"]
-[filter layer="base" blur="5" ]
+
 [chara_show name="mizuka" top="50" storage="chara/mizuka/kushou.png" time="0" wait="true"]
 [camera layer="base" zoom="1.5" x="0" y="0" time="10" wait="true"]
 [camera layer="0" zoom="1.5" x="0" y="0" time="10" wait="true"]
@@ -14,7 +14,7 @@
 
 机に突っ伏しながら、俺はため息をつく。[np]
 
-[playbgm storage="Ready_to_jump.mp3" volume="25" ]
+[playbgm storage="Ready_to_jump.mp3" volume="15" ]
 
 [voice1 vf1="mizuka/mizuka2-3_1.ogg"]
 #美寿花:kushou

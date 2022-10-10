@@ -6,7 +6,7 @@
 [macro name="is_skip"]
 	[iscript]
    		tf.is_skip = TG.stat.is_skip;
-	[endscript stop="true" ]
+	[endscript]
 [endmacro]
 
 ;numに代入した数字に対応するセーブデータを消去(0~19)
@@ -30,40 +30,15 @@
 	[fadeoutbgm time="300"]
 	[freeimage layer="0"]
 	[cm]
-	[clearfix]
 	[start_keyconfig]
-
-	;メニューボタンの表示
-	;@showmenubutton
-
-	;システムボタン
-	;[button name="skip" role="skip" graphic="button/skip.png" enterimg="button/skip2.png"  width="71" height="30" x="50" y="680"]
-	[button name="skip" role="skip" graphic="skip.png" width="71" height="30" x="50" y="680"]	
-	[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png"  width="90" height="30" x="250" y="680"]
-	[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png"  width="90" height="30" x="450" y="680"]
-	;[button name="auto" role="auto" graphic="button/auto.png" enterimg="button/auto2.png"  width="96" height="30" x="650" y="680"]
-	[button name="auto" role="auto" graphic="auto.png" width="96" height="30" x="650" y="680"]
-	[button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png"  width="73" height="30" x="855" y="680"]
-	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
-
-	;メッセージウィンドウの設定
-	;[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
-
-	;文字が表示される領域を調整
-	;[position layer="message0" page="fore" frame="textbox.png" width="1280" height="240" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
 
 	;メッセージウィンドウの表示
 	@layopt layer="message0" visible="true"
 
-	;キャラクターの名前が表示される文字領域
-	;[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size="28" bold="true" x="140" y="505"]
-	;[ptext name="chara_name_area" layer="message0" size="28" bold="true" x="140" y="505"]
+	;システムボタンの表示
+	[layopt layer="fix" visible="true" ]
 
-	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
-	;[chara_config ptext="chara_name_area"]
-
-	;[font shadow="0x222222"]
-
+	;喋っていないキャラが暗くなる機能をオフに
 	[chara_config  talk_focus="none"]
 	
 	#
@@ -71,52 +46,19 @@
 
 ;ラベルをまたいだ時最初に宣言するマクロ
 [macro name="nextoption"]
+	[freeimage layer="0"]
 	[cm]
-	[clearfix]
 	[start_keyconfig]
-
-	;メニューボタンの表示
-	;@showmenubutton
-
-	;システムボタン
-	;[button name="skip" role="skip" graphic="button/skip.png" enterimg="button/skip2.png"  width="71" height="30" x="50" y="680"]
-	[button name="skip" graphic="skip.png" role="skip" width="71" height="30" x="50" y="680"]	
-	[button name="role_button" role="save" graphic="button/save.png" enterimg="button/save2.png"  width="90" height="30" x="250" y="680"]
-	[button name="role_button" role="load" graphic="button/load.png" enterimg="button/load2.png"  width="90" height="30" x="450" y="680"]
-	;[button name="auto" role="auto" graphic="button/auto.png" enterimg="button/auto2.png"  width="96" height="30" x="650" y="680"]
-	[button name="auto" width="96" graphic="auto.png" height="30" x="650" y="680"]
-	[button name="role_button" role="backlog" graphic="button/log.png" enterimg="button/log2.png"  width="73" height="30" x="855" y="680"]
-	[button graphic="button/config.png" enterimg="button/config2.png" role="sleepgame" storage="config.ks" width="130" height="30" x="1050" y="680"]
-
-	;メッセージウィンドウの設定
-	;[position layer="message0" left="160" top="487" width="960" height="300" page="fore" visible="true"]
-
-	;文字が表示される領域を調整
-	;[position layer="message0" page="fore" frame="textbox.png" width="1280" height="240" left="0" margint="45" marginl="150" marginr="150" marginb="60" ]
 
 	;メッセージウィンドウの表示
 	@layopt layer="message0" visible="true"
 
-	;キャラクターの名前が表示される文字領域
-	;[ptext name="chara_name_area" layer="message0" color="white" shadow="0x333333" size="28" bold="true" x="140" y="505"]
+	;システムボタンの表示
+	[layopt layer="fix" visible="true" ]
 
-	;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
-	;[chara_config ptext="chara_name_area"]
-
-	;[font shadow="0x222222"]
-
-	;[chara_config  talk_focus="none"]
-
-	[is_skip]
-
+	[chara_config  talk_focus="none"]
+	
 	#
-[endmacro]
-
-;改行用
-[macro name="np"]
-	[p]
-	#
-	[stopse buf=2]
 [endmacro]
 
 ;スキップ対応waitタグ
@@ -140,7 +82,6 @@
 
 	[stopse]
 	[resetdelay]
-	[free_filter]
 	[reset_camera layer="0" time="10" ]
 	[reset_camera layer="base" time="10" ]
 	[chara_hide_all time="10"]

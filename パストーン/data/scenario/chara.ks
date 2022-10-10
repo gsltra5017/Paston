@@ -255,15 +255,15 @@
 ;------------------------------------------------------------------------------------------------------
 
 [macro name="mizuka" ]
-    [chara_mod name="mizuka" face="&mp.f" wait="true" cross="false" time="%t|600"]
+    [chara_mod name="mizuka" face="&mp.f" wait="true" cross="false" time="%t|400"]
     [chara_show name="mizuka" time="%t|600" top="20"]
 [endmacro]
 
 [macro name="RozLaz" ]
-    [chara_mod name="RozLaz" face="&mp.f" wait="true" cross="false" time="%t|600"]
+    [chara_mod name="RozLaz" face="&mp.f" wait="true" cross="false" time="%t|400"]
 [endmacro]
 
 [macro name="CG"]
-    [chara_mod name="CG" face="&mp.f" wait="true" cross="false" time="%t|600"]
+    [chara_mod name="CG" face="&mp.f" wait="true" cross="false" time="%t|400"]
     [chara_show name="CG" width="1280" height="720" wait="true" time="%t|1000"]
 [endmacro]

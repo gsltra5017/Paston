@@ -10,7 +10,7 @@
 
 そして、ついに迎えた木曜日。[np]
 
-[playbgm storage="Bonyari_Hitsuji.mp3" volume="70"]
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="55"]
 
 ;[bg storage="aquarium.png" time=0]
 
@@ -22,7 +22,7 @@
 [voice1 vf1="mizuka/mizuka3-4_1.ogg"]
 [chara_show name="mizuka" face="×" top="20" time="300"]
 #美寿花
-「ほら見て！雪翔君！ペンギン！ペンギンが泳いでる！！」[np]
+「ほら見て！　雪翔君！　ペンギン！　ペンギンが泳いでる！！」[np]
 
 
 
@@ -31,7 +31,7 @@
 
 [voice2 vf2="mizuka/mizuka3-4_2.ogg"]
 #美寿花:harikiri
-「あっ！今飼育員さんがあげた餌食べた！」[np]
+「あっ！　今飼育員さんがあげた餌食べた！」[np]
 
 
 
@@ -64,7 +64,7 @@
 
 [voice2 vf2="mizuka/mizuka3-4_4.ogg"]
 #美寿花:doya
-「うん？ああ、勿論必要だよ」[np]
+「うん？　ああ、勿論必要だよ」[np]
 ;doya
 
 
@@ -87,7 +87,7 @@
 
 
 
-≪恥ずかし…くはあるけど！というか少年君って呼ぶな！≫[np]
+≪恥ずかし…くはあるけど！　というか少年君って呼ぶな！≫[np]
 
 [voice2 vf2="mizuka/mizuka3-4_7.ogg"]
 #美寿花:egao_2
@@ -98,6 +98,7 @@
 
 #雪翔
 ≪ったく…≫[np]
+#雪翔
 ≪…さっきすごいテンション上がってたけど…ペンギン、好きなの？≫[np]
 
 [voice2 vf2="mizuka/mizuka3-4_8.ogg"]
@@ -172,12 +173,6 @@
 
 [layermode name="makkuro" graphic="makkuro.jpg" folder="bgimage" opacity="155" time="500"]
 
-;[layopt layer="0" visible="false"]
-;[image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/makkuro.jpg" time="0" wait="false"]
-;[filter opacity="60" name="makkuro" time="0"]
-;[layopt layer="0" visible="true" time="100000"]
-;[filter opacity="60" name="makkuro" time="500"]
-
 …本当に？[np]
 なら、どうして俺の声は未だ戻らない？[np]
 母親の死を仕方のないこととして割り切ったのは…本当だ。[np]
@@ -197,7 +192,7 @@
 
 [voice2 vf2="mizuka/mizuka3-4_15.ogg"]
 #美寿花:kushou
-「…って、聞いた私が言うのもおかしいけど。」[np]
+「…って、聞いた私が言うのもおかしいけど」[np]
 ;kushou
 
 
@@ -214,7 +209,7 @@
 [image name="makkuro" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-4/aquarium_past.png" time="1000"]
 
 #？？？
---そんな暗い顔してたら、仲直りできるものも出来ないよ！　リラックスリラックス！[np]
+──そんな暗い顔してたら、仲直りできるものも出来ないよ！　リラックスリラックス！[np]
 
 [bg storage="aquarium.png" time="0"]
 [free name="makkuro" layer="0" time="500"]
@@ -300,7 +295,7 @@
 
 
 
-[playbgm storage="nc282335.mp3" volume="35"]
+[playbgm storage="nc282335.mp3" volume="25"]
 
 ;一枚絵 （イルカショー）
 [layopt layer="0" visible="true"]
@@ -316,6 +311,7 @@
 
 
 俺らが座ってる場所は最前列。イルカが泳いでいる姿がよく見えた。[np]
+#雪翔
 ≪思ったよりたくさんいるんだな…≫[np]
 
 [backlay layer="0"]
@@ -347,7 +343,7 @@
 
 [voice2 vf2="others/other3-4_2.ogg"]
 #飼育員
-「では、紹介も終わったところで、今度は少し難しい技にもチャレンジして　みましょう！」[np]
+「では、紹介も終わったところで、今度は少し難しい技にもチャレンジしてみましょう！」[np]
 
 
 
@@ -460,6 +456,7 @@
 
 #雪翔
 ≪‥‥‥≫[np]
+#雪翔
 ≪！？！？！？！？！？！？≫[np]
 
 状況を理解する。[np]

@@ -5,7 +5,7 @@
 
 ;↓暗転中に画像など準備
 [bg storage="classroom.png" time="10"]
-[filter layer="base" blur="5" ]
+
 [chara_show name="mizuka" top="20" storage="chara/mizuka/kyoton.png" time="10" wait="true"]
 ;背景 空き教室
 
@@ -18,7 +18,7 @@
 「さてさて、準備もできたことだし…あ、手洗ったよね？」[np]
 ;表情　きょとん
 
-[playbgm storage="Bonyari_Hitsuji.mp3" volume="70" ]
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="55" ]
 
 #雪翔
 ≪ちゃんと洗ってるよ。子供じゃないんだ≫[np]

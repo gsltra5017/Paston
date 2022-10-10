@@ -13,6 +13,7 @@
 大学も、まだまだ慣れないことも多いが、それでも問題なく通えていた。[np]
 
 ;背景 講義室
+
 [bg storage="classroom.png" time=1000]
 
 ;効果音 チャイム
@@ -21,7 +22,7 @@
 
 #雪翔
 ≪…終わった…≫[np]
-[playbgm storage="Bonyari_Hitsuji.mp3" volume="70" ]
+[playbgm storage="Bonyari_Hitsuji.mp3" volume="55" ]
 
 
 授業終了のチャイムが鳴り、重い瞼をこする。[np]
@@ -88,7 +89,7 @@
 [image name="img" layer="0" x="0" y="0" width="1280" height="720" storage="singlepic/3-1/3-1living.png" time="1000"]
 #美寿花
 [voice2 vf2="mizuka/mizuka3-1_1.ogg"]
-『一人で大丈夫？しらない人について行かないでよ？』[np]
+『一人で大丈夫？　しらない人について行かないでよ？』[np]
 ;表情 worry_3
 
 
@@ -100,6 +101,7 @@
 
 #雪翔
 （…まぁ、そもそも声を掛けられる知り合いすらいないからな…）[np]
+#雪翔
 ≪助かったよ。ありがとう≫[np]
 
 ;[chara_show name="RozLaz" top="-70" face="roz_akire"]
