@@ -93,7 +93,7 @@
 まさか、それが原因で家出とか…？[np]
 …いや、そんなわけないか。この年でまさか家出なんて…[np]
 
-[playse storage="mizuka/mizuka1-3_6.ogg" volume="75"]
+[voice2 vf2="mizuka/mizuka1-3_6.ogg"]
 #美寿花:egao_2
 「私、カッとなって家から飛び出しちゃったんだ」[np]
 ;表情 笑顔2

@@ -2,8 +2,8 @@
 ;rタグ整理、？と！の後のスペース追加、名前表示残留修正済み（つぶ）
 
 [startoption]
-[voconfig sebuf=2 name="roz" vostorage="roz/roz1-1_{number}.wav" number=2 ]
-[voconfig sebuf=2 name="laz" vostorage="laz/laz1-1_{number}.wav" number=2 ]
+[voconfig sebuf=2 name="roz" vostorage="roz/roz1-1_{number}.ogg" number=2 ]
+[voconfig sebuf=2 name="laz" vostorage="laz/laz1-1_{number}.ogg" number=2 ]
 [vostart]
 
 [bg storage="makkuro.jpg" time="10"]
@@ -103,11 +103,11 @@
 
 …その時だった。[np]
 
-[voice1 vf1="roz/Roz1-1_1.ogg"]
+[voice1 vf1="roz/roz1-1_1.ogg"]
 #???
 「なぁなぁ、もう８時やで？  はよ起きた方がええんやないの？」[np]
 
-[voice2 vf2="laz/Laz1-1_1.ogg"]
+[voice2 vf2="laz/laz1-1_1.ogg"]
 #???
 「いいじゃありませんかロズ。今雪翔様の学校は夏休み、むしろ早起きのほうかと…」[np]
 
