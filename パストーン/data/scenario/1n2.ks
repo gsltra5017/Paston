@@ -195,7 +195,7 @@
 
 [voice2 vf2="mizuka/mizuka1-2_5.ogg"]
 #mizuka:egao
-「…えーと、名前は[ruby text = "  ときわ"]常葉美[ruby text = "みずか"]寿花。希み野大学の1年生」[np]
+「…えーと、名前は[ruby text = "とき"]常[ruby text = "わ"]葉[ruby text = "み"]美[ruby text = "ず"]寿[ruby text = "か"]花。[ruby text = "のぞ"]希み[ruby text = "の"]野大学の1年生」[np]
 
 
 …1年ってことは…やっぱり同い年なのか。[np]
