@@ -66,16 +66,15 @@
 ≪……≫[np]
 
 申し訳ないが、今は父さんの言葉に反応する余裕はなかった。[np]
-俺の意識は、キッチンに立つ父さんではなく…[np]
-
-@layopt layer="message0" visible="false"
-[layopt layer="fix" visible="false"]
 [chara_hide name="kouki"]
+俺の意識は、キッチンに立つ父さんではなく…[p]
 
 ;BGMイントロと美寿花初登場演出の動画再生
 [bgmovie storage="mizuka_first_2.mp4" loop="false" skip="false"]
-
+@layopt layer="message0" visible="false"
+[layopt layer="fix" visible="false"]
 [better_wait time="9000"]
+
 ;テーブルにズーム
 [camera layer="base" zoom="1.3" x="140" y="-70" time="10" wait="true"]
 ;背景ぼかし
