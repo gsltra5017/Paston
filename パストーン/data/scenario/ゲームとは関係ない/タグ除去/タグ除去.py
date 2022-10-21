@@ -10,7 +10,7 @@ class delete_program:
     def delete_program_init(self):
         
         #全文読み込み
-        with open('タグ除去\input.txt', 'r' ,encoding="utf-8") as f:
+        with open('ゲームとは関係ない\タグ除去\input.txt', 'r' ,encoding="utf-8") as f:
             input_list = f.read().split("\n")
 
         #読み込んだものを１行ずつリストに入れる
@@ -80,7 +80,7 @@ class delete_program:
     def output_txt(self):
         previous_newline="false"
         print("書き出しだよ")
-        f = open('タグ除去\output.txt', 'w',encoding="utf-8")
+        f = open('ゲームとは関係ない\タグ除去\output.txt', 'w',encoding="utf-8")
         for i in self.text_lines_list:
             if i=="" and previous_newline=="false":
                 #print(0)
