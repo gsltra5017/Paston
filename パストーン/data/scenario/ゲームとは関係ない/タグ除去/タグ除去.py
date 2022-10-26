@@ -10,7 +10,7 @@ class delete_program:
     def delete_program_init(self):
         
         #全文読み込み
-        with open('ゲームとは関係ない\タグ除去\input.txt', 'r' ,encoding="utf-8") as f:
+        with open(r"D:\remove\2n1.txt", 'r' ,encoding="utf-8") as f:
             input_list = f.read().split("\n")
 
         #読み込んだものを１行ずつリストに入れる
@@ -24,7 +24,7 @@ class delete_program:
     #文字列の先頭が特定の文字の時にその行を削除する
     def delete_symbol_headofline(self):
         count = 0 #削除対象の行数カウント
-        symbol_headofline_list = [";","@"]
+        symbol_headofline_list = [";","@","*"]
         for line in self.text_lines_list:
             for j in symbol_headofline_list:
                 if len(line) == 0:
@@ -80,7 +80,7 @@ class delete_program:
     def output_txt(self):
         previous_newline="false"
         print("書き出しだよ")
-        f = open('ゲームとは関係ない\タグ除去\output.txt', 'w',encoding="utf-8")
+        f = open(r"D:\remove\output\output.txt", 'w',encoding="utf-8")
         for i in self.text_lines_list:
             if i=="" and previous_newline=="false":
                 #print(0)
