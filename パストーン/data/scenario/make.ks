@@ -4,9 +4,7 @@
 ;Fixレイヤーの初期化など、ロード時点で再構築したい処理をこちらに記述してください。
 ;
 ;
-[manpu_reset]
-;オート・スキップ機能拡張プラグイン
-[autoskip_restore]
+
 ;make.ks はロード時にcallとして呼ばれるため、return必須です。
 [return]
 
