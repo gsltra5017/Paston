@@ -126,6 +126,7 @@
 [fadeoutbgm time="2000" wait="false"]
 [freeimage layer="0" time="0" wait="false"]
 [freeimage layer="1" time="1000" wait="true"]
+[freeimage layer="1" page="back" time="1000" wait="true"]
 
 [voice2 vf2="mizuka/mizuka4-1_9.ogg"]
 
