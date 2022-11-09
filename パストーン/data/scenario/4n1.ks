@@ -30,7 +30,7 @@
 
 ;背景 白黒の青空
 [bg storage="sky_mono.png" time="500"]
-[playbgm storage="wop.wav" volume="30"]
+[playbgm storage="wop.mp3" volume="30"]
 
 [voice1 vf1="mizuka/mizuka4-1_1.ogg"]
 #美寿花

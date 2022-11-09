@@ -61,7 +61,7 @@
 「…随分、暗い顔してるね」[np]
 ;立ち絵表示なし
 
-[playbgm storage="wop.wav" volume="30" ]
+[playbgm storage="wop.mp3" volume="30" ]
 #雪翔
 ≪‥‥‥≫[np]
 
