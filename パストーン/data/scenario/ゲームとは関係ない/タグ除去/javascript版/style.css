@@ -2,7 +2,11 @@
     float: left;
 }
 
-.input_text_class{
+.bottom{
+    display: top;
+}
+
+.input_textarea_class{
     padding-right: 10px;
 }
 
