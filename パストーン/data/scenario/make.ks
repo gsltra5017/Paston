@@ -5,6 +5,10 @@
 ;
 ;
 
-;make.ks はロード時にcallとして呼ばれるため、return必須です。
-[return]
+;オートスキップ拡張機能プラグイン
+; [autoskip_ex]
+; ;環境光プラグイン
+; [ambient_light_restore]
+; ;make.ks はロード時にcallとして呼ばれるため、return必須です。
+; [return]
 

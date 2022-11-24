@@ -17,6 +17,14 @@
 ;最初は右下のメニューボタンを非表示にする
 [hidemenubutton]
 
+;プラグイン呼び出し
+; [plugin name="textbox_ex"]
+; [plugin name="backlog"]
+; [plugin name="tsex"]
+; [plugin name="voiceplay_ex"]
+; [plugin name="ambient_light"]
+; [plugin name="slider_ui"]
+; [plugin name="auto_indent"]
 ;タイトル画面へ移動
 @jump storage="title.ks"
 
