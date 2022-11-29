@@ -2,11 +2,23 @@
     float: left;
 }
 
+.flex{
+    display: flex;
+}
+
+.block{
+    display: block;
+}
+
 .bottom{
     display: top;
 }
 
 .input_textarea_class{
     padding-right: 10px;
+}
+
+.options_checkbox{
+    padding-left: 20px;
 }
 

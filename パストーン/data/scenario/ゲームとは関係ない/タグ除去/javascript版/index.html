@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <title>タグ除去</title>
-        <link rel="stylesheet" href="style.css">
-        <!--[if lt IE 9]>
+
+<head>
+    <meta charset="utf-8">
+    <title>タグ除去</title>
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
         <![endif]-->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-        <script src="delete.js"></script>
-    </head>
-    
-    <body>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!--<script src="delete.js"></script>-->
+</head>
+
+<body>
     <!----- ヘッダー ----->
-        <header>タグ除去プログラム</header>
+    <header>タグ除去プログラム</header>
     <!----- ヘッダー END ----->
-        
+
     <!----- メインコンテンツ ----->
-    <div class="left input_textarea_class">
-        <br>
-        <textarea id="input_text" name="input_text" rows="20" cols="80">ベーステキストを入力</textarea><br>
+    <div class="flex user_options">
+        <div class="input_textarea_headofline_symbol">
+            <label>削除したい行の先頭の文字を入力してください<br>複数指定したい場合は改行区切りで入力してください</label>
+            <br>
+            <textarea id="input_symbol_headofline" name="input_symbol_headofline" rows="5" cols="40"></textarea><br>
+        </div>
+        <div class="options_checkbox">
+            <label class="block"><input id="checkbox_delete_comment" type="checkbox">コメントをすべて除去する</label>
+            <label class="block"><input id="checkbox_delete_extraline" type="checkbox">余分な空白を削除する</label>
+            <label class="block"><input id="checkbox_delete_tag" type="checkbox">タグをすべて除去する</label>
+            <label class="block"><input id="checkbox_not_delete_symbol" type="checkbox">シンボルを削除しない</label>
+
+        </div>
     </div>
 
-    <div class="left output_text_class">
-        <br>
-        <textarea id="output_text" name="output_text" rows="20" cols="80">ベーステキストを入力</textarea><br>
-    </div>
-
-    <div class="bottom action_button">
-        <input type="button" value="実行" onclick="OnButtonClick();"/><br/>
+    <div class="flex action_button">
+        <input type="button" value="実行" onclick="OnButtonClick()" /><br/>
         <br/>
     </div>
 
-    <script src="javascript版\delete.js"></script>
+    <div class="flex main_textareas">
+        <div class="left input_textarea_class">
+            <br>
+            <textarea id="input_text" name="input_text" rows="20" cols="80"></textarea><br>
+        </div>
 
-    <!----- メインコンテンツ END ----->
-    </body>
+        <div class="left output_textarea_class">
+            <br>
+            <textarea id="output_text" name="output_text" rows="20" cols="80"></textarea><br>
+        </div>
+    </div>
+
+    <script>
+        var text = "";
+    </script>
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!--<script src="js/delete.js"></script>-->
+
+    <!--メインコンテンツ END ----->
+</body>
+
 </html>
