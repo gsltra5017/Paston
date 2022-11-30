@@ -8,6 +8,12 @@ function GetCheckboxState() {
     checkbox_delete_tag = document.getElementById('checkbox_delete_tag');
     checkbox_delete_comment = document.getElementById('checkbox_delete_comment');
     checkbox_not_delete_symbol = document.getElementById('checkbox_not_delete_symbol');
+    checkbox_delete_atsign = document.getElementById('checkbox_delete_atsign');
+    checkbox_delete_poundkey = document.getElementById('checkbox_delete_poundkey');
+    checkbox_delete_face = document.getElementById('checkbox_delete_face');
+    checkbox_delete_iscript = document.getElementById('checkbox_delete_iscript');
+    checkbox_delete_line = document.getElementById('checkbox_delete_line');
+
 }
 
 //console.logを「c」で使えるようにする関数
@@ -41,4 +47,28 @@ function TextConversionList(t) { //引数として渡されたテキストを配
 
     }
     return text_formatlist;
+}
+
+function* zip(index_check, ...args) { //for文で２つ以上の配列を使用したループを行うためのもの
+
+    const length = args[0].length;
+
+    // 引数チェック
+    if (index_check) {
+        for (let arr of args) {
+            if (arr.length !== length) {
+                throw "Lengths of arrays are not eqaul.";
+            }
+        }
+    }
+
+
+    // 
+    for (let index = 0; index < length; index++) {
+        let elms = [];
+        for (arr of args) {
+            elms.push(arr[index]);
+        }
+        yield elms;
+    }
 }
