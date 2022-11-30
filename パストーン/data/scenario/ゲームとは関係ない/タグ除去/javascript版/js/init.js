@@ -13,7 +13,7 @@ function GetCheckboxState() {
     checkbox_delete_face = document.getElementById('checkbox_delete_face');
     checkbox_delete_iscript = document.getElementById('checkbox_delete_iscript');
     checkbox_delete_line = document.getElementById('checkbox_delete_line');
-
+    checkbox_delete_blank = document.getElementById('checkbox_delete_blank');
 }
 
 //console.logを「c」で使えるようにする関数

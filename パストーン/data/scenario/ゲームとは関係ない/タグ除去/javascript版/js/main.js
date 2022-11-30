@@ -54,6 +54,11 @@ function ActionChecked(text_tmp, receive_text_origin) {
         text_tmp = DeleteSingleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["[", "]"])
     }
 
+    //ここから改行などのプログラム
+    if (checkbox_delete_blank.checked) {
+        text_tmp = TrimReceiveText(text_tmp);
+    }
+
     if (checkbox_delete_line.checked) {
         text_tmp = DeleteLine(text_tmp, text_origin)
     }
@@ -62,7 +67,7 @@ function ActionChecked(text_tmp, receive_text_origin) {
         text_tmp = DeleteExtraLine(text_tmp)
 
     }
-
+    //ここまで改行などのプログラム
     return text_tmp
 }
 
@@ -211,6 +216,18 @@ function DeleteExtraLine(receive_text) {
         if (use_text) {
             text_tmp.push(i);
         }
+    }
+    text_tmp = ListConversionText(text_tmp)
+    return text_tmp;
+}
+
+function TrimReceiveText(receive_text) {
+    var text_formatlist = TextConversionList(receive_text);
+    var text_tmp = [];
+
+    for (let i of text_formatlist) {
+        use_text = i.trim();
+        text_tmp.push(use_text);
     }
     text_tmp = ListConversionText(text_tmp)
     return text_tmp;
