@@ -21,22 +21,25 @@
     <!----- メインコンテンツ ----->
     <div class="flex user_options">
         <div class="input_textarea_headofline_symbol">
-            <label>削除したい行の先頭の文字を入力してください<br>複数指定したい場合は改行区切りで入力してください</label>
+            <label>文字を置換することができます<br>削除したい単語と、追加したい単語をスペース区切りで入力してください</label>
             <br>
-            <textarea id="input_symbol_headofline" name="input_symbol_headofline" rows="5" cols="40"></textarea><br>
+            <textarea id="input_replacement_words" name="input_change_charaname" rows="5" cols="40"></textarea><br>
         </div>
         <div class="options_checkbox">
+            <label class="block"><input id="checkbox_delete_asterisk" type="checkbox">*から始まる行を削除する</label>
+            <label class="block"><input id="checkbox_delete_atsign" type="checkbox">@から始まる行を削除する</label>
             <label class="block"><input id="checkbox_delete_comment" type="checkbox">コメントをすべて除去する</label>
             <label class="block"><input id="checkbox_delete_extraline" type="checkbox">2つ以上の連続した改行を削除する</label>
             <label class="block"><input id="checkbox_delete_tag" type="checkbox">タグをすべて除去する</label>
             <label class="block"><input id="checkbox_not_delete_symbol" type="checkbox">シンボルを削除しない(未実装)</label>
-            <label class="block"><input id="checkbox_delete_atsign" type="checkbox">@から始まる行を削除する</label>
             <label class="block"><input id="checkbox_delete_poundkey" type="checkbox">#をすべて除去する</label>
             <label class="block"><input id="checkbox_delete_face" type="checkbox">表情をすべて除去する</label>
             <label class="block"><input id="checkbox_delete_iscript" type="checkbox">iscriptをすべて除去する</label>
             <label class="block"><input id="checkbox_delete_line" type="checkbox">テキストを削除した行が改行のみの場合行を削除する</label>
             <label class="block"><input id="checkbox_delete_blank" type="checkbox">スペースやインデントを削除する(これを実行しない場合スペースのみの改行が残る場合がある)</label>
-            <label class="block"><input id="checkbox_delete_asterisk" type="checkbox">*から始まる行を削除する</label>
+            <label class="block"><input id="checkbox_Replacement_word" type="checkbox">文字を置換する</label>
+            <label class="block"><input id="checkbox_delete_macro" type="checkbox">マクロを削除する</label>
+            <label class="block"><input id="checkbox_delete_if" type="checkbox">if文を削除する</label>
 
         </div>
     </div>

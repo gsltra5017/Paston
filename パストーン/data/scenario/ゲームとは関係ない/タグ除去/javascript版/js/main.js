@@ -11,6 +11,7 @@ function OnButtonClick() {
     text = ActionChecked(text, text_origin) //ユーザーにチェックされた項目を実行する
     PrintConpleteText(text);
     cl("エラーなし！")
+    GetSymbolReplacementword()
 }
 
 function PrintConpleteText(text_tmp) {
@@ -54,6 +55,21 @@ function ActionChecked(text_tmp, receive_text_origin) {
         text_tmp = DeleteSingleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["[", "]"])
     }
 
+    if (checkbox_delete_macro.checked) { //マクロすべて削除
+        text_tmp = DeleteMultipleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["[macro", "[endmacro]"])
+    }
+
+    if (checkbox_delete_if.checked) { //ifすべて削除
+        text_tmp = DeleteMultipleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["[if", "[endif]"])
+    }
+
+    //置換プログラム
+    if (checkbox_Replacement_word.checked) {
+        replacement_words_list = GetSymbolReplacementword()
+
+        text_tmp = ReplacementWords(text_tmp, replacement_words_list[0][0], replacement_words_list[0][1])
+    }
+
     //ここから改行などのプログラム
     if (checkbox_delete_blank.checked) {
         text_tmp = TrimReceiveText(text_tmp);
@@ -92,7 +108,7 @@ function DeleteTextBehindSymbol(receive_text, not_delete_symbol, symbol) { //シ
     return text_tmp;
 }
 
-function DeleteSingleLineSandwitchSymbol(receive_text, not_delete_symbol, symbol) { //２つのシンボルではさまれた部分を削除する
+function DeleteSingleLineSandwitchSymbol(receive_text, not_delete_symbol, symbol) { //２つのシンボルではさまれた部分を削除する(一行)
     var text_formatlist = TextConversionList(receive_text);
     var text_tmp = [];
     var all_delete = false; //削除対象をすべて削除した場合true
@@ -126,7 +142,7 @@ function DeleteSingleLineSandwitchSymbol(receive_text, not_delete_symbol, symbol
     return text_tmp;
 }
 
-function DeleteOnlySymbol(receive_text, symbol) {
+function DeleteOnlySymbol(receive_text, symbol) { //しんぼるのみを　削除
     var text_formatlist = TextConversionList(receive_text);
     var text_tmp = [];
     var delete_this_line = false;
@@ -140,7 +156,7 @@ function DeleteOnlySymbol(receive_text, symbol) {
     return text_tmp;
 }
 
-function DeleteMultipleLineSandwitchSymbol(receive_text, not_delete_symbol, symbol) {
+function DeleteMultipleLineSandwitchSymbol(receive_text, not_delete_symbol, symbol) { //二つのシンボルで挟まれた複数行を削除
     //シンボルを消さないは未実装
     var text_formatlist = TextConversionList(receive_text);
     var text_tmp = [];
@@ -200,16 +216,16 @@ function DeleteLine(receive_text, receive_text_origin) { //プログラムの実
 function DeleteExtraLine(receive_text) {
     var text_formatlist = TextConversionList(receive_text);
     var text_tmp = [];
-    let befor_line_blank = false;
+    let before_line_blank = false;
     for (let i of text_formatlist) {
-        if (i == "" && befor_line_blank == false) {
-            befor_line_blank = true;
+        if (i == "" && before_line_blank == false) {
+            before_line_blank = true;
             use_text = true;
-        } else if (i == "" && befor_line_blank == true) {
-            befor_line_blank = true;
+        } else if (i == "" && before_line_blank == true) {
+            before_line_blank = true;
             use_text = false;
         } else if (i != "") {
-            befor_line_blank = false;
+            before_line_blank = false;
             use_text = true;
         }
 
@@ -228,6 +244,26 @@ function TrimReceiveText(receive_text) {
     for (let i of text_formatlist) {
         use_text = i.trim();
         text_tmp.push(use_text);
+    }
+    text_tmp = ListConversionText(text_tmp)
+    return text_tmp;
+}
+
+function ReplacementWords(receive_text, before_words, after_words) {
+    var text_formatlist = TextConversionList(receive_text);
+    var text_tmp = [];
+    loop = true;
+    for (let i of text_formatlist) {
+        loop = true;
+        while (loop) {
+            if (i.indexOf(before_words) != -1) {
+                i = i.replace(before_words, after_words)
+                loop = true
+            } else {
+                loop = false
+            }
+        }
+        text_tmp.push(i)
     }
     text_tmp = ListConversionText(text_tmp)
     return text_tmp;

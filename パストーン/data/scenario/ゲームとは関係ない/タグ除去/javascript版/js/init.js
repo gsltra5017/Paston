@@ -14,6 +14,9 @@ function GetCheckboxState() {
     checkbox_delete_iscript = document.getElementById('checkbox_delete_iscript');
     checkbox_delete_line = document.getElementById('checkbox_delete_line');
     checkbox_delete_blank = document.getElementById('checkbox_delete_blank');
+    checkbox_Replacement_word = document.getElementById('checkbox_Replacement_word');
+    checkbox_delete_macro = document.getElementById('checkbox_delete_macro');
+    checkbox_delete_if = document.getElementById('checkbox_delete_if');
 }
 
 //console.logを「c」で使えるようにする関数
@@ -71,4 +74,15 @@ function* zip(index_check, ...args) { //for文で２つ以上の配列を使用�
         }
         yield elms;
     }
+}
+
+function GetSymbolReplacementword() { //置換元の文字と置換後の文字取得
+    replacement_words = document.getElementById("input_replacement_words").value;
+    replacement_words = replacement_words.split(/\r\n|\n/)
+    let replacement_words_list = []
+    for (let i of replacement_words) { //スペース区切りで入力された二つの単語を取得する
+        const replacement_words_oneset = i.replaceAll("　", " ").split(" ");
+        replacement_words_list.push(replacement_words_oneset)
+    }
+    return replacement_words_list
 }

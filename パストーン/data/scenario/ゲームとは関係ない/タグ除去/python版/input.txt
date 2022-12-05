@@ -1027,3 +1027,24 @@ EL社の社長について[p]
 	[playse storage="se/tsukkomi.mp3" volume="50"]
 	[wse]
 [endmacro]
+
+[if exp="sf.system.autosave === true"]
+
+  自動的に保存されたデータが存在します。ロードしますか？[r]
+  [link target=select1]【１】はい[endlink][r]
+  [link target=select2]【２】いいえ[endlink][r]
+  [s]
+
+  *select1
+  ロードを実行します[l]
+  [autoload]
+
+  *select2
+  [cm]
+  ロードを実行しません[l][r]
+
+[else]
+
+  自動的に保存されたデータはありません[l][r]
+
+[endif]
