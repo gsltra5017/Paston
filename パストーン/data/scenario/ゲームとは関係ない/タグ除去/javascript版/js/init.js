@@ -17,6 +17,7 @@ function GetCheckboxState() {
     checkbox_Replacement_word = document.getElementById('checkbox_Replacement_word');
     checkbox_delete_macro = document.getElementById('checkbox_delete_macro');
     checkbox_delete_if = document.getElementById('checkbox_delete_if');
+    checkbox_combine_name_and_line = document.getElementById('checkbox_combine_name_and_line');
 }
 
 //console.logを「c」で使えるようにする関数

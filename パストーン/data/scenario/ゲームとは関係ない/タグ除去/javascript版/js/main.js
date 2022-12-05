@@ -33,13 +33,16 @@ function ActionChecked(text_tmp, receive_text_origin) {
         text_tmp = DeleteMultipleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["/*", "*/"]) //複数行コメント削除
             //DeleteTextSandwitchSymbol()
     }
-
-    if (checkbox_delete_poundkey.checked) {
-        text_tmp = DeleteOnlySymbol(text_tmp, "#")
+    if (checkbox_delete_face.checked) { //表情削除
+        text_tmp = DeleteTextBehindSymbol(text_tmp, not_delete_symbol, ":")
     }
 
-    if (checkbox_delete_face.checked) {
-        text_tmp = DeleteTextBehindSymbol(text_tmp, not_delete_symbol, ":")
+    if (checkbox_combine_name_and_line.checked) { //名前の行とセリフを結合させる
+        text_tmp = CombineDoubleLineSymbolTop(text_tmp, "#")
+    }
+
+    if (checkbox_delete_poundkey.checked) { //#削除
+        text_tmp = DeleteOnlySymbol(text_tmp, "#")
     }
 
     if (checkbox_delete_atsign.checked) { //@削除
@@ -264,6 +267,33 @@ function ReplacementWords(receive_text, before_words, after_words) {
             }
         }
         text_tmp.push(i)
+    }
+    text_tmp = ListConversionText(text_tmp)
+    return text_tmp;
+}
+
+function CombineDoubleLineSymbolTop(receive_text, trigger) { //行頭の文字によってその行と次の行を結合させる
+    var text_formatlist = TextConversionList(receive_text);
+    var text_tmp = [];
+    var text_mem = ""
+    var next_line_skip = false
+    for (let i of text_formatlist) {
+        if (next_line_skip) {
+            text_mem += i;
+            next_line_skip = false
+            text_tmp.push(text_mem)
+            var text_mem = ""
+        } else {
+            if (i.indexOf(trigger) != -1) {
+                text_mem = i
+                next_line_skip = true
+            } else {
+                text_mem = i
+                next_line_skip = false
+                text_tmp.push(text_mem)
+            }
+        }
+
     }
     text_tmp = ListConversionText(text_tmp)
     return text_tmp;
