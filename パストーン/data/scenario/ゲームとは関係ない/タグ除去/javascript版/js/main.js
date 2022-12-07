@@ -33,6 +33,9 @@ function ActionChecked(text_tmp, receive_text_origin) {
         text_tmp = DeleteMultipleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["/*", "*/"]) //複数行コメント削除
             //DeleteTextSandwitchSymbol()
     }
+    if (checkbox_delete_asterisk.checked) { //*削除
+        text_tmp = DeleteTextBehindSymbol(text_tmp, not_delete_symbol, "*");
+    }
     if (checkbox_delete_face.checked) { //表情削除
         text_tmp = DeleteTextBehindSymbol(text_tmp, not_delete_symbol, ":")
     }

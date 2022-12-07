@@ -4,6 +4,7 @@ function Init() { //初期化
 
 function GetCheckboxState() {
     //チェックボックスの値を取得する
+    checkbox_delete_asterisk = document.getElementById('checkbox_delete_asterisk')
     checkbox_delete_extraline = document.getElementById('checkbox_delete_extraline');
     checkbox_delete_tag = document.getElementById('checkbox_delete_tag');
     checkbox_delete_comment = document.getElementById('checkbox_delete_comment');
