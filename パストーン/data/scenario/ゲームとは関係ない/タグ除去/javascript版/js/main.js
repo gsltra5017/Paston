@@ -39,40 +39,31 @@ function ActionChecked(text_tmp, receive_text_origin) {
     if (checkbox_delete_face.checked) { //表情削除
         text_tmp = DeleteTextBehindSymbol(text_tmp, not_delete_symbol, ":")
     }
-
     if (checkbox_combine_name_and_line.checked) { //名前の行とセリフを結合させる
         text_tmp = CombineDoubleLineSymbolTop(text_tmp, "#")
     }
-
     if (checkbox_delete_poundkey.checked) { //#削除
         text_tmp = DeleteOnlySymbol(text_tmp, "#")
     }
-
     if (checkbox_delete_atsign.checked) { //@削除
         text_tmp = DeleteTextBehindSymbol(text_tmp, not_delete_symbol, "@")
     }
-
     if (checkbox_delete_iscript.checked) { //iscript削除
         text_tmp = DeleteMultipleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["[iscript]", "[endscript]"])
     }
-
     if (checkbox_delete_tag.checked) { //タグすべて削除
         //最後のほうに実行が良い
         text_tmp = DeleteSingleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["[", "]"])
     }
-
     if (checkbox_delete_macro.checked) { //マクロすべて削除
         text_tmp = DeleteMultipleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["[macro", "[endmacro]"])
     }
-
     if (checkbox_delete_if.checked) { //ifすべて削除
         text_tmp = DeleteMultipleLineSandwitchSymbol(text_tmp, not_delete_symbol, ["[if", "[endif]"])
     }
-
     //置換プログラム
     if (checkbox_Replacement_word.checked) {
         replacement_words_list = GetSymbolReplacementword()
-
         text_tmp = ReplacementWords(text_tmp, replacement_words_list[0][0], replacement_words_list[0][1])
     }
 
