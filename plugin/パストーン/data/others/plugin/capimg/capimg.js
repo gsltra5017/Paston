@@ -12,7 +12,7 @@
 ブラウザゲームの場合は画像ファイルをダウンロードします。
 :sample
 
-;ゲーム画面全体をキャプチャUI部品を含む
+;
 [capimg ui=true filename="akane_image_1.jpg" saveas="true"]
 
 ;ゲーム画面全体をキャプチャ。メッセージウィンドウなどを含まない
@@ -90,7 +90,7 @@ TYRANO.kag.ftag.master_tag.capimg = {
 
             //layerが指定されていない場合は
             if (pm.name != "") {
-                j_obj = $("#tyrano_base").find("." + pm.name);
+                j_obj = ("#tyrano_base").find("." + pm.name);
             } else {
 
                 if (pm.ui == "false") {
@@ -131,8 +131,8 @@ TYRANO.kag.ftag.master_tag.capimg = {
                 var out_path = "";
 
                 if (pm.saveas == "true") {
-
-                    //ダイアログを表示して保存。
+                    $.alert("saveas=true")
+                        //ダイアログを表示して保存。
                     var j_file = $('<input type="file" nwsaveas="' + pm.filename + '">');
 
                     j_file.on("change", function(evt) {
@@ -155,8 +155,8 @@ TYRANO.kag.ftag.master_tag.capimg = {
 
 
                 } else {
-
-                    //mac os Sierra 対応
+                    $.alert("saveas=false")
+                        //mac os Sierra 対応
                     if (process.execPath.indexOf("var/folders") != -1) {
                         out_path = process.env.HOME + "/_TyranoGameData";
                         if (!fs.existsSync(out_path)) {
@@ -207,7 +207,7 @@ TYRANO.kag.ftag.master_tag.capimg = {
 
             }
 
-            //UIを復元
+            //pathを復元
             if (pm.ui == "false") {
                 TYRANO.kag.layer.showMessageLayers();
             }

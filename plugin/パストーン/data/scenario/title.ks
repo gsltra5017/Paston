@@ -26,8 +26,8 @@
 
 [image x="10" y="30" width="692" height="232" storage="logo_title.png" layer="0" visible="true"]
 
-[fadeinbgm storage="title_intro.ogg" loop="false" time="1000"]
-[wait time="7000"]
+;[fadeinbgm storage="title_intro.ogg" loop="false" time="1000"]
+;[wait time="7000"]
 [playbgm storage="title.ogg" loop="true"]
 
 [s]

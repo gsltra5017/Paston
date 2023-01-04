@@ -15,11 +15,11 @@ def split_exp():
 def output_faces():
     for i in range(len(base_filename)):
         string = "[chara_face name=\"" + str(chara) + "\" face=\"" + str(base_filename[i]) + "\" " + "storage=\"chara/" + str(chara) + "/" + str(full_filename[i]) + "\"]"
+        #string = "[chara_face name=\"" + str(chara) + "\"_big face=\"" + str(base_filename[i]) + "\" " + "storage=\"chara/" + str(chara) + "/" + str(full_filename[i]) + "\"]"
         print(string)
 
 for i in range(len(chara_list)):
-    chara = chara_list[i]
-    
+    chara = chara_list[i] 
     
     #[chara_face name="" face="" storage = "chara/mizuka/.png"]
     file_path = r"C:\Users\souta\Documents\GitHub\Paston\パストーン\data\fgimage\chara" + r"\\" + str(chara)

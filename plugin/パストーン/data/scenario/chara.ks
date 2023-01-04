@@ -5,6 +5,7 @@
 [chara_new  name="otoko" storage="chara/yukito/dansei_15.png" jname="男"  ]
 [chara_new  name="yukito" storage="chara/yukito/dansei_15.png" jname="雪翔"  ]
 [chara_new  name="mizuka" storage="chara/mizuka/kushou.png" width="868" height="1227" jname="美寿花"]
+[chara_new  name="mizuka_big" storage="chara/mizuka/kushou.png" width="1353" height="1914" jname="美寿花"]
 [chara_new  name="kouki" storage="chara/kouki/bishou.png" width="1003" height="1418" jname="黄樹"]
 [chara_new  name="roz" storage="chara/RozLaz/roz_neutral.png" jname="ロズ" ]
 [chara_new  name="laz" storage="chara/RozLaz/laz_normal.png" jname="ラズ" ]
@@ -13,7 +14,7 @@
 [chara_new  name="eijyurou" storage="chara/eijyurou.png" width="320" height="720" jname="永寿郎"  ]
 [chara_new  name="CG" storage="singlepic/1_4/bishou.png" width="1280" height="720" jname="一枚絵"  ]
 
-
+[chara_face name="mizuka_big" face="akire" storage="chara/mizuka/akire.png"]
 ;------------------------------------------------------------------------------------------------------
 ; キャラ表情定義
 ;------------------------------------------------------------------------------------------------------
