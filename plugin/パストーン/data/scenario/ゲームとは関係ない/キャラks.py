@@ -18,6 +18,12 @@ def output_faces():
         #string = "[chara_face name=\"" + str(chara) + "\"_big face=\"" + str(base_filename[i]) + "\" " + "storage=\"chara/" + str(chara) + "/" + str(full_filename[i]) + "\"]"
         print(string)
 
+def output_faces_big():
+    for i in range(len(base_filename)):
+        #string = "[chara_face name=\"" + str(chara) + "\" face=\"" + str(base_filename[i]) + "\" " + "storage=\"chara/" + str(chara) + "/" + str(full_filename[i]) + "\"]"
+        string = "[chara_face name=\"" + str(chara) + "_big" +"\" face=\"" + str(base_filename[i]) + "\" " + "storage=\"chara/" + str(chara) + "/" + str(full_filename[i]) + "\"]"
+        print(string)
+
 for i in range(len(chara_list)):
     chara = chara_list[i] 
     
@@ -31,5 +37,6 @@ for i in range(len(chara_list)):
 
     split_exp()
     output_faces()
+    output_faces_big()
     print()
 
