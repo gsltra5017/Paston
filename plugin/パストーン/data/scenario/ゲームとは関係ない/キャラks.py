@@ -22,7 +22,7 @@ for i in range(len(chara_list)):
     chara = chara_list[i] 
     
     #[chara_face name="" face="" storage = "chara/mizuka/.png"]
-    file_path = r"C:\Users\souta\Documents\GitHub\Paston\パストーン\data\fgimage\chara" + r"\\" + str(chara)
+    file_path = r"..\..\..\fgimage\chara" + r"\\" + str(chara)
 
     #キャラの表情画像をすべてフルネームで取得
     full_filename = os.listdir(file_path)
